@@ -4,13 +4,13 @@ In this repository, we provide general instructions on how to reproduce the resu
 
 ## Overview
 
-![Overview](link)
+![Repository Diagram](https://github.com/jmbessa/FSE2024/blob/main/Repository%20Diagram.jpg)
 
 ## Dataset Details
 
 There are three main resources we will detail:
 
-### 1) Feature Model (folder [model](model/))
+### 1) Feature Model (folder [Feature Model](systems/Feature%20Model))
 
 There are four feature models available in the .xml format.
 They are BerkeleyDB, Hipacc_red, VariabilityModel, and VariabilityModelSampling.
@@ -33,9 +33,9 @@ Beyond the tree format structure, there are the cross-tree constraints (represen
 Both constraints can either be a logical expression or a mathematical expression, respectively.
 
 
-### 2) Configuration samples (folder [sample](sample/))
+### 2) Configuration samples (folder [Sample](systems/Samples))
 
-The folder [sample](sample/) contains one folder for each system used in the study and these folders contains .csv files that represent represents a different sampling technique.
+The folder [sample](systems/Samples) contains one folder for each system used in the study and these folders contains .csv files that represent represents a different sampling technique.
 
 These files contain the results that have been measured on a system from a configuration of selected characteristics.
 
