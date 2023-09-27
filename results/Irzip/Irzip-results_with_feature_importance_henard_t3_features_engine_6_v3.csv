@@ -1,0 +1,1225 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.1,"compressionZpaq     1.410110e+06
+compressionLrzip    6.454917e+05
+level2              5.628780e+05
+level3              4.575268e+05
+level9              1.022494e+05
+level8              4.026927e+04
+dtype: float64","count    225.000000
+mean     202.128869
+std      179.421427
+min        0.299399
+25%       30.598847
+50%      155.717715
+75%      366.947633
+max      633.500239
+Name: % error, dtype: float64",6
+1,Lasso,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","Lasso(alpha=25, max_iter=100)",Performance,0.1,"compressionZpaq     1.409885e+06
+compressionLrzip    6.450940e+05
+level2              5.623670e+05
+level3              4.573113e+05
+level9              1.016969e+05
+level8              4.023390e+04
+dtype: float64","count    225.000000
+mean     202.061954
+std      179.324440
+min        0.313470
+25%       30.411360
+50%      155.684988
+75%      366.658969
+max      632.564753
+Name: % error, dtype: float64",6
+2,Ridge,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",Ridge(),Performance,0.1,"compressionZpaq     1.045143e+06
+compressionLrzip    4.146125e+05
+level2              3.314761e+05
+level3              3.161835e+05
+level8              6.316457e+04
+level9              1.321289e+04
+dtype: float64","count    225.000000
+mean     181.500444
+std      186.874279
+min       12.088542
+25%       47.685396
+50%       95.652158
+75%      264.318693
+max      691.939418
+Name: % error, dtype: float64",6
+3,ElasticNet,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=5)",Performance,0.1,"compressionZpaq     787851.875457
+compressionLrzip    290121.726900
+level3              229095.415771
+level2              223346.253038
+level8               53604.891814
+level9                4954.284947
+dtype: float64","count    225.000000
+mean     195.542920
+std      212.526207
+min       21.086815
+25%       44.909463
+50%       79.201556
+75%      299.960732
+max      769.416464
+Name: % error, dtype: float64",6
+4,PolynomialRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.1,"compressionZpaq     1066750.0
+compressionLrzip     467770.0
+level8                47822.5
+level2                37635.0
+level9                31560.0
+level3                 8442.5
+dtype: float64","count    225.000000
+mean      98.327215
+std       99.556807
+min        0.030426
+25%       16.735093
+50%       49.736114
+75%      168.884462
+max      412.455720
+Name: % error, dtype: float64",6
+5,RandomForest,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    225.000000
+mean      92.460954
+std       83.609820
+min        0.592597
+25%       23.859965
+50%       57.095887
+75%      154.878872
+max      341.298184
+Name: % error, dtype: float64",6
+6,GradientBoostingTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    225.000000
+mean      97.876523
+std       96.841376
+min        0.141138
+25%       18.487931
+50%       48.749261
+75%      173.711578
+max      396.741282
+Name: % error, dtype: float64",6
+7,DecisionTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"0     compressionZpaq
+1              level8
+2              level9
+5              level2
+3              level3
+4    compressionLrzip
+Name: feature, dtype: object","count    225.000000
+mean      98.845396
+std      100.207076
+min        0.030426
+25%       16.735093
+50%       49.736114
+75%      168.884462
+max      412.455720
+Name: % error, dtype: float64",6
+8,LinearRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.2,"compressionZpaq     1.948895e+06
+level9              8.921678e+05
+level2              4.219342e+05
+compressionLrzip    3.360579e+05
+level3              2.514333e+05
+level8              2.201559e+05
+dtype: float64","count     200.000000
+mean      217.197966
+std       351.560673
+min         6.312546
+25%        34.135127
+50%       124.430893
+75%       229.876180
+max      1968.077538
+Name: % error, dtype: float64",6
+9,Lasso,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.2,"compressionZpaq     1.948484e+06
+level9              8.931482e+05
+level2              4.211420e+05
+compressionLrzip    3.352711e+05
+level3              2.510929e+05
+level8              2.209603e+05
+dtype: float64","count     200.000000
+mean      217.183011
+std       351.819456
+min         6.337076
+25%        34.190517
+50%       124.242155
+75%       229.585289
+max      1969.698903
+Name: % error, dtype: float64",6
+10,Ridge,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",Ridge(alpha=2),Performance,0.2,"compressionZpaq     1.475447e+06
+level9              6.580932e+05
+level2              2.805511e+05
+level3              2.552453e+05
+compressionLrzip    2.070629e+05
+level8              9.018658e+04
+dtype: float64","count     200.000000
+mean      210.488838
+std       321.330438
+min         1.734181
+25%        34.058508
+50%        86.788442
+75%       294.747971
+max      1740.990457
+Name: % error, dtype: float64",6
+11,ElasticNet,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=10)",Performance,0.2,"compressionZpaq     1.137171e+06
+level9              4.983823e+05
+level3              2.341628e+05
+level2              1.932502e+05
+compressionLrzip    1.340605e+05
+level8              3.871536e+04
+dtype: float64","count     200.000000
+mean      238.100393
+std       312.571105
+min         7.956018
+25%        44.477345
+50%        91.239742
+75%       322.794067
+max      1569.241651
+Name: % error, dtype: float64",6
+12,PolynomialRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.2,"compressionZpaq     1.081257e+06
+compressionLrzip    2.993222e+05
+level8              6.567302e+04
+level9              6.310219e+04
+level2              1.362469e+04
+level3              1.210969e+04
+dtype: float64","count    200.000000
+mean      79.921216
+std       90.341368
+min        0.005679
+25%       10.718107
+50%       54.741668
+75%      108.921181
+max      362.783420
+Name: % error, dtype: float64",6
+13,RandomForest,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    200.000000
+mean      83.420277
+std       84.315592
+min        0.354936
+25%       27.766390
+50%       58.200123
+75%      107.169952
+max      355.122125
+Name: % error, dtype: float64",6
+14,GradientBoostingTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    200.000000
+mean      77.990921
+std       84.002968
+min        0.105088
+25%       12.105524
+50%       48.544380
+75%      110.382566
+max      342.185360
+Name: % error, dtype: float64",6
+15,DecisionTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"0     compressionZpaq
+1              level8
+2              level9
+5              level2
+3              level3
+4    compressionLrzip
+Name: feature, dtype: object","count    200.000000
+mean      79.990130
+std       90.325372
+min        0.005679
+25%       10.718107
+50%       54.741668
+75%      108.921181
+max      362.783420
+Name: % error, dtype: float64",6
+16,LinearRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.3,"compressionZpaq     2.357704e+06
+level8              8.364794e+05
+level9              6.746509e+05
+level2              4.803196e+05
+compressionLrzip    4.031153e+05
+level3              1.629808e+05
+dtype: float64","count     175.000000
+mean      228.429004
+std       353.968840
+min         3.020333
+25%        33.725954
+50%        77.632557
+75%       235.309975
+max      1569.907385
+Name: % error, dtype: float64",6
+17,Lasso,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.3,"compressionZpaq     2.229936e+06
+level8              8.479613e+05
+level9              8.470343e+05
+level2              4.087683e+05
+compressionLrzip    3.016816e+05
+level3              9.209810e+04
+dtype: float64","count     175.000000
+mean      229.385680
+std       385.128503
+min         0.048818
+25%        36.254955
+50%        76.858445
+75%       222.238119
+max      1610.179196
+Name: % error, dtype: float64",6
+18,Ridge,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",Ridge(alpha=4),Performance,0.3,"compressionZpaq     1.664948e+06
+level8              5.712920e+05
+level9              4.123805e+05
+level2              2.998701e+05
+level3              2.153398e+05
+compressionLrzip    1.922992e+05
+dtype: float64","count     175.000000
+mean      216.153392
+std       305.612097
+min         0.273430
+25%        20.984480
+50%       120.246255
+75%       305.574336
+max      1486.641034
+Name: % error, dtype: float64",6
+19,ElasticNet,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=10)",Performance,0.3,"compressionZpaq     1.389894e+06
+level8              4.732584e+05
+level9              3.255699e+05
+level2              2.352405e+05
+level3              2.142911e+05
+compressionLrzip    1.265873e+05
+dtype: float64","count     175.000000
+mean      240.289651
+std       316.586605
+min         1.393178
+25%        32.304704
+50%       107.938706
+75%       334.612680
+max      1446.961566
+Name: % error, dtype: float64",6
+20,PolynomialRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.3,"level8              2.814584e+19
+compressionLrzip    1.207056e+19
+level3              1.133873e+19
+level9              2.865935e+18
+level2              4.485009e+17
+compressionZpaq     7.993214e+16
+dtype: float64","count    175.000000
+mean      77.917560
+std       83.175355
+min        0.101620
+25%       12.244457
+50%       46.559397
+75%      124.773498
+max      395.143819
+Name: % error, dtype: float64",6
+21,RandomForest,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    175.000000
+mean      77.191666
+std       78.262687
+min        3.238097
+25%       19.874458
+50%       45.883738
+75%      122.703837
+max      355.097851
+Name: % error, dtype: float64",6
+22,GradientBoostingTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    175.000000
+mean      75.324141
+std       80.436917
+min        0.077926
+25%       11.944897
+50%       44.142718
+75%      127.894082
+max      349.695458
+Name: % error, dtype: float64",6
+23,DecisionTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"0     compressionZpaq
+1              level8
+2              level9
+5              level2
+3              level3
+4    compressionLrzip
+Name: feature, dtype: object","count    175.000000
+mean      74.488630
+std       80.019583
+min        0.005679
+25%       11.649719
+50%       45.394022
+75%      120.133305
+max      358.150485
+Name: % error, dtype: float64",6
+24,LinearRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.4,"compressionZpaq     2.550980e+06
+level8              9.443793e+05
+level9              7.493864e+05
+compressionLrzip    3.812142e+05
+level2              3.647140e+05
+level3              2.500902e+05
+dtype: float64","count     150.000000
+mean      247.672026
+std       353.241050
+min         0.269994
+25%        84.349575
+50%        94.819210
+75%       261.094982
+max      1724.013349
+Name: % error, dtype: float64",6
+25,Lasso,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.4,"compressionZpaq     2.550599e+06
+level8              9.447174e+05
+level9              7.495719e+05
+compressionLrzip    3.808571e+05
+level2              3.642417e+05
+level3              2.497328e+05
+dtype: float64","count     150.000000
+mean      247.644937
+std       353.254103
+min         0.373345
+25%        84.444338
+50%        94.850580
+75%       261.130356
+max      1724.573373
+Name: % error, dtype: float64",6
+26,Ridge,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",Ridge(alpha=4),Performance,0.4,"compressionZpaq     1.976744e+06
+level8              7.110809e+05
+level9              5.237012e+05
+level2              2.837261e+05
+level3              2.585827e+05
+compressionLrzip    2.031687e+05
+dtype: float64","count     150.000000
+mean      213.946479
+std       318.046327
+min         1.758294
+25%        26.141741
+50%       158.203186
+75%       231.112062
+max      1643.609486
+Name: % error, dtype: float64",6
+27,ElasticNet,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=10)",Performance,0.4,"compressionZpaq     1.547832e+06
+level8              5.490657e+05
+level9              3.824402e+05
+level3              2.356863e+05
+level2              2.188043e+05
+compressionLrzip    1.013330e+05
+dtype: float64","count     150.000000
+mean      240.251996
+std       331.176532
+min         0.851142
+25%        32.189512
+50%       100.011414
+75%       367.350040
+max      1574.490743
+Name: % error, dtype: float64",6
+28,PolynomialRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.4,"level8              1.765435e+19
+compressionZpaq     3.004580e+18
+level2              2.798000e+18
+level3              2.434822e+18
+level9              2.187706e+17
+compressionLrzip    1.874644e+17
+dtype: float64","count    150.000000
+mean      68.462635
+std       66.900541
+min        0.038698
+25%        9.614338
+50%       44.246839
+75%      124.109929
+max      244.352039
+Name: % error, dtype: float64",6
+29,RandomForest,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    150.000000
+mean      67.066230
+std       64.978648
+min        0.213426
+25%       13.448365
+50%       43.951767
+75%      111.855724
+max      236.153421
+Name: % error, dtype: float64",6
+30,GradientBoostingTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    150.000000
+mean      66.739967
+std       67.548396
+min        0.110617
+25%        8.985120
+50%       44.264144
+75%      118.214797
+max      246.026307
+Name: % error, dtype: float64",6
+31,DecisionTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"0     compressionZpaq
+1              level8
+2              level9
+5              level2
+3              level3
+4    compressionLrzip
+Name: feature, dtype: object","count    150.000000
+mean      66.095502
+std       66.885992
+min        0.117431
+25%        9.005595
+50%       43.810706
+75%      112.388919
+max      252.063800
+Name: % error, dtype: float64",6
+32,LinearRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.5,"compressionZpaq     2.298261e+06
+level8              8.516949e+05
+level9              7.040333e+05
+compressionLrzip    3.681966e+05
+level3              3.216307e+05
+level2              3.170813e+05
+dtype: float64","count     125.000000
+mean      221.972382
+std       339.401020
+min         0.967470
+25%        32.759162
+50%        71.532639
+75%       239.081745
+max      1611.521441
+Name: % error, dtype: float64",6
+33,Lasso,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.5,"compressionZpaq     2.178285e+06
+level8              9.062394e+05
+level9              8.255184e+05
+compressionLrzip    3.079683e+05
+level2              2.736361e+05
+level3              2.611272e+05
+dtype: float64","count     125.000000
+mean      224.470528
+std       366.769173
+min         1.312299
+25%        37.796814
+50%        72.467515
+75%       229.614099
+max      1710.068559
+Name: % error, dtype: float64",6
+34,Ridge,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",Ridge(),Performance,0.5,"compressionZpaq     2.167395e+06
+level8              7.987415e+05
+level9              6.424304e+05
+compressionLrzip    3.271723e+05
+level3              3.141728e+05
+level2              2.985056e+05
+dtype: float64","count     125.000000
+mean      205.607677
+std       324.514309
+min         0.619123
+25%        34.865962
+50%        66.049996
+75%       230.464617
+max      1590.122946
+Name: % error, dtype: float64",6
+35,ElasticNet,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=1)",Performance,0.5,"compressionZpaq     2.037934e+06
+level8              8.370082e+05
+level9              7.325742e+05
+compressionLrzip    2.682031e+05
+level3              2.608633e+05
+level2              2.607745e+05
+dtype: float64","count     125.000000
+mean      205.490149
+std       347.565891
+min         0.364035
+25%        39.126855
+50%        66.040901
+75%       216.281782
+max      1674.540338
+Name: % error, dtype: float64",6
+36,PolynomialRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.5,"level3              2.682738e+20
+compressionZpaq     4.727723e+19
+level2              2.215308e+19
+compressionLrzip    2.155210e+19
+level9              7.736292e+18
+level8              2.591927e+18
+dtype: float64","count    125.000000
+mean     124.217615
+std      130.940576
+min        0.034959
+25%       19.570583
+50%       70.025409
+75%      224.630202
+max      567.365505
+Name: % error, dtype: float64",6
+37,RandomForest,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    125.000000
+mean      67.274340
+std       65.195548
+min        0.133365
+25%       13.243463
+50%       44.203913
+75%      118.928408
+max      229.217251
+Name: % error, dtype: float64",6
+38,GradientBoostingTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    125.000000
+mean      67.174310
+std       67.348698
+min        0.085497
+25%       13.960198
+50%       41.634838
+75%      125.910238
+max      241.033876
+Name: % error, dtype: float64",6
+39,DecisionTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"0     compressionZpaq
+1              level8
+2              level9
+5              level2
+3              level3
+4    compressionLrzip
+Name: feature, dtype: object","count    125.000000
+mean      66.705986
+std       66.770155
+min        0.140775
+25%       13.991088
+50%       43.081206
+75%      121.633492
+max      233.285067
+Name: % error, dtype: float64",6
+40,LinearRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.6,"compressionZpaq     2.314522e+06
+level8              8.149617e+05
+level9              8.004022e+05
+level2              4.761467e+05
+compressionLrzip    3.801449e+05
+level3              3.138590e+05
+dtype: float64","count     100.000000
+mean      270.059988
+std       389.209580
+min         2.999965
+25%        42.836792
+50%        83.807338
+75%       318.257126
+max      1530.604871
+Name: % error, dtype: float64",6
+41,Lasso,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.6,"compressionZpaq     2.169528e+06
+level9              9.096804e+05
+level8              8.517127e+05
+level2              4.258514e+05
+compressionLrzip    3.246922e+05
+level3              2.300592e+05
+dtype: float64","count     100.000000
+mean      261.223369
+std       410.805578
+min         2.462256
+25%        38.274363
+50%        82.277039
+75%       284.792504
+max      1742.987239
+Name: % error, dtype: float64",6
+42,Ridge,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",Ridge(alpha=2),Performance,0.6,"compressionZpaq     2.105718e+06
+level8              7.240039e+05
+level9              6.989217e+05
+level2              4.128743e+05
+compressionLrzip    3.067867e+05
+level3              2.973193e+05
+dtype: float64","count     100.000000
+mean      239.626267
+std       353.548769
+min         0.538913
+25%        51.492321
+50%        86.366747
+75%       258.735611
+max      1484.739298
+Name: % error, dtype: float64",6
+43,ElasticNet,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=1)",Performance,0.6,"compressionZpaq     1.939720e+06
+level9              7.505774e+05
+level8              7.262029e+05
+level2              3.641379e+05
+compressionLrzip    2.482653e+05
+level3              2.323315e+05
+dtype: float64","count     100.000000
+mean      233.123145
+std       364.394588
+min         2.850341
+25%        49.532675
+50%       111.695262
+75%       217.480189
+max      1599.571710
+Name: % error, dtype: float64",6
+44,PolynomialRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.6,"level3              3.905051e+19
+compressionLrzip    1.976274e+19
+level8              5.821745e+18
+compressionZpaq     3.236022e+18
+level2              2.538827e+18
+level9              1.501981e+18
+dtype: float64","count    100.000000
+mean      72.438675
+std       71.534120
+min        0.135733
+25%       12.652058
+50%       50.552736
+75%      102.301322
+max      301.003722
+Name: % error, dtype: float64",6
+45,RandomForest,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    100.000000
+mean      69.864512
+std       67.782682
+min        0.130069
+25%       10.115116
+50%       46.228526
+75%      113.647897
+max      220.990528
+Name: % error, dtype: float64",6
+46,GradientBoostingTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count    100.000000
+mean      70.070945
+std       68.253975
+min        0.042990
+25%       10.833055
+50%       46.122982
+75%      120.159887
+max      230.774322
+Name: % error, dtype: float64",6
+47,DecisionTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"0     compressionZpaq
+1              level8
+2              level9
+5              level2
+3              level3
+4    compressionLrzip
+Name: feature, dtype: object","count    100.000000
+mean      69.686339
+std       67.897056
+min        0.140775
+25%       10.647969
+50%       46.013674
+75%      114.501563
+max      222.273098
+Name: % error, dtype: float64",6
+48,LinearRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.7,"compressionZpaq     2.178172e+06
+level8              8.063323e+05
+level9              7.873896e+05
+compressionLrzip    3.567079e+05
+level3              2.578420e+05
+level2              2.556273e+05
+dtype: float64","count      75.000000
+mean      221.189382
+std       337.127576
+min         1.012061
+25%        49.680201
+50%        85.079191
+75%       214.854659
+max      1504.559824
+Name: % error, dtype: float64",6
+49,Lasso,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.7,"compressionZpaq     2.068116e+06
+level9              8.623283e+05
+level8              8.208558e+05
+compressionLrzip    3.217503e+05
+level2              2.341275e+05
+level3              1.895237e+05
+dtype: float64","count      75.000000
+mean      213.628177
+std       356.852584
+min         0.050368
+25%        43.597551
+50%        82.472994
+75%       231.238874
+max      1628.217321
+Name: % error, dtype: float64",6
+50,Ridge,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",Ridge(alpha=2),Performance,0.7,"compressionZpaq     2.011032e+06
+level8              7.118666e+05
+level9              6.838369e+05
+compressionLrzip    2.989552e+05
+level3              2.555060e+05
+level2              2.546494e+05
+dtype: float64","count      75.000000
+mean      198.172619
+std       316.378985
+min         1.388587
+25%        50.628370
+50%        63.540588
+75%       202.944484
+max      1443.863285
+Name: % error, dtype: float64",6
+51,ElasticNet,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.1, max_iter=1)",Performance,0.7,"compressionZpaq     1.953383e+06
+level9              7.727440e+05
+level8              7.494700e+05
+compressionLrzip    2.815095e+05
+level2              2.366615e+05
+level3              1.951374e+05
+dtype: float64","count      75.000000
+mean      196.116116
+std       340.186532
+min         4.064975
+25%        42.337958
+50%        65.612759
+75%       214.995712
+max      1546.823544
+Name: % error, dtype: float64",6
+52,PolynomialRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.7,"compressionZpaq     1.967340e+20
+level3              8.505461e+19
+compressionLrzip    5.422645e+19
+level2              3.962230e+19
+level8              2.416306e+19
+level9              1.380521e+19
+dtype: float64","count     75.000000
+mean      41.657072
+std       31.804116
+min        0.817063
+25%       11.926017
+50%       38.757110
+75%       66.557883
+max      149.960361
+Name: % error, dtype: float64",6
+53,RandomForest,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count     75.000000
+mean      62.329585
+std       57.611285
+min        0.108239
+25%       15.506943
+50%       45.679371
+75%      104.447484
+max      207.416476
+Name: % error, dtype: float64",6
+54,GradientBoostingTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count     75.000000
+mean      63.181125
+std       59.568688
+min        0.108155
+25%       15.516711
+50%       44.523845
+75%      109.070441
+max      220.110177
+Name: % error, dtype: float64",6
+55,DecisionTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"0     compressionZpaq
+1              level8
+2              level9
+5              level2
+3              level3
+4    compressionLrzip
+Name: feature, dtype: object","count     75.000000
+mean      62.743514
+std       58.290666
+min        0.140775
+25%       15.367983
+50%       45.332895
+75%      105.751524
+max      209.377289
+Name: % error, dtype: float64",6
+56,LinearRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.8,"compressionZpaq     2.266140e+06
+level8              8.521941e+05
+level9              8.353101e+05
+compressionLrzip    3.812967e+05
+level3              3.005824e+05
+level2              2.683394e+05
+dtype: float64","count      50.000000
+mean      188.323638
+std       255.067692
+min         0.796303
+25%        62.060005
+50%        89.030539
+75%       220.923965
+max      1245.242547
+Name: % error, dtype: float64",6
+57,Lasso,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.8,"compressionZpaq     2.174879e+06
+level9              9.164956e+05
+level8              8.650780e+05
+compressionLrzip    3.515938e+05
+level2              2.473833e+05
+level3              2.464155e+05
+dtype: float64","count      50.000000
+mean      184.867371
+std       263.989799
+min         1.972083
+25%        57.075504
+50%        88.277339
+75%       224.602700
+max      1355.452039
+Name: % error, dtype: float64",6
+58,Ridge,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",Ridge(),Performance,0.8,"compressionZpaq     2.188439e+06
+level8              8.075358e+05
+level9              7.864775e+05
+compressionLrzip    3.518010e+05
+level3              2.991458e+05
+level2              2.663088e+05
+dtype: float64","count      50.000000
+mean      169.044013
+std       251.406702
+min         0.812916
+25%        43.676588
+50%        75.067964
+75%       212.191060
+max      1221.906321
+Name: % error, dtype: float64",6
+59,ElasticNet,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=1)",Performance,0.8,"compressionZpaq     2.106601e+06
+level9              8.642222e+05
+level8              8.236197e+05
+compressionLrzip    3.252823e+05
+level3              2.477665e+05
+level2              2.470198e+05
+dtype: float64","count      50.000000
+mean      167.027403
+std       260.324504
+min         1.057837
+25%        44.077776
+50%        75.129528
+75%       217.478694
+max      1317.536614
+Name: % error, dtype: float64",6
+60,PolynomialRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.8,"level9              2.472748e+19
+level3              1.972018e+19
+compressionLrzip    1.427177e+19
+compressionZpaq     7.599575e+18
+level8              7.188919e+18
+level2              2.766191e+18
+dtype: float64","count     50.000000
+mean      49.644213
+std       41.904746
+min        0.046002
+25%       19.428021
+50%       46.814525
+75%       60.650890
+max      167.409708
+Name: % error, dtype: float64",6
+61,RandomForest,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count     50.000000
+mean      51.465767
+std       47.479772
+min        0.346169
+25%       15.770518
+50%       43.205376
+75%       58.859745
+max      198.978285
+Name: % error, dtype: float64",6
+62,GradientBoostingTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count     50.000000
+mean      51.594850
+std       49.029912
+min        0.330435
+25%       14.622819
+50%       42.997710
+75%       59.224410
+max      206.925308
+Name: % error, dtype: float64",6
+63,DecisionTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"0     compressionZpaq
+1              level8
+2              level9
+5              level2
+3              level3
+4    compressionLrzip
+Name: feature, dtype: object","count     50.000000
+mean      51.134975
+std       47.044900
+min        0.373177
+25%       16.032360
+50%       43.470259
+75%       58.521336
+max      198.048860
+Name: % error, dtype: float64",6
+64,LinearRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.9,"compressionZpaq     2.293926e+06
+level8              8.635198e+05
+level9              8.006249e+05
+compressionLrzip    3.812744e+05
+level3              3.143127e+05
+level2              2.322411e+05
+dtype: float64","count      25.000000
+mean      221.748127
+std       324.005169
+min         2.364421
+25%        73.676991
+50%        89.534321
+75%       210.656306
+max      1264.518703
+Name: % error, dtype: float64",6
+65,Lasso,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.9,"compressionZpaq     2.209842e+06
+level8              8.870472e+05
+level9              8.799842e+05
+compressionLrzip    3.572461e+05
+level3              2.569594e+05
+level2              2.117093e+05
+dtype: float64","count      25.000000
+mean      222.914671
+std       340.392178
+min         1.470097
+25%        76.656484
+50%        90.718927
+75%       200.781336
+max      1296.436109
+Name: % error, dtype: float64",6
+66,Ridge,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",Ridge(),Performance,0.9,"compressionZpaq     2.222201e+06
+level8              8.266008e+05
+level9              7.561930e+05
+compressionLrzip    3.549685e+05
+level3              3.112579e+05
+level2              2.330276e+05
+dtype: float64","count      25.000000
+mean      206.553932
+std       320.312504
+min         0.338493
+25%        61.834195
+50%        78.437403
+75%       203.706387
+max      1247.496272
+Name: % error, dtype: float64",6
+67,ElasticNet,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=1)",Performance,0.9,"compressionZpaq     2.138264e+06
+level8              8.480613e+05
+level9              8.267318e+05
+compressionLrzip    3.305943e+05
+level3              2.566449e+05
+level2              2.141161e+05
+dtype: float64","count      25.000000
+mean      206.894134
+std       335.644684
+min         3.412268
+25%        58.162986
+50%        78.870566
+75%       193.872604
+max      1278.926545
+Name: % error, dtype: float64",6
+68,PolynomialRegression,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",LinearRegression(),Performance,0.9,"level9              2.373374e+19
+compressionLrzip    2.264449e+19
+level8              1.241518e+19
+compressionZpaq     5.351953e+18
+level3              2.107598e+18
+level2              9.870303e+16
+dtype: float64","count     25.000000
+mean      46.339188
+std       46.410251
+min        2.022451
+25%       16.104642
+50%       38.642495
+75%       53.270452
+max      195.065683
+Name: % error, dtype: float64",6
+69,RandomForest,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count     25.000000
+mean      43.161433
+std       36.882486
+min        0.893050
+25%       15.658303
+50%       41.068481
+75%       53.450093
+max      151.018102
+Name: % error, dtype: float64",6
+70,GradientBoostingTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"0     compressionZpaq
+1              level8
+2              level9
+3              level3
+5              level2
+4    compressionLrzip
+Name: feature, dtype: object","count     25.000000
+mean      42.066208
+std       35.132972
+min        0.317353
+25%       15.314151
+50%       36.369316
+75%       51.996662
+max      145.213730
+Name: % error, dtype: float64",6
+71,DecisionTree,False,RandomForest,"Index(['compressionZpaq', 'level8', 'level9', 'level3', 'compressionLrzip',
+       'level2'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"0     compressionZpaq
+1              level8
+2              level9
+5              level2
+3              level3
+4    compressionLrzip
+Name: feature, dtype: object","count     25.000000
+mean      42.797257
+std       36.102271
+min        1.132539
+25%       15.006310
+50%       41.432763
+75%       53.712506
+max      150.857448
+Name: % error, dtype: float64",6

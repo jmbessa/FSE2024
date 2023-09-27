@@ -1,0 +1,4388 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO    2.278034
+HAVE_HASH      0.821933
+DIAGNOSTIC     0.350525
+#yes           0.000197
+dtype: float64","count    327.000000
+mean      41.118881
+std       45.445575
+min        0.000029
+25%        9.360942
+50%       20.994874
+75%       69.144098
+max      151.138332
+Name: % error, dtype: float64",4
+1,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.1,"HAVE_CRYPTO    2.221966
+HAVE_HASH      0.759511
+DIAGNOSTIC     0.281289
+#yes           0.006625
+dtype: float64","count    327.000000
+mean      37.473909
+std       37.260577
+min        2.382839
+25%       10.236538
+50%       24.641075
+75%       60.959941
+max      128.631362
+Name: % error, dtype: float64",4
+2,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",Ridge(alpha=0.01),Performance,0.1,"HAVE_CRYPTO    2.274489
+HAVE_HASH      0.820698
+DIAGNOSTIC     0.348994
+#yes           0.000482
+dtype: float64","count    327.000000
+mean      40.999409
+std       45.206616
+min        0.007915
+25%        9.443979
+50%       21.185229
+75%       69.031446
+max      150.351044
+Name: % error, dtype: float64",4
+3,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.1,"HAVE_CRYPTO    2.221966
+HAVE_HASH      0.759511
+DIAGNOSTIC     0.281289
+#yes           0.006625
+dtype: float64","count    327.000000
+mean      37.473909
+std       37.260577
+min        2.382839
+25%       10.236538
+50%       24.641075
+75%       60.959941
+max      128.631362
+Name: % error, dtype: float64",4
+4,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO    1.330047
+HAVE_HASH      0.082252
+#yes           0.033514
+DIAGNOSTIC     0.018467
+dtype: float64","count    327.000000
+mean       1.177052
+std        1.197734
+min        0.007225
+25%        0.346776
+50%        0.782936
+75%        1.549580
+max        7.365767
+Name: % error, dtype: float64",4
+5,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",RandomForestRegressor(),Performance,0.1,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    327.000000
+mean       3.939700
+std        6.083875
+min        0.006465
+25%        0.373179
+50%        0.848852
+75%        7.353159
+max       22.935673
+Name: % error, dtype: float64",4
+6,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",GradientBoostingRegressor(),Performance,0.1,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    327.000000
+mean       2.686923
+std        4.481632
+min        0.005548
+25%        0.365941
+50%        0.869878
+75%        2.186644
+max       18.339390
+Name: % error, dtype: float64",4
+7,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",DecisionTreeRegressor(),Performance,0.1,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    327.000000
+mean       1.440418
+std        1.769920
+min        0.003124
+25%        0.343248
+50%        0.772564
+75%        1.520767
+max        9.024876
+Name: % error, dtype: float64",4
+8,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO    2.229035
+HAVE_HASH      0.720745
+DIAGNOSTIC     0.256238
+#yes           0.005070
+dtype: float64","count    291.000000
+mean      36.472981
+std       36.548105
+min        4.011035
+25%       11.270119
+50%       18.275731
+75%       55.236076
+max      126.314260
+Name: % error, dtype: float64",4
+9,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.2,"HAVE_CRYPTO    2.179046
+HAVE_HASH      0.668676
+DIAGNOSTIC     0.210404
+#yes           0.005060
+dtype: float64","count    291.000000
+mean      33.545790
+std       29.853480
+min        6.134916
+25%       12.155100
+50%       22.329855
+75%       49.114942
+max      106.013038
+Name: % error, dtype: float64",4
+10,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",Ridge(alpha=0.01),Performance,0.2,"HAVE_CRYPTO    2.227453
+HAVE_HASH      0.720238
+DIAGNOSTIC     0.255878
+#yes           0.005291
+dtype: float64","count    291.000000
+mean      36.425289
+std       36.443437
+min        4.044620
+25%       11.299696
+50%       18.311212
+75%       55.075336
+max      126.122573
+Name: % error, dtype: float64",4
+11,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.2,"HAVE_CRYPTO    2.179046
+HAVE_HASH      0.668676
+DIAGNOSTIC     0.210404
+#yes           0.005060
+dtype: float64","count    291.000000
+mean      33.545790
+std       29.853480
+min        6.134916
+25%       12.155100
+50%       22.329855
+75%       49.114942
+max      106.013038
+Name: % error, dtype: float64",4
+12,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO    1.355871
+HAVE_HASH      0.091501
+#yes           0.017978
+DIAGNOSTIC     0.009370
+dtype: float64","count    291.000000
+mean       0.827607
+std        0.748566
+min        0.001260
+25%        0.308288
+50%        0.562905
+75%        1.105251
+max        3.395181
+Name: % error, dtype: float64",4
+13,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",RandomForestRegressor(),Performance,0.2,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    291.000000
+mean       0.762923
+std        0.749212
+min        0.013483
+25%        0.271757
+50%        0.524571
+75%        1.056538
+max        4.573000
+Name: % error, dtype: float64",4
+14,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",GradientBoostingRegressor(),Performance,0.2,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    291.000000
+mean       0.745110
+std        0.681063
+min        0.009603
+25%        0.250793
+50%        0.544576
+75%        1.064544
+max        3.846022
+Name: % error, dtype: float64",4
+15,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",DecisionTreeRegressor(),Performance,0.2,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    291.000000
+mean       0.770079
+std        0.712128
+min        0.000622
+25%        0.270277
+50%        0.577365
+75%        1.109974
+max        4.003770
+Name: % error, dtype: float64",4
+16,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO    2.261110
+HAVE_HASH      0.712513
+DIAGNOSTIC     0.160944
+#yes           0.005108
+dtype: float64","count    255.000000
+mean      37.129308
+std       34.292836
+min        5.143430
+25%        9.295446
+50%       27.210611
+75%       57.847887
+max      114.204948
+Name: % error, dtype: float64",4
+17,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.3,"HAVE_CRYPTO    2.207524
+HAVE_HASH      0.664404
+DIAGNOSTIC     0.110972
+dtype: float64","count    255.000000
+mean      33.993925
+std       27.773040
+min        7.421465
+25%       10.302309
+50%       31.446040
+75%       52.593061
+max       91.499667
+Name: % error, dtype: float64",4
+18,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",Ridge(alpha=0.1),Performance,0.3,"HAVE_CRYPTO    2.250301
+HAVE_HASH      0.709734
+DIAGNOSTIC     0.158577
+#yes           0.003470
+dtype: float64","count    255.000000
+mean      36.805859
+std       33.523575
+min        5.399043
+25%        9.476066
+50%       27.715952
+75%       57.316320
+max      111.297159
+Name: % error, dtype: float64",4
+19,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.3,"HAVE_CRYPTO    2.207524
+HAVE_HASH      0.664404
+DIAGNOSTIC     0.110972
+dtype: float64","count    255.000000
+mean      33.993925
+std       27.773040
+min        7.421465
+25%       10.302309
+50%       31.446040
+75%       52.593061
+max       91.499667
+Name: % error, dtype: float64",4
+20,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO    1.354538
+HAVE_HASH      0.096240
+#yes           0.021899
+DIAGNOSTIC     0.004119
+dtype: float64","count    255.000000
+mean       0.813622
+std        0.774823
+min        0.002317
+25%        0.279931
+50%        0.591269
+75%        1.010645
+max        3.738582
+Name: % error, dtype: float64",4
+21,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",RandomForestRegressor(),Performance,0.3,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    255.000000
+mean       0.725976
+std        0.714793
+min        0.000054
+25%        0.240893
+50%        0.488173
+75%        1.009999
+max        4.261746
+Name: % error, dtype: float64",4
+22,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",GradientBoostingRegressor(),Performance,0.3,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    255.000000
+mean       0.806503
+std        0.799036
+min        0.001331
+25%        0.247076
+50%        0.524310
+75%        1.087626
+max        4.286657
+Name: % error, dtype: float64",4
+23,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",DecisionTreeRegressor(),Performance,0.3,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    255.000000
+mean       0.736570
+std        0.736090
+min        0.002887
+25%        0.230711
+50%        0.484999
+75%        0.993328
+max        4.416049
+Name: % error, dtype: float64",4
+24,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO    2.219414
+HAVE_HASH      0.702969
+DIAGNOSTIC     0.128848
+#yes           0.001719
+dtype: float64","count    218.000000
+mean      36.438597
+std       31.941661
+min        6.599980
+25%        9.842527
+50%       31.335185
+75%       62.407554
+max      103.091780
+Name: % error, dtype: float64",4
+25,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.4,"HAVE_CRYPTO    2.167684
+HAVE_HASH      0.652579
+DIAGNOSTIC     0.081063
+dtype: float64","count    218.000000
+mean      33.346422
+std       25.568763
+min        8.865585
+25%       10.694965
+50%       35.752036
+75%       56.843860
+max       82.318862
+Name: % error, dtype: float64",4
+26,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",Ridge(alpha=0.1),Performance,0.4,"HAVE_CRYPTO    2.211661
+HAVE_HASH      0.700961
+DIAGNOSTIC     0.127122
+#yes           0.000652
+dtype: float64","count    218.000000
+mean      36.217730
+std       31.398259
+min        6.757300
+25%        9.980729
+50%       31.855287
+75%       61.939056
+max      101.061328
+Name: % error, dtype: float64",4
+27,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.4,"HAVE_CRYPTO    2.167684
+HAVE_HASH      0.652579
+DIAGNOSTIC     0.081063
+dtype: float64","count    218.000000
+mean      33.346422
+std       25.568763
+min        8.865585
+25%       10.694965
+50%       35.752036
+75%       56.843860
+max       82.318862
+Name: % error, dtype: float64",4
+28,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO    1.349432
+HAVE_HASH      0.094703
+#yes           0.013791
+DIAGNOSTIC     0.013351
+dtype: float64","count    218.000000
+mean       0.755670
+std        0.663992
+min        0.000228
+25%        0.300402
+50%        0.589429
+75%        0.961438
+max        3.107158
+Name: % error, dtype: float64",4
+29,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",RandomForestRegressor(),Performance,0.4,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    218.000000
+mean       0.731618
+std        0.647073
+min        0.003660
+25%        0.254097
+50%        0.564437
+75%        1.079722
+max        3.564769
+Name: % error, dtype: float64",4
+30,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",GradientBoostingRegressor(),Performance,0.4,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    218.000000
+mean       0.725809
+std        0.639206
+min        0.001191
+25%        0.253905
+50%        0.559007
+75%        1.059704
+max        3.670935
+Name: % error, dtype: float64",4
+31,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",DecisionTreeRegressor(),Performance,0.4,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    218.000000
+mean       0.746183
+std        0.655902
+min        0.007384
+25%        0.251158
+50%        0.585767
+75%        1.088935
+max        3.570190
+Name: % error, dtype: float64",4
+32,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO    2.250630
+HAVE_HASH      0.673488
+DIAGNOSTIC     0.115504
+#yes           0.013696
+dtype: float64","count    182.000000
+mean      35.943040
+std       31.983278
+min        6.599335
+25%        9.554127
+50%       28.219017
+75%       68.520572
+max      105.923530
+Name: % error, dtype: float64",4
+33,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.5,"HAVE_CRYPTO    2.187348
+HAVE_HASH      0.638025
+DIAGNOSTIC     0.060374
+dtype: float64","count    182.000000
+mean      32.771005
+std       25.451913
+min        9.000095
+25%       10.412994
+50%       32.749247
+75%       63.936247
+max       79.342398
+Name: % error, dtype: float64",4
+34,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",Ridge(alpha=0.05),Performance,0.5,"HAVE_CRYPTO    2.247450
+HAVE_HASH      0.672796
+DIAGNOSTIC     0.114814
+#yes           0.013209
+dtype: float64","count    182.000000
+mean      35.844300
+std       31.747409
+min        6.676094
+25%        9.587941
+50%       28.477006
+75%       68.165068
+max      105.094768
+Name: % error, dtype: float64",4
+35,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.5,"HAVE_CRYPTO    2.187348
+HAVE_HASH      0.638025
+DIAGNOSTIC     0.060374
+dtype: float64","count    182.000000
+mean      32.771005
+std       25.451913
+min        9.000095
+25%       10.412994
+50%       32.749247
+75%       63.936247
+max       79.342398
+Name: % error, dtype: float64",4
+36,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO    1.347099
+HAVE_HASH      0.088665
+#yes           0.010216
+DIAGNOSTIC     0.010064
+dtype: float64","count    182.000000
+mean       0.776177
+std        0.706997
+min        0.000010
+25%        0.338933
+50%        0.552793
+75%        0.952856
+max        3.363919
+Name: % error, dtype: float64",4
+37,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",RandomForestRegressor(),Performance,0.5,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    182.000000
+mean       0.737828
+std        0.654539
+min        0.011053
+25%        0.256475
+50%        0.569451
+75%        1.016095
+max        3.524219
+Name: % error, dtype: float64",4
+38,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",GradientBoostingRegressor(),Performance,0.5,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    182.000000
+mean       0.725083
+std        0.632432
+min        0.003944
+25%        0.269041
+50%        0.559373
+75%        0.991008
+max        3.404564
+Name: % error, dtype: float64",4
+39,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",DecisionTreeRegressor(),Performance,0.5,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    182.000000
+mean       0.742411
+std        0.664148
+min        0.001305
+25%        0.261491
+50%        0.568492
+75%        1.014101
+max        3.570190
+Name: % error, dtype: float64",4
+40,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO    2.229249
+HAVE_HASH      0.676613
+DIAGNOSTIC     0.075368
+#yes           0.006454
+dtype: float64","count    146.000000
+mean      35.085517
+std       29.574210
+min        7.352487
+25%        9.134053
+50%       33.941409
+75%       70.156779
+max       92.718335
+Name: % error, dtype: float64",4
+41,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    2.176171
+HAVE_HASH      0.635385
+DIAGNOSTIC     0.026953
+dtype: float64","count    146.000000
+mean      32.308319
+std       23.899101
+min        8.822067
+25%       10.266502
+50%       32.095349
+75%       64.220718
+max       70.774856
+Name: % error, dtype: float64",4
+42,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",Ridge(alpha=0.1),Performance,0.6,"HAVE_CRYPTO    2.224024
+HAVE_HASH      0.675644
+DIAGNOSTIC     0.074373
+#yes           0.005621
+dtype: float64","count    146.000000
+mean      34.935786
+std       29.204484
+min        7.473997
+25%        9.220017
+50%       34.371987
+75%       69.577077
+max       91.380621
+Name: % error, dtype: float64",4
+43,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    2.176171
+HAVE_HASH      0.635385
+DIAGNOSTIC     0.026953
+dtype: float64","count    146.000000
+mean      32.308319
+std       23.899101
+min        8.822067
+25%       10.266502
+50%       32.095349
+75%       64.220718
+max       70.774856
+Name: % error, dtype: float64",4
+44,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO    1.348492
+HAVE_HASH      0.088668
+#yes           0.010733
+DIAGNOSTIC     0.009207
+dtype: float64","count    146.000000
+mean       0.822738
+std        0.765470
+min        0.001671
+25%        0.328562
+50%        0.590251
+75%        1.031054
+max        3.597984
+Name: % error, dtype: float64",4
+45,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",RandomForestRegressor(),Performance,0.6,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    146.000000
+mean       0.712359
+std        0.666725
+min        0.009455
+25%        0.232442
+50%        0.543285
+75%        0.904631
+max        3.276507
+Name: % error, dtype: float64",4
+46,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",GradientBoostingRegressor(),Performance,0.6,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    146.000000
+mean       0.702087
+std        0.650290
+min        0.002569
+25%        0.252343
+50%        0.532507
+75%        0.941033
+max        3.123167
+Name: % error, dtype: float64",4
+47,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",DecisionTreeRegressor(),Performance,0.6,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    146.000000
+mean       0.714820
+std        0.674871
+min        0.006106
+25%        0.248239
+50%        0.526773
+75%        0.907324
+max        3.251249
+Name: % error, dtype: float64",4
+48,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO    2.240017
+HAVE_HASH      0.685681
+DIAGNOSTIC     0.071738
+#yes           0.002381
+dtype: float64","count    109.000000
+mean      36.603767
+std       30.663568
+min        6.850176
+25%        8.522973
+50%       35.840658
+75%       71.636689
+max       90.797266
+Name: % error, dtype: float64",4
+49,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    2.193439
+HAVE_HASH      0.640940
+DIAGNOSTIC     0.025387
+dtype: float64","count    109.000000
+mean      33.515723
+std       24.574952
+min        8.101496
+25%        9.804792
+50%       33.125115
+75%       64.768072
+max       70.704385
+Name: % error, dtype: float64",4
+50,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",Ridge(alpha=0.05),Performance,0.7,"HAVE_CRYPTO    2.237776
+HAVE_HASH      0.685342
+DIAGNOSTIC     0.071277
+#yes           0.002000
+dtype: float64","count    109.000000
+mean      36.533257
+std       30.502836
+min        6.890195
+25%        8.560722
+50%       36.001253
+75%       71.405966
+max       90.218189
+Name: % error, dtype: float64",4
+51,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    2.193439
+HAVE_HASH      0.640940
+DIAGNOSTIC     0.025387
+dtype: float64","count    109.000000
+mean      33.515723
+std       24.574952
+min        8.101496
+25%        9.804792
+50%       33.125115
+75%       64.768072
+max       70.704385
+Name: % error, dtype: float64",4
+52,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO    1.348901
+HAVE_HASH      0.089548
+DIAGNOSTIC     0.010985
+#yes           0.010523
+dtype: float64","count    109.000000
+mean       0.845605
+std        0.856995
+min        0.002877
+25%        0.271192
+50%        0.603223
+75%        1.009569
+max        3.870845
+Name: % error, dtype: float64",4
+53,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",RandomForestRegressor(),Performance,0.7,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    109.000000
+mean       0.693533
+std        0.675795
+min        0.002559
+25%        0.212158
+50%        0.492166
+75%        0.881867
+max        3.253949
+Name: % error, dtype: float64",4
+54,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",GradientBoostingRegressor(),Performance,0.7,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    109.000000
+mean       0.684878
+std        0.656135
+min        0.005466
+25%        0.234590
+50%        0.515701
+75%        0.900274
+max        3.268823
+Name: % error, dtype: float64",4
+55,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",DecisionTreeRegressor(),Performance,0.7,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    109.000000
+mean       0.698614
+std        0.686028
+min        0.008436
+25%        0.200560
+50%        0.470005
+75%        0.907512
+max        3.251249
+Name: % error, dtype: float64",4
+56,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO    2.219507
+HAVE_HASH      0.688344
+DIAGNOSTIC     0.051776
+#yes           0.001336
+dtype: float64","count    73.000000
+mean     35.648680
+std      27.728655
+min       7.152792
+25%       8.361921
+50%      38.080168
+75%      69.474368
+max      83.429568
+Name: % error, dtype: float64",4
+57,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.8,"HAVE_CRYPTO    2.176985
+HAVE_HASH      0.644252
+DIAGNOSTIC     0.008954
+#yes           0.002159
+dtype: float64","count    73.000000
+mean     33.355187
+std      23.247089
+min       8.053500
+25%       9.911037
+50%      34.945060
+75%      62.749085
+max      65.409177
+Name: % error, dtype: float64",4
+58,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",Ridge(alpha=0.1),Performance,0.8,"HAVE_CRYPTO    2.215669
+HAVE_HASH      0.687836
+DIAGNOSTIC     0.051105
+#yes           0.001987
+dtype: float64","count    73.000000
+mean     35.552624
+std      27.490471
+min       7.219498
+25%       8.430522
+50%      38.477208
+75%      68.738461
+max      83.183287
+Name: % error, dtype: float64",4
+59,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.8,"HAVE_CRYPTO    2.176985
+HAVE_HASH      0.644252
+DIAGNOSTIC     0.008954
+#yes           0.002159
+dtype: float64","count    73.000000
+mean     33.355187
+std      23.247089
+min       8.053500
+25%       9.911037
+50%      34.945060
+75%      62.749085
+max      65.409177
+Name: % error, dtype: float64",4
+60,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO    1.349179
+HAVE_HASH      0.088948
+#yes           0.014186
+DIAGNOSTIC     0.009622
+dtype: float64","count    73.000000
+mean      0.904267
+std       0.871689
+min       0.016883
+25%       0.256613
+50%       0.575157
+75%       1.184262
+max       3.753390
+Name: % error, dtype: float64",4
+61,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",RandomForestRegressor(),Performance,0.8,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    73.000000
+mean      0.752282
+std       0.736860
+min       0.021378
+25%       0.233983
+50%       0.545634
+75%       0.914423
+max       3.057383
+Name: % error, dtype: float64",4
+62,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",GradientBoostingRegressor(),Performance,0.8,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    73.000000
+mean      0.774542
+std       0.739892
+min       0.006558
+25%       0.286999
+50%       0.570792
+75%       0.996489
+max       3.251467
+Name: % error, dtype: float64",4
+63,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",DecisionTreeRegressor(),Performance,0.8,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    73.000000
+mean      0.768840
+std       0.751029
+min       0.008824
+25%       0.249957
+50%       0.532325
+75%       0.966849
+max       3.145770
+Name: % error, dtype: float64",4
+64,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO    2.224601
+HAVE_HASH      0.686703
+DIAGNOSTIC     0.044791
+#yes           0.003082
+dtype: float64","count    37.000000
+mean     35.951268
+std      27.678723
+min       7.011504
+25%       8.127685
+50%      37.580394
+75%      70.000901
+max      81.088196
+Name: % error, dtype: float64",4
+65,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.9,"HAVE_CRYPTO    2.182668
+HAVE_HASH      0.643243
+#yes           0.004089
+DIAGNOSTIC     0.001327
+dtype: float64","count    37.000000
+mean     33.870533
+std      23.436936
+min       7.777064
+25%       9.579371
+50%      34.293189
+75%      60.657614
+max      64.728977
+Name: % error, dtype: float64",4
+66,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",Ridge(alpha=0.1),Performance,0.9,"HAVE_CRYPTO    2.221264
+HAVE_HASH      0.686271
+DIAGNOSTIC     0.044190
+#yes           0.003628
+dtype: float64","count    37.000000
+mean     35.860055
+std      27.460783
+min       7.070019
+25%       8.218661
+50%      37.825498
+75%      69.522659
+max      80.562984
+Name: % error, dtype: float64",4
+67,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.9,"HAVE_CRYPTO    2.182668
+HAVE_HASH      0.643243
+#yes           0.004089
+DIAGNOSTIC     0.001327
+dtype: float64","count    37.000000
+mean     33.870533
+std      23.436936
+min       7.777064
+25%       9.579371
+50%      34.293189
+75%      60.657614
+max      64.728977
+Name: % error, dtype: float64",4
+68,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO    1.352291
+HAVE_HASH      0.086398
+#yes           0.011800
+DIAGNOSTIC     0.010806
+dtype: float64","count    37.000000
+mean      0.872843
+std       0.873242
+min       0.059429
+25%       0.358375
+50%       0.560199
+75%       1.253549
+max       3.663080
+Name: % error, dtype: float64",4
+69,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",RandomForestRegressor(),Performance,0.9,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    37.000000
+mean      0.778638
+std       0.779750
+min       0.003747
+25%       0.216157
+50%       0.501268
+75%       1.144906
+max       3.116178
+Name: % error, dtype: float64",4
+70,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",GradientBoostingRegressor(),Performance,0.9,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    37.000000
+mean      0.796140
+std       0.794271
+min       0.011941
+25%       0.229072
+50%       0.495096
+75%       1.103629
+max       3.138415
+Name: % error, dtype: float64",4
+71,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes'], dtype='object')",DecisionTreeRegressor(),Performance,0.9,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+Name: feature, dtype: object","count    37.000000
+mean      0.807157
+std       0.796223
+min       0.002988
+25%       0.229686
+50%       0.483682
+75%       1.145024
+max       3.099055
+Name: % error, dtype: float64",4
+72,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO    2.266958
+HAVE_HASH      0.832859
+DIAGNOSTIC     0.341287
+HAVE_VERIFY    0.041962
+#yes           0.010184
+dtype: float64","count    327.000000
+mean      41.128485
+std       45.433762
+min        0.030622
+25%        9.186551
+50%       19.068561
+75%       64.359817
+max      157.509080
+Name: % error, dtype: float64",5
+73,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.1,"HAVE_CRYPTO    2.221966
+HAVE_HASH      0.759511
+DIAGNOSTIC     0.281289
+#yes           0.006625
+dtype: float64","count    327.000000
+mean      37.473909
+std       37.260577
+min        2.382839
+25%       10.236538
+50%       24.641075
+75%       60.959941
+max      128.631362
+Name: % error, dtype: float64",5
+74,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",Ridge(alpha=0.01),Performance,0.1,"HAVE_CRYPTO    2.263238
+HAVE_HASH      0.831808
+DIAGNOSTIC     0.339605
+HAVE_VERIFY    0.042712
+#yes           0.011041
+dtype: float64","count    327.000000
+mean      41.007060
+std       45.200831
+min        0.025347
+25%        9.235248
+50%       19.005735
+75%       64.162442
+max      157.078517
+Name: % error, dtype: float64",5
+75,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.1,"HAVE_CRYPTO    2.221966
+HAVE_HASH      0.759511
+DIAGNOSTIC     0.281289
+#yes           0.006625
+dtype: float64","count    327.000000
+mean      37.473909
+std       37.260577
+min        2.382839
+25%       10.236538
+50%       24.641075
+75%       60.959941
+max      128.631362
+Name: % error, dtype: float64",5
+76,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO    1.396059
+HAVE_VERIFY    0.140256
+#yes           0.084968
+DIAGNOSTIC     0.079802
+HAVE_HASH      0.008952
+dtype: float64","count    327.000000
+mean       1.751739
+std        2.022728
+min        0.001584
+25%        0.398397
+50%        0.958564
+75%        2.465512
+max        9.082242
+Name: % error, dtype: float64",5
+77,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",RandomForestRegressor(),Performance,0.1,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    327.000000
+mean       4.065651
+std        6.190970
+min        0.003900
+25%        0.352731
+50%        0.783099
+75%        6.992776
+max       23.044782
+Name: % error, dtype: float64",5
+78,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",GradientBoostingRegressor(),Performance,0.1,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+4    HAVE_VERIFY
+3           #yes
+Name: feature, dtype: object","count    327.000000
+mean       2.800766
+std        4.182006
+min        0.000555
+25%        0.343632
+50%        0.795148
+75%        4.031301
+max       17.143626
+Name: % error, dtype: float64",5
+79,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",DecisionTreeRegressor(),Performance,0.1,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    327.000000
+mean       1.388007
+std        1.695494
+min        0.000547
+25%        0.299383
+50%        0.718326
+75%        1.606362
+max        8.197867
+Name: % error, dtype: float64",5
+80,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO    2.211099
+HAVE_HASH      0.739514
+DIAGNOSTIC     0.237255
+HAVE_VERIFY    0.081014
+#yes           0.027055
+dtype: float64","count    291.000000
+mean      36.340070
+std       37.135176
+min        2.774406
+25%       10.317139
+50%       17.753977
+75%       54.652686
+max      141.834798
+Name: % error, dtype: float64",5
+81,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.2,"HAVE_CRYPTO    2.175055
+HAVE_HASH      0.672523
+DIAGNOSTIC     0.206522
+HAVE_VERIFY    0.013580
+#yes           0.009223
+dtype: float64","count    291.000000
+mean      33.526026
+std       29.872550
+min        6.275246
+25%       12.190195
+50%       20.211519
+75%       49.153206
+max      107.507363
+Name: % error, dtype: float64",5
+82,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",Ridge(alpha=0.01),Performance,0.2,"HAVE_CRYPTO    2.209475
+HAVE_HASH      0.739055
+DIAGNOSTIC     0.236849
+HAVE_VERIFY    0.081273
+#yes           0.027339
+dtype: float64","count    291.000000
+mean      36.291822
+std       37.035218
+min        2.794663
+25%       10.342682
+50%       17.730197
+75%       54.697037
+max      141.640912
+Name: % error, dtype: float64",5
+83,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.2,"HAVE_CRYPTO    2.175055
+HAVE_HASH      0.672523
+DIAGNOSTIC     0.206522
+HAVE_VERIFY    0.013580
+#yes           0.009223
+dtype: float64","count    291.000000
+mean      33.526026
+std       29.872550
+min        6.275246
+25%       12.190195
+50%       20.211519
+75%       49.153206
+max      107.507363
+Name: % error, dtype: float64",5
+84,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO    1.369099
+HAVE_HASH      0.080733
+HAVE_VERIFY    0.032220
+DIAGNOSTIC     0.029667
+#yes           0.010829
+dtype: float64","count    291.000000
+mean       0.883835
+std        0.866033
+min        0.004574
+25%        0.298627
+50%        0.595843
+75%        1.088194
+max        4.777022
+Name: % error, dtype: float64",5
+85,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",RandomForestRegressor(),Performance,0.2,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    291.000000
+mean       0.715974
+std        0.703780
+min        0.004439
+25%        0.237678
+50%        0.528933
+75%        0.919960
+max        4.160306
+Name: % error, dtype: float64",5
+86,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",GradientBoostingRegressor(),Performance,0.2,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+4    HAVE_VERIFY
+3           #yes
+Name: feature, dtype: object","count    291.000000
+mean       0.693990
+std        0.646842
+min        0.003881
+25%        0.223427
+50%        0.505648
+75%        0.923129
+max        3.397463
+Name: % error, dtype: float64",5
+87,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",DecisionTreeRegressor(),Performance,0.2,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    291.000000
+mean       0.773643
+std        0.757976
+min        0.000547
+25%        0.246444
+50%        0.567606
+75%        1.021890
+max        4.293304
+Name: % error, dtype: float64",5
+88,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO    2.248749
+HAVE_HASH      0.724205
+DIAGNOSTIC     0.145194
+HAVE_VERIFY    0.050841
+#yes           0.008326
+dtype: float64","count    255.000000
+mean      37.067779
+std       34.332188
+min        4.808118
+25%        9.059517
+50%       22.414326
+75%       56.254055
+max      120.013568
+Name: % error, dtype: float64",5
+89,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.3,"HAVE_CRYPTO    2.207566
+HAVE_HASH      0.664413
+DIAGNOSTIC     0.110947
+HAVE_VERIFY    0.000287
+dtype: float64","count    255.000000
+mean      33.995459
+std       27.775569
+min        7.425451
+25%       10.299456
+50%       31.472672
+75%       52.612578
+max       91.541139
+Name: % error, dtype: float64",5
+90,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",Ridge(alpha=0.1),Performance,0.3,"HAVE_CRYPTO    2.237523
+HAVE_HASH      0.721839
+DIAGNOSTIC     0.142274
+HAVE_VERIFY    0.052921
+#yes           0.010474
+dtype: float64","count    255.000000
+mean      36.741360
+std       33.576168
+min        5.055426
+25%        9.214605
+50%       22.763528
+75%       55.428946
+max      118.865002
+Name: % error, dtype: float64",5
+91,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.3,"HAVE_CRYPTO    2.207566
+HAVE_HASH      0.664413
+DIAGNOSTIC     0.110947
+HAVE_VERIFY    0.000287
+dtype: float64","count    255.000000
+mean      33.995459
+std       27.775569
+min        7.425451
+25%       10.299456
+50%       31.472672
+75%       52.612578
+max       91.541139
+Name: % error, dtype: float64",5
+92,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO    1.352278
+HAVE_HASH      0.087321
+DIAGNOSTIC     0.018695
+HAVE_VERIFY    0.015905
+#yes           0.007877
+dtype: float64","count    255.000000
+mean       0.866066
+std        0.981618
+min        0.003231
+25%        0.257404
+50%        0.512055
+75%        1.079347
+max        4.588007
+Name: % error, dtype: float64",5
+93,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",RandomForestRegressor(),Performance,0.3,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    255.000000
+mean       0.654099
+std        0.667850
+min        0.006001
+25%        0.192849
+50%        0.463873
+75%        0.911664
+max        4.305559
+Name: % error, dtype: float64",5
+94,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",GradientBoostingRegressor(),Performance,0.3,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+4    HAVE_VERIFY
+3           #yes
+Name: feature, dtype: object","count    255.000000
+mean       0.712336
+std        0.702447
+min        0.001004
+25%        0.226557
+50%        0.489962
+75%        0.927565
+max        4.331146
+Name: % error, dtype: float64",5
+95,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",DecisionTreeRegressor(),Performance,0.3,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    255.000000
+mean       0.667673
+std        0.676591
+min        0.001423
+25%        0.219983
+50%        0.469428
+75%        0.926027
+max        4.416049
+Name: % error, dtype: float64",5
+96,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO    2.214655
+HAVE_HASH      0.711145
+DIAGNOSTIC     0.119839
+HAVE_VERIFY    0.030250
+#yes           0.005710
+dtype: float64","count    218.000000
+mean      36.544509
+std       32.164474
+min        6.370336
+25%        9.547661
+50%       28.810863
+75%       60.368133
+max      107.832523
+Name: % error, dtype: float64",5
+97,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.4,"HAVE_CRYPTO    2.167718
+HAVE_HASH      0.652585
+DIAGNOSTIC     0.081065
+dtype: float64","count    218.000000
+mean      33.347037
+std       25.570723
+min        8.864946
+25%       10.694374
+50%       35.749116
+75%       56.846913
+max       82.324494
+Name: % error, dtype: float64",5
+98,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",Ridge(alpha=0.02),Performance,0.4,"HAVE_CRYPTO    2.213086
+HAVE_HASH      0.710770
+DIAGNOSTIC     0.119462
+HAVE_VERIFY    0.030376
+#yes           0.005951
+dtype: float64","count    218.000000
+mean      36.500521
+std       32.056058
+min        6.407069
+25%        9.567280
+50%       28.882769
+75%       60.148128
+max      107.626786
+Name: % error, dtype: float64",5
+99,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.4,"HAVE_CRYPTO    2.167718
+HAVE_HASH      0.652585
+DIAGNOSTIC     0.081065
+dtype: float64","count    218.000000
+mean      33.347037
+std       25.570723
+min        8.864946
+25%       10.694374
+50%       35.749116
+75%       56.846913
+max       82.324494
+Name: % error, dtype: float64",5
+100,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO    1.344516
+HAVE_HASH      0.088258
+DIAGNOSTIC     0.024644
+HAVE_VERIFY    0.013212
+#yes           0.004994
+dtype: float64","count    218.000000
+mean       0.803203
+std        0.835680
+min        0.004520
+25%        0.219129
+50%        0.540531
+75%        1.083440
+max        3.724047
+Name: % error, dtype: float64",5
+101,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",RandomForestRegressor(),Performance,0.4,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    218.000000
+mean       0.577430
+std        0.587388
+min        0.004687
+25%        0.180664
+50%        0.406330
+75%        0.789663
+max        4.215675
+Name: % error, dtype: float64",5
+102,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",GradientBoostingRegressor(),Performance,0.4,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+4    HAVE_VERIFY
+3           #yes
+Name: feature, dtype: object","count    218.000000
+mean       0.608235
+std        0.598875
+min        0.001945
+25%        0.189880
+50%        0.456406
+75%        0.784724
+max        3.735199
+Name: % error, dtype: float64",5
+103,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",DecisionTreeRegressor(),Performance,0.4,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    218.000000
+mean       0.607659
+std        0.628098
+min        0.001423
+25%        0.203025
+50%        0.410163
+75%        0.836834
+max        4.416049
+Name: % error, dtype: float64",5
+104,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO    2.246150
+HAVE_HASH      0.680186
+DIAGNOSTIC     0.109006
+HAVE_VERIFY    0.021139
+#yes           0.008103
+dtype: float64","count    182.000000
+mean      36.072935
+std       32.243649
+min        6.422633
+25%        9.359724
+50%       28.085102
+75%       67.873484
+max      105.899521
+Name: % error, dtype: float64",5
+105,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.5,"HAVE_CRYPTO    2.187348
+HAVE_HASH      0.638025
+DIAGNOSTIC     0.060374
+dtype: float64","count    182.000000
+mean      32.771005
+std       25.451913
+min        9.000095
+25%       10.412994
+50%       32.749247
+75%       63.936247
+max       79.342398
+Name: % error, dtype: float64",5
+106,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",Ridge(alpha=0.01),Performance,0.5,"HAVE_CRYPTO    2.245496
+HAVE_HASH      0.680073
+DIAGNOSTIC     0.108843
+HAVE_VERIFY    0.021227
+#yes           0.007983
+dtype: float64","count    182.000000
+mean      36.053673
+std       32.197661
+min        6.437216
+25%        9.371459
+50%       28.133031
+75%       67.798603
+max      105.734216
+Name: % error, dtype: float64",5
+107,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.5,"HAVE_CRYPTO    2.187348
+HAVE_HASH      0.638025
+DIAGNOSTIC     0.060374
+dtype: float64","count    182.000000
+mean      32.771005
+std       25.451913
+min        9.000095
+25%       10.412994
+50%       32.749247
+75%       63.936247
+max       79.342398
+Name: % error, dtype: float64",5
+108,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO    1.341738
+HAVE_HASH      0.080860
+DIAGNOSTIC     0.021630
+HAVE_VERIFY    0.013241
+#yes           0.000020
+dtype: float64","count    182.000000
+mean       0.808306
+std        0.847862
+min        0.010153
+25%        0.220597
+50%        0.508389
+75%        0.998430
+max        3.565833
+Name: % error, dtype: float64",5
+109,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",RandomForestRegressor(),Performance,0.5,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    182.000000
+mean       0.566749
+std        0.613438
+min        0.007212
+25%        0.171003
+50%        0.374853
+75%        0.819593
+max        4.236048
+Name: % error, dtype: float64",5
+110,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",GradientBoostingRegressor(),Performance,0.5,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+4    HAVE_VERIFY
+3           #yes
+Name: feature, dtype: object","count    182.000000
+mean       0.599375
+std        0.597273
+min        0.000427
+25%        0.181681
+50%        0.431923
+75%        0.843375
+max        3.441871
+Name: % error, dtype: float64",5
+111,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",DecisionTreeRegressor(),Performance,0.5,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    182.000000
+mean       0.587852
+std        0.654166
+min        0.001423
+25%        0.183087
+50%        0.388550
+75%        0.789730
+max        4.416049
+Name: % error, dtype: float64",5
+112,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO    2.229125
+HAVE_HASH      0.676752
+DIAGNOSTIC     0.075207
+#yes           0.006324
+HAVE_VERIFY    0.000468
+dtype: float64","count    146.000000
+mean      35.085934
+std       29.575387
+min        7.349511
+25%        9.128892
+50%       33.932676
+75%       70.256906
+max       92.708181
+Name: % error, dtype: float64",5
+113,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    2.176171
+HAVE_HASH      0.635385
+DIAGNOSTIC     0.026953
+dtype: float64","count    146.000000
+mean      32.308319
+std       23.899101
+min        8.822067
+25%       10.266502
+50%       32.095349
+75%       64.220718
+max       70.774856
+Name: % error, dtype: float64",5
+114,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",Ridge(alpha=0.2),Performance,0.6,"HAVE_CRYPTO    2.218101
+HAVE_HASH      0.675488
+DIAGNOSTIC     0.072438
+#yes           0.004027
+HAVE_VERIFY    0.002757
+dtype: float64","count    146.000000
+mean      34.789076
+std       28.846815
+min        7.577194
+25%        9.275261
+50%       34.747710
+75%       69.134840
+max       89.992423
+Name: % error, dtype: float64",5
+115,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    2.176171
+HAVE_HASH      0.635385
+DIAGNOSTIC     0.026953
+dtype: float64","count    146.000000
+mean      32.308319
+std       23.899101
+min        8.822067
+25%       10.266502
+50%       32.095349
+75%       64.220718
+max       70.774856
+Name: % error, dtype: float64",5
+116,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO    1.343642
+HAVE_HASH      0.080123
+DIAGNOSTIC     0.023511
+HAVE_VERIFY    0.015862
+#yes           0.002022
+dtype: float64","count    146.000000
+mean       0.863807
+std        0.911090
+min        0.003469
+25%        0.254449
+50%        0.525003
+75%        1.070960
+max        3.853616
+Name: % error, dtype: float64",5
+117,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",RandomForestRegressor(),Performance,0.6,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    146.000000
+mean       0.554904
+std        0.559419
+min        0.004791
+25%        0.205056
+50%        0.366180
+75%        0.700187
+max        3.367432
+Name: % error, dtype: float64",5
+118,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",GradientBoostingRegressor(),Performance,0.6,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+4    HAVE_VERIFY
+3           #yes
+Name: feature, dtype: object","count    146.000000
+mean       0.588126
+std        0.608142
+min        0.002293
+25%        0.158368
+50%        0.428445
+75%        0.751040
+max        3.210144
+Name: % error, dtype: float64",5
+119,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",DecisionTreeRegressor(),Performance,0.6,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    146.000000
+mean       0.571321
+std        0.589569
+min        0.001423
+25%        0.207863
+50%        0.389320
+75%        0.684370
+max        3.355382
+Name: % error, dtype: float64",5
+120,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO    2.240398
+HAVE_HASH      0.685264
+DIAGNOSTIC     0.072176
+#yes           0.002790
+HAVE_VERIFY    0.001532
+dtype: float64","count    109.000000
+mean      36.606989
+std       30.664396
+min        6.827195
+25%        8.548060
+50%       35.903668
+75%       71.630838
+max       90.814144
+Name: % error, dtype: float64",5
+121,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    2.193439
+HAVE_HASH      0.640940
+DIAGNOSTIC     0.025387
+dtype: float64","count    109.000000
+mean      33.515723
+std       24.574952
+min        8.101496
+25%        9.804792
+50%       33.125115
+75%       64.768072
+max       70.704385
+Name: % error, dtype: float64",5
+122,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",Ridge(alpha=0.1),Performance,0.7,"HAVE_CRYPTO    2.235705
+HAVE_HASH      0.684821
+DIAGNOSTIC     0.071009
+#yes           0.001799
+HAVE_VERIFY    0.000669
+dtype: float64","count    109.000000
+mean      36.464280
+std       30.343194
+min        6.920102
+25%        8.609364
+50%       36.189044
+75%       71.079590
+max       89.647685
+Name: % error, dtype: float64",5
+123,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    2.193439
+HAVE_HASH      0.640940
+DIAGNOSTIC     0.025387
+dtype: float64","count    109.000000
+mean      33.515723
+std       24.574952
+min        8.101496
+25%        9.804792
+50%       33.125115
+75%       64.768072
+max       70.704385
+Name: % error, dtype: float64",5
+124,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO    1.347157
+HAVE_HASH      0.078508
+DIAGNOSTIC     0.027101
+HAVE_VERIFY    0.020454
+#yes           0.006564
+dtype: float64","count    109.000000
+mean       0.897634
+std        0.985788
+min        0.025482
+25%        0.203128
+50%        0.501288
+75%        1.065300
+max        4.211263
+Name: % error, dtype: float64",5
+125,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",RandomForestRegressor(),Performance,0.7,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    109.000000
+mean       0.605098
+std        0.608063
+min        0.000042
+25%        0.180772
+50%        0.398249
+75%        0.833700
+max        3.335303
+Name: % error, dtype: float64",5
+126,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",GradientBoostingRegressor(),Performance,0.7,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+4    HAVE_VERIFY
+3           #yes
+Name: feature, dtype: object","count    109.000000
+mean       0.585337
+std        0.647747
+min        0.002471
+25%        0.116520
+50%        0.341057
+75%        0.822125
+max        3.076532
+Name: % error, dtype: float64",5
+127,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",DecisionTreeRegressor(),Performance,0.7,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    109.000000
+mean       0.631376
+std        0.644551
+min        0.001423
+25%        0.178843
+50%        0.396887
+75%        0.873390
+max        3.355382
+Name: % error, dtype: float64",5
+128,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO    2.215907
+HAVE_HASH      0.692278
+DIAGNOSTIC     0.048269
+HAVE_VERIFY    0.013996
+#yes           0.005043
+dtype: float64","count    73.000000
+mean     35.705056
+std      27.891574
+min       7.360383
+25%       8.384355
+50%      37.359574
+75%      67.294748
+max      85.225460
+Name: % error, dtype: float64",5
+129,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.8,"HAVE_CRYPTO    2.176985
+HAVE_HASH      0.644252
+DIAGNOSTIC     0.008954
+#yes           0.002159
+dtype: float64","count    73.000000
+mean     33.355187
+std      23.247089
+min       8.053500
+25%       9.911037
+50%      34.945060
+75%      62.749085
+max      65.409177
+Name: % error, dtype: float64",5
+130,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",Ridge(alpha=0.1),Performance,0.8,"HAVE_CRYPTO    2.211899
+HAVE_HASH      0.691958
+DIAGNOSTIC     0.047431
+HAVE_VERIFY    0.014702
+#yes           0.005875
+dtype: float64","count    73.000000
+mean     35.611681
+std      27.662765
+min       7.437472
+25%       8.464189
+50%      37.474421
+75%      66.435810
+max      84.738934
+Name: % error, dtype: float64",5
+131,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.8,"HAVE_CRYPTO    2.176985
+HAVE_HASH      0.644252
+DIAGNOSTIC     0.008954
+#yes           0.002159
+dtype: float64","count    73.000000
+mean     33.355187
+std      23.247089
+min       8.053500
+25%       9.911037
+50%      34.945060
+75%      62.749085
+max      65.409177
+Name: % error, dtype: float64",5
+132,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO    1.347939
+HAVE_HASH      0.077745
+DIAGNOSTIC     0.024486
+HAVE_VERIFY    0.019216
+#yes           0.002542
+dtype: float64","count    73.000000
+mean      0.955235
+std       0.995224
+min       0.003722
+25%       0.251929
+50%       0.577932
+75%       1.356070
+max       4.105455
+Name: % error, dtype: float64",5
+133,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",RandomForestRegressor(),Performance,0.8,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    73.000000
+mean      0.638267
+std       0.639786
+min       0.006133
+25%       0.179766
+50%       0.481257
+75%       0.875519
+max       3.052483
+Name: % error, dtype: float64",5
+134,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",GradientBoostingRegressor(),Performance,0.8,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+4    HAVE_VERIFY
+3           #yes
+Name: feature, dtype: object","count    73.000000
+mean      0.641614
+std       0.726086
+min       0.001008
+25%       0.130774
+50%       0.430144
+75%       0.907640
+max       3.024789
+Name: % error, dtype: float64",5
+135,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",DecisionTreeRegressor(),Performance,0.8,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    73.000000
+mean      0.652241
+std       0.653910
+min       0.007050
+25%       0.187533
+50%       0.416752
+75%       0.905792
+max       2.995679
+Name: % error, dtype: float64",5
+136,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO    2.224077
+HAVE_HASH      0.687234
+DIAGNOSTIC     0.044228
+#yes           0.003641
+HAVE_VERIFY    0.002188
+dtype: float64","count    37.000000
+mean     35.924373
+std      27.685845
+min       7.045380
+25%       8.128601
+50%      37.481244
+75%      70.053440
+max      80.973254
+Name: % error, dtype: float64",5
+137,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.9,"HAVE_CRYPTO    2.182668
+HAVE_HASH      0.643243
+#yes           0.004089
+DIAGNOSTIC     0.001327
+dtype: float64","count    37.000000
+mean     33.870533
+std      23.436936
+min       7.777064
+25%       9.579371
+50%      34.293189
+75%      60.657614
+max      64.728977
+Name: % error, dtype: float64",5
+138,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",Ridge(alpha=0.2),Performance,0.9,"HAVE_CRYPTO    2.217125
+HAVE_HASH      0.686661
+DIAGNOSTIC     0.042720
+#yes           0.005042
+HAVE_VERIFY    0.003411
+dtype: float64","count    37.000000
+mean     35.727071
+std      27.255138
+min       7.181140
+25%       8.310661
+50%      37.914594
+75%      68.955285
+max      79.747594
+Name: % error, dtype: float64",5
+139,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.9,"HAVE_CRYPTO    2.182668
+HAVE_HASH      0.643243
+#yes           0.004089
+DIAGNOSTIC     0.001327
+dtype: float64","count    37.000000
+mean     33.870533
+std      23.436936
+min       7.777064
+25%       9.579371
+50%      34.293189
+75%      60.657614
+max      64.728977
+Name: % error, dtype: float64",5
+140,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO    1.351317
+HAVE_HASH      0.077424
+DIAGNOSTIC     0.023994
+HAVE_VERIFY    0.017571
+#yes           0.003252
+dtype: float64","count    37.000000
+mean      0.948561
+std       0.981570
+min       0.019984
+25%       0.294219
+50%       0.676911
+75%       1.330738
+max       3.988106
+Name: % error, dtype: float64",5
+141,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",RandomForestRegressor(),Performance,0.9,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    37.000000
+mean      0.679619
+std       0.650161
+min       0.014116
+25%       0.202886
+50%       0.521884
+75%       0.943763
+max       2.889620
+Name: % error, dtype: float64",5
+142,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",GradientBoostingRegressor(),Performance,0.9,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+4    HAVE_VERIFY
+3           #yes
+Name: feature, dtype: object","count    37.000000
+mean      0.615736
+std       0.719003
+min       0.000913
+25%       0.087579
+50%       0.326546
+75%       0.969441
+max       2.822377
+Name: % error, dtype: float64",5
+143,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY'], dtype='object')",DecisionTreeRegressor(),Performance,0.9,"0    HAVE_CRYPTO
+1      HAVE_HASH
+2     DIAGNOSTIC
+3           #yes
+4    HAVE_VERIFY
+Name: feature, dtype: object","count    37.000000
+mean      0.718971
+std       0.678204
+min       0.020971
+25%       0.206110
+50%       0.570974
+75%       0.962351
+max       2.846270
+Name: % error, dtype: float64",5
+144,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO        2.269704
+HAVE_HASH          0.830040
+DIAGNOSTIC         0.343672
+HAVE_VERIFY        0.038655
+#yes               0.007901
+HAVE_STATISTICS    0.006609
+dtype: float64","count    327.000000
+mean      41.121188
+std       45.477623
+min        0.027832
+25%        9.163940
+50%       18.945487
+75%       64.335758
+max      157.429041
+Name: % error, dtype: float64",6
+145,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.1,"HAVE_CRYPTO    2.221966
+HAVE_HASH      0.759511
+DIAGNOSTIC     0.281289
+#yes           0.006625
+dtype: float64","count    327.000000
+mean      37.473909
+std       37.260577
+min        2.382839
+25%       10.236538
+50%       24.641075
+75%       60.959941
+max      128.631362
+Name: % error, dtype: float64",6
+146,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.1,"HAVE_CRYPTO        2.265346
+HAVE_HASH          0.829641
+DIAGNOSTIC         0.341437
+HAVE_VERIFY        0.040173
+#yes               0.009286
+HAVE_STATISTICS    0.005090
+dtype: float64","count    327.000000
+mean      41.001758
+std       45.233548
+min        0.090743
+25%        9.224048
+50%       18.926884
+75%       64.142833
+max      157.018512
+Name: % error, dtype: float64",6
+147,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.1,"HAVE_CRYPTO    2.221966
+HAVE_HASH      0.759511
+DIAGNOSTIC     0.281289
+#yes           0.006625
+dtype: float64","count    327.000000
+mean      37.473909
+std       37.260577
+min        2.382839
+25%       10.236538
+50%       24.641075
+75%       60.959941
+max      128.631362
+Name: % error, dtype: float64",6
+148,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO        1.270928
+HAVE_STATISTICS    0.076840
+#yes               0.063560
+HAVE_HASH          0.062452
+HAVE_VERIFY        0.050326
+DIAGNOSTIC         0.014531
+dtype: float64","count    327.000000
+mean       2.135069
+std        2.979915
+min        0.000676
+25%        0.319075
+50%        0.896508
+75%        2.012410
+max       14.224385
+Name: % error, dtype: float64",6
+149,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    327.000000
+mean       4.395282
+std        6.986435
+min        0.000253
+25%        0.298298
+50%        0.737501
+75%        7.806709
+max       25.504405
+Name: % error, dtype: float64",6
+150,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+4        HAVE_VERIFY
+3               #yes
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    327.000000
+mean       2.905860
+std        4.798809
+min        0.002113
+25%        0.356983
+50%        0.918039
+75%        2.766072
+max       19.178507
+Name: % error, dtype: float64",6
+151,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    327.000000
+mean       6.619087
+std       13.198481
+min        0.000547
+25%        0.318595
+50%        0.720324
+75%        6.142482
+max       58.825043
+Name: % error, dtype: float64",6
+152,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO        2.186320
+HAVE_HASH          0.765201
+DIAGNOSTIC         0.200222
+HAVE_VERIFY        0.122583
+HAVE_STATISTICS    0.100158
+#yes               0.063467
+dtype: float64","count    291.000000
+mean      35.664909
+std       36.835499
+min        1.031595
+25%        9.629732
+50%       18.070420
+75%       53.841993
+max      151.652360
+Name: % error, dtype: float64",6
+153,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.2,"HAVE_CRYPTO    2.174957
+HAVE_HASH      0.672600
+DIAGNOSTIC     0.206444
+HAVE_VERIFY    0.013668
+#yes           0.009285
+dtype: float64","count    291.000000
+mean      33.526130
+std       29.871668
+min        6.273596
+25%       12.188871
+50%       20.198001
+75%       49.148615
+max      107.530933
+Name: % error, dtype: float64",6
+154,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.05),Performance,0.2,"HAVE_CRYPTO        2.178110
+HAVE_HASH          0.763067
+DIAGNOSTIC         0.197950
+HAVE_VERIFY        0.124058
+HAVE_STATISTICS    0.101409
+#yes               0.065189
+dtype: float64","count    291.000000
+mean      35.414471
+std       36.360387
+min        1.149922
+25%        9.762513
+50%       18.103825
+75%       53.242784
+max      150.492851
+Name: % error, dtype: float64",6
+155,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.2,"HAVE_CRYPTO    2.174957
+HAVE_HASH      0.672600
+DIAGNOSTIC     0.206444
+HAVE_VERIFY    0.013668
+#yes           0.009285
+dtype: float64","count    291.000000
+mean      33.526130
+std       29.871668
+min        6.273596
+25%       12.188871
+50%       20.198001
+75%       49.148615
+max      107.530933
+Name: % error, dtype: float64",6
+156,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO        1.302941
+HAVE_HASH          0.113319
+#yes               0.059024
+HAVE_STATISTICS    0.046418
+DIAGNOSTIC         0.017476
+HAVE_VERIFY        0.004198
+dtype: float64","count    291.000000
+mean       1.039938
+std        1.005120
+min        0.003715
+25%        0.324379
+50%        0.654275
+75%        1.489643
+max        4.443444
+Name: % error, dtype: float64",6
+157,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    291.000000
+mean       0.688246
+std        0.735789
+min        0.001575
+25%        0.183820
+50%        0.477007
+75%        0.878924
+max        4.546696
+Name: % error, dtype: float64",6
+158,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+4        HAVE_VERIFY
+3               #yes
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    291.000000
+mean       0.727658
+std        0.680311
+min        0.003324
+25%        0.228513
+50%        0.542635
+75%        0.988515
+max        3.964477
+Name: % error, dtype: float64",6
+159,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    291.000000
+mean       0.703332
+std        0.722535
+min        0.000547
+25%        0.243670
+50%        0.532049
+75%        0.893992
+max        4.515829
+Name: % error, dtype: float64",6
+160,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO        2.220962
+HAVE_HASH          0.758923
+DIAGNOSTIC         0.112465
+HAVE_STATISTICS    0.096215
+HAVE_VERIFY        0.089359
+#yes               0.043251
+dtype: float64","count    255.000000
+mean      37.017501
+std       34.614148
+min        2.802761
+25%        9.443685
+50%       19.270047
+75%       57.130248
+max      135.779151
+Name: % error, dtype: float64",6
+161,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.3,"HAVE_CRYPTO        2.207577
+HAVE_HASH          0.664423
+DIAGNOSTIC         0.110947
+HAVE_VERIFY        0.000275
+HAVE_STATISTICS    0.000178
+dtype: float64","count    255.000000
+mean      33.996112
+std       27.775584
+min        7.427453
+25%       10.301855
+50%       31.455986
+75%       52.610018
+max       91.563890
+Name: % error, dtype: float64",6
+162,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.3,"HAVE_CRYPTO        2.198298
+HAVE_HASH          0.754800
+DIAGNOSTIC         0.106228
+HAVE_STATISTICS    0.099463
+HAVE_VERIFY        0.093919
+#yes               0.048273
+dtype: float64","count    255.000000
+mean      36.361810
+std       33.199067
+min        3.091239
+25%        9.668938
+50%       20.167078
+75%       54.364446
+max      132.875614
+Name: % error, dtype: float64",6
+163,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.1, max_iter=5)",Performance,0.3,"HAVE_CRYPTO        2.130548
+HAVE_HASH          0.713999
+DIAGNOSTIC         0.101140
+HAVE_STATISTICS    0.085324
+HAVE_VERIFY        0.084734
+#yes               0.048066
+dtype: float64","count    255.000000
+mean      33.644035
+std       27.473678
+min        5.144438
+25%       10.732693
+50%       23.053395
+75%       52.010805
+max      113.987810
+Name: % error, dtype: float64",6
+164,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO        1.302741
+HAVE_HASH          0.112525
+#yes               0.064210
+HAVE_STATISTICS    0.048294
+HAVE_VERIFY        0.007375
+DIAGNOSTIC         0.000113
+dtype: float64","count    255.000000
+mean       0.955268
+std        1.094234
+min        0.001062
+25%        0.264795
+50%        0.534642
+75%        1.155978
+max        4.928624
+Name: % error, dtype: float64",6
+165,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    255.000000
+mean       0.609521
+std        0.586412
+min        0.001165
+25%        0.189308
+50%        0.467667
+75%        0.876548
+max        3.935924
+Name: % error, dtype: float64",6
+166,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+4        HAVE_VERIFY
+3               #yes
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    255.000000
+mean       0.697780
+std        0.699483
+min        0.007095
+25%        0.200597
+50%        0.478282
+75%        0.921114
+max        4.380089
+Name: % error, dtype: float64",6
+167,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    255.000000
+mean       0.625240
+std        0.585855
+min        0.000946
+25%        0.184977
+50%        0.443506
+75%        0.941095
+max        4.110345
+Name: % error, dtype: float64",6
+168,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO        2.190671
+HAVE_HASH          0.746658
+DIAGNOSTIC         0.090098
+HAVE_STATISTICS    0.081621
+HAVE_VERIFY        0.065178
+#yes               0.035056
+dtype: float64","count    218.000000
+mean      37.085569
+std       33.359140
+min        4.817803
+25%        9.573674
+50%       25.819234
+75%       56.712120
+max      123.391525
+Name: % error, dtype: float64",6
+169,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.4,"HAVE_CRYPTO    2.167715
+HAVE_HASH      0.652585
+DIAGNOSTIC     0.081065
+dtype: float64","count    218.000000
+mean      33.346976
+std       25.570529
+min        8.865009
+25%       10.694432
+50%       35.749406
+75%       56.846612
+max       82.323937
+Name: % error, dtype: float64",6
+170,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.05),Performance,0.4,"HAVE_CRYPTO        2.186675
+HAVE_HASH          0.745849
+DIAGNOSTIC         0.089062
+HAVE_STATISTICS    0.082173
+HAVE_VERIFY        0.065600
+#yes               0.035791
+dtype: float64","count    218.000000
+mean      36.977412
+std       33.101758
+min        4.879164
+25%        9.587263
+50%       25.880859
+75%       56.705962
+max      122.818477
+Name: % error, dtype: float64",6
+171,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.4,"HAVE_CRYPTO    2.167715
+HAVE_HASH      0.652585
+DIAGNOSTIC     0.081065
+dtype: float64","count    218.000000
+mean      33.346976
+std       25.570529
+min        8.865009
+25%       10.694432
+50%       35.749406
+75%       56.846612
+max       82.323937
+Name: % error, dtype: float64",6
+172,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO        1.309243
+HAVE_HASH          0.116698
+#yes               0.053370
+HAVE_STATISTICS    0.041908
+HAVE_VERIFY        0.008182
+DIAGNOSTIC         0.006124
+dtype: float64","count    218.000000
+mean       0.965749
+std        1.060849
+min        0.000285
+25%        0.252170
+50%        0.542672
+75%        1.217536
+max        4.450770
+Name: % error, dtype: float64",6
+173,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    218.000000
+mean       0.531991
+std        0.534634
+min        0.000262
+25%        0.133513
+50%        0.407779
+75%        0.777292
+max        3.898470
+Name: % error, dtype: float64",6
+174,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+4        HAVE_VERIFY
+3               #yes
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    218.000000
+mean       0.568411
+std        0.574534
+min        0.000905
+25%        0.181058
+50%        0.425358
+75%        0.721193
+max        3.744016
+Name: % error, dtype: float64",6
+175,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    218.000000
+mean       0.566914
+std        0.578666
+min        0.000946
+25%        0.155233
+50%        0.397397
+75%        0.865752
+max        4.110345
+Name: % error, dtype: float64",6
+176,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO        2.229810
+HAVE_HASH          0.698649
+DIAGNOSTIC         0.094444
+HAVE_STATISTICS    0.046677
+HAVE_VERIFY        0.037769
+#yes               0.007592
+dtype: float64","count    182.000000
+mean      36.266000
+std       32.323873
+min        5.858156
+25%        9.560624
+50%       25.578214
+75%       63.314233
+max      110.239825
+Name: % error, dtype: float64",6
+177,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.5,"HAVE_CRYPTO    2.187348
+HAVE_HASH      0.638025
+DIAGNOSTIC     0.060374
+dtype: float64","count    182.000000
+mean      32.771005
+std       25.451915
+min        9.000095
+25%       10.412993
+50%       32.749245
+75%       63.936252
+max       79.342403
+Name: % error, dtype: float64",6
+178,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.5,"HAVE_CRYPTO        2.215938
+HAVE_HASH          0.697388
+DIAGNOSTIC         0.090470
+HAVE_STATISTICS    0.049764
+HAVE_VERIFY        0.040365
+#yes               0.010867
+dtype: float64","count    182.000000
+mean      35.892198
+std       31.441303
+min        6.109598
+25%        9.773578
+50%       26.021341
+75%       61.326353
+max      108.825630
+Name: % error, dtype: float64",6
+179,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.5,"HAVE_CRYPTO    2.187348
+HAVE_HASH      0.638025
+DIAGNOSTIC     0.060374
+dtype: float64","count    182.000000
+mean      32.771005
+std       25.451915
+min        9.000095
+25%       10.412993
+50%       32.749245
+75%       63.936252
+max       79.342403
+Name: % error, dtype: float64",6
+180,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO        1.307653
+HAVE_HASH          0.107844
+#yes               0.049159
+HAVE_STATISTICS    0.042543
+HAVE_VERIFY        0.012386
+DIAGNOSTIC         0.001285
+dtype: float64","count    182.000000
+mean       0.901182
+std        0.991081
+min        0.001273
+25%        0.235766
+50%        0.514912
+75%        1.007972
+max        3.977536
+Name: % error, dtype: float64",6
+181,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    182.000000
+mean       0.515167
+std        0.540833
+min        0.003295
+25%        0.143544
+50%        0.337859
+75%        0.719652
+max        3.774988
+Name: % error, dtype: float64",6
+182,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+4        HAVE_VERIFY
+3               #yes
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    182.000000
+mean       0.558906
+std        0.588155
+min        0.000618
+25%        0.178660
+50%        0.377764
+75%        0.675279
+max        3.383949
+Name: % error, dtype: float64",6
+183,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    182.000000
+mean       0.525981
+std        0.589264
+min        0.001423
+25%        0.139021
+50%        0.307571
+75%        0.742640
+max        4.110345
+Name: % error, dtype: float64",6
+184,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO        2.209317
+HAVE_HASH          0.697153
+DIAGNOSTIC         0.057830
+HAVE_STATISTICS    0.051557
+HAVE_VERIFY        0.018963
+#yes               0.012369
+dtype: float64","count    146.000000
+mean      35.261249
+std       29.593383
+min        6.796114
+25%        9.603922
+50%       32.012203
+75%       63.239602
+max       98.889565
+Name: % error, dtype: float64",6
+185,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    2.176170
+HAVE_HASH      0.635384
+DIAGNOSTIC     0.026953
+dtype: float64","count    146.000000
+mean      32.308291
+std       23.899019
+min        8.822095
+25%       10.266530
+50%       32.095467
+75%       64.220489
+max       70.774616
+Name: % error, dtype: float64",6
+186,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.3),Performance,0.6,"HAVE_CRYPTO        2.191408
+HAVE_HASH          0.696730
+HAVE_STATISTICS    0.056095
+DIAGNOSTIC         0.052493
+HAVE_VERIFY        0.023630
+#yes               0.017233
+dtype: float64","count    146.000000
+mean      34.829761
+std       28.565267
+min        6.992595
+25%        9.872568
+50%       32.130140
+75%       59.747848
+max       97.530687
+Name: % error, dtype: float64",6
+187,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    2.176170
+HAVE_HASH      0.635384
+DIAGNOSTIC     0.026953
+dtype: float64","count    146.000000
+mean      32.308291
+std       23.899019
+min        8.822095
+25%       10.266530
+50%       32.095467
+75%       64.220489
+max       70.774616
+Name: % error, dtype: float64",6
+188,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO        1.315188
+HAVE_HASH          0.106774
+#yes               0.041791
+HAVE_STATISTICS    0.039628
+HAVE_VERIFY        0.006706
+DIAGNOSTIC         0.005121
+dtype: float64","count    146.000000
+mean       0.943210
+std        0.998305
+min        0.006355
+25%        0.246347
+50%        0.566783
+75%        1.059883
+max        3.732519
+Name: % error, dtype: float64",6
+189,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    146.000000
+mean       0.496803
+std        0.549044
+min        0.010991
+25%        0.147822
+50%        0.347503
+75%        0.579684
+max        3.865491
+Name: % error, dtype: float64",6
+190,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+4        HAVE_VERIFY
+3               #yes
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    146.000000
+mean       0.552501
+std        0.600883
+min        0.001419
+25%        0.130585
+50%        0.397228
+75%        0.675925
+max        3.180694
+Name: % error, dtype: float64",6
+191,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    146.000000
+mean       0.506655
+std        0.598291
+min        0.001423
+25%        0.139531
+50%        0.314604
+75%        0.575022
+max        4.087941
+Name: % error, dtype: float64",6
+192,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO        2.225611
+HAVE_HASH          0.699543
+DIAGNOSTIC         0.058479
+HAVE_STATISTICS    0.038150
+HAVE_VERIFY        0.012484
+#yes               0.010895
+dtype: float64","count    109.000000
+mean      36.667769
+std       30.575537
+min        6.769281
+25%        9.162855
+50%       34.080537
+75%       68.429639
+max       96.400247
+Name: % error, dtype: float64",6
+193,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    2.193439
+HAVE_HASH      0.640940
+DIAGNOSTIC     0.025387
+dtype: float64","count    109.000000
+mean      33.515723
+std       24.574952
+min        8.101496
+25%        9.804792
+50%       33.125115
+75%       64.768072
+max       70.704385
+Name: % error, dtype: float64",6
+194,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.7,"HAVE_CRYPTO        2.215291
+HAVE_HASH          0.699583
+DIAGNOSTIC         0.055271
+HAVE_STATISTICS    0.040966
+HAVE_VERIFY        0.015095
+#yes               0.013795
+dtype: float64","count    109.000000
+mean      36.387294
+std       29.953761
+min        6.870170
+25%        9.397269
+50%       34.330172
+75%       67.070037
+max       95.670731
+Name: % error, dtype: float64",6
+195,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    2.193439
+HAVE_HASH      0.640940
+DIAGNOSTIC     0.025387
+dtype: float64","count    109.000000
+mean      33.515723
+std       24.574952
+min        8.101496
+25%        9.804792
+50%       33.125115
+75%       64.768072
+max       70.704385
+Name: % error, dtype: float64",6
+196,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO        1.319777
+HAVE_HASH          0.101386
+HAVE_STATISTICS    0.036479
+#yes               0.034522
+DIAGNOSTIC         0.009619
+HAVE_VERIFY        0.001100
+dtype: float64","count    109.000000
+mean       0.935388
+std        1.013907
+min        0.014605
+25%        0.248954
+50%        0.558946
+75%        1.163447
+max        3.799413
+Name: % error, dtype: float64",6
+197,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    109.000000
+mean       0.507561
+std        0.587063
+min        0.009553
+25%        0.101760
+50%        0.336244
+75%        0.656711
+max        3.846726
+Name: % error, dtype: float64",6
+198,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+4        HAVE_VERIFY
+3               #yes
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    109.000000
+mean       0.538579
+std        0.623389
+min        0.000115
+25%        0.112384
+50%        0.363460
+75%        0.640755
+max        3.126152
+Name: % error, dtype: float64",6
+199,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    109.000000
+mean       0.543197
+std        0.650852
+min        0.000769
+25%        0.153667
+50%        0.317855
+75%        0.673722
+max        4.087941
+Name: % error, dtype: float64",6
+200,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO        2.202201
+HAVE_HASH          0.705652
+HAVE_STATISTICS    0.037898
+DIAGNOSTIC         0.035919
+HAVE_VERIFY        0.027324
+#yes               0.018114
+dtype: float64","count    73.000000
+mean     35.819443
+std      27.967305
+min       6.860156
+25%       9.136737
+50%      36.011997
+75%      62.321625
+max      92.093247
+Name: % error, dtype: float64",6
+201,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.8,"HAVE_CRYPTO    2.176985
+HAVE_HASH      0.644252
+DIAGNOSTIC     0.008954
+#yes           0.002159
+dtype: float64","count    73.000000
+mean     33.355187
+std      23.247089
+min       8.053500
+25%       9.911037
+50%      34.945060
+75%      62.749085
+max      65.409177
+Name: % error, dtype: float64",6
+202,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.8,"HAVE_CRYPTO        2.193561
+HAVE_HASH          0.705638
+HAVE_STATISTICS    0.039972
+DIAGNOSTIC         0.033669
+HAVE_VERIFY        0.029347
+#yes               0.020420
+dtype: float64","count    73.000000
+mean     35.637718
+std      27.531178
+min       6.928728
+25%       9.334869
+50%      36.193235
+75%      60.696368
+max      91.484375
+Name: % error, dtype: float64",6
+203,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.8,"HAVE_CRYPTO    2.176985
+HAVE_HASH      0.644252
+DIAGNOSTIC     0.008954
+#yes           0.002159
+dtype: float64","count    73.000000
+mean     33.355187
+std      23.247089
+min       8.053500
+25%       9.911037
+50%      34.945060
+75%      62.749085
+max      65.409177
+Name: % error, dtype: float64",6
+204,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO        1.324991
+HAVE_HASH          0.097960
+#yes               0.034435
+HAVE_STATISTICS    0.032396
+DIAGNOSTIC         0.010050
+HAVE_VERIFY        0.000242
+dtype: float64","count    73.000000
+mean      0.971660
+std       1.013080
+min       0.021521
+25%       0.251166
+50%       0.585738
+75%       1.255827
+max       3.849708
+Name: % error, dtype: float64",6
+205,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    73.000000
+mean      0.537614
+std       0.594317
+min       0.014773
+25%       0.162777
+50%       0.367278
+75%       0.696393
+max       3.411257
+Name: % error, dtype: float64",6
+206,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+4        HAVE_VERIFY
+3               #yes
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    73.000000
+mean      0.595361
+std       0.683125
+min       0.001707
+25%       0.158308
+50%       0.368801
+75%       0.689833
+max       2.951413
+Name: % error, dtype: float64",6
+207,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    73.000000
+mean      0.550226
+std       0.617590
+min       0.000769
+25%       0.159671
+50%       0.377144
+75%       0.733031
+max       3.455173
+Name: % error, dtype: float64",6
+208,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO        2.218496
+HAVE_HASH          0.693748
+DIAGNOSTIC         0.038273
+HAVE_STATISTICS    0.016973
+#yes               0.009417
+HAVE_VERIFY        0.007867
+dtype: float64","count    37.000000
+mean     36.158761
+std      28.036056
+min       7.166164
+25%       8.171800
+50%      36.890970
+75%      67.356031
+max      82.585812
+Name: % error, dtype: float64",6
+209,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.9,"HAVE_CRYPTO    2.182668
+HAVE_HASH      0.643243
+#yes           0.004089
+DIAGNOSTIC     0.001327
+dtype: float64","count    37.000000
+mean     33.870533
+std      23.436936
+min       7.777064
+25%       9.579371
+50%      34.293189
+75%      60.657614
+max      64.728977
+Name: % error, dtype: float64",6
+210,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.9,"HAVE_CRYPTO        2.214756
+HAVE_HASH          0.693766
+DIAGNOSTIC         0.037241
+HAVE_STATISTICS    0.017813
+#yes               0.010393
+HAVE_VERIFY        0.008743
+dtype: float64","count    37.000000
+mean     36.071593
+std      27.839555
+min       7.224628
+25%       8.232895
+50%      36.869891
+75%      66.674147
+max      82.053389
+Name: % error, dtype: float64",6
+211,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.9,"HAVE_CRYPTO    2.182668
+HAVE_HASH      0.643243
+#yes           0.004089
+DIAGNOSTIC     0.001327
+dtype: float64","count    37.000000
+mean     33.870533
+std      23.436936
+min       7.777064
+25%       9.579371
+50%      34.293189
+75%      60.657614
+max      64.728977
+Name: % error, dtype: float64",6
+212,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO        1.338097
+HAVE_HASH          0.093899
+#yes               0.021478
+HAVE_STATISTICS    0.021336
+DIAGNOSTIC         0.013201
+HAVE_VERIFY        0.006365
+dtype: float64","count    37.000000
+mean      0.988979
+std       0.962144
+min       0.011161
+25%       0.285352
+50%       0.690122
+75%       1.235865
+max       3.734166
+Name: % error, dtype: float64",6
+213,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    37.000000
+mean      0.499470
+std       0.531890
+min       0.048932
+25%       0.130047
+50%       0.288535
+75%       0.634373
+max       2.408567
+Name: % error, dtype: float64",6
+214,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+4        HAVE_VERIFY
+3               #yes
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    37.000000
+mean      0.571474
+std       0.676182
+min       0.003445
+25%       0.102750
+50%       0.350580
+75%       0.637097
+max       2.469061
+Name: % error, dtype: float64",6
+215,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"0        HAVE_CRYPTO
+1          HAVE_HASH
+2         DIAGNOSTIC
+3               #yes
+4        HAVE_VERIFY
+5    HAVE_STATISTICS
+Name: feature, dtype: object","count    37.000000
+mean      0.536047
+std       0.581076
+min       0.000769
+25%       0.154421
+50%       0.375118
+75%       0.734360
+max       2.430031
+Name: % error, dtype: float64",6
+216,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO         2.050427
+HAVE_HASH           1.047778
+HAVE_VERIFY         0.256992
+#yes                0.225719
+HAVE_SEQUENCE       0.220764
+HAVE_REPLICATION    0.214436
+HAVE_STATISTICS     0.210965
+DIAGNOSTIC          0.126227
+dtype: float64","count    327.000000
+mean      41.099341
+std       45.418047
+min        0.025288
+25%        9.238891
+50%       19.008141
+75%       64.458373
+max      157.312774
+Name: % error, dtype: float64",8
+217,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.1,"HAVE_CRYPTO    2.221966
+HAVE_HASH      0.759511
+DIAGNOSTIC     0.281289
+#yes           0.006625
+dtype: float64","count    327.000000
+mean      37.473909
+std       37.260577
+min        2.382839
+25%       10.236538
+50%       24.641075
+75%       60.959941
+max      128.631362
+Name: % error, dtype: float64",8
+218,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.1,"HAVE_CRYPTO         2.047460
+HAVE_HASH           1.045876
+HAVE_VERIFY         0.256657
+#yes                0.225786
+HAVE_SEQUENCE       0.220976
+HAVE_REPLICATION    0.213209
+HAVE_STATISTICS     0.210523
+DIAGNOSTIC          0.125566
+dtype: float64","count    327.000000
+mean      40.974204
+std       45.183034
+min        0.084942
+25%        9.324557
+50%       19.014307
+75%       64.400084
+max      156.705677
+Name: % error, dtype: float64",8
+219,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.1,"HAVE_CRYPTO    2.221966
+HAVE_HASH      0.759511
+DIAGNOSTIC     0.281289
+#yes           0.006625
+dtype: float64","count    327.000000
+mean      37.473909
+std       37.260577
+min        2.382839
+25%       10.236538
+50%       24.641075
+75%       60.959941
+max      128.631362
+Name: % error, dtype: float64",8
+220,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO         1.567869e+11
+HAVE_VERIFY         3.919030e+10
+HAVE_REPLICATION    2.879363e+10
+HAVE_STATISTICS     1.677627e+10
+DIAGNOSTIC          8.186919e+09
+HAVE_SEQUENCE       7.879706e+09
+#yes                7.691446e+09
+HAVE_HASH           6.742602e+09
+dtype: float64","count    327.000000
+mean       2.329064
+std        3.243184
+min        0.001029
+25%        0.373195
+50%        1.021711
+75%        2.281164
+max       16.813449
+Name: % error, dtype: float64",8
+221,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+4         HAVE_VERIFY
+3                #yes
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    327.000000
+mean       4.507533
+std        6.987568
+min        0.009164
+25%        0.326060
+50%        0.812185
+75%        8.244222
+max       24.884822
+Name: % error, dtype: float64",8
+222,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+7       HAVE_SEQUENCE
+6    HAVE_REPLICATION
+Name: feature, dtype: object","count    327.000000
+mean       2.819892
+std        3.884098
+min        0.005367
+25%        0.332980
+50%        0.859982
+75%        4.865276
+max       15.346315
+Name: % error, dtype: float64",8
+223,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    327.000000
+mean       2.547262
+std        3.404742
+min        0.000547
+25%        0.252152
+50%        0.701803
+75%        3.832229
+max       12.867875
+Name: % error, dtype: float64",8
+224,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.2,"HAVE_HASH           7.763901e+12
+HAVE_VERIFY         7.763901e+12
+HAVE_STATISTICS     7.763901e+12
+#yes                7.763901e+12
+HAVE_SEQUENCE       7.763901e+12
+HAVE_REPLICATION    7.763901e+12
+DIAGNOSTIC          7.763901e+12
+HAVE_CRYPTO         7.763901e+12
+dtype: float64","count    291.000000
+mean      35.095708
+std       35.684247
+min        0.835420
+25%        9.750286
+50%       19.279133
+75%       52.525017
+max      146.505070
+Name: % error, dtype: float64",8
+225,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.2,"HAVE_CRYPTO         2.179181
+HAVE_HASH           0.651168
+DIAGNOSTIC          0.213561
+HAVE_REPLICATION    0.060985
+HAVE_VERIFY         0.009635
+dtype: float64","count    291.000000
+mean      32.789850
+std       29.006534
+min        5.531691
+25%       11.574998
+50%       17.589052
+75%       47.910953
+max      109.197242
+Name: % error, dtype: float64",8
+226,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.2,"HAVE_CRYPTO         1.995159
+HAVE_HASH           0.916560
+HAVE_VERIFY         0.285582
+HAVE_STATISTICS     0.258488
+#yes                0.229086
+HAVE_SEQUENCE       0.205228
+HAVE_REPLICATION    0.127475
+DIAGNOSTIC          0.027259
+dtype: float64","count    291.000000
+mean      34.779290
+std       35.008780
+min        0.823754
+25%       10.034425
+50%       19.108962
+75%       51.434380
+max      143.545139
+Name: % error, dtype: float64",8
+227,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.2,"HAVE_CRYPTO         2.179181
+HAVE_HASH           0.651168
+DIAGNOSTIC          0.213561
+HAVE_REPLICATION    0.060985
+HAVE_VERIFY         0.009635
+dtype: float64","count    291.000000
+mean      32.789850
+std       29.006534
+min        5.531691
+25%       11.574998
+50%       17.589052
+75%       47.910953
+max      109.197242
+Name: % error, dtype: float64",8
+228,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO         0.396406
+#yes                0.111816
+HAVE_STATISTICS     0.070061
+HAVE_SEQUENCE       0.067385
+HAVE_VERIFY         0.065256
+HAVE_REPLICATION    0.064976
+DIAGNOSTIC          0.060229
+HAVE_HASH           0.043318
+dtype: float64","count    291.000000
+mean       1.086899
+std        1.063757
+min        0.001073
+25%        0.301468
+50%        0.681385
+75%        1.614062
+max        5.076105
+Name: % error, dtype: float64",8
+229,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+4         HAVE_VERIFY
+3                #yes
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    291.000000
+mean       0.667120
+std        0.739107
+min        0.000368
+25%        0.170671
+50%        0.405106
+75%        0.908168
+max        4.240600
+Name: % error, dtype: float64",8
+230,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+7       HAVE_SEQUENCE
+6    HAVE_REPLICATION
+Name: feature, dtype: object","count    291.000000
+mean       0.683915
+std        0.729177
+min        0.000157
+25%        0.182842
+50%        0.411483
+75%        0.953386
+max        3.680940
+Name: % error, dtype: float64",8
+231,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    291.000000
+mean       0.799462
+std        0.786246
+min        0.000547
+25%        0.235897
+50%        0.573703
+75%        1.096030
+max        4.489364
+Name: % error, dtype: float64",8
+232,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO         2.057763
+HAVE_HASH           0.928578
+HAVE_STATISTICS     0.267137
+HAVE_VERIFY         0.258054
+#yes                0.211821
+HAVE_REPLICATION    0.185126
+HAVE_SEQUENCE       0.151529
+DIAGNOSTIC          0.055517
+dtype: float64","count    255.000000
+mean      37.173708
+std       35.152143
+min        2.666301
+25%        9.761673
+50%       19.302318
+75%       57.944964
+max      137.275281
+Name: % error, dtype: float64",8
+233,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.3,"HAVE_CRYPTO        2.207577
+HAVE_HASH          0.664423
+DIAGNOSTIC         0.110947
+HAVE_VERIFY        0.000275
+HAVE_STATISTICS    0.000178
+dtype: float64","count    255.000000
+mean      33.996112
+std       27.775584
+min        7.427453
+25%       10.301855
+50%       31.455986
+75%       52.610018
+max       91.563890
+Name: % error, dtype: float64",8
+234,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.3,"HAVE_CRYPTO         2.039822
+HAVE_HASH           0.918611
+HAVE_STATISTICS     0.263102
+HAVE_VERIFY         0.255530
+#yes                0.211828
+HAVE_REPLICATION    0.181334
+HAVE_SEQUENCE       0.153572
+DIAGNOSTIC          0.055845
+dtype: float64","count    255.000000
+mean      36.479559
+std       33.562618
+min        3.155090
+25%        9.997911
+50%       19.780250
+75%       55.401981
+max      132.674918
+Name: % error, dtype: float64",8
+235,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.3,"HAVE_CRYPTO        2.207577
+HAVE_HASH          0.664423
+DIAGNOSTIC         0.110947
+HAVE_VERIFY        0.000275
+HAVE_STATISTICS    0.000178
+dtype: float64","count    255.000000
+mean      33.996112
+std       27.775584
+min        7.427453
+25%       10.301855
+50%       31.455986
+75%       52.610018
+max       91.563890
+Name: % error, dtype: float64",8
+236,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO         0.398202
+#yes                0.111780
+HAVE_STATISTICS     0.069827
+HAVE_SEQUENCE       0.066602
+HAVE_VERIFY         0.065350
+HAVE_REPLICATION    0.065237
+DIAGNOSTIC          0.062327
+HAVE_HASH           0.042920
+dtype: float64","count    255.000000
+mean       1.054296
+std        1.263439
+min        0.006594
+25%        0.254255
+50%        0.548815
+75%        1.207593
+max        6.797758
+Name: % error, dtype: float64",8
+237,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+4         HAVE_VERIFY
+3                #yes
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    255.000000
+mean       0.588580
+std        0.583097
+min        0.006490
+25%        0.160914
+50%        0.392314
+75%        0.828426
+max        3.663662
+Name: % error, dtype: float64",8
+238,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+7       HAVE_SEQUENCE
+6    HAVE_REPLICATION
+Name: feature, dtype: object","count    255.000000
+mean       0.729576
+std        0.821535
+min        0.007224
+25%        0.211329
+50%        0.473020
+75%        0.847357
+max        4.814568
+Name: % error, dtype: float64",8
+239,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    255.000000
+mean       0.598827
+std        0.634336
+min        0.000946
+25%        0.169648
+50%        0.396887
+75%        0.843850
+max        4.489364
+Name: % error, dtype: float64",8
+240,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO         2.021364
+HAVE_HASH           0.915667
+HAVE_STATISTICS     0.250431
+HAVE_VERIFY         0.234076
+#yes                0.204084
+HAVE_SEQUENCE       0.170880
+HAVE_REPLICATION    0.167255
+DIAGNOSTIC          0.078970
+dtype: float64","count    218.000000
+mean      37.081182
+std       33.339916
+min        4.828753
+25%        9.514480
+50%       25.859788
+75%       56.705406
+max      123.281697
+Name: % error, dtype: float64",8
+241,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.4,"HAVE_CRYPTO    2.167715
+HAVE_HASH      0.652585
+DIAGNOSTIC     0.081065
+dtype: float64","count    218.000000
+mean      33.346976
+std       25.570529
+min        8.865009
+25%       10.694432
+50%       35.749406
+75%       56.846612
+max       82.323937
+Name: % error, dtype: float64",8
+242,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.4,"HAVE_CRYPTO         2.015021
+HAVE_HASH           0.911959
+HAVE_STATISTICS     0.249158
+HAVE_VERIFY         0.232608
+#yes                0.204023
+HAVE_SEQUENCE       0.171401
+HAVE_REPLICATION    0.166806
+DIAGNOSTIC          0.079065
+dtype: float64","count    218.000000
+mean      36.833548
+std       32.768078
+min        5.025208
+25%        9.501475
+50%       26.166147
+75%       56.604582
+max      121.502953
+Name: % error, dtype: float64",8
+243,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.4,"HAVE_CRYPTO    2.167715
+HAVE_HASH      0.652585
+DIAGNOSTIC     0.081065
+dtype: float64","count    218.000000
+mean      33.346976
+std       25.570529
+min        8.865009
+25%       10.694432
+50%       35.749406
+75%       56.846612
+max       82.323937
+Name: % error, dtype: float64",8
+244,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO         0.398457
+#yes                0.110678
+HAVE_STATISTICS     0.069589
+HAVE_SEQUENCE       0.066812
+HAVE_REPLICATION    0.066280
+HAVE_VERIFY         0.065822
+DIAGNOSTIC          0.061078
+HAVE_HASH           0.041801
+dtype: float64","count    218.000000
+mean       1.007101
+std        1.121644
+min        0.004832
+25%        0.219758
+50%        0.557433
+75%        1.265368
+max        5.524378
+Name: % error, dtype: float64",8
+245,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+4         HAVE_VERIFY
+3                #yes
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    218.000000
+mean       0.465046
+std        0.456310
+min        0.003775
+25%        0.132949
+50%        0.326523
+75%        0.647498
+max        3.129355
+Name: % error, dtype: float64",8
+246,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+7       HAVE_SEQUENCE
+6    HAVE_REPLICATION
+Name: feature, dtype: object","count    218.000000
+mean       0.587703
+std        0.598939
+min        0.005740
+25%        0.196247
+50%        0.372129
+75%        0.790793
+max        3.703594
+Name: % error, dtype: float64",8
+247,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    218.000000
+mean       0.533229
+std        0.616878
+min        0.000946
+25%        0.107570
+50%        0.299673
+75%        0.718059
+max        3.396596
+Name: % error, dtype: float64",8
+248,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO         2.038946
+HAVE_HASH           0.891373
+HAVE_STATISTICS     0.239656
+HAVE_VERIFY         0.229228
+HAVE_REPLICATION    0.213679
+#yes                0.199313
+HAVE_SEQUENCE       0.169737
+DIAGNOSTIC          0.095960
+dtype: float64","count    182.000000
+mean      36.505016
+std       32.658814
+min        5.132184
+25%        9.824509
+50%       25.601956
+75%       62.308383
+max      114.971991
+Name: % error, dtype: float64",8
+249,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.5,"HAVE_CRYPTO    2.187348
+HAVE_HASH      0.638025
+DIAGNOSTIC     0.060374
+dtype: float64","count    182.000000
+mean      32.771005
+std       25.451915
+min        9.000095
+25%       10.412993
+50%       32.749245
+75%       63.936252
+max       79.342403
+Name: % error, dtype: float64",8
+250,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.5,"HAVE_CRYPTO         2.033985
+HAVE_HASH           0.888589
+HAVE_STATISTICS     0.239115
+HAVE_VERIFY         0.228306
+HAVE_REPLICATION    0.213153
+#yes                0.199313
+HAVE_SEQUENCE       0.169583
+DIAGNOSTIC          0.095926
+dtype: float64","count    182.000000
+mean      36.294526
+std       32.198221
+min        5.277036
+25%        9.934520
+50%       25.852965
+75%       61.407558
+max      113.651378
+Name: % error, dtype: float64",8
+251,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.5,"HAVE_CRYPTO    2.187348
+HAVE_HASH      0.638025
+DIAGNOSTIC     0.060374
+dtype: float64","count    182.000000
+mean      32.771005
+std       25.451915
+min        9.000095
+25%       10.412993
+50%       32.749245
+75%       63.936252
+max       79.342403
+Name: % error, dtype: float64",8
+252,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.5,"#yes                2.386230e+09
+HAVE_REPLICATION    1.607065e+09
+HAVE_VERIFY         7.792283e+08
+HAVE_HASH           4.840059e+08
+DIAGNOSTIC          4.528575e+08
+HAVE_SEQUENCE       4.295010e+08
+HAVE_STATISTICS     8.663832e+07
+HAVE_CRYPTO         3.554744e+05
+dtype: float64","count    182.000000
+mean       0.931492
+std        1.024743
+min        0.023734
+25%        0.270392
+50%        0.566108
+75%        1.096606
+max        4.807014
+Name: % error, dtype: float64",8
+253,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+4         HAVE_VERIFY
+3                #yes
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    182.000000
+mean       0.433451
+std        0.484576
+min        0.000280
+25%        0.112392
+50%        0.270325
+75%        0.607202
+max        3.391352
+Name: % error, dtype: float64",8
+254,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+7       HAVE_SEQUENCE
+6    HAVE_REPLICATION
+Name: feature, dtype: object","count    182.000000
+mean       0.552295
+std        0.585913
+min        0.004817
+25%        0.140761
+50%        0.379025
+75%        0.712725
+max        3.752445
+Name: % error, dtype: float64",8
+255,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    182.000000
+mean       0.509112
+std        0.624575
+min        0.000946
+25%        0.098423
+50%        0.262452
+75%        0.637775
+max        3.460290
+Name: % error, dtype: float64",8
+256,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO         2.023340
+HAVE_HASH           0.882865
+HAVE_STATISTICS     0.237567
+HAVE_VERIFY         0.204812
+#yes                0.198318
+HAVE_REPLICATION    0.189204
+HAVE_SEQUENCE       0.182694
+DIAGNOSTIC          0.127882
+dtype: float64","count    146.000000
+mean      35.239390
+std       29.532765
+min        6.696305
+25%        9.689040
+50%       31.744753
+75%       63.172402
+max       98.872166
+Name: % error, dtype: float64",8
+257,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    2.176170
+HAVE_HASH      0.635384
+DIAGNOSTIC     0.026953
+dtype: float64","count    146.000000
+mean      32.308291
+std       23.899019
+min        8.822095
+25%       10.266530
+50%       32.095467
+75%       64.220489
+max       70.774616
+Name: % error, dtype: float64",8
+258,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.6,"HAVE_CRYPTO         2.015288
+HAVE_HASH           0.878695
+HAVE_STATISTICS     0.236710
+HAVE_VERIFY         0.203769
+#yes                0.198363
+HAVE_REPLICATION    0.188476
+HAVE_SEQUENCE       0.181680
+DIAGNOSTIC          0.127594
+dtype: float64","count    146.000000
+mean      34.926963
+std       28.836312
+min        6.902455
+25%        9.844145
+50%       32.193459
+75%       61.580084
+max       97.221753
+Name: % error, dtype: float64",8
+259,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    2.176170
+HAVE_HASH      0.635384
+DIAGNOSTIC     0.026953
+dtype: float64","count    146.000000
+mean      32.308291
+std       23.899019
+min        8.822095
+25%       10.266530
+50%       32.095467
+75%       64.220489
+max       70.774616
+Name: % error, dtype: float64",8
+260,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.6,"DIAGNOSTIC          1.086403e+10
+HAVE_REPLICATION    2.537355e+09
+HAVE_STATISTICS     2.312841e+09
+HAVE_VERIFY         1.852135e+09
+#yes                1.648313e+09
+HAVE_HASH           1.044904e+09
+HAVE_SEQUENCE       9.552394e+08
+HAVE_CRYPTO         1.593090e+06
+dtype: float64","count    146.000000
+mean       0.954495
+std        0.983446
+min        0.000329
+25%        0.287055
+50%        0.595987
+75%        1.094501
+max        4.186786
+Name: % error, dtype: float64",8
+261,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+4         HAVE_VERIFY
+3                #yes
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    146.000000
+mean       0.384518
+std        0.411590
+min        0.000172
+25%        0.101890
+50%        0.255206
+75%        0.501434
+max        2.242617
+Name: % error, dtype: float64",8
+262,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+7       HAVE_SEQUENCE
+6    HAVE_REPLICATION
+Name: feature, dtype: object","count    146.000000
+mean       0.532718
+std        0.555863
+min        0.006723
+25%        0.147273
+50%        0.313682
+75%        0.718410
+max        2.809737
+Name: % error, dtype: float64",8
+263,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    146.000000
+mean       0.415511
+std        0.483918
+min        0.001423
+25%        0.099518
+50%        0.239211
+75%        0.517514
+max        2.731212
+Name: % error, dtype: float64",8
+264,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO         6.069051e+11
+DIAGNOSTIC          6.069051e+11
+HAVE_SEQUENCE       6.069051e+11
+HAVE_REPLICATION    6.069051e+11
+#yes                6.069051e+11
+HAVE_VERIFY         6.069051e+11
+HAVE_STATISTICS     6.069051e+11
+HAVE_HASH           6.069051e+11
+dtype: float64","count    109.000000
+mean      36.656809
+std       30.621277
+min        6.712046
+25%        9.237737
+50%       33.555979
+75%       67.594786
+max       96.829200
+Name: % error, dtype: float64",8
+265,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    2.193439
+HAVE_HASH      0.640940
+DIAGNOSTIC     0.025387
+dtype: float64","count    109.000000
+mean      33.515723
+std       24.574952
+min        8.101496
+25%        9.804792
+50%       33.125115
+75%       64.768072
+max       70.704385
+Name: % error, dtype: float64",8
+266,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.7,"HAVE_CRYPTO         2.028310
+HAVE_HASH           0.886427
+HAVE_STATISTICS     0.228002
+HAVE_VERIFY         0.202018
+#yes                0.201328
+HAVE_REPLICATION    0.193915
+HAVE_SEQUENCE       0.185108
+DIAGNOSTIC          0.131513
+dtype: float64","count    109.000000
+mean      36.370317
+std       29.901500
+min        6.778032
+25%        9.331974
+50%       34.364598
+75%       65.782726
+max       95.062099
+Name: % error, dtype: float64",8
+267,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    2.193439
+HAVE_HASH      0.640940
+DIAGNOSTIC     0.025387
+dtype: float64","count    109.000000
+mean      33.515723
+std       24.574952
+min        8.101496
+25%        9.804792
+50%       33.125115
+75%       64.768072
+max       70.704385
+Name: % error, dtype: float64",8
+268,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.7,"#yes                5.706788e+09
+DIAGNOSTIC          2.255486e+09
+HAVE_HASH           1.853038e+09
+HAVE_SEQUENCE       1.443128e+09
+HAVE_VERIFY         9.695423e+08
+HAVE_REPLICATION    6.101531e+08
+HAVE_STATISTICS     2.667321e+08
+HAVE_CRYPTO         4.476850e+06
+dtype: float64","count    109.000000
+mean       0.947434
+std        0.996891
+min        0.010528
+25%        0.228791
+50%        0.568945
+75%        1.193691
+max        3.801382
+Name: % error, dtype: float64",8
+269,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+4         HAVE_VERIFY
+3                #yes
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    109.000000
+mean       0.396670
+std        0.404328
+min        0.002478
+25%        0.099720
+50%        0.260694
+75%        0.625899
+max        2.189336
+Name: % error, dtype: float64",8
+270,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+7       HAVE_SEQUENCE
+6    HAVE_REPLICATION
+Name: feature, dtype: object","count    109.000000
+mean       0.518931
+std        0.531043
+min        0.005700
+25%        0.175477
+50%        0.346806
+75%        0.680926
+max        2.685422
+Name: % error, dtype: float64",8
+271,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    109.000000
+mean       0.449225
+std        0.488771
+min        0.000769
+25%        0.099975
+50%        0.246447
+75%        0.612395
+max        2.062453
+Name: % error, dtype: float64",8
+272,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO         2.021005
+HAVE_HASH           0.886843
+HAVE_STATISTICS     0.218918
+HAVE_VERIFY         0.208340
+#yes                0.199264
+HAVE_SEQUENCE       0.187579
+HAVE_REPLICATION    0.174719
+DIAGNOSTIC          0.145342
+dtype: float64","count    73.000000
+mean     35.859190
+std      28.108480
+min       6.869203
+25%       9.134379
+50%      36.907378
+75%      62.395775
+max      92.071351
+Name: % error, dtype: float64",8
+273,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.8,"HAVE_CRYPTO    2.176658
+HAVE_HASH      0.644535
+DIAGNOSTIC     0.008657
+#yes           0.002296
+dtype: float64","count    73.000000
+mean     33.360325
+std      23.248240
+min       8.056015
+25%       9.909985
+50%      35.007008
+75%      62.728574
+max      65.433444
+Name: % error, dtype: float64",8
+274,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.8,"HAVE_CRYPTO         2.015159
+HAVE_HASH           0.884114
+HAVE_STATISTICS     0.218272
+HAVE_VERIFY         0.207566
+#yes                0.199311
+HAVE_SEQUENCE       0.186896
+HAVE_REPLICATION    0.174030
+DIAGNOSTIC          0.144971
+dtype: float64","count    73.000000
+mean     35.652748
+std      27.645366
+min       6.993399
+25%       9.271881
+50%      37.339207
+75%      61.253877
+max      90.953717
+Name: % error, dtype: float64",8
+275,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.8,"HAVE_CRYPTO    2.176658
+HAVE_HASH      0.644535
+DIAGNOSTIC     0.008657
+#yes           0.002296
+dtype: float64","count    73.000000
+mean     33.360325
+std      23.248240
+min       8.056015
+25%       9.909985
+50%      35.007008
+75%      62.728574
+max      65.433444
+Name: % error, dtype: float64",8
+276,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.8,"#yes                2.902625e+08
+HAVE_SEQUENCE       1.028281e+08
+HAVE_REPLICATION    9.366450e+07
+HAVE_STATISTICS     8.708976e+07
+DIAGNOSTIC          7.547132e+07
+HAVE_HASH           6.244876e+07
+HAVE_VERIFY         2.455790e+07
+HAVE_CRYPTO         3.586466e+05
+dtype: float64","count    73.000000
+mean      0.944712
+std       0.970770
+min       0.006903
+25%       0.266427
+50%       0.542226
+75%       1.268409
+max       3.552021
+Name: % error, dtype: float64",8
+277,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+4         HAVE_VERIFY
+3                #yes
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    73.000000
+mean      0.412466
+std       0.411021
+min       0.001615
+25%       0.116159
+50%       0.244344
+75%       0.598625
+max       1.805748
+Name: % error, dtype: float64",8
+278,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+7       HAVE_SEQUENCE
+6    HAVE_REPLICATION
+Name: feature, dtype: object","count    73.000000
+mean      0.585903
+std       0.629595
+min       0.017257
+25%       0.152890
+50%       0.353744
+75%       0.682173
+max       2.963758
+Name: % error, dtype: float64",8
+279,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    73.000000
+mean      0.446073
+std       0.447379
+min       0.000769
+25%       0.117993
+50%       0.292456
+75%       0.709382
+max       2.062453
+Name: % error, dtype: float64",8
+280,LinearRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO         2.027408
+HAVE_HASH           0.884844
+HAVE_STATISTICS     0.208080
+#yes                0.200514
+HAVE_VERIFY         0.198961
+HAVE_REPLICATION    0.191624
+HAVE_SEQUENCE       0.190571
+DIAGNOSTIC          0.152815
+dtype: float64","count    37.000000
+mean     36.161906
+std      28.029237
+min       7.149642
+25%       8.171779
+50%      36.891620
+75%      67.355480
+max      82.449584
+Name: % error, dtype: float64",8
+281,Lasso,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.9,"HAVE_CRYPTO    2.182668
+HAVE_HASH      0.643243
+#yes           0.004089
+DIAGNOSTIC     0.001327
+dtype: float64","count    37.000000
+mean     33.870533
+std      23.436936
+min       7.777064
+25%       9.579371
+50%      34.293189
+75%      60.657614
+max      64.728977
+Name: % error, dtype: float64",8
+282,Ridge,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.9,"HAVE_CRYPTO         2.022314
+HAVE_HASH           0.882466
+HAVE_STATISTICS     0.207326
+#yes                0.200515
+HAVE_VERIFY         0.198319
+HAVE_REPLICATION    0.191087
+HAVE_SEQUENCE       0.190117
+DIAGNOSTIC          0.152484
+dtype: float64","count    37.000000
+mean     35.964966
+std      27.602437
+min       7.261080
+25%       8.309899
+50%      37.063178
+75%      66.409891
+max      81.351810
+Name: % error, dtype: float64",8
+283,ElasticNet,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.9,"HAVE_CRYPTO    2.182668
+HAVE_HASH      0.643243
+#yes           0.004089
+DIAGNOSTIC     0.001327
+dtype: float64","count    37.000000
+mean     33.870533
+std      23.436936
+min       7.777064
+25%       9.579371
+50%      34.293189
+75%      60.657614
+max      64.728977
+Name: % error, dtype: float64",8
+284,PolynomialRegression,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",LinearRegression(),Performance,0.9,"#yes                3.082001e+09
+HAVE_SEQUENCE       1.979145e+09
+HAVE_VERIFY         1.869673e+09
+DIAGNOSTIC          1.837765e+09
+HAVE_HASH           6.060897e+08
+HAVE_REPLICATION    5.497727e+08
+HAVE_STATISTICS     5.010197e+08
+HAVE_CRYPTO         8.740799e+05
+dtype: float64","count    37.000000
+mean      0.963866
+std       0.924066
+min       0.067149
+25%       0.233613
+50%       0.652564
+75%       1.282840
+max       3.156240
+Name: % error, dtype: float64",8
+285,RandomForest,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+4         HAVE_VERIFY
+3                #yes
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    37.000000
+mean      0.398383
+std       0.397179
+min       0.006203
+25%       0.119890
+50%       0.208474
+75%       0.705478
+max       1.668263
+Name: % error, dtype: float64",8
+286,GradientBoostingTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+7       HAVE_SEQUENCE
+6    HAVE_REPLICATION
+Name: feature, dtype: object","count    37.000000
+mean      0.581640
+std       0.611270
+min       0.016968
+25%       0.153916
+50%       0.404102
+75%       0.771608
+max       2.263713
+Name: % error, dtype: float64",8
+287,DecisionTree,False,RandomForest,"Index(['HAVE_CRYPTO', 'HAVE_HASH', 'DIAGNOSTIC', '#yes', 'HAVE_VERIFY',
+       'HAVE_STATISTICS', 'HAVE_REPLICATION', 'HAVE_SEQUENCE'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"0         HAVE_CRYPTO
+1           HAVE_HASH
+2          DIAGNOSTIC
+3                #yes
+4         HAVE_VERIFY
+5     HAVE_STATISTICS
+6    HAVE_REPLICATION
+7       HAVE_SEQUENCE
+Name: feature, dtype: object","count    37.000000
+mean      0.476984
+std       0.458174
+min       0.000769
+25%       0.154421
+50%       0.322771
+75%       0.721144
+max       2.062453
+Name: % error, dtype: float64",8

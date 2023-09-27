@@ -1,0 +1,1809 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy
+0,LinearRegression,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"no_fast_pskip      3.096756e+14
+no_mbtree          3.096756e+14
+no_deblock         3.096756e+14
+no_weightb         3.096756e+14
+#yes               3.096756e+14
+no_cabac           3.096756e+14
+no_8x8dct          3.096756e+14
+no_mixed_refs      3.096756e+14
+rc_lookahead_20    2.420775e+13
+rc_lookahead_40    2.420775e+13
+rc_lookahead_60    2.420775e+13
+ref_1              6.052225e+12
+ref_5              6.052225e+12
+ref_9              6.052225e+12
+dtype: float64","count    22.000000
+mean      6.627906
+std       7.440700
+min       0.264379
+25%       1.224275
+50%       4.077406
+75%       7.468644
+max      25.829454
+Name: % error, dtype: float64"
+1,Lasso,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.5, max_iter=10)",Performance,0.1,"ref_1              297.793292
+ref_5              110.260280
+ref_9               70.880183
+no_fast_pskip       67.668672
+no_mixed_refs       49.643164
+no_mbtree           45.523494
+no_8x8dct           11.922441
+no_deblock           7.139035
+no_weightb           6.452640
+#yes                 5.578906
+rc_lookahead_20      1.118368
+no_cabac             0.636276
+rc_lookahead_40      0.231250
+dtype: float64","count    22.000000
+mean      6.676910
+std       7.119439
+min       0.328171
+25%       1.319963
+50%       3.910345
+75%       8.038770
+max      25.040154
+Name: % error, dtype: float64"
+2,Ridge,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.3),Performance,0.1,"ref_1              184.940623
+ref_9              183.844142
+no_mixed_refs       62.455973
+no_fast_pskip       60.943990
+no_mbtree           39.521228
+no_8x8dct           23.624568
+no_cabac            12.860535
+#yes                 2.717784
+rc_lookahead_20      2.442252
+rc_lookahead_60      1.380424
+no_deblock           1.296886
+ref_5                1.096481
+rc_lookahead_40      1.061829
+no_weightb           0.103245
+dtype: float64","count    22.000000
+mean      6.586460
+std       7.422158
+min       0.136186
+25%       1.424818
+50%       3.893871
+75%       7.799523
+max      25.559444
+Name: % error, dtype: float64"
+3,ElasticNet,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.5, l1_ratio=1.0, max_iter=10)",Performance,0.1,"ref_1              297.793292
+ref_5              110.260280
+ref_9               70.880183
+no_fast_pskip       67.668672
+no_mixed_refs       49.643164
+no_mbtree           45.523494
+no_8x8dct           11.922441
+no_deblock           7.139035
+no_weightb           6.452640
+#yes                 5.578906
+rc_lookahead_20      1.118368
+no_cabac             0.636276
+rc_lookahead_40      0.231250
+dtype: float64","count    22.000000
+mean      6.676910
+std       7.119439
+min       0.328171
+25%       1.319963
+50%       3.910345
+75%       8.038770
+max      25.040154
+Name: % error, dtype: float64"
+4,RandomForest,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    22.000000
+mean      0.331718
+std       0.456312
+min       0.007625
+25%       0.049821
+50%       0.257893
+75%       0.367772
+max       2.089032
+Name: % error, dtype: float64"
+5,LinearRegression,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"ref_1              183.538365
+ref_9              182.593766
+no_mixed_refs       64.795767
+no_fast_pskip       60.043337
+no_mbtree           43.064798
+no_8x8dct           25.864627
+no_cabac            11.198182
+rc_lookahead_20      4.630456
+rc_lookahead_60      3.239385
+#yes                 3.108087
+no_deblock           2.557777
+rc_lookahead_40      1.391071
+ref_5                0.944599
+no_weightb           0.699248
+dtype: float64","count    43.000000
+mean      6.043664
+std       7.536314
+min       0.102428
+25%       1.370698
+50%       3.268389
+75%       6.159146
+max      25.841469
+Name: % error, dtype: float64"
+6,Lasso,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.8, max_iter=100)",Performance,0.2,"ref_1              182.220095
+ref_9              179.752282
+no_fast_pskip       59.688809
+no_mixed_refs       53.556291
+no_mbtree           40.822239
+no_8x8dct           16.791365
+rc_lookahead_20      3.599275
+no_cabac             1.840186
+no_deblock           1.753093
+dtype: float64","count    43.000000
+mean      6.199748
+std       7.036665
+min       0.019746
+25%       1.674236
+50%       3.592950
+75%       6.825028
+max      23.393047
+Name: % error, dtype: float64"
+7,Ridge,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.8),Performance,0.2,"ref_1              181.043294
+ref_9              180.193053
+no_mixed_refs       62.606854
+no_fast_pskip       58.269806
+no_mbtree           41.064982
+no_8x8dct           25.047831
+no_cabac            10.425372
+rc_lookahead_20      4.936024
+#yes                 3.325997
+rc_lookahead_60      3.213672
+no_deblock           3.176060
+rc_lookahead_40      1.722351
+no_weightb           1.104793
+ref_5                0.850241
+dtype: float64","count    43.000000
+mean      6.266886
+std       7.498023
+min       0.140449
+25%       1.507788
+50%       3.348270
+75%       6.590910
+max      24.557396
+Name: % error, dtype: float64"
+8,ElasticNet,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.8, l1_ratio=1.0, max_iter=100)",Performance,0.2,"ref_1              182.220095
+ref_9              179.752282
+no_fast_pskip       59.688809
+no_mixed_refs       53.556291
+no_mbtree           40.822239
+no_8x8dct           16.791365
+rc_lookahead_20      3.599275
+no_cabac             1.840186
+no_deblock           1.753093
+dtype: float64","count    43.000000
+mean      6.199748
+std       7.036665
+min       0.019746
+25%       1.674236
+50%       3.592950
+75%       6.825028
+max      23.393047
+Name: % error, dtype: float64"
+9,RandomForest,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    43.000000
+mean      0.633063
+std       0.766547
+min       0.001749
+25%       0.167299
+50%       0.382745
+75%       0.669042
+max       3.152389
+Name: % error, dtype: float64"
+10,LinearRegression,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"ref_1              185.029693
+ref_9              183.304366
+no_mixed_refs       68.691086
+no_fast_pskip       58.045237
+no_mbtree           43.121616
+no_8x8dct           21.592305
+no_cabac             9.818649
+rc_lookahead_20      5.193977
+rc_lookahead_60      4.449228
+no_deblock           3.532130
+#yes                 3.280154
+ref_5                1.725327
+no_weightb           1.316790
+rc_lookahead_40      0.744749
+dtype: float64","count    64.000000
+mean      6.697282
+std       8.582556
+min       0.143445
+25%       1.330012
+50%       2.808430
+75%       7.645203
+max      30.295587
+Name: % error, dtype: float64"
+11,Lasso,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=10)",Performance,0.3,"ref_1              308.726813
+ref_5              121.516239
+no_fast_pskip       69.262590
+ref_9               59.214198
+no_mixed_refs       54.577455
+no_mbtree           53.289117
+no_deblock          14.595181
+no_weightb          10.010673
+#yes                 8.306509
+no_8x8dct            8.074983
+rc_lookahead_20      5.286755
+rc_lookahead_60      2.401502
+no_cabac             1.440278
+dtype: float64","count    64.000000
+mean      6.593770
+std       8.382965
+min       0.037915
+25%       1.359314
+50%       2.747754
+75%       7.818640
+max      29.401744
+Name: % error, dtype: float64"
+12,Ridge,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.3,"ref_1              184.652203
+ref_9              182.952274
+no_mixed_refs       68.264964
+no_fast_pskip       57.832959
+no_mbtree           42.710120
+no_8x8dct           21.469307
+no_cabac             9.736670
+rc_lookahead_20      5.256092
+rc_lookahead_60      4.465730
+no_deblock           3.612120
+#yes                 3.317924
+ref_5                1.699930
+no_weightb           1.366335
+rc_lookahead_40      0.790362
+dtype: float64","count    64.000000
+mean      6.698783
+std       8.546299
+min       0.134748
+25%       1.291065
+50%       2.944848
+75%       7.735159
+max      30.072239
+Name: % error, dtype: float64"
+13,ElasticNet,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=10)",Performance,0.3,"ref_1              308.726813
+ref_5              121.516239
+no_fast_pskip       69.262590
+ref_9               59.214198
+no_mixed_refs       54.577455
+no_mbtree           53.289117
+no_deblock          14.595181
+no_weightb          10.010673
+#yes                 8.306509
+no_8x8dct            8.074983
+rc_lookahead_20      5.286755
+rc_lookahead_60      2.401502
+no_cabac             1.440278
+dtype: float64","count    64.000000
+mean      6.593770
+std       8.382965
+min       0.037915
+25%       1.359314
+50%       2.747754
+75%       7.818640
+max      29.401744
+Name: % error, dtype: float64"
+14,RandomForest,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    64.000000
+mean      1.069295
+std       1.535837
+min       0.004572
+25%       0.199386
+50%       0.381529
+75%       1.068950
+max       6.770867
+Name: % error, dtype: float64"
+15,LinearRegression,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"ref_1              182.010012
+ref_9              181.252067
+no_mixed_refs       69.781307
+no_fast_pskip       58.852829
+no_mbtree           43.183995
+no_8x8dct           21.865116
+no_cabac             6.248285
+#yes                 3.504311
+rc_lookahead_60      2.429042
+rc_lookahead_20      1.771155
+no_weightb           1.476441
+no_deblock           0.838636
+ref_5                0.757946
+rc_lookahead_40      0.657887
+dtype: float64","count    85.000000
+mean      6.662683
+std       8.669312
+min       0.039444
+25%       0.950936
+50%       2.897237
+75%       7.817115
+max      29.164692
+Name: % error, dtype: float64"
+16,Lasso,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=10)",Performance,0.4,"ref_1              302.325228
+ref_5              119.114836
+no_fast_pskip       74.052709
+ref_9               60.702349
+no_mbtree           57.644039
+no_mixed_refs       51.503543
+no_deblock          15.979759
+no_weightb          13.842068
+#yes                12.256004
+no_cabac             9.195670
+no_8x8dct            3.989260
+rc_lookahead_60      1.861019
+rc_lookahead_20      0.533090
+dtype: float64","count    85.000000
+mean      6.636557
+std       8.458913
+min       0.030606
+25%       0.921402
+50%       3.136454
+75%       7.997102
+max      28.434026
+Name: % error, dtype: float64"
+17,Ridge,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.05),Performance,0.4,"ref_1              181.791935
+ref_9              181.043737
+no_mixed_refs       69.531739
+no_fast_pskip       58.733024
+no_mbtree           42.950705
+no_8x8dct           21.808422
+no_cabac             6.177554
+#yes                 3.526993
+rc_lookahead_60      2.441066
+rc_lookahead_20      1.810963
+no_weightb           1.508280
+no_deblock           0.869258
+ref_5                0.748197
+rc_lookahead_40      0.630103
+dtype: float64","count    85.000000
+mean      6.669875
+std       8.655633
+min       0.037604
+25%       0.956175
+50%       2.966616
+75%       7.868498
+max      29.011464
+Name: % error, dtype: float64"
+18,ElasticNet,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=10)",Performance,0.4,"ref_1              302.325228
+ref_5              119.114836
+no_fast_pskip       74.052709
+ref_9               60.702349
+no_mbtree           57.644039
+no_mixed_refs       51.503543
+no_deblock          15.979759
+no_weightb          13.842068
+#yes                12.256004
+no_cabac             9.195670
+no_8x8dct            3.989260
+rc_lookahead_60      1.861019
+rc_lookahead_20      0.533090
+dtype: float64","count    85.000000
+mean      6.636557
+std       8.458913
+min       0.030606
+25%       0.921402
+50%       3.136454
+75%       7.997102
+max      28.434026
+Name: % error, dtype: float64"
+19,RandomForest,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    85.000000
+mean      1.368545
+std       1.781718
+min       0.031945
+25%       0.331801
+50%       0.636411
+75%       1.517621
+max       8.253944
+Name: % error, dtype: float64"
+20,LinearRegression,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"ref_1              186.094764
+ref_9              179.923149
+no_mixed_refs       76.973594
+no_fast_pskip       59.612180
+no_mbtree           38.323218
+no_8x8dct           19.119902
+ref_5                6.171615
+no_deblock           5.306103
+no_cabac             4.934058
+#yes                 3.337194
+rc_lookahead_60      1.855302
+no_weightb           1.123246
+rc_lookahead_20      1.014226
+rc_lookahead_40      0.841076
+dtype: float64","count    106.000000
+mean       7.137777
+std        9.180908
+min        0.099959
+25%        1.443320
+50%        3.472910
+75%        7.127567
+max       35.591233
+Name: % error, dtype: float64"
+21,Lasso,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.3, max_iter=10)",Performance,0.5,"ref_1              306.499721
+ref_5              114.161734
+no_fast_pskip       72.059941
+no_mixed_refs       59.816108
+ref_9               58.778820
+no_mbtree           47.915067
+no_deblock          17.356047
+no_weightb          13.364517
+#yes                 9.368815
+no_cabac             7.430635
+no_8x8dct            3.215913
+rc_lookahead_60      0.418522
+dtype: float64","count    106.000000
+mean       7.016008
+std        8.883863
+min        0.080569
+25%        1.732611
+50%        3.217917
+75%        7.218881
+max       34.341157
+Name: % error, dtype: float64"
+22,Ridge,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.5,"ref_1              184.934870
+ref_9              178.877397
+no_mixed_refs       75.297781
+no_fast_pskip       59.018919
+no_mbtree           36.636875
+no_8x8dct           18.853246
+ref_5                6.057473
+no_deblock           5.526036
+no_cabac             4.632581
+#yes                 3.507338
+rc_lookahead_60      1.897894
+rc_lookahead_20      1.160796
+no_weightb           1.109115
+rc_lookahead_40      0.737098
+dtype: float64","count    106.000000
+mean       7.048198
+std        9.071483
+min        0.008308
+25%        1.488005
+50%        3.287839
+75%        6.765253
+max       34.700610
+Name: % error, dtype: float64"
+23,ElasticNet,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.3, l1_ratio=1.0, max_iter=10)",Performance,0.5,"ref_1              306.499721
+ref_5              114.161734
+no_fast_pskip       72.059941
+no_mixed_refs       59.816108
+ref_9               58.778820
+no_mbtree           47.915067
+no_deblock          17.356047
+no_weightb          13.364517
+#yes                 9.368815
+no_cabac             7.430635
+no_8x8dct            3.215913
+rc_lookahead_60      0.418522
+dtype: float64","count    106.000000
+mean       7.016008
+std        8.883863
+min        0.080569
+25%        1.732611
+50%        3.217917
+75%        7.218881
+max       34.341157
+Name: % error, dtype: float64"
+24,RandomForest,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    106.000000
+mean       1.864739
+std        2.431857
+min        0.031325
+25%        0.350086
+50%        0.787559
+75%        2.577916
+max       12.468483
+Name: % error, dtype: float64"
+25,LinearRegression,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"ref_1              188.063901
+ref_9              182.635760
+no_mixed_refs       76.272830
+no_fast_pskip       59.091597
+no_mbtree           40.226003
+no_8x8dct           17.393360
+no_cabac             7.543714
+ref_5                5.428141
+no_deblock           5.240138
+rc_lookahead_20      3.873513
+rc_lookahead_60      3.462683
+#yes                 3.413823
+rc_lookahead_40      0.410830
+no_weightb           0.065987
+dtype: float64","count    128.000000
+mean       6.712962
+std        8.486882
+min        0.001094
+25%        1.646457
+50%        3.808670
+75%        7.194737
+max       36.122245
+Name: % error, dtype: float64"
+26,Lasso,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.5, max_iter=100)",Performance,0.6,"ref_1              191.450614
+ref_9              176.727711
+no_mixed_refs       65.793793
+no_fast_pskip       60.023657
+no_mbtree           36.665746
+no_8x8dct           10.722449
+no_deblock           5.698904
+rc_lookahead_20      2.531183
+no_weightb           0.549894
+#yes                 0.499010
+dtype: float64","count    128.000000
+mean       6.488088
+std        8.017943
+min        0.089274
+25%        1.747391
+50%        3.496558
+75%        6.698490
+max       32.602408
+Name: % error, dtype: float64"
+27,Ridge,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.5),Performance,0.6,"ref_1              184.646013
+ref_9              179.363122
+no_mixed_refs       71.598261
+no_fast_pskip       57.547068
+no_mbtree           35.692394
+no_8x8dct           17.262572
+no_cabac             6.366475
+no_deblock           5.616611
+ref_5                5.282891
+#yes                 3.952881
+rc_lookahead_20      3.828775
+rc_lookahead_60      3.377689
+rc_lookahead_40      0.451085
+no_weightb           0.324117
+dtype: float64","count    128.000000
+mean       6.446380
+std        8.213933
+min        0.049745
+25%        1.558826
+50%        3.342582
+75%        5.976110
+max       33.671468
+Name: % error, dtype: float64"
+28,ElasticNet,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.1)",Performance,0.6,"ref_1              182.989299
+ref_9              177.706787
+no_mixed_refs       69.410118
+no_fast_pskip       56.750894
+no_mbtree           33.688577
+no_8x8dct           17.208184
+no_cabac             5.792544
+no_deblock           5.773911
+ref_5                5.171475
+#yes                 4.197378
+rc_lookahead_20      3.838088
+rc_lookahead_60      3.312807
+no_weightb           0.455665
+rc_lookahead_40      0.414061
+dtype: float64","count    128.000000
+mean       6.359559
+std        8.100071
+min        0.077847
+25%        1.622923
+50%        3.222409
+75%        6.111350
+max       32.486196
+Name: % error, dtype: float64"
+29,RandomForest,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    128.000000
+mean       2.000714
+std        2.423543
+min        0.020860
+25%        0.374590
+50%        0.989676
+75%        2.569253
+max       12.504844
+Name: % error, dtype: float64"
+30,LinearRegression,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"ref_1              193.709882
+ref_9              184.673417
+no_mixed_refs       83.916291
+no_fast_pskip       66.539170
+no_mbtree           34.420034
+no_8x8dct           13.318879
+ref_5                9.036465
+no_deblock           8.070814
+rc_lookahead_20      7.103077
+no_weightb           5.173798
+rc_lookahead_60      4.759249
+no_cabac             3.939458
+#yes                 2.681593
+rc_lookahead_40      2.343828
+dtype: float64","count    149.000000
+mean       7.819055
+std        9.329847
+min        0.034249
+25%        2.491629
+50%        4.613982
+75%        8.971582
+max       44.309498
+Name: % error, dtype: float64"
+31,Lasso,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Lasso(alpha=0.3),Performance,0.7,"ref_1              201.925998
+ref_9              173.849849
+no_mixed_refs       76.227182
+no_fast_pskip       68.215724
+no_mbtree           33.445349
+no_deblock           9.816034
+no_8x8dct            7.905098
+rc_lookahead_20      7.802953
+no_weightb           0.638381
+rc_lookahead_60      0.549232
+dtype: float64","count    149.000000
+mean       7.559089
+std        8.921852
+min        0.030542
+25%        2.415198
+50%        4.788007
+75%        8.069915
+max       41.538623
+Name: % error, dtype: float64"
+32,Ridge,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.7,"ref_1              193.503200
+ref_9              184.476488
+no_mixed_refs       83.566617
+no_fast_pskip       66.391513
+no_mbtree           34.213908
+no_8x8dct           13.313170
+ref_5                9.026712
+no_deblock           8.059328
+rc_lookahead_20      7.057660
+no_weightb           5.132041
+rc_lookahead_60      4.741799
+no_cabac             3.917644
+#yes                 2.735278
+rc_lookahead_40      2.315861
+dtype: float64","count    149.000000
+mean       7.787310
+std        9.294947
+min        0.015280
+25%        2.458251
+50%        4.613551
+75%        8.885461
+max       44.075931
+Name: % error, dtype: float64"
+33,ElasticNet,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.3, l1_ratio=1.0)",Performance,0.7,"ref_1              201.925998
+ref_9              173.849849
+no_mixed_refs       76.227182
+no_fast_pskip       68.215724
+no_mbtree           33.445349
+no_deblock           9.816034
+no_8x8dct            7.905098
+rc_lookahead_20      7.802953
+no_weightb           0.638381
+rc_lookahead_60      0.549232
+dtype: float64","count    149.000000
+mean       7.559089
+std        8.921852
+min        0.030542
+25%        2.415198
+50%        4.788007
+75%        8.069915
+max       41.538623
+Name: % error, dtype: float64"
+34,RandomForest,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    149.000000
+mean       3.368140
+std        3.449092
+min        0.013381
+25%        0.807872
+50%        1.820809
+75%        5.578168
+max       15.118373
+Name: % error, dtype: float64"
+35,LinearRegression,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"ref_1              196.008042
+ref_9              188.617345
+no_mixed_refs       85.068261
+no_fast_pskip       65.393773
+no_mbtree           44.622768
+no_8x8dct           12.869367
+no_cabac            10.375545
+ref_5                7.390697
+no_deblock           3.868776
+rc_lookahead_20      3.806616
+rc_lookahead_60      3.332391
+no_weightb           2.893318
+#yes                 2.678826
+rc_lookahead_40      0.474226
+dtype: float64","count    170.000000
+mean       7.431324
+std        8.625839
+min        0.033970
+25%        2.754991
+50%        4.827494
+75%        7.495063
+max       41.414593
+Name: % error, dtype: float64"
+36,Lasso,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Lasso(max_iter=10),Performance,0.8,"ref_1            297.228580
+ref_5             94.751798
+no_fast_pskip     89.499904
+ref_9             85.667466
+no_mbtree         71.129124
+no_mixed_refs     45.610163
+no_deblock        32.251615
+#yes              22.444412
+no_weightb        20.817548
+no_cabac          12.300005
+no_8x8dct         11.552649
+dtype: float64","count    170.000000
+mean       6.959666
+std        7.912086
+min        0.060437
+25%        2.203736
+50%        4.142004
+75%        8.353510
+max       35.853254
+Name: % error, dtype: float64"
+37,Ridge,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.8,"ref_1              195.825343
+ref_9              188.433445
+no_mixed_refs       84.772082
+no_fast_pskip       65.339520
+no_mbtree           44.447393
+no_8x8dct           12.888477
+no_cabac            10.391352
+ref_5                7.391898
+no_deblock           3.869444
+rc_lookahead_20      3.790731
+rc_lookahead_60      3.348691
+no_weightb           2.862713
+#yes                 2.741734
+rc_lookahead_40      0.442040
+dtype: float64","count    170.000000
+mean       7.404616
+std        8.604115
+min        0.004213
+25%        2.757191
+50%        4.774769
+75%        7.399863
+max       41.220960
+Name: % error, dtype: float64"
+38,ElasticNet,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(l1_ratio=1.0, max_iter=10)",Performance,0.8,"ref_1            297.228580
+ref_5             94.751798
+no_fast_pskip     89.499904
+ref_9             85.667466
+no_mbtree         71.129124
+no_mixed_refs     45.610163
+no_deblock        32.251615
+#yes              22.444412
+no_weightb        20.817548
+no_cabac          12.300005
+no_8x8dct         11.552649
+dtype: float64","count    170.000000
+mean       6.959666
+std        7.912086
+min        0.060437
+25%        2.203736
+50%        4.142004
+75%        8.353510
+max       35.853254
+Name: % error, dtype: float64"
+39,RandomForest,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    170.000000
+mean       4.027693
+std        3.782772
+min        0.000915
+25%        0.963120
+50%        2.408183
+75%        6.546084
+max       17.529896
+Name: % error, dtype: float64"
+40,LinearRegression,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"ref_1              199.236270
+ref_9              199.165939
+no_mixed_refs       63.734083
+no_mbtree           62.672616
+no_fast_pskip       47.049697
+no_8x8dct           36.788614
+rc_lookahead_60     15.807088
+no_weightb          11.614765
+no_cabac            11.000904
+no_deblock          10.978616
+rc_lookahead_20      7.997777
+rc_lookahead_40      7.809311
+#yes                 2.392862
+ref_5                0.070331
+dtype: float64","count    191.000000
+mean       8.049659
+std        7.219933
+min        0.064197
+25%        3.292784
+50%        6.223321
+75%        9.984251
+max       34.524301
+Name: % error, dtype: float64"
+41,Lasso,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=4, max_iter=100)",Performance,0.9,"ref_1              183.410385
+ref_9              172.919450
+no_fast_pskip       56.978888
+no_deblock           1.723225
+#yes                 1.115491
+rc_lookahead_60      0.598872
+no_mixed_refs        0.113163
+dtype: float64","count    191.000000
+mean       7.440431
+std        6.031415
+min        0.067090
+25%        3.405876
+50%        5.392663
+75%       10.472320
+max       27.194598
+Name: % error, dtype: float64"
+42,Ridge,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.9,"ref_1              194.771366
+ref_9              193.354813
+no_mixed_refs       57.028792
+no_mbtree           49.739864
+no_fast_pskip       49.309617
+no_8x8dct           33.974284
+rc_lookahead_60     15.535923
+no_weightb          11.103030
+no_cabac             8.663061
+rc_lookahead_20      8.335260
+rc_lookahead_40      7.200663
+no_deblock           6.245948
+ref_5                1.416553
+#yes                 0.639511
+dtype: float64","count    191.000000
+mean       7.256761
+std        6.327749
+min        0.059723
+25%        3.072713
+50%        5.678071
+75%        9.429679
+max       31.014169
+Name: % error, dtype: float64"
+43,ElasticNet,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=4, l1_ratio=1.0, max_iter=100)",Performance,0.9,"ref_1              183.410385
+ref_9              172.919450
+no_fast_pskip       56.978888
+no_deblock           1.723225
+#yes                 1.115491
+rc_lookahead_60      0.598872
+no_mixed_refs        0.113163
+dtype: float64","count    191.000000
+mean       7.440431
+std        6.031415
+min        0.067090
+25%        3.405876
+50%        5.392663
+75%       10.472320
+max       27.194598
+Name: % error, dtype: float64"
+44,RandomForest,False,None,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip', 'no_mbtree',
+       'no_mixed_refs', 'no_weightb', 'rc_lookahead_20', 'rc_lookahead_40',
+       'rc_lookahead_60', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    191.000000
+mean       5.697879
+std        4.639254
+min        0.096338
+25%        2.407240
+50%        4.747856
+75%        7.985093
+max       25.312451
+Name: % error, dtype: float64"
+45,LinearRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.1,"no_fast_pskip    72.435833
+no_8x8dct        31.069744
+no_cabac         21.314700
+no_deblock       10.664265
+dtype: float64","count    22.000000
+mean     41.043161
+std      30.307000
+min       1.275511
+25%      18.316337
+50%      32.237800
+75%      74.305493
+max      98.320111
+Name: % error, dtype: float64"
+46,Lasso,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","Lasso(alpha=2, max_iter=5)",Performance,0.1,"no_fast_pskip    65.931829
+no_8x8dct        16.123361
+no_cabac         13.111198
+no_deblock        4.140607
+dtype: float64","count    22.000000
+mean     39.739935
+std      29.776080
+min       1.757219
+25%      17.959366
+50%      31.288256
+75%      69.963188
+max      96.541120
+Name: % error, dtype: float64"
+47,Ridge,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Ridge(alpha=10),Performance,0.1,"no_fast_pskip    57.060150
+no_8x8dct        21.842611
+no_cabac         18.608567
+no_deblock       13.365641
+dtype: float64","count    22.000000
+mean     39.965876
+std      29.391067
+min       2.306127
+25%      17.741333
+50%      31.792581
+75%      71.882429
+max      96.205155
+Name: % error, dtype: float64"
+48,ElasticNet,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=10)",Performance,0.1,"no_fast_pskip    49.954666
+no_8x8dct        17.619055
+no_cabac         17.168399
+no_deblock       13.802397
+dtype: float64","count    22.000000
+mean     39.437246
+std      28.998402
+min       0.993694
+25%      17.413273
+50%      32.104418
+75%      70.213791
+max      95.040044
+Name: % error, dtype: float64"
+49,PolynomialRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.1,"no_deblock       2.368935e+15
+no_cabac         1.357720e+14
+no_8x8dct        8.510195e+13
+no_fast_pskip    6.233335e+13
+dtype: float64","count    22.000000
+mean     41.194839
+std      31.600533
+min       0.014893
+25%      20.549108
+50%      32.300491
+75%      75.170904
+max      94.391723
+Name: % error, dtype: float64"
+50,RandomForest,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",RandomForestRegressor(),Performance,0.1,"no_8x8dct       NaN
+no_cabac        NaN
+no_deblock      NaN
+no_fast_pskip   NaN
+Name: % error, dtype: float64","count    22.000000
+mean     40.916708
+std      29.852377
+min       0.464303
+25%      19.331020
+50%      32.170918
+75%      70.508593
+max      91.827734
+Name: % error, dtype: float64"
+51,LinearRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.2,"no_fast_pskip    67.644514
+no_8x8dct        28.932783
+no_deblock       27.890499
+no_cabac         24.988027
+dtype: float64","count     43.000000
+mean      38.879631
+std       31.941981
+min        2.085731
+25%       10.963099
+50%       28.355768
+75%       73.317013
+max      102.915658
+Name: % error, dtype: float64"
+52,Lasso,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","Lasso(alpha=10, max_iter=100)",Performance,0.2,"no_fast_pskip    37.437581
+no_deblock        3.091226
+dtype: float64","count    43.000000
+mean     35.558173
+std      29.007150
+min       0.397409
+25%       6.326351
+50%      27.696781
+75%      65.588920
+max      91.205188
+Name: % error, dtype: float64"
+53,Ridge,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Ridge(alpha=25),Performance,0.2,"no_fast_pskip    40.606288
+no_deblock       24.015120
+no_cabac         18.233982
+no_8x8dct        10.259313
+dtype: float64","count    43.000000
+mean     37.223245
+std      30.315741
+min       2.168052
+25%       9.328449
+50%      26.814253
+75%      68.908943
+max      97.293906
+Name: % error, dtype: float64"
+54,ElasticNet,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","ElasticNet(alpha=0.2, l1_ratio=0.1, max_iter=10)",Performance,0.2,"no_fast_pskip    37.622658
+no_deblock       22.945671
+no_cabac         17.254643
+no_8x8dct         8.497426
+dtype: float64","count    43.000000
+mean     37.014702
+std      30.111434
+min       1.467918
+25%       9.274578
+50%      26.969801
+75%      67.766609
+max      96.469763
+Name: % error, dtype: float64"
+55,PolynomialRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.2,"no_deblock       26.117947
+no_cabac         20.743130
+no_8x8dct         9.116584
+no_fast_pskip     4.871483
+dtype: float64","count     43.000000
+mean      40.301730
+std       32.515332
+min        0.275555
+25%       12.282817
+50%       28.250957
+75%       78.265982
+max      102.907478
+Name: % error, dtype: float64"
+56,RandomForest,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",RandomForestRegressor(),Performance,0.2,"no_8x8dct       NaN
+no_cabac        NaN
+no_deblock      NaN
+no_fast_pskip   NaN
+Name: % error, dtype: float64","count     43.000000
+mean      40.160972
+std       32.355232
+min        0.527377
+25%       12.364990
+50%       30.304115
+75%       70.318865
+max      103.536617
+Name: % error, dtype: float64"
+57,LinearRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.3,"no_fast_pskip    69.512830
+no_8x8dct        26.700166
+no_deblock       25.838576
+no_cabac         12.474547
+dtype: float64","count     64.000000
+mean      36.949725
+std       30.514888
+min        0.186391
+25%       11.081368
+50%       28.249304
+75%       60.594266
+max      101.146577
+Name: % error, dtype: float64"
+58,Lasso,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","Lasso(alpha=10, max_iter=100)",Performance,0.3,"no_fast_pskip    35.975554
+dtype: float64","count    64.000000
+mean     35.055612
+std      27.566782
+min       0.147570
+25%      10.617792
+50%      26.608608
+75%      62.850924
+max      89.538883
+Name: % error, dtype: float64"
+59,Ridge,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Ridge(alpha=25),Performance,0.3,"no_fast_pskip    38.941859
+no_deblock       21.626796
+no_cabac         10.752126
+no_8x8dct         8.893148
+dtype: float64","count    64.000000
+mean     35.858220
+std      28.593960
+min       0.124515
+25%      10.963085
+50%      27.357517
+75%      64.582347
+max      94.940294
+Name: % error, dtype: float64"
+60,ElasticNet,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","ElasticNet(alpha=0.3, l1_ratio=0.0, max_iter=1)",Performance,0.3,"no_fast_pskip    27.074448
+no_deblock       22.928648
+no_cabac         15.210848
+no_8x8dct         2.505788
+dtype: float64","count    64.000000
+mean     35.678765
+std      28.078609
+min       0.326086
+25%      12.918270
+50%      27.736077
+75%      61.046183
+max      94.486691
+Name: % error, dtype: float64"
+61,PolynomialRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.3,"no_deblock       18.144308
+no_fast_pskip    16.046346
+no_cabac          5.107759
+no_8x8dct         0.569071
+dtype: float64","count     64.000000
+mean      38.739045
+std       31.305812
+min        0.090252
+25%       16.073333
+50%       30.015118
+75%       58.127414
+max      106.327764
+Name: % error, dtype: float64"
+62,RandomForest,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",RandomForestRegressor(),Performance,0.3,"no_8x8dct       NaN
+no_cabac        NaN
+no_deblock      NaN
+no_fast_pskip   NaN
+Name: % error, dtype: float64","count     64.000000
+mean      38.194004
+std       31.025208
+min        0.088441
+25%       14.642033
+50%       28.363951
+75%       60.398075
+max      104.504187
+Name: % error, dtype: float64"
+63,LinearRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.4,"no_fast_pskip    88.787778
+no_cabac         50.042844
+no_8x8dct        46.446839
+no_deblock        2.726165
+dtype: float64","count     85.000000
+mean      40.190288
+std       31.801806
+min        0.555975
+25%       14.914267
+50%       27.388626
+75%       78.425625
+max      105.860864
+Name: % error, dtype: float64"
+64,Lasso,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Lasso(max_iter=10),Performance,0.4,"no_fast_pskip    84.385550
+no_cabac         45.694970
+no_8x8dct        38.291993
+dtype: float64","count     85.000000
+mean      39.770934
+std       31.239774
+min        1.184470
+25%       14.677949
+50%       27.778329
+75%       76.331793
+max      104.634019
+Name: % error, dtype: float64"
+65,Ridge,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Ridge(alpha=4),Performance,0.4,"no_fast_pskip    74.157890
+no_cabac         43.442993
+no_8x8dct        36.338410
+no_deblock        8.051639
+dtype: float64","count     85.000000
+mean      39.500698
+std       30.780353
+min        1.439822
+25%       14.316402
+50%       28.136883
+75%       75.988527
+max      103.618085
+Name: % error, dtype: float64"
+66,ElasticNet,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=10)",Performance,0.4,"no_fast_pskip    57.852453
+no_cabac         35.514078
+no_8x8dct        24.899958
+no_deblock       11.939701
+dtype: float64","count     85.000000
+mean      38.668644
+std       29.668727
+min        2.613693
+25%       10.340760
+50%       29.196629
+75%       71.074494
+max      100.615384
+Name: % error, dtype: float64"
+67,PolynomialRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.4,"no_fast_pskip    22.645010
+no_deblock       16.367043
+no_8x8dct        13.147564
+no_cabac         11.892669
+dtype: float64","count     85.000000
+mean      43.068240
+std       33.977611
+min        0.480694
+25%       16.458029
+50%       31.594992
+75%       59.726713
+max      112.745707
+Name: % error, dtype: float64"
+68,RandomForest,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",RandomForestRegressor(),Performance,0.4,"no_8x8dct       NaN
+no_cabac        NaN
+no_deblock      NaN
+no_fast_pskip   NaN
+Name: % error, dtype: float64","count     85.000000
+mean      42.637005
+std       33.837653
+min        1.068804
+25%       15.408933
+50%       30.868896
+75%       60.883746
+max      109.805554
+Name: % error, dtype: float64"
+69,LinearRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.5,"no_fast_pskip    66.599076
+no_cabac         55.161483
+no_8x8dct        49.293663
+no_deblock       15.717464
+dtype: float64","count    106.000000
+mean      37.896206
+std       30.201702
+min        0.831518
+25%       11.586999
+50%       28.412990
+75%       55.342849
+max      102.680895
+Name: % error, dtype: float64"
+70,Lasso,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","Lasso(alpha=0.5, max_iter=100)",Performance,0.5,"no_fast_pskip    64.560435
+no_cabac         53.114255
+no_8x8dct        45.487915
+no_deblock       14.161512
+dtype: float64","count    106.000000
+mean      37.735168
+std       29.945968
+min        1.307584
+25%       10.980556
+50%       28.639083
+75%       55.432010
+max      102.040766
+Name: % error, dtype: float64"
+71,Ridge,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Ridge(alpha=4),Performance,0.5,"no_fast_pskip    54.807940
+no_cabac         46.975164
+no_8x8dct        38.265680
+no_deblock       17.936329
+dtype: float64","count    106.000000
+mean      37.354253
+std       29.325355
+min        1.715062
+25%       10.106644
+50%       29.243422
+75%       56.385228
+max      100.329732
+Name: % error, dtype: float64"
+72,ElasticNet,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=10)",Performance,0.5,"no_fast_pskip    44.732195
+no_cabac         39.337569
+no_8x8dct        28.567972
+no_deblock       18.332431
+dtype: float64","count    106.000000
+mean      36.843165
+std       28.593052
+min        1.291503
+25%        9.735186
+50%       30.089512
+75%       60.004034
+max       97.934235
+Name: % error, dtype: float64"
+73,PolynomialRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.5,"no_fast_pskip    24.592872
+no_cabac         22.005536
+no_deblock       11.962707
+no_8x8dct         7.235571
+dtype: float64","count    106.000000
+mean      40.261310
+std       32.945420
+min        1.128816
+25%       15.510839
+50%       30.493152
+75%       56.588632
+max      110.935182
+Name: % error, dtype: float64"
+74,RandomForest,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",RandomForestRegressor(),Performance,0.5,"no_8x8dct       NaN
+no_cabac        NaN
+no_deblock      NaN
+no_fast_pskip   NaN
+Name: % error, dtype: float64","count    106.000000
+mean      40.215973
+std       32.969047
+min        0.262592
+25%       14.148226
+50%       29.377572
+75%       58.197635
+max      108.456325
+Name: % error, dtype: float64"
+75,LinearRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.6,"no_fast_pskip    81.884017
+no_8x8dct        65.353411
+no_cabac         61.326467
+no_deblock       24.054902
+dtype: float64","count    128.000000
+mean      37.192481
+std       29.218866
+min        1.509621
+25%       14.054942
+50%       29.666416
+75%       51.639935
+max      104.223794
+Name: % error, dtype: float64"
+76,Lasso,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.6,"no_fast_pskip    81.664556
+no_8x8dct        64.957296
+no_cabac         61.118801
+no_deblock       23.873585
+dtype: float64","count    128.000000
+mean      37.173018
+std       29.199047
+min        1.523119
+25%       14.029452
+50%       29.680361
+75%       51.658436
+max      104.158593
+Name: % error, dtype: float64"
+77,Ridge,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Ridge(alpha=4),Performance,0.6,"no_fast_pskip    65.161568
+no_cabac         50.389263
+no_8x8dct        47.716545
+no_deblock       23.661926
+dtype: float64","count    128.000000
+mean      36.319824
+std       28.154484
+min        1.037688
+25%       13.582126
+50%       29.119738
+75%       52.320461
+max      100.780768
+Name: % error, dtype: float64"
+78,ElasticNet,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.0, max_iter=100)",Performance,0.6,"no_fast_pskip    64.524231
+no_cabac         49.957425
+no_8x8dct        47.053408
+no_deblock       23.611271
+dtype: float64","count    128.000000
+mean      36.286746
+std       28.116474
+min        0.957647
+25%       13.460562
+50%       29.102208
+75%       52.358378
+max      100.638507
+Name: % error, dtype: float64"
+79,PolynomialRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.6,"no_cabac         35.263759
+no_deblock       30.359408
+no_8x8dct         5.031264
+no_fast_pskip     2.711026
+dtype: float64","count    128.000000
+mean      39.282154
+std       32.928094
+min        1.138455
+25%       14.563186
+50%       31.283855
+75%       47.214769
+max      127.797664
+Name: % error, dtype: float64"
+80,RandomForest,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",RandomForestRegressor(),Performance,0.6,"no_8x8dct       NaN
+no_cabac        NaN
+no_deblock      NaN
+no_fast_pskip   NaN
+Name: % error, dtype: float64","count    128.000000
+mean      39.284055
+std       33.065853
+min        1.700416
+25%       13.704303
+50%       31.268304
+75%       48.851808
+max      135.189579
+Name: % error, dtype: float64"
+81,LinearRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.7,"no_fast_pskip    81.101154
+no_cabac         67.169975
+no_8x8dct        38.582255
+no_deblock       13.558639
+dtype: float64","count    149.000000
+mean      37.763555
+std       31.106508
+min        0.378407
+25%       14.117115
+50%       25.359763
+75%       50.532220
+max      111.571632
+Name: % error, dtype: float64"
+82,Lasso,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Lasso(max_iter=10),Performance,0.7,"no_fast_pskip    76.444728
+no_cabac         63.021343
+no_8x8dct        31.087586
+no_deblock        9.922345
+dtype: float64","count    149.000000
+mean      37.541430
+std       30.682521
+min        0.353692
+25%       12.607658
+50%       25.746696
+75%       51.301537
+max      110.063926
+Name: % error, dtype: float64"
+83,Ridge,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Ridge(alpha=10),Performance,0.7,"no_fast_pskip    45.595340
+no_cabac         40.416755
+no_deblock       15.059281
+no_8x8dct        13.851806
+dtype: float64","count    149.000000
+mean      36.564645
+std       28.999951
+min        0.168487
+25%       10.384190
+50%       28.748045
+75%       59.071364
+max      101.967370
+Name: % error, dtype: float64"
+84,ElasticNet,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","ElasticNet(alpha=0.3, l1_ratio=0.0, max_iter=100)",Performance,0.7,"no_fast_pskip    33.476599
+no_cabac         30.391636
+no_deblock       13.282175
+no_8x8dct         7.443132
+dtype: float64","count    149.000000
+mean      36.111599
+std       28.425113
+min        0.038677
+25%       10.930853
+50%       28.955881
+75%       62.022110
+max       97.706356
+Name: % error, dtype: float64"
+85,PolynomialRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.7,"no_cabac         38.821453
+no_fast_pskip    25.701641
+no_deblock       15.317205
+no_8x8dct         6.142613
+dtype: float64","count    149.000000
+mean      40.733492
+std       37.132879
+min        0.306165
+25%       12.535839
+50%       30.491261
+75%       58.512662
+max      145.642307
+Name: % error, dtype: float64"
+86,RandomForest,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",RandomForestRegressor(),Performance,0.7,"no_8x8dct       NaN
+no_cabac        NaN
+no_deblock      NaN
+no_fast_pskip   NaN
+Name: % error, dtype: float64","count    149.000000
+mean      39.732845
+std       35.148852
+min        0.005135
+25%       12.498162
+50%       29.634711
+75%       53.010123
+max      122.048826
+Name: % error, dtype: float64"
+87,LinearRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.8,"no_fast_pskip    132.068887
+no_cabac          63.188696
+no_8x8dct         28.304779
+no_deblock        13.783396
+dtype: float64","count    170.000000
+mean      39.984989
+std       34.768785
+min        1.089011
+25%       14.740880
+50%       26.507670
+75%       59.036451
+max      128.631393
+Name: % error, dtype: float64"
+88,Lasso,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.8,"no_fast_pskip    94.332684
+no_cabac         31.420895
+dtype: float64","count    170.000000
+mean      38.021700
+std       31.810404
+min        0.047586
+25%       14.354791
+50%       27.079673
+75%       60.475721
+max      114.527232
+Name: % error, dtype: float64"
+89,Ridge,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Ridge(alpha=10),Performance,0.8,"no_fast_pskip    63.091850
+no_cabac         36.097721
+no_deblock       20.859569
+no_8x8dct         4.801045
+dtype: float64","count    170.000000
+mean      37.767724
+std       30.702376
+min        0.279194
+25%       13.375797
+50%       26.300579
+75%       67.605312
+max      110.435152
+Name: % error, dtype: float64"
+90,ElasticNet,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","ElasticNet(alpha=0.3, l1_ratio=0.0, max_iter=100)",Performance,0.8,"no_fast_pskip    55.893351
+no_cabac         32.872822
+no_deblock       19.989752
+no_8x8dct         3.056625
+dtype: float64","count    170.000000
+mean      37.548263
+std       30.265688
+min        0.483596
+25%       13.578785
+50%       26.613400
+75%       66.938210
+max      107.982321
+Name: % error, dtype: float64"
+91,PolynomialRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.8,"no_deblock       33.047468
+no_cabac         30.438638
+no_fast_pskip    24.194081
+no_8x8dct         1.929861
+dtype: float64","count    170.000000
+mean      43.759691
+std       41.160256
+min        0.242952
+25%       11.313169
+50%       31.865120
+75%       55.301404
+max      151.450562
+Name: % error, dtype: float64"
+92,RandomForest,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",RandomForestRegressor(),Performance,0.8,"no_8x8dct       NaN
+no_cabac        NaN
+no_deblock      NaN
+no_fast_pskip   NaN
+Name: % error, dtype: float64","count    170.000000
+mean      41.650932
+std       36.708806
+min        0.081950
+25%       17.813992
+50%       32.982006
+75%       46.710388
+max      134.282169
+Name: % error, dtype: float64"
+93,LinearRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.9,"no_deblock       86.645440
+no_8x8dct        70.615001
+no_fast_pskip    62.715345
+no_cabac         22.807080
+dtype: float64","count    191.000000
+mean      37.299118
+std       26.992481
+min        1.512577
+25%       16.444069
+50%       29.993366
+75%       49.759577
+max      102.843577
+Name: % error, dtype: float64"
+94,Lasso,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.9,"Series([], dtype: float64)","count    191.000000
+mean      36.592354
+std       25.893710
+min        0.899744
+25%       14.786015
+50%       30.205894
+75%       61.021596
+max       84.082919
+Name: % error, dtype: float64"
+95,Ridge,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",Ridge(alpha=25),Performance,0.9,"no_deblock       14.465394
+no_fast_pskip    13.700250
+no_cabac          6.727473
+no_8x8dct         4.134478
+dtype: float64","count    191.000000
+mean      36.264619
+std       26.269670
+min        0.641962
+25%       13.468530
+50%       29.015960
+75%       61.326972
+max       86.823580
+Name: % error, dtype: float64"
+96,ElasticNet,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')","ElasticNet(alpha=25, l1_ratio=0.0, max_iter=1)",Performance,0.9,"no_deblock       0.886747
+no_fast_pskip    0.831416
+no_cabac         0.472933
+no_8x8dct        0.119367
+dtype: float64","count    191.000000
+mean      36.560074
+std       25.926976
+min        0.677798
+25%       14.859779
+50%       30.037800
+75%       61.409404
+max       84.185845
+Name: % error, dtype: float64"
+97,PolynomialRegression,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",LinearRegression(),Performance,0.9,"no_deblock       82.826111
+no_cabac         35.490278
+no_8x8dct        27.469444
+no_fast_pskip    15.230278
+dtype: float64","count    191.000000
+mean      38.218315
+std       31.913187
+min        0.105121
+25%       12.277214
+50%       28.902529
+75%       63.296105
+max      144.034799
+Name: % error, dtype: float64"
+98,RandomForest,False,RandomForest,"Index(['no_8x8dct', 'no_cabac', 'no_deblock', 'no_fast_pskip'], dtype='object')",RandomForestRegressor(),Performance,0.9,"no_8x8dct       NaN
+no_cabac        NaN
+no_deblock      NaN
+no_fast_pskip   NaN
+Name: % error, dtype: float64","count    191.000000
+mean      36.706888
+std       27.539357
+min        0.327266
+25%       15.442213
+50%       30.303212
+75%       56.869639
+max      104.688982
+Name: % error, dtype: float64"

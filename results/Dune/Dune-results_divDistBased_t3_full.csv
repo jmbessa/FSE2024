@@ -1,0 +1,3825 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy
+0,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"SeqGS             3.088066e+17
+SeqSOR            3.088066e+17
+Precon            2.271746e+17
+PreSmoothing      1.417859e+17
+PostSmoothing     1.252859e+17
+GradientSolver    1.202729e+17
+LoopSolver        1.202729e+17
+BiCGSTABSolver    1.202729e+17
+CGSolver          1.202729e+17
+cells_50          1.013135e+17
+cells_51          1.013135e+17
+cells_52          1.013135e+17
+cells_53          1.013135e+17
+cells_54          1.013135e+17
+cells_55          1.013135e+17
+post_6            5.306131e+16
+post_5            5.306131e+16
+post_4            5.306131e+16
+post_3            5.306131e+16
+post_2            5.306131e+16
+post_1            5.306131e+16
+post_0            5.306131e+16
+pre_5             2.513592e+16
+pre_6             2.513592e+16
+pre_3             2.513592e+16
+pre_4             2.513592e+16
+pre_2             2.513592e+16
+pre_0             2.513592e+16
+pre_1             2.513592e+16
+Solver            6.459293e+15
+root              7.188097e+12
+dtype: float64","count    964.000000
+mean      22.384286
+std       17.797662
+min        0.021887
+25%        9.355576
+50%       18.677114
+75%       30.882512
+max      102.154662
+Name: % error, dtype: float64"
+1,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.1,"pre_1             8.639988e+03
+post_0            5.304789e+03
+CGSolver          5.257173e+03
+cells_51          2.784983e+03
+post_1            2.533189e+03
+cells_52          1.530055e+03
+post_2            1.357520e+03
+cells_50          1.340012e+03
+post_4            1.254221e+03
+cells_54          1.163667e+03
+pre_6             9.069721e+02
+GradientSolver    7.795909e+02
+cells_53          6.774603e+02
+BiCGSTABSolver    6.107697e+02
+post_6            5.801241e+02
+post_5            3.799295e+02
+cells_55          3.069070e+02
+SeqGS             2.843663e+02
+pre_2             2.264571e+02
+pre_0             1.682320e+02
+pre_5             1.367021e+02
+SeqSOR            3.086513e-13
+dtype: float64","count    964.000000
+mean      23.822746
+std       20.131952
+min        0.112070
+25%       10.217204
+50%       19.646860
+75%       31.382753
+max      133.915661
+Name: % error, dtype: float64"
+2,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.1,"post_0            3874.625270
+pre_1             3438.691913
+CGSolver          2401.382586
+post_6            1488.096356
+cells_51          1388.236193
+cells_54          1376.997902
+post_1            1220.823864
+cells_55          1191.748617
+GradientSolver    1164.688506
+post_4            1130.917927
+cells_50          1127.136663
+LoopSolver        1039.345084
+post_5             974.801214
+post_3             956.534530
+pre_6              900.944747
+pre_5              878.561962
+pre_3              736.416801
+post_2             545.099108
+pre_2              529.722866
+pre_4              508.728061
+SeqSOR             500.569487
+SeqGS              500.569487
+BiCGSTABSolver     197.348996
+pre_0              115.682523
+cells_53           106.738543
+cells_52            53.364879
+dtype: float64","count    964.000000
+mean      15.804887
+std       13.264034
+min        0.006095
+25%        5.892511
+50%       12.534109
+75%       21.996449
+max       81.166047
+Name: % error, dtype: float64"
+3,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=0.1, max_iter=5)",Performance,0.1,"post_0            2820.216079
+pre_1             2399.688686
+CGSolver          2032.231752
+cells_54          1026.351636
+cells_51          1016.810180
+post_6             999.425500
+post_4             921.137130
+post_1             890.877462
+cells_55           878.497058
+GradientSolver     878.025357
+LoopSolver         877.347212
+cells_50           789.592456
+post_3             743.296235
+pre_6              668.890759
+post_5             646.385168
+pre_5              520.164770
+pre_3              470.393083
+pre_2              400.959954
+post_2             398.337308
+SeqGS              366.044112
+pre_4              363.172397
+SeqSOR             362.384852
+BiCGSTABSolver     271.930626
+cells_53           180.394021
+cells_52            77.750710
+pre_0               25.951011
+dtype: float64","count    964.000000
+mean      14.651719
+std       13.676968
+min        0.001436
+25%        3.972966
+50%        9.701050
+75%       23.180055
+max       98.922779
+Name: % error, dtype: float64"
+4,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"10             pre_0
+5           CGSolver
+18            post_0
+11             pre_1
+19            post_1
+7         LoopSolver
+31          cells_55
+26          cells_50
+27          cells_51
+3              SeqGS
+4             SeqSOR
+6     BiCGSTABSolver
+30          cells_54
+28          cells_52
+8     GradientSolver
+12             pre_2
+24            post_6
+29          cells_53
+20            post_2
+16             pre_6
+13             pre_3
+14             pre_4
+22            post_4
+15             pre_5
+21            post_3
+23            post_5
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    964.000000
+mean       9.788864
+std       13.021252
+min        0.000161
+25%        1.862873
+50%        5.659367
+75%       11.860330
+max      101.665617
+Name: % error, dtype: float64"
+5,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"CGSolver          6.424027e+17
+BiCGSTABSolver    6.424027e+17
+GradientSolver    6.424027e+17
+LoopSolver        6.424027e+17
+PreSmoothing      4.754357e+17
+Precon            2.652956e+17
+Solver            9.662048e+16
+post_0            6.740145e+16
+post_1            6.740145e+16
+post_3            6.740145e+16
+post_2            6.740145e+16
+post_4            6.740145e+16
+post_5            6.740145e+16
+post_6            6.740145e+16
+PostSmoothing     4.726925e+16
+SeqSOR            3.509268e+16
+SeqGS             3.509268e+16
+pre_4             3.008887e+16
+pre_6             3.008887e+16
+pre_3             3.008887e+16
+pre_5             3.008887e+16
+pre_2             3.008887e+16
+pre_0             3.008887e+16
+pre_1             3.008887e+16
+cells_50          1.513710e+15
+cells_51          1.513710e+15
+cells_52          1.513710e+15
+cells_53          1.513710e+15
+cells_54          1.513710e+15
+cells_55          1.513710e+15
+root              3.891421e+13
+dtype: float64","count    857.000000
+mean      20.275234
+std       15.739763
+min        0.045242
+25%        8.790128
+50%       17.097580
+75%       27.686737
+max       92.722319
+Name: % error, dtype: float64"
+6,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.2,"post_0            6.074700e+03
+pre_1             5.765870e+03
+post_1            3.132464e+03
+cells_50          2.663647e+03
+CGSolver          2.426324e+03
+pre_0             2.199180e+03
+cells_51          1.698735e+03
+SeqGS             1.637272e+03
+cells_52          1.272777e+03
+post_6            1.122584e+03
+cells_55          1.119546e+03
+post_5            5.780347e+02
+cells_54          5.390789e+02
+LoopSolver        4.130625e+02
+pre_2             4.047596e+02
+post_4            3.041008e+02
+BiCGSTABSolver    2.747902e+02
+pre_4             2.380698e+02
+post_3            2.210857e+02
+pre_6             1.703594e+02
+cells_53          1.064108e+02
+SeqSOR            2.226909e-13
+dtype: float64","count    857.000000
+mean      16.627685
+std       13.543911
+min        0.004659
+25%        7.381557
+50%       13.966813
+75%       21.739772
+max       83.551406
+Name: % error, dtype: float64"
+7,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.2,"post_0            3697.317425
+pre_1             3008.789572
+CGSolver          1813.198261
+post_1            1658.456131
+post_6            1628.983187
+cells_55          1385.975345
+post_5            1281.751641
+cells_50          1233.765420
+post_4            1202.796676
+pre_6             1056.426339
+cells_54           932.597656
+LoopSolver         864.491902
+pre_3              850.701139
+pre_0              847.881897
+cells_51           846.850245
+pre_4              834.552166
+GradientSolver     717.550284
+pre_5              706.706971
+SeqGS              691.297460
+SeqSOR             691.297460
+post_2             623.761936
+post_3             618.480117
+pre_2              408.284854
+cells_52           331.981761
+BiCGSTABSolver     231.156075
+cells_53            94.024425
+dtype: float64","count    857.000000
+mean      14.976374
+std       12.214536
+min        0.015255
+25%        6.756563
+50%       11.516838
+75%       19.363878
+max       97.947610
+Name: % error, dtype: float64"
+8,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.0, max_iter=5)",Performance,0.2,"post_0            2783.221803
+pre_1             2070.492450
+CGSolver          1624.871780
+post_1            1315.077136
+post_6            1170.361663
+cells_55          1018.954098
+post_4             973.433611
+post_5             913.144444
+cells_50           801.172146
+pre_6              796.848532
+LoopSolver         732.434437
+cells_51           681.944936
+cells_54           658.713485
+GradientSolver     621.846011
+pre_3              613.760224
+SeqGS              602.322700
+pre_0              589.752170
+post_3             561.261141
+SeqSOR             560.778078
+pre_4              485.609732
+post_2             448.038727
+pre_5              396.376519
+pre_2              343.543558
+BiCGSTABSolver     237.336064
+cells_52           157.760486
+cells_53            72.567020
+dtype: float64","count    857.000000
+mean      14.289625
+std       12.943651
+min        0.001582
+25%        4.731111
+50%       10.373463
+75%       19.617227
+max      109.995989
+Name: % error, dtype: float64"
+9,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"10             pre_0
+5           CGSolver
+18            post_0
+11             pre_1
+19            post_1
+7         LoopSolver
+31          cells_55
+26          cells_50
+27          cells_51
+3              SeqGS
+4             SeqSOR
+6     BiCGSTABSolver
+30          cells_54
+28          cells_52
+8     GradientSolver
+12             pre_2
+24            post_6
+29          cells_53
+20            post_2
+16             pre_6
+13             pre_3
+14             pre_4
+22            post_4
+15             pre_5
+21            post_3
+23            post_5
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    857.000000
+mean       7.894301
+std       10.395105
+min        0.009603
+25%        0.809938
+50%        3.506839
+75%       11.103692
+max       71.780890
+Name: % error, dtype: float64"
+10,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"PreSmoothing      4.722187e+17
+post_6            4.368569e+17
+post_5            4.368569e+17
+post_2            4.368569e+17
+post_4            4.368569e+17
+post_3            4.368569e+17
+post_1            4.368569e+17
+post_0            4.368569e+17
+Precon            2.496015e+17
+PostSmoothing     1.904422e+17
+SeqGS             1.597460e+17
+SeqSOR            1.597460e+17
+cells_50          1.504016e+17
+cells_52          1.504016e+17
+cells_51          1.504016e+17
+cells_53          1.504016e+17
+cells_54          1.504016e+17
+cells_55          1.504016e+17
+pre_1             7.919282e+16
+pre_0             7.919282e+16
+pre_3             7.919282e+16
+pre_4             7.919282e+16
+pre_2             7.919282e+16
+pre_5             7.919282e+16
+pre_6             7.919282e+16
+LoopSolver        7.671763e+16
+GradientSolver    7.671763e+16
+BiCGSTABSolver    7.671763e+16
+CGSolver          7.671763e+16
+Solver            7.354659e+16
+root              4.011687e+13
+Cells             1.280000e+02
+dtype: float64","count    750.000000
+mean      17.971677
+std       15.109549
+min        0.020219
+25%        7.284580
+50%       14.688955
+75%       24.005850
+max       89.073019
+Name: % error, dtype: float64"
+11,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.3,"post_0            6.066550e+03
+pre_1             6.034147e+03
+post_1            2.950308e+03
+CGSolver          2.632112e+03
+pre_0             2.191877e+03
+cells_50          2.049462e+03
+SeqGS             1.786341e+03
+post_6            1.368709e+03
+cells_55          1.240585e+03
+cells_51          1.024298e+03
+cells_52          7.693223e+02
+BiCGSTABSolver    3.977679e+02
+LoopSolver        3.503654e+02
+pre_6             2.720299e+02
+post_5            2.623461e+02
+cells_54          1.439724e+02
+post_4            4.700652e+01
+pre_4             4.227165e+01
+GradientSolver    3.373783e+00
+SeqSOR            7.452718e-14
+dtype: float64","count    750.000000
+mean      17.316372
+std       14.007868
+min        0.043427
+25%        7.748508
+50%       13.879289
+75%       22.060521
+max       83.555570
+Name: % error, dtype: float64"
+12,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.3,"post_0            4177.319557
+pre_1             3672.978069
+post_6            2030.920285
+CGSolver          1929.193899
+post_1            1727.299007
+cells_55          1410.419548
+cells_50          1227.918225
+pre_6             1213.666604
+post_5            1197.602835
+post_4            1107.166715
+pre_4              959.976254
+pre_0              954.236792
+LoopSolver         951.245818
+pre_3              902.200862
+post_3             882.968774
+SeqGS              809.764184
+SeqSOR             809.764184
+GradientSolver     789.687716
+pre_5              789.513538
+pre_2              761.857603
+post_2             685.959955
+cells_51           567.553635
+cells_54           548.285088
+cells_52           395.239588
+cells_53           232.006811
+BiCGSTABSolver     188.260365
+dtype: float64","count    750.000000
+mean      15.832392
+std       12.408062
+min        0.188842
+25%        7.558467
+50%       12.403875
+75%       19.449179
+max       68.357638
+Name: % error, dtype: float64"
+13,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.0, max_iter=5)",Performance,0.3,"post_0            3786.428394
+pre_1             3129.312619
+CGSolver          1931.478993
+post_6            1727.004200
+post_1            1646.116507
+cells_55          1179.173446
+cells_50          1035.873209
+pre_6             1027.226770
+post_5            1009.115934
+post_4             999.670068
+SeqGS              890.009593
+pre_0              886.777506
+LoopSolver         839.882337
+post_3             805.589861
+pre_4              775.180805
+pre_3              748.730141
+GradientSolver     711.691229
+SeqSOR             655.390076
+pre_2              627.685304
+pre_5              587.971072
+cells_51           548.964669
+post_2             534.778618
+cells_54           424.063581
+cells_52           369.585912
+BiCGSTABSolver     132.793711
+cells_53            61.896499
+dtype: float64","count    750.000000
+mean      15.368223
+std       12.083913
+min        0.054419
+25%        7.319062
+50%       11.775459
+75%       19.081669
+max       68.731471
+Name: % error, dtype: float64"
+14,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"10             pre_0
+5           CGSolver
+18            post_0
+11             pre_1
+19            post_1
+7         LoopSolver
+31          cells_55
+26          cells_50
+27          cells_51
+3              SeqGS
+4             SeqSOR
+6     BiCGSTABSolver
+30          cells_54
+28          cells_52
+8     GradientSolver
+12             pre_2
+24            post_6
+29          cells_53
+20            post_2
+16             pre_6
+13             pre_3
+14             pre_4
+22            post_4
+15             pre_5
+21            post_3
+23            post_5
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    750.000000
+mean       6.488336
+std        8.108278
+min        0.006539
+25%        0.701623
+50%        2.755852
+75%        9.727846
+max       39.913930
+Name: % error, dtype: float64"
+15,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"CGSolver          9.150565e+17
+BiCGSTABSolver    9.150565e+17
+GradientSolver    9.150565e+17
+LoopSolver        9.150565e+17
+Precon            7.583829e+17
+Solver            6.950967e+17
+PreSmoothing      4.357079e+17
+SeqSOR            2.430443e+17
+SeqGS             2.430443e+17
+PostSmoothing     7.926517e+16
+cells_55          7.230534e+16
+cells_54          7.230534e+16
+cells_53          7.230534e+16
+cells_52          7.230534e+16
+cells_51          7.230534e+16
+cells_50          7.230534e+16
+post_0            6.896012e+16
+post_1            6.896012e+16
+post_2            6.896012e+16
+post_3            6.896012e+16
+post_5            6.896012e+16
+post_4            6.896012e+16
+post_6            6.896012e+16
+pre_6             1.066028e+16
+pre_5             1.066028e+16
+pre_4             1.066028e+16
+pre_3             1.066028e+16
+pre_2             1.066028e+16
+pre_0             1.066028e+16
+pre_1             1.066028e+16
+root              4.353636e+13
+Cells             2.560000e+02
+dtype: float64","count    643.000000
+mean      16.140773
+std       14.731879
+min        0.015185
+25%        5.498422
+50%       11.102852
+75%       23.242379
+max       89.055258
+Name: % error, dtype: float64"
+16,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=100)",Performance,0.4,"post_0            6070.434180
+pre_1             5083.578362
+post_1            2993.040789
+CGSolver          2718.698522
+pre_0             1919.494329
+cells_50          1868.207343
+SeqGS             1710.502935
+cells_55          1298.444947
+post_6             864.871199
+cells_54           703.181288
+cells_51           696.475054
+BiCGSTABSolver     483.141939
+pre_6              316.584779
+LoopSolver         288.016393
+post_2             163.317030
+post_4             145.342907
+GradientSolver      29.300691
+pre_4                6.469025
+dtype: float64","count    643.000000
+mean      16.593571
+std       12.799629
+min        0.152803
+25%        8.057800
+50%       13.508032
+75%       21.172763
+max       74.569688
+Name: % error, dtype: float64"
+17,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.4,"post_0            4782.272399
+pre_1             4008.969223
+post_6            2136.839761
+CGSolver          2036.908609
+post_1            1877.033647
+cells_50          1825.304690
+cells_55          1495.252069
+pre_6             1364.152534
+post_4            1357.465887
+post_5            1310.415736
+post_3            1125.524554
+pre_0             1054.502850
+pre_4             1039.893578
+LoopSolver        1030.051580
+pre_5             1005.762926
+cells_54           903.288660
+pre_3              892.597373
+GradientSolver     876.901577
+SeqSOR             851.663116
+SeqGS              851.663116
+pre_2              761.065661
+cells_51           736.086855
+post_2             729.060108
+cells_53           205.444520
+BiCGSTABSolver     129.955452
+cells_52            42.593703
+dtype: float64","count    643.000000
+mean      16.244427
+std       12.515016
+min        0.184209
+25%        7.591891
+50%       13.228980
+75%       20.908892
+max       70.385238
+Name: % error, dtype: float64"
+18,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.4,"post_0            4908.636715
+pre_1             3877.703757
+CGSolver          2320.016398
+post_1            2181.108087
+cells_50          1967.293004
+post_6            1681.542546
+pre_0             1252.495346
+SeqGS             1241.700233
+cells_55          1112.660512
+pre_6             1069.539476
+cells_51          1045.174421
+post_4             953.607661
+post_5             910.686621
+pre_4              732.307091
+post_3             729.651923
+LoopSolver         701.761665
+pre_5              686.881375
+GradientSolver     604.651348
+pre_3              586.737857
+cells_54           523.543923
+pre_2              462.556100
+SeqSOR             425.498854
+cells_52           340.972614
+post_2             304.909330
+BiCGSTABSolver     175.111504
+cells_53           160.672562
+dtype: float64","count    643.000000
+mean      15.842988
+std       12.121399
+min        0.012944
+25%        7.573430
+50%       12.757872
+75%       20.849675
+max       66.874448
+Name: % error, dtype: float64"
+19,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"10             pre_0
+5           CGSolver
+18            post_0
+11             pre_1
+19            post_1
+7         LoopSolver
+31          cells_55
+26          cells_50
+27          cells_51
+3              SeqGS
+4             SeqSOR
+6     BiCGSTABSolver
+30          cells_54
+28          cells_52
+8     GradientSolver
+12             pre_2
+24            post_6
+29          cells_53
+20            post_2
+16             pre_6
+13             pre_3
+14             pre_4
+22            post_4
+15             pre_5
+21            post_3
+23            post_5
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    643.000000
+mean       5.774767
+std        7.309663
+min        0.000790
+25%        0.669723
+50%        2.391113
+75%        8.793766
+max       46.264668
+Name: % error, dtype: float64"
+20,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"Precon            6.364448e+16
+cells_50          3.737340e+16
+cells_51          3.737340e+16
+cells_52          3.737340e+16
+cells_53          3.737340e+16
+cells_54          3.737340e+16
+cells_55          3.737340e+16
+pre_1             3.715220e+16
+pre_0             3.715220e+16
+pre_2             3.715220e+16
+pre_4             3.715220e+16
+pre_3             3.715220e+16
+pre_5             3.715220e+16
+pre_6             3.715220e+16
+SeqGS             2.351843e+16
+SeqSOR            2.351843e+16
+PreSmoothing      1.755727e+16
+post_6            1.714484e+16
+post_5            1.714484e+16
+post_4            1.714484e+16
+post_3            1.714484e+16
+post_2            1.714484e+16
+post_1            1.714484e+16
+post_0            1.714484e+16
+CGSolver          1.603339e+16
+BiCGSTABSolver    1.603339e+16
+GradientSolver    1.603339e+16
+LoopSolver        1.603339e+16
+PostSmoothing     6.274828e+15
+Solver            4.391347e+15
+root              2.034397e+12
+dtype: float64","count    536.000000
+mean      17.042769
+std       12.383624
+min        0.011729
+25%        8.275440
+50%       14.311594
+75%       22.839699
+max       66.494396
+Name: % error, dtype: float64"
+21,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=100)",Performance,0.5,"post_0            5881.599361
+pre_1             4474.890421
+post_1            3465.436169
+CGSolver          2668.248016
+pre_0             1873.218836
+SeqGS             1558.731906
+cells_50          1286.785889
+cells_55          1239.702332
+post_6             781.773721
+cells_51           771.521300
+cells_54           626.924357
+BiCGSTABSolver     312.736081
+LoopSolver         300.520565
+pre_6              269.207879
+post_2             226.109016
+post_4              46.087417
+GradientSolver      37.890985
+cells_52            11.761468
+dtype: float64","count    536.000000
+mean      16.722507
+std       12.295902
+min        0.008726
+25%        8.614324
+50%       13.905567
+75%       21.857925
+max       67.340224
+Name: % error, dtype: float64"
+22,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.5,"post_0            4215.748518
+pre_1             3210.915126
+post_1            2135.166859
+CGSolver          1997.181257
+post_6            1976.391135
+post_4            1294.854912
+cells_55          1275.751802
+post_5            1267.136601
+cells_50          1209.242741
+post_3            1174.198565
+pre_6             1158.531268
+pre_0             1013.520354
+LoopSolver         960.216565
+pre_4              850.708244
+cells_51           810.125986
+pre_3              801.377120
+GradientSolver     799.171941
+pre_5              792.936208
+SeqGS              744.976240
+SeqSOR             744.976240
+cells_54           722.073071
+post_2             638.334165
+pre_2              620.882640
+BiCGSTABSolver     237.792752
+cells_53           168.862028
+cells_52           147.318174
+dtype: float64","count    536.000000
+mean      15.910688
+std       11.641086
+min        0.021884
+25%        7.938037
+50%       13.020789
+75%       21.145902
+max       63.892846
+Name: % error, dtype: float64"
+23,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.5,"post_0            4550.580364
+pre_1             3321.104843
+post_1            2472.276314
+CGSolver          2278.128928
+post_6            1695.547893
+cells_50          1460.190143
+pre_0             1240.753095
+SeqGS             1097.919934
+cells_51          1078.170962
+cells_55          1050.890476
+pre_6              991.516248
+post_5             988.385438
+post_4             973.313376
+post_3             842.583560
+LoopSolver         689.444828
+pre_4              672.993594
+pre_5              646.052794
+pre_3              608.681068
+GradientSolver     559.995895
+cells_54           471.737292
+pre_2              426.432225
+SeqSOR             405.759059
+cells_52           404.768802
+post_2             327.205912
+cells_53            90.108149
+BiCGSTABSolver      48.749712
+dtype: float64","count    536.000000
+mean      15.903874
+std       11.582301
+min        0.251496
+25%        8.026854
+50%       13.114810
+75%       21.272815
+max       63.876082
+Name: % error, dtype: float64"
+24,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"10             pre_0
+5           CGSolver
+18            post_0
+11             pre_1
+19            post_1
+7         LoopSolver
+31          cells_55
+26          cells_50
+27          cells_51
+3              SeqGS
+4             SeqSOR
+6     BiCGSTABSolver
+30          cells_54
+28          cells_52
+8     GradientSolver
+12             pre_2
+24            post_6
+29          cells_53
+20            post_2
+16             pre_6
+13             pre_3
+14             pre_4
+22            post_4
+15             pre_5
+21            post_3
+23            post_5
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    536.000000
+mean       5.488598
+std        6.914455
+min        0.005744
+25%        0.680455
+50%        2.137714
+75%        9.069654
+max       51.008959
+Name: % error, dtype: float64"
+25,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"cells_55          1.503900e+17
+cells_54          1.503900e+17
+cells_53          1.503900e+17
+cells_52          1.503900e+17
+cells_51          1.503900e+17
+cells_50          1.503900e+17
+Solver            8.933663e+16
+Precon            8.702748e+16
+post_0            4.291579e+16
+post_1            4.291579e+16
+post_2            4.291579e+16
+post_3            4.291579e+16
+post_5            4.291579e+16
+post_4            4.291579e+16
+post_6            4.291579e+16
+SeqGS             2.664215e+16
+SeqSOR            2.664215e+16
+PostSmoothing     1.050344e+16
+PreSmoothing      9.019667e+15
+pre_1             8.220844e+15
+pre_0             8.220844e+15
+pre_2             8.220844e+15
+pre_4             8.220844e+15
+pre_3             8.220844e+15
+pre_6             8.220844e+15
+pre_5             8.220844e+15
+CGSolver          2.513910e+15
+BiCGSTABSolver    2.513910e+15
+GradientSolver    2.513910e+15
+LoopSolver        2.513910e+15
+root              1.316748e+13
+Cells             1.200000e+02
+dtype: float64","count    429.000000
+mean      15.700746
+std       11.957121
+min        0.002537
+25%        7.381490
+50%       12.379962
+75%       22.167196
+max       64.548095
+Name: % error, dtype: float64"
+26,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.6,"post_0            5.675191e+03
+pre_1             3.822905e+03
+post_1            3.508553e+03
+CGSolver          2.166550e+03
+pre_0             1.806464e+03
+SeqGS             1.393318e+03
+cells_50          1.239424e+03
+cells_55          1.133689e+03
+cells_51          8.237267e+02
+post_6            7.257919e+02
+cells_54          5.997475e+02
+BiCGSTABSolver    2.633324e+02
+LoopSolver        2.517787e+02
+post_2            2.226399e+02
+post_4            1.827184e+02
+pre_6             1.535179e+02
+pre_2             7.231413e+01
+GradientSolver    4.274263e+01
+cells_52          1.236230e+01
+SeqSOR            1.116584e-12
+dtype: float64","count    429.000000
+mean      15.451738
+std       11.739618
+min        0.028653
+25%        7.027590
+50%       12.664112
+75%       20.936563
+max       61.466214
+Name: % error, dtype: float64"
+27,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.6,"post_0            4147.742435
+pre_1             2833.864447
+post_1            2232.512248
+post_6            1940.093725
+CGSolver          1661.251505
+post_4            1403.036598
+cells_55          1239.231840
+post_5            1212.026408
+cells_50          1209.098155
+post_3            1185.094124
+pre_0             1062.212852
+pre_6             1015.931759
+pre_5              892.045885
+cells_51           844.119591
+LoopSolver         810.626328
+pre_4              757.837196
+pre_3              755.864673
+cells_54           739.613077
+GradientSolver     697.477501
+SeqSOR             673.204196
+SeqGS              673.204196
+post_2             640.003827
+pre_2              474.397787
+cells_53           202.717180
+BiCGSTABSolver     153.147677
+cells_52           128.344352
+dtype: float64","count    429.000000
+mean      14.754542
+std       11.256350
+min        0.225045
+25%        6.784948
+50%       11.729470
+75%       20.190670
+max       57.186345
+Name: % error, dtype: float64"
+28,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.6,"post_0            4367.136267
+pre_1             2846.163559
+post_1            2514.415037
+CGSolver          1884.673564
+post_6            1625.157912
+cells_50          1397.082030
+pre_0             1234.599977
+cells_51          1093.467896
+post_4            1082.353393
+cells_55           984.628504
+SeqGS              974.630083
+post_5             915.946251
+post_3             855.962289
+pre_6              839.673831
+pre_5              703.465349
+LoopSolver         574.856832
+pre_4              570.665091
+pre_3              561.121918
+GradientSolver     493.744488
+cells_54           472.353742
+cells_52           371.926961
+SeqSOR             367.473587
+post_2             318.681715
+pre_2              282.836080
+BiCGSTABSolver      83.430968
+cells_53            64.307575
+dtype: float64","count    429.000000
+mean      14.645234
+std       11.132620
+min        0.091942
+25%        6.991770
+50%       11.517401
+75%       19.945877
+max       57.347982
+Name: % error, dtype: float64"
+29,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"10             pre_0
+5           CGSolver
+18            post_0
+11             pre_1
+19            post_1
+7         LoopSolver
+31          cells_55
+26          cells_50
+27          cells_51
+3              SeqGS
+4             SeqSOR
+6     BiCGSTABSolver
+30          cells_54
+28          cells_52
+8     GradientSolver
+12             pre_2
+24            post_6
+29          cells_53
+20            post_2
+16             pre_6
+13             pre_3
+14             pre_4
+22            post_4
+15             pre_5
+21            post_3
+23            post_5
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    429.000000
+mean       5.036044
+std        6.454227
+min        0.000448
+25%        0.703060
+50%        2.087316
+75%        7.037100
+max       34.710042
+Name: % error, dtype: float64"
+30,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"cells_50          1.445722e+17
+cells_51          1.445722e+17
+cells_52          1.445722e+17
+cells_53          1.445722e+17
+cells_54          1.445722e+17
+cells_55          1.445722e+17
+PreSmoothing      7.621527e+16
+Precon            5.402231e+16
+Solver            4.288057e+16
+CGSolver          1.251415e+16
+BiCGSTABSolver    1.251415e+16
+GradientSolver    1.251415e+16
+LoopSolver        1.251415e+16
+pre_6             8.557956e+15
+pre_5             8.557956e+15
+pre_4             8.557956e+15
+pre_3             8.557956e+15
+pre_2             8.557956e+15
+pre_0             8.557956e+15
+pre_1             8.557956e+15
+PostSmoothing     8.327251e+15
+SeqGS             6.367941e+15
+SeqSOR            6.367941e+15
+post_0            3.359743e+15
+post_1            3.359743e+15
+post_2            3.359743e+15
+post_3            3.359743e+15
+post_4            3.359743e+15
+post_5            3.359743e+15
+post_6            3.359743e+15
+root              8.092065e+12
+Cells             1.600000e+01
+dtype: float64","count    322.000000
+mean      14.989316
+std       10.649715
+min        0.095779
+25%        6.327080
+50%       12.771247
+75%       21.672548
+max       56.637700
+Name: % error, dtype: float64"
+31,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.7,"post_0            5.505318e+03
+post_1            3.689661e+03
+pre_1             3.291175e+03
+CGSolver          1.902122e+03
+pre_0             1.831633e+03
+cells_50          1.390905e+03
+SeqGS             1.285334e+03
+cells_51          1.143356e+03
+cells_55          9.593516e+02
+post_6            7.505916e+02
+cells_54          5.064366e+02
+cells_52          4.745669e+02
+BiCGSTABSolver    3.888239e+02
+LoopSolver        3.268434e+02
+post_2            3.069615e+02
+pre_6             2.639018e+02
+pre_2             1.332557e+02
+post_4            8.953932e+01
+GradientSolver    1.401460e+01
+SeqSOR            4.132374e-14
+dtype: float64","count    322.000000
+mean      14.483826
+std       10.531847
+min        0.037571
+25%        6.283167
+50%       11.838851
+75%       20.112022
+max       54.379540
+Name: % error, dtype: float64"
+32,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.7,"post_0            4061.905759
+pre_1             2526.072231
+post_1            2397.550512
+post_6            2002.034715
+CGSolver          1465.880132
+post_4            1368.118911
+cells_55          1273.081155
+post_5            1252.869862
+post_3            1223.014764
+pre_0             1163.236053
+cells_50          1154.351103
+pre_6             1065.610999
+cells_51           919.135508
+cells_54           867.104018
+LoopSolver         830.420483
+pre_5              781.810123
+pre_4              763.285730
+pre_3              710.796788
+GradientSolver     646.188215
+SeqSOR             643.332890
+SeqGS              643.332890
+post_2             613.418019
+pre_2              367.804644
+cells_52           337.464376
+cells_53           270.765815
+BiCGSTABSolver      10.728565
+dtype: float64","count    322.000000
+mean      14.153341
+std       10.443794
+min        0.076715
+25%        5.964971
+50%       12.139046
+75%       20.137048
+max       54.950947
+Name: % error, dtype: float64"
+33,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.7,"post_0            3986.943480
+post_1            2488.024545
+pre_1             2342.812791
+post_6            1657.282014
+CGSolver          1605.438885
+pre_0             1193.947559
+cells_50          1180.964097
+post_4            1096.381023
+cells_51          1073.535131
+cells_55          1005.094077
+post_5             960.547830
+post_3             951.738221
+pre_6              874.886365
+SeqGS              860.693119
+LoopSolver         623.131286
+cells_54           606.324219
+pre_4              573.130612
+pre_5              557.119364
+pre_3              525.688072
+GradientSolver     484.031624
+cells_52           481.587023
+SeqSOR             393.235822
+post_2             341.485217
+pre_2              209.248309
+BiCGSTABSolver     173.803188
+cells_53            34.310189
+dtype: float64","count    322.000000
+mean      13.782198
+std       10.368213
+min        0.044560
+25%        6.242048
+50%       10.924983
+75%       19.611141
+max       56.427849
+Name: % error, dtype: float64"
+34,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"10             pre_0
+5           CGSolver
+18            post_0
+11             pre_1
+19            post_1
+7         LoopSolver
+31          cells_55
+26          cells_50
+27          cells_51
+3              SeqGS
+4             SeqSOR
+6     BiCGSTABSolver
+30          cells_54
+28          cells_52
+8     GradientSolver
+12             pre_2
+24            post_6
+29          cells_53
+20            post_2
+16             pre_6
+13             pre_3
+14             pre_4
+22            post_4
+15             pre_5
+21            post_3
+23            post_5
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    322.000000
+mean       4.994506
+std        6.558139
+min        0.008552
+25%        0.603578
+50%        1.822072
+75%        7.848780
+max       33.450263
+Name: % error, dtype: float64"
+35,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"Solver            3.050643e+17
+SeqGS             1.778347e+17
+SeqSOR            1.778347e+17
+PreSmoothing      9.883880e+16
+post_0            7.544116e+16
+post_1            7.544116e+16
+post_2            7.544116e+16
+post_3            7.544116e+16
+post_4            7.544116e+16
+post_5            7.544116e+16
+post_6            7.544116e+16
+cells_50          6.588023e+16
+cells_51          6.588023e+16
+cells_52          6.588023e+16
+cells_53          6.588023e+16
+cells_54          6.588023e+16
+cells_55          6.588023e+16
+LoopSolver        2.993243e+16
+GradientSolver    2.993243e+16
+BiCGSTABSolver    2.993243e+16
+CGSolver          2.993243e+16
+Precon            1.784933e+16
+PostSmoothing     1.057889e+16
+pre_1             1.392925e+15
+pre_0             1.392925e+15
+pre_2             1.392925e+15
+pre_4             1.392925e+15
+pre_3             1.392925e+15
+pre_6             1.392925e+15
+pre_5             1.392925e+15
+root              1.930983e+13
+Cells             6.400000e+01
+dtype: float64","count    215.000000
+mean      14.419397
+std        9.565827
+min        0.003889
+25%        6.400537
+50%       12.943318
+75%       20.202546
+max       53.653384
+Name: % error, dtype: float64"
+36,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.8,"post_0            5.615451e+03
+post_1            3.725303e+03
+pre_1             3.140656e+03
+pre_0             2.186567e+03
+CGSolver          2.064979e+03
+cells_50          1.848882e+03
+cells_51          1.526950e+03
+SeqGS             1.128491e+03
+cells_55          1.014055e+03
+post_6            9.203585e+02
+cells_52          8.640247e+02
+BiCGSTABSolver    5.424878e+02
+post_2            4.480776e+02
+cells_54          4.281318e+02
+pre_5             4.213189e+02
+LoopSolver        3.206271e+02
+pre_6             2.934679e+02
+post_5            2.879189e+02
+pre_2             2.520312e+02
+post_4            1.655224e+02
+GradientSolver    6.424028e+01
+SeqSOR            2.155305e-13
+dtype: float64","count    215.000000
+mean      14.413937
+std        9.415649
+min        0.245533
+25%        6.601234
+50%       12.517308
+75%       19.577294
+max       54.009010
+Name: % error, dtype: float64"
+37,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.8,"post_0            4085.585551
+post_1            2404.294590
+pre_1             2267.710333
+post_6            2000.972322
+CGSolver          1501.598236
+post_5            1420.134809
+cells_55          1405.638806
+pre_0             1383.509621
+post_4            1348.976488
+cells_50          1229.942567
+post_3            1144.326935
+cells_51          1035.542873
+pre_5             1025.728536
+pre_6              982.871882
+cells_54           865.533645
+LoopSolver         855.268995
+GradientSolver     659.155602
+pre_4              656.632357
+pre_3              647.164074
+post_2             575.469587
+SeqSOR             559.232627
+SeqGS              559.232627
+cells_52           404.294206
+cells_53           398.607194
+pre_2              338.823104
+BiCGSTABSolver      12.826361
+dtype: float64","count    215.000000
+mean      13.928316
+std        9.343653
+min        0.337812
+25%        6.638132
+50%       12.327923
+75%       19.108123
+max       55.296049
+Name: % error, dtype: float64"
+38,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.8,"post_0            4176.305664
+post_1            2620.442705
+pre_1             2217.244634
+CGSolver          1701.947423
+post_6            1623.444262
+pre_0             1477.041567
+cells_50          1362.287112
+cells_51          1290.732088
+cells_55          1082.603231
+post_5            1067.387556
+post_4            1015.355159
+post_3             808.429800
+SeqGS              798.155475
+pre_6              790.748517
+pre_5              778.838451
+cells_52           650.807080
+LoopSolver         609.924124
+cells_54           542.617064
+pre_4              464.564064
+GradientSolver     451.255887
+pre_3              445.258760
+SeqSOR             305.610594
+post_2             239.679671
+BiCGSTABSolver     231.496703
+pre_2              153.239753
+cells_53            88.838937
+dtype: float64","count    215.000000
+mean      13.596500
+std        9.366198
+min        0.117444
+25%        6.308536
+50%       11.681529
+75%       19.047954
+max       56.333931
+Name: % error, dtype: float64"
+39,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"10             pre_0
+5           CGSolver
+18            post_0
+11             pre_1
+19            post_1
+7         LoopSolver
+31          cells_55
+26          cells_50
+27          cells_51
+3              SeqGS
+4             SeqSOR
+6     BiCGSTABSolver
+30          cells_54
+28          cells_52
+8     GradientSolver
+12             pre_2
+24            post_6
+29          cells_53
+20            post_2
+16             pre_6
+13             pre_3
+14             pre_4
+22            post_4
+15             pre_5
+21            post_3
+23            post_5
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    215.000000
+mean       4.751098
+std        6.411786
+min        0.016256
+25%        0.549122
+50%        1.745449
+75%        6.958570
+max       31.575302
+Name: % error, dtype: float64"
+40,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"pre_5             7.107501e+16
+pre_6             7.107501e+16
+pre_3             7.107501e+16
+pre_4             7.107501e+16
+pre_2             7.107501e+16
+pre_0             7.107501e+16
+pre_1             7.107501e+16
+PreSmoothing      4.132951e+16
+Precon            4.018106e+16
+post_6            2.021466e+16
+post_5            2.021466e+16
+post_4            2.021466e+16
+post_3            2.021466e+16
+post_2            2.021466e+16
+post_1            2.021466e+16
+post_0            2.021466e+16
+PostSmoothing     1.319759e+16
+Solver            1.071322e+16
+LoopSolver        9.905948e+15
+GradientSolver    9.905948e+15
+BiCGSTABSolver    9.905948e+15
+CGSolver          9.905948e+15
+cells_55          1.452027e+15
+cells_54          1.452027e+15
+cells_53          1.452027e+15
+cells_52          1.452027e+15
+cells_51          1.452027e+15
+cells_50          1.452027e+15
+SeqGS             1.087263e+15
+SeqSOR            1.087263e+15
+root              2.521312e+13
+dtype: float64","count    108.000000
+mean      14.691213
+std        9.680490
+min        0.888341
+25%        6.259052
+50%       13.137944
+75%       21.161952
+max       44.417211
+Name: % error, dtype: float64"
+41,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.9,"post_0            5.704931e+03
+post_1            3.656887e+03
+pre_1             3.307451e+03
+pre_0             2.265143e+03
+CGSolver          2.028308e+03
+cells_50          1.893868e+03
+cells_51          1.570688e+03
+SeqGS             1.046355e+03
+post_6            9.320489e+02
+cells_52          9.022422e+02
+cells_55          8.750708e+02
+BiCGSTABSolver    4.543941e+02
+post_2            4.533889e+02
+cells_54          4.336879e+02
+pre_5             3.801690e+02
+LoopSolver        3.293801e+02
+post_5            3.145794e+02
+pre_6             2.081288e+02
+pre_2             2.017761e+02
+post_4            1.767431e+02
+GradientSolver    4.012521e+01
+SeqSOR            8.674059e-14
+dtype: float64","count    108.000000
+mean      14.343331
+std        9.560212
+min        0.175061
+25%        6.377327
+50%       12.827501
+75%       19.920140
+max       45.913006
+Name: % error, dtype: float64"
+42,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.9,"post_0            4209.400098
+pre_1             2403.421715
+post_1            2365.790769
+post_6            2031.961746
+CGSolver          1499.387896
+post_5            1459.563027
+pre_0             1440.860344
+post_4            1364.374126
+cells_55          1332.503801
+cells_50          1282.557479
+post_3            1146.848032
+pre_5             1052.230339
+cells_51          1049.991618
+pre_6              960.041793
+cells_54           925.615605
+LoopSolver         844.654143
+pre_4              708.736201
+pre_3              689.570416
+GradientSolver     614.205475
+post_2             572.443937
+SeqSOR             517.152244
+SeqGS              517.152244
+cells_53           488.557059
+pre_2              433.703308
+cells_52           414.127367
+BiCGSTABSolver      40.528278
+dtype: float64","count    108.000000
+mean      13.822695
+std        9.391198
+min        0.319351
+25%        6.054311
+50%       12.237969
+75%       18.918831
+max       44.611828
+Name: % error, dtype: float64"
+43,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.9,"post_0            4353.069930
+post_1            2640.889590
+pre_1             2377.595210
+CGSolver          1719.755148
+post_6            1619.917286
+pre_0             1569.201123
+cells_50          1452.954064
+cells_51          1327.482899
+post_5            1069.032883
+post_4             993.566716
+cells_55           990.911947
+pre_5              784.961339
+post_3             770.733660
+SeqGS              760.205508
+pre_6              753.953588
+cells_52           686.028471
+LoopSolver         586.974328
+cells_54           581.017672
+pre_4              487.512988
+pre_3              461.485960
+GradientSolver     393.881872
+SeqSOR             257.769503
+pre_2              216.952814
+post_2             198.803959
+BiCGSTABSolver     197.551867
+cells_53           151.697455
+dtype: float64","count    108.000000
+mean      13.500244
+std        9.292736
+min        0.748771
+25%        6.184209
+50%       11.729705
+75%       18.349026
+max       43.319249
+Name: % error, dtype: float64"
+44,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"10             pre_0
+5           CGSolver
+18            post_0
+11             pre_1
+19            post_1
+7         LoopSolver
+31          cells_55
+26          cells_50
+27          cells_51
+3              SeqGS
+4             SeqSOR
+6     BiCGSTABSolver
+30          cells_54
+28          cells_52
+8     GradientSolver
+12             pre_2
+24            post_6
+29          cells_53
+20            post_2
+16             pre_6
+13             pre_3
+14             pre_4
+22            post_4
+15             pre_5
+21            post_3
+23            post_5
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    108.000000
+mean       4.764497
+std        6.820611
+min        0.007131
+25%        0.644655
+50%        1.528784
+75%        5.475236
+max       31.019489
+Name: % error, dtype: float64"
+45,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"Solver            6.616560e+17
+Precon            5.230725e+17
+PreSmoothing      2.189284e+17
+SeqGS             1.652223e+17
+SeqSOR            1.652223e+17
+post_0            6.264355e+16
+post_1            6.264355e+16
+post_2            6.264355e+16
+post_3            6.264355e+16
+post_4            6.264355e+16
+post_5            6.264355e+16
+post_6            6.264355e+16
+pre_1             6.096631e+16
+pre_0             6.096631e+16
+pre_2             6.096631e+16
+pre_4             6.096631e+16
+pre_3             6.096631e+16
+pre_5             6.096631e+16
+pre_6             6.096631e+16
+GradientSolver    1.024591e+16
+LoopSolver        1.024591e+16
+BiCGSTABSolver    1.024591e+16
+CGSolver          1.024591e+16
+cells_51          7.606721e+15
+cells_50          7.606721e+15
+cells_53          7.606721e+15
+cells_52          7.606721e+15
+cells_55          7.606721e+15
+cells_54          7.606721e+15
+PostSmoothing     8.546574e+14
+root              4.052675e+13
+dtype: float64","count    964.000000
+mean      18.070452
+std       14.130778
+min        0.000377
+25%        7.322298
+50%       15.180076
+75%       25.523812
+max      114.499701
+Name: % error, dtype: float64"
+46,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.1,"post_0            8.067242e+03
+pre_1             3.272469e+03
+post_1            1.863914e+03
+pre_0             1.454135e+03
+pre_6             1.451232e+03
+SeqGS             1.443509e+03
+CGSolver          1.419494e+03
+post_6            1.186060e+03
+cells_50          9.831860e+02
+cells_51          8.570613e+02
+post_5            7.116379e+02
+post_2            5.864471e+02
+GradientSolver    5.198695e+02
+pre_2             5.135811e+02
+cells_54          3.399776e+02
+pre_5             3.000413e+02
+cells_55          2.880523e+02
+cells_52          1.551708e+02
+cells_53          3.404490e+01
+post_4            3.125422e+01
+SeqSOR            1.604109e-12
+dtype: float64","count    964.000000
+mean      15.857599
+std       13.727673
+min        0.009354
+25%        5.928916
+50%       12.282111
+75%       21.950044
+max      124.275122
+Name: % error, dtype: float64"
+47,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.1,"post_0            5353.011879
+pre_1             2556.556812
+post_6            2018.829737
+post_5            1721.469800
+pre_6             1397.342958
+post_4            1094.387243
+CGSolver          1090.137429
+cells_50          1021.572772
+post_3             842.592089
+cells_55           840.955650
+GradientSolver     795.807048
+pre_5              775.749301
+SeqGS              694.309399
+SeqSOR             694.309399
+cells_51           685.125049
+pre_3              548.830441
+post_1             546.819105
+pre_0              542.254361
+cells_54           492.767020
+pre_4              428.022894
+post_2             222.552115
+cells_52           215.294845
+LoopSolver         210.282909
+cells_53           157.680307
+BiCGSTABSolver      84.047472
+pre_2               51.134421
+dtype: float64","count    964.000000
+mean      13.396593
+std       12.710257
+min        0.000334
+25%        4.592715
+50%        9.862846
+75%       17.734306
+max      100.830535
+Name: % error, dtype: float64"
+48,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=5)",Performance,0.1,"post_0            4118.200889
+pre_1             2143.770310
+post_6            1529.906938
+post_5            1388.125244
+cells_50           967.568520
+CGSolver           918.605860
+cells_55           916.355946
+pre_6              911.837302
+post_4             770.206084
+GradientSolver     722.434172
+SeqGS              644.141956
+SeqSOR             582.086561
+post_3             578.738523
+cells_51           558.858174
+pre_5              540.879729
+pre_3              401.974658
+post_1             400.271877
+pre_4              399.282594
+cells_54           277.635020
+cells_53           232.886408
+post_2             196.339730
+pre_0              190.377844
+BiCGSTABSolver      83.806720
+LoopSolver          71.193275
+cells_52            69.516262
+pre_2               50.698101
+dtype: float64","count    964.000000
+mean      12.131076
+std       12.436629
+min        0.025556
+25%        4.107260
+50%        8.735245
+75%       14.806401
+max       90.316029
+Name: % error, dtype: float64"
+49,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"18            post_0
+5           CGSolver
+11             pre_1
+10             pre_0
+19            post_1
+31          cells_55
+26          cells_50
+27          cells_51
+7         LoopSolver
+8     GradientSolver
+3              SeqGS
+4             SeqSOR
+28          cells_52
+24            post_6
+29          cells_53
+30          cells_54
+20            post_2
+6     BiCGSTABSolver
+12             pre_2
+16             pre_6
+23            post_5
+21            post_3
+15             pre_5
+13             pre_3
+14             pre_4
+22            post_4
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    964.000000
+mean      11.263249
+std       13.099207
+min        0.009474
+25%        3.005144
+50%        7.753000
+75%       14.581301
+max      121.916238
+Name: % error, dtype: float64"
+50,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"Solver            2.759058e+18
+PreSmoothing      2.640744e+18
+pre_6             1.179192e+18
+pre_4             1.179192e+18
+pre_5             1.179192e+18
+pre_3             1.179192e+18
+pre_2             1.179192e+18
+pre_0             1.179192e+18
+pre_1             1.179192e+18
+CGSolver          9.623747e+17
+GradientSolver    9.623747e+17
+LoopSolver        9.623747e+17
+BiCGSTABSolver    9.623747e+17
+cells_55          6.064572e+17
+cells_53          6.064572e+17
+cells_54          6.064572e+17
+cells_51          6.064572e+17
+cells_52          6.064572e+17
+cells_50          6.064572e+17
+SeqGS             4.873677e+17
+SeqSOR            4.873677e+17
+post_0            2.930162e+17
+post_1            2.930162e+17
+post_4            2.930162e+17
+post_3            2.930162e+17
+post_5            2.930162e+17
+post_6            2.930162e+17
+post_2            2.930162e+17
+PostSmoothing     2.766788e+17
+Precon            1.745241e+17
+root              1.086517e+14
+Cells             8.960000e+02
+dtype: float64","count    857.000000
+mean      23.392638
+std       16.653464
+min        0.045242
+25%        9.585643
+50%       21.396299
+75%       32.434180
+max      100.158021
+Name: % error, dtype: float64"
+51,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.2,"post_0            8361.677297
+pre_1             4592.401542
+post_1            3048.565701
+CGSolver          2815.473798
+cells_51          1634.882692
+cells_55          1559.018666
+cells_50          1369.178468
+cells_52          1094.932418
+post_6             808.528158
+SeqGS              725.407875
+GradientSolver     705.701101
+post_5             700.035824
+post_3             681.720989
+LoopSolver         632.126702
+cells_54           601.167968
+post_2             573.713825
+pre_4              433.912740
+pre_0              307.771285
+BiCGSTABSolver     303.986711
+pre_6              277.413993
+pre_5               59.301025
+dtype: float64","count    857.000000
+mean      20.118841
+std       16.189756
+min        0.032191
+25%        8.264585
+50%       17.370412
+75%       26.662150
+max      137.206458
+Name: % error, dtype: float64"
+52,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.2,"post_0            5427.253105
+pre_1             2412.129505
+cells_55          2103.157734
+post_5            1932.616862
+post_6            1904.135488
+CGSolver          1750.240515
+post_4            1379.172291
+post_1            1363.848041
+pre_0             1184.701471
+cells_51          1131.039953
+pre_6             1113.588067
+cells_50          1105.987701
+GradientSolver    1031.586962
+pre_4              940.062681
+post_3             889.770383
+pre_5              733.137653
+post_2             685.406122
+LoopSolver         584.745139
+SeqGS              523.353806
+SeqSOR             523.353806
+pre_3              438.076060
+cells_53           377.350726
+pre_2              371.966514
+cells_52           251.460835
+BiCGSTABSolver     133.908413
+cells_54             7.980030
+dtype: float64","count    857.000000
+mean      15.406287
+std       12.613624
+min        0.087577
+25%        6.150600
+50%       12.519377
+75%       21.233621
+max      102.330151
+Name: % error, dtype: float64"
+53,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, max_iter=100)",Performance,0.2,"post_0            5325.887499
+pre_1             2387.086069
+cells_55          2088.718925
+post_5            1902.280431
+post_6            1869.987502
+CGSolver          1734.427679
+post_4            1347.116238
+post_1            1341.667513
+pre_0             1149.427399
+cells_51          1116.306573
+cells_50          1093.556448
+pre_6             1087.561109
+GradientSolver    1024.285485
+pre_4              921.274376
+post_3             873.438614
+pre_5              721.713141
+post_2             671.733015
+LoopSolver         569.319175
+SeqGS              518.126483
+SeqSOR             517.858356
+pre_3              434.063753
+cells_53           369.239777
+pre_2              368.900996
+cells_52           248.398462
+BiCGSTABSolver     138.768848
+cells_54             0.302108
+dtype: float64","count    857.000000
+mean      15.236975
+std       12.584323
+min        0.005831
+25%        5.923120
+50%       12.331226
+75%       20.911247
+max      101.505033
+Name: % error, dtype: float64"
+54,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"18            post_0
+5           CGSolver
+11             pre_1
+10             pre_0
+19            post_1
+31          cells_55
+26          cells_50
+27          cells_51
+7         LoopSolver
+8     GradientSolver
+3              SeqGS
+4             SeqSOR
+28          cells_52
+24            post_6
+29          cells_53
+30          cells_54
+20            post_2
+6     BiCGSTABSolver
+12             pre_2
+16             pre_6
+23            post_5
+21            post_3
+15             pre_5
+13             pre_3
+14             pre_4
+22            post_4
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    857.000000
+mean       8.182808
+std        9.928061
+min        0.010967
+25%        1.456678
+50%        5.278991
+75%       11.514122
+max       97.910979
+Name: % error, dtype: float64"
+55,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"Solver            7.303235e+17
+Precon            5.844704e+17
+GradientSolver    1.129286e+17
+LoopSolver        1.129286e+17
+BiCGSTABSolver    1.129286e+17
+CGSolver          1.129286e+17
+cells_51          1.066345e+17
+cells_50          1.066345e+17
+cells_52          1.066345e+17
+cells_53          1.066345e+17
+cells_54          1.066345e+17
+cells_55          1.066345e+17
+post_5            8.766453e+16
+post_6            8.766453e+16
+post_4            8.766453e+16
+post_3            8.766453e+16
+post_2            8.766453e+16
+post_1            8.766453e+16
+post_0            8.766453e+16
+pre_1             4.832259e+16
+pre_0             4.832259e+16
+pre_2             4.832259e+16
+pre_3             4.832259e+16
+pre_5             4.832259e+16
+pre_6             4.832259e+16
+pre_4             4.832259e+16
+PreSmoothing      2.356149e+16
+SeqSOR            1.648994e+16
+SeqGS             1.648994e+16
+PostSmoothing     1.582541e+15
+root              1.042358e+13
+dtype: float64","count    750.000000
+mean      15.361645
+std       11.920769
+min        0.006135
+25%        6.241703
+50%       13.341527
+75%       21.616791
+max      105.681380
+Name: % error, dtype: float64"
+56,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=100)",Performance,0.3,"post_0            7.011668e+03
+pre_1             2.765739e+03
+post_1            2.571440e+03
+CGSolver          2.160047e+03
+pre_0             2.019516e+03
+cells_51          1.584184e+03
+cells_55          1.476119e+03
+cells_50          1.208704e+03
+post_6            9.027398e+02
+SeqGS             8.782985e+02
+post_5            8.461884e+02
+pre_4             5.820814e+02
+pre_6             5.672347e+02
+cells_52          4.825371e+02
+BiCGSTABSolver    4.456899e+02
+GradientSolver    4.247786e+02
+post_4            2.063715e+02
+pre_5             9.076350e+01
+LoopSolver        7.099008e+01
+cells_53          3.387729e+01
+SeqSOR            6.800554e-14
+dtype: float64","count    750.000000
+mean      14.944419
+std       12.628647
+min        0.003426
+25%        4.918422
+50%       12.155004
+75%       22.002829
+max      113.086353
+Name: % error, dtype: float64"
+57,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.3,"post_0            3855.012859
+pre_1             1755.000112
+cells_55          1641.012584
+post_6            1405.897215
+post_5            1384.951448
+CGSolver          1320.214491
+post_1            1084.620559
+cells_51           992.406070
+post_4             890.468631
+GradientSolver     840.710463
+cells_50           834.114566
+pre_0              804.915165
+pre_6              759.337005
+pre_4              706.385194
+post_3             655.419760
+post_2             602.896363
+pre_5              534.681276
+SeqSOR             398.739705
+SeqGS              398.739705
+LoopSolver         398.396493
+pre_2              292.412918
+pre_3              267.098883
+cells_52           255.485984
+cells_53           253.977727
+cells_54           187.016309
+BiCGSTABSolver      81.107535
+dtype: float64","count    750.000000
+mean      12.776539
+std       11.600801
+min        0.010244
+25%        4.993455
+50%        9.665452
+75%       15.606819
+max       88.575957
+Name: % error, dtype: float64"
+58,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=5)",Performance,0.3,"post_0            3660.446973
+pre_1             1685.186493
+cells_55          1591.360477
+post_6            1331.447420
+post_5            1311.716837
+CGSolver          1293.623721
+post_1            1036.258434
+cells_51           956.843617
+post_4             829.596892
+cells_50           813.860348
+GradientSolver     809.735288
+pre_0              741.674238
+pre_6              714.845213
+pre_4              655.190206
+post_3             619.470226
+post_2             557.998846
+pre_5              506.913175
+SeqGS              416.251185
+SeqSOR             368.281579
+LoopSolver         358.444274
+pre_2              277.287926
+cells_52           251.411395
+pre_3              246.351145
+cells_53           227.060433
+cells_54           158.044848
+BiCGSTABSolver      76.723395
+dtype: float64","count    750.000000
+mean      12.747828
+std       11.638140
+min        0.014919
+25%        4.909597
+50%        9.668613
+75%       15.590729
+max       86.946082
+Name: % error, dtype: float64"
+59,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"18            post_0
+5           CGSolver
+11             pre_1
+10             pre_0
+19            post_1
+31          cells_55
+26          cells_50
+27          cells_51
+7         LoopSolver
+8     GradientSolver
+3              SeqGS
+4             SeqSOR
+28          cells_52
+24            post_6
+29          cells_53
+30          cells_54
+20            post_2
+6     BiCGSTABSolver
+12             pre_2
+16             pre_6
+23            post_5
+21            post_3
+15             pre_5
+13             pre_3
+14             pre_4
+22            post_4
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    750.000000
+mean       6.791335
+std        8.334004
+min        0.010163
+25%        0.912728
+50%        3.812204
+75%        9.854757
+max       81.624798
+Name: % error, dtype: float64"
+60,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"Precon            3.854471e+17
+SeqGS             2.424846e+17
+SeqSOR            2.424846e+17
+cells_55          1.587217e+17
+cells_54          1.587217e+17
+cells_53          1.587217e+17
+cells_52          1.587217e+17
+cells_50          1.587217e+17
+cells_51          1.587217e+17
+pre_6             1.495408e+17
+pre_4             1.495408e+17
+pre_5             1.495408e+17
+pre_3             1.495408e+17
+pre_2             1.495408e+17
+pre_0             1.495408e+17
+pre_1             1.495408e+17
+CGSolver          9.589542e+16
+BiCGSTABSolver    9.589542e+16
+LoopSolver        9.589542e+16
+GradientSolver    9.589542e+16
+PreSmoothing      8.592559e+16
+Solver            8.502918e+16
+PostSmoothing     5.977571e+16
+post_0            2.747489e+16
+post_1            2.747489e+16
+post_3            2.747489e+16
+post_2            2.747489e+16
+post_4            2.747489e+16
+post_5            2.747489e+16
+post_6            2.747489e+16
+root              1.763014e+12
+dtype: float64","count    643.000000
+mean      14.476360
+std       11.364186
+min        0.036403
+25%        5.624220
+50%       12.092568
+75%       20.667324
+max      100.318887
+Name: % error, dtype: float64"
+61,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=100)",Performance,0.4,"post_0            6290.410876
+post_1            2534.339191
+pre_1             2281.713288
+pre_0             1776.153671
+CGSolver          1609.186333
+cells_51          1565.919174
+cells_50          1376.065473
+post_6            1175.862674
+cells_55          1118.892972
+SeqGS              846.848420
+post_5             784.555340
+cells_52           711.152773
+GradientSolver     648.497181
+pre_6              637.638733
+pre_4              449.390577
+pre_5              291.798412
+post_4             242.617465
+cells_53            99.895848
+BiCGSTABSolver      49.044519
+dtype: float64","count    643.000000
+mean      13.181830
+std       11.405601
+min        0.014167
+25%        4.937063
+50%       10.346603
+75%       18.834112
+max      106.374389
+Name: % error, dtype: float64"
+62,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.4,"post_0            4704.529294
+post_6            1969.406311
+pre_1             1833.219583
+post_5            1625.315255
+cells_55          1588.321616
+post_1            1541.968774
+CGSolver          1322.725665
+pre_0             1237.353207
+post_4            1185.909025
+cells_51          1177.808737
+cells_50          1021.596414
+pre_6              986.993954
+GradientSolver     903.101413
+pre_4              851.403806
+post_2             738.443371
+post_3             727.424107
+pre_5              718.588078
+cells_53           529.453454
+cells_54           490.878265
+SeqSOR             436.943426
+SeqGS              436.943426
+cells_52           409.248183
+LoopSolver         349.440045
+pre_3              309.902402
+pre_2              203.684551
+BiCGSTABSolver      70.184207
+dtype: float64","count    643.000000
+mean      12.506379
+std       10.893233
+min        0.070971
+25%        4.663425
+50%        9.891302
+75%       17.289377
+max       93.681937
+Name: % error, dtype: float64"
+63,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.0, max_iter=5)",Performance,0.4,"post_0            4085.557844
+post_6            1662.006976
+pre_1             1616.700189
+cells_55          1471.621801
+post_1            1368.968461
+post_5            1355.725587
+CGSolver          1269.104865
+cells_51          1099.808397
+pre_0             1010.355505
+cells_50           977.610822
+post_4             958.275408
+GradientSolver     816.503184
+pre_6              799.609134
+pre_4              669.185865
+post_3             588.665602
+pre_5              580.034458
+post_2             560.118730
+SeqGS              492.796344
+cells_53           410.022176
+cells_52           391.843775
+cells_54           342.823343
+SeqSOR             334.759873
+LoopSolver         234.616985
+pre_3              219.808515
+pre_2              172.060113
+BiCGSTABSolver      26.361701
+dtype: float64","count    643.000000
+mean      11.729443
+std       10.786350
+min        0.027106
+25%        4.182406
+50%        9.122568
+75%       15.375869
+max       88.379680
+Name: % error, dtype: float64"
+64,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"18            post_0
+5           CGSolver
+11             pre_1
+10             pre_0
+19            post_1
+31          cells_55
+26          cells_50
+27          cells_51
+7         LoopSolver
+8     GradientSolver
+3              SeqGS
+4             SeqSOR
+28          cells_52
+24            post_6
+29          cells_53
+30          cells_54
+20            post_2
+6     BiCGSTABSolver
+12             pre_2
+16             pre_6
+23            post_5
+21            post_3
+15             pre_5
+13             pre_3
+14             pre_4
+22            post_4
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    643.000000
+mean       6.223823
+std        8.083399
+min        0.005843
+25%        0.991507
+50%        2.932356
+75%        8.577876
+max       79.600518
+Name: % error, dtype: float64"
+65,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"Precon            1.701329e+17
+cells_55          1.447622e+17
+cells_54          1.447622e+17
+cells_53          1.447622e+17
+cells_52          1.447622e+17
+cells_51          1.447622e+17
+cells_50          1.447622e+17
+PreSmoothing      1.202884e+17
+SeqGS             7.555498e+16
+SeqSOR            7.555498e+16
+pre_1             6.615959e+16
+pre_0             6.615959e+16
+pre_2             6.615959e+16
+pre_3             6.615959e+16
+pre_5             6.615959e+16
+pre_4             6.615959e+16
+pre_6             6.615959e+16
+post_6            5.221193e+16
+post_5            5.221193e+16
+post_4            5.221193e+16
+post_3            5.221193e+16
+post_2            5.221193e+16
+post_1            5.221193e+16
+post_0            5.221193e+16
+Solver            5.054435e+16
+GradientSolver    2.414387e+16
+LoopSolver        2.414387e+16
+BiCGSTABSolver    2.414387e+16
+CGSolver          2.414387e+16
+PostSmoothing     8.266889e+15
+root              1.297881e+13
+Cells             2.800000e+01
+dtype: float64","count    536.000000
+mean      13.030549
+std       10.986711
+min        0.013240
+25%        5.124196
+50%       10.318848
+75%       18.102560
+max       97.339725
+Name: % error, dtype: float64"
+66,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=100)",Performance,0.5,"post_0            5.827149e+03
+post_1            2.461860e+03
+pre_1             1.909029e+03
+pre_0             1.623205e+03
+CGSolver          1.359707e+03
+cells_51          1.337735e+03
+cells_50          1.333962e+03
+cells_55          1.169742e+03
+post_6            1.141631e+03
+SeqGS             8.579668e+02
+post_5            7.208318e+02
+GradientSolver    6.103557e+02
+cells_52          5.738659e+02
+pre_6             5.106121e+02
+post_4            3.297325e+02
+pre_4             3.128338e+02
+pre_5             2.915802e+02
+cells_54          2.457659e+02
+BiCGSTABSolver    4.839726e+01
+SeqSOR            1.278433e-12
+dtype: float64","count    536.000000
+mean      11.944911
+std       10.944502
+min        0.035420
+25%        4.168072
+50%        9.105372
+75%       16.659488
+max      100.299552
+Name: % error, dtype: float64"
+67,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.5,"post_0            4518.809979
+post_6            1930.379745
+post_1            1591.263230
+pre_1             1565.260918
+post_5            1559.834061
+cells_55          1537.461716
+post_4            1231.040149
+pre_0             1212.723613
+CGSolver          1161.052780
+cells_50          1093.599944
+cells_51          1090.730599
+pre_6              886.643177
+GradientSolver     825.483626
+post_3             741.174990
+pre_4              738.854494
+pre_5              699.766200
+post_2             647.644264
+cells_54           641.889448
+SeqGS              456.206774
+SeqSOR             456.206774
+cells_53           379.485149
+cells_52           374.505770
+LoopSolver         311.565895
+pre_3              276.038968
+pre_2              176.681691
+BiCGSTABSolver      24.003259
+dtype: float64","count    536.000000
+mean      11.670748
+std       10.511101
+min        0.063159
+25%        4.438505
+50%        9.220970
+75%       16.087774
+max       89.660334
+Name: % error, dtype: float64"
+68,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.1, max_iter=5)",Performance,0.5,"post_0            3936.841171
+post_6            1610.818882
+post_1            1413.038846
+cells_55          1394.126385
+pre_1             1359.180755
+post_5            1277.790697
+CGSolver          1127.252870
+cells_50          1058.806584
+cells_51          1031.292451
+pre_0              998.566576
+post_4             976.805580
+GradientSolver     720.411387
+pre_6              695.437793
+post_3             583.957417
+pre_4              567.874255
+pre_5              559.851399
+SeqGS              533.637382
+post_2             483.845110
+cells_54           473.211126
+cells_52           361.894439
+SeqSOR             348.891189
+cells_53           288.607548
+LoopSolver         201.645849
+pre_3              171.147852
+pre_2              138.429582
+BiCGSTABSolver      12.596470
+dtype: float64","count    536.000000
+mean      11.074888
+std       10.542541
+min        0.028406
+25%        3.634510
+50%        8.756186
+75%       14.415201
+max       84.340403
+Name: % error, dtype: float64"
+69,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"18            post_0
+5           CGSolver
+11             pre_1
+10             pre_0
+19            post_1
+31          cells_55
+26          cells_50
+27          cells_51
+7         LoopSolver
+8     GradientSolver
+3              SeqGS
+4             SeqSOR
+28          cells_52
+24            post_6
+29          cells_53
+30          cells_54
+20            post_2
+6     BiCGSTABSolver
+12             pre_2
+16             pre_6
+23            post_5
+21            post_3
+15             pre_5
+13             pre_3
+14             pre_4
+22            post_4
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    536.000000
+mean       6.347485
+std        8.476189
+min        0.002125
+25%        0.885308
+50%        3.052271
+75%        8.477568
+max       80.127023
+Name: % error, dtype: float64"
+70,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"pre_6             1.114908e+17
+pre_4             1.114908e+17
+pre_5             1.114908e+17
+pre_3             1.114908e+17
+pre_2             1.114908e+17
+pre_1             1.114908e+17
+pre_0             1.114908e+17
+Solver            7.855266e+16
+Precon            6.050097e+16
+SeqSOR            2.923832e+16
+SeqGS             2.923832e+16
+post_6            2.645788e+16
+post_5            2.645788e+16
+post_4            2.645788e+16
+post_3            2.645788e+16
+post_2            2.645788e+16
+post_1            2.645788e+16
+post_0            2.645788e+16
+GradientSolver    1.992911e+16
+LoopSolver        1.992911e+16
+BiCGSTABSolver    1.992911e+16
+CGSolver          1.992911e+16
+PostSmoothing     1.913769e+16
+PreSmoothing      1.545160e+16
+cells_55          1.131221e+16
+cells_54          1.131221e+16
+cells_53          1.131221e+16
+cells_52          1.131221e+16
+cells_51          1.131221e+16
+cells_50          1.131221e+16
+root              1.604737e+13
+Cells             6.400000e+01
+dtype: float64","count    429.000000
+mean      12.111856
+std        9.781959
+min        0.008324
+25%        4.757684
+50%        9.930519
+75%       17.235659
+max       57.323718
+Name: % error, dtype: float64"
+71,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.6,"post_0            5723.250951
+post_1            2708.435448
+pre_0             1896.807592
+pre_1             1721.684353
+cells_50          1488.521950
+CGSolver          1432.841747
+cells_51          1293.687110
+cells_55          1134.064354
+post_6            1009.579534
+SeqGS              995.252472
+post_5             541.474232
+cells_54           493.980723
+GradientSolver     465.323571
+cells_52           460.491313
+pre_6              339.539605
+pre_5              237.113037
+pre_4              199.533658
+BiCGSTABSolver     194.481160
+pre_2              110.311802
+post_2              95.377042
+post_4              85.722647
+LoopSolver           5.688397
+dtype: float64","count    429.000000
+mean      11.391141
+std        9.920684
+min        0.018068
+25%        3.896867
+50%        9.198133
+75%       15.980958
+max       57.786223
+Name: % error, dtype: float64"
+72,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.6,"post_0            3816.025919
+post_6            1710.037243
+post_1            1481.904469
+cells_55          1363.814455
+post_5            1321.231075
+pre_0             1152.871537
+pre_1             1143.526741
+cells_50          1131.440281
+CGSolver          1091.887478
+post_4             982.364517
+cells_51           962.412572
+GradientSolver     750.771958
+post_3             744.417520
+cells_54           720.178859
+pre_6              666.665816
+pre_5              640.068654
+pre_4              592.714128
+post_2             539.880033
+SeqSOR             497.407917
+SeqGS              497.407917
+LoopSolver         333.119678
+cells_53           280.702266
+cells_52           270.842726
+pre_3              254.127920
+pre_2              142.821759
+BiCGSTABSolver       7.995842
+dtype: float64","count    429.000000
+mean      10.665306
+std        9.780035
+min        0.055611
+25%        3.583845
+50%        8.670885
+75%       14.157476
+max       60.629998
+Name: % error, dtype: float64"
+73,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.0, max_iter=5)",Performance,0.6,"post_0            3647.444356
+post_6            1580.872460
+post_1            1444.408056
+cells_55          1286.711256
+post_5            1205.782662
+cells_50          1130.575373
+CGSolver          1112.867042
+pre_1             1098.701194
+pre_0             1091.044278
+cells_51           963.547122
+post_4             879.585496
+GradientSolver     694.589211
+post_3             658.061000
+cells_54           636.317895
+pre_6              594.291934
+SeqGS              581.401295
+pre_5              580.852353
+pre_4              525.626537
+post_2             457.077432
+SeqSOR             409.126883
+cells_52           297.967837
+LoopSolver         270.523572
+cells_53           232.883118
+pre_3              204.592323
+pre_2              113.890485
+BiCGSTABSolver      24.487991
+dtype: float64","count    429.000000
+mean      10.639394
+std        9.836628
+min        0.008715
+25%        3.757757
+50%        8.379177
+75%       13.760144
+max       61.325879
+Name: % error, dtype: float64"
+74,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"18            post_0
+5           CGSolver
+11             pre_1
+10             pre_0
+19            post_1
+31          cells_55
+26          cells_50
+27          cells_51
+7         LoopSolver
+8     GradientSolver
+3              SeqGS
+4             SeqSOR
+28          cells_52
+24            post_6
+29          cells_53
+30          cells_54
+20            post_2
+6     BiCGSTABSolver
+12             pre_2
+16             pre_6
+23            post_5
+21            post_3
+15             pre_5
+13             pre_3
+14             pre_4
+22            post_4
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    429.000000
+mean       5.911041
+std        7.315337
+min        0.023222
+25%        0.729419
+50%        2.644862
+75%        8.513866
+max       43.739218
+Name: % error, dtype: float64"
+75,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"Solver            2.731161e+17
+Precon            1.649736e+17
+post_6            1.188351e+17
+post_5            1.188351e+17
+post_4            1.188351e+17
+post_3            1.188351e+17
+post_2            1.188351e+17
+post_1            1.188351e+17
+post_0            1.188351e+17
+cells_55          8.989286e+16
+cells_54          8.989286e+16
+cells_53          8.989286e+16
+cells_52          8.989286e+16
+cells_51          8.989286e+16
+cells_50          8.989286e+16
+PostSmoothing     6.126933e+16
+GradientSolver    3.372011e+16
+LoopSolver        3.372011e+16
+BiCGSTABSolver    3.372011e+16
+CGSolver          3.372011e+16
+SeqGS             2.140153e+16
+SeqSOR            2.140153e+16
+PreSmoothing      2.003994e+16
+pre_5             2.791911e+15
+pre_6             2.791911e+15
+pre_4             2.791911e+15
+pre_3             2.791911e+15
+pre_2             2.791911e+15
+pre_0             2.791911e+15
+pre_1             2.791911e+15
+root              3.411909e+12
+dtype: float64","count    322.000000
+mean      11.926060
+std        9.787782
+min        0.012203
+25%        4.748017
+50%        9.273781
+75%       16.393295
+max       56.539227
+Name: % error, dtype: float64"
+76,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=100)",Performance,0.7,"post_0            5838.582507
+post_1            2529.551697
+pre_1             1792.070565
+pre_0             1675.146771
+cells_50          1622.173228
+CGSolver          1481.227751
+cells_51          1382.586886
+post_6            1006.436097
+cells_55           900.903948
+SeqGS              869.141544
+cells_52           645.896316
+post_5             553.009056
+GradientSolver     480.148961
+pre_6              439.349778
+pre_5              352.020766
+cells_54           305.323445
+pre_4              301.699555
+BiCGSTABSolver     158.585057
+post_4             107.449044
+post_2              61.187761
+dtype: float64","count    322.000000
+mean      11.297589
+std        9.984737
+min        0.035043
+25%        3.934294
+50%        8.895469
+75%       15.785868
+max       56.808372
+Name: % error, dtype: float64"
+77,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.7,"post_0            4103.056971
+post_6            1754.554621
+post_1            1401.504505
+post_5            1361.862141
+pre_1             1335.933745
+cells_55          1291.776621
+cells_50          1157.121113
+CGSolver          1154.702811
+pre_0             1102.771538
+post_4            1021.259394
+cells_51           961.025150
+post_3             783.567872
+GradientSolver     779.515609
+pre_6              734.874548
+cells_54           716.119225
+pre_5              675.948439
+pre_4              620.841324
+post_2             583.317447
+cells_53           444.574314
+SeqGS              444.236877
+SeqSOR             444.236877
+LoopSolver         348.263177
+cells_52           334.323896
+pre_3              250.421956
+pre_2              156.619016
+BiCGSTABSolver      26.924025
+dtype: float64","count    322.000000
+mean      10.705452
+std        9.843715
+min        0.001926
+25%        3.709336
+50%        8.690639
+75%       14.435581
+max       59.308207
+Name: % error, dtype: float64"
+78,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.1, max_iter=5)",Performance,0.7,"post_0            3928.435782
+post_6            1604.946657
+post_1            1372.580382
+pre_1             1291.231307
+post_5            1223.531059
+cells_55          1204.847625
+CGSolver          1186.106615
+cells_50          1158.985498
+pre_0             1040.672227
+cells_51           968.918383
+post_4             901.457623
+GradientSolver     713.271992
+post_3             673.642309
+pre_6              649.789150
+cells_54           624.146775
+pre_5              599.456700
+pre_4              539.187328
+SeqGS              534.304134
+post_2             480.745572
+cells_53           376.255323
+cells_52           369.078540
+SeqSOR             348.267178
+LoopSolver         273.996355
+pre_3              195.837308
+pre_2              118.952174
+BiCGSTABSolver      18.196776
+dtype: float64","count    322.000000
+mean      10.642713
+std        9.888113
+min        0.086627
+25%        3.526915
+50%        8.051994
+75%       13.890599
+max       60.068988
+Name: % error, dtype: float64"
+79,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"18            post_0
+5           CGSolver
+11             pre_1
+10             pre_0
+19            post_1
+31          cells_55
+26          cells_50
+27          cells_51
+7         LoopSolver
+8     GradientSolver
+3              SeqGS
+4             SeqSOR
+28          cells_52
+24            post_6
+29          cells_53
+30          cells_54
+20            post_2
+6     BiCGSTABSolver
+12             pre_2
+16             pre_6
+23            post_5
+21            post_3
+15             pre_5
+13             pre_3
+14             pre_4
+22            post_4
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    322.000000
+mean       5.504772
+std        7.021930
+min        0.001751
+25%        0.653730
+50%        2.180588
+75%        7.613614
+max       35.604710
+Name: % error, dtype: float64"
+80,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"Precon            2.676016e+17
+pre_0             2.517749e+17
+pre_1             2.517749e+17
+pre_2             2.517749e+17
+pre_3             2.517749e+17
+pre_5             2.517749e+17
+pre_4             2.517749e+17
+pre_6             2.517749e+17
+post_0            1.236049e+17
+post_1            1.236049e+17
+post_2            1.236049e+17
+post_3            1.236049e+17
+post_4            1.236049e+17
+post_5            1.236049e+17
+post_6            1.236049e+17
+PostSmoothing     8.474463e+16
+Solver            7.564461e+16
+SeqGS             5.541601e+16
+SeqSOR            5.541601e+16
+PreSmoothing      4.201182e+16
+cells_50          2.642388e+16
+cells_51          2.642388e+16
+cells_52          2.642388e+16
+cells_53          2.642388e+16
+cells_54          2.642388e+16
+cells_55          2.642388e+16
+GradientSolver    9.513521e+15
+LoopSolver        9.513521e+15
+BiCGSTABSolver    9.513521e+15
+CGSolver          9.513521e+15
+root              1.432426e+13
+Cells             3.200000e+01
+dtype: float64","count    215.000000
+mean      13.125669
+std       10.065418
+min        0.017474
+25%        5.810384
+50%       11.560071
+75%       18.715909
+max       56.068533
+Name: % error, dtype: float64"
+81,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=10, max_iter=5)",Performance,0.8,"post_0            6.230038e+03
+post_1            3.054464e+03
+pre_0             2.222482e+03
+pre_1             2.152281e+03
+cells_50          1.838778e+03
+CGSolver          1.697822e+03
+cells_51          1.631557e+03
+SeqGS             9.738585e+02
+post_6            9.206572e+02
+cells_55          9.097793e+02
+cells_52          9.076503e+02
+post_5            4.894471e+02
+BiCGSTABSolver    4.567498e+02
+pre_6             3.883737e+02
+GradientSolver    3.839998e+02
+cells_54          3.496658e+02
+post_2            3.256300e+02
+pre_5             3.009118e+02
+pre_2             2.801167e+02
+pre_4             2.360297e+02
+post_3            8.534804e+01
+pre_3             4.177883e+01
+post_4            2.499363e+01
+LoopSolver        2.022400e+01
+SeqSOR            2.720935e-13
+dtype: float64","count    215.000000
+mean      12.022518
+std        9.804956
+min        0.048180
+25%        4.490684
+50%        9.789010
+75%       16.883021
+max       56.286233
+Name: % error, dtype: float64"
+82,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.8,"post_0            4706.489414
+post_6            2007.481036
+post_1            1776.178066
+post_5            1602.170366
+pre_1             1544.520248
+pre_0             1538.950580
+cells_55          1424.146360
+cells_50          1281.926402
+CGSolver          1248.944305
+post_4            1186.754379
+cells_51          1091.541486
+post_3             953.928350
+pre_6              896.840143
+cells_54           870.140124
+GradientSolver     837.412628
+pre_5              832.321372
+pre_4              760.954060
+post_2             732.333350
+cells_53           500.192020
+SeqSOR             489.548195
+SeqGS              489.548195
+LoopSolver         475.791343
+cells_52           421.010617
+pre_3              394.399195
+pre_2              198.956058
+BiCGSTABSolver      64.259666
+dtype: float64","count    215.000000
+mean      11.436108
+std        9.708006
+min        0.065567
+25%        3.872917
+50%        9.118528
+75%       15.945908
+max       57.403497
+Name: % error, dtype: float64"
+83,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.8,"post_0            4576.082190
+post_1            1854.357736
+post_6            1668.412922
+pre_1             1542.981551
+pre_0             1489.842930
+CGSolver          1364.148467
+cells_50          1361.349609
+post_5            1275.460750
+cells_55          1230.434537
+cells_51          1174.222635
+post_4             884.437767
+pre_6              706.713123
+GradientSolver     687.236338
+SeqGS              680.090338
+post_3             658.543826
+cells_54           657.893917
+pre_5              653.581165
+pre_4              569.958997
+cells_52           553.830725
+post_2             445.987391
+cells_53           327.809525
+LoopSolver         299.291339
+SeqSOR             289.012657
+pre_3              240.669192
+BiCGSTABSolver     190.577339
+pre_2               78.310562
+dtype: float64","count    215.000000
+mean      10.876257
+std        9.652409
+min        0.257845
+25%        3.557657
+50%        8.545476
+75%       15.321824
+max       58.523432
+Name: % error, dtype: float64"
+84,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"18            post_0
+5           CGSolver
+11             pre_1
+10             pre_0
+19            post_1
+31          cells_55
+26          cells_50
+27          cells_51
+7         LoopSolver
+8     GradientSolver
+3              SeqGS
+4             SeqSOR
+28          cells_52
+24            post_6
+29          cells_53
+30          cells_54
+20            post_2
+6     BiCGSTABSolver
+12             pre_2
+16             pre_6
+23            post_5
+21            post_3
+15             pre_5
+13             pre_3
+14             pre_4
+22            post_4
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    215.000000
+mean       5.724505
+std        6.980778
+min        0.019654
+25%        0.784204
+50%        2.733961
+75%        8.599328
+max       34.846476
+Name: % error, dtype: float64"
+85,LinearRegression,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"Precon            2.689168e+17
+GradientSolver    7.958113e+16
+LoopSolver        7.958113e+16
+BiCGSTABSolver    7.958113e+16
+CGSolver          7.958113e+16
+SeqGS             6.291934e+16
+SeqSOR            6.291934e+16
+post_0            4.808431e+16
+post_1            4.808431e+16
+post_2            4.808431e+16
+post_3            4.808431e+16
+post_4            4.808431e+16
+post_5            4.808431e+16
+post_6            4.808431e+16
+Solver            4.588300e+16
+pre_0             3.804162e+16
+pre_1             3.804162e+16
+pre_2             3.804162e+16
+pre_3             3.804162e+16
+pre_4             3.804162e+16
+pre_6             3.804162e+16
+pre_5             3.804162e+16
+cells_55          2.785141e+16
+cells_54          2.785141e+16
+cells_53          2.785141e+16
+cells_52          2.785141e+16
+cells_51          2.785141e+16
+cells_50          2.785141e+16
+PreSmoothing      1.845088e+16
+PostSmoothing     6.606210e+15
+root              1.038476e+13
+Cells             3.200000e+01
+dtype: float64","count    108.000000
+mean      12.911729
+std       10.732625
+min        0.077110
+25%        4.349183
+50%        9.165474
+75%       20.106442
+max       56.382329
+Name: % error, dtype: float64"
+86,Lasso,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","Lasso(alpha=10, max_iter=100)",Performance,0.9,"post_0            5897.466162
+post_1            2797.485875
+pre_0             1960.064402
+pre_1             1796.089162
+cells_50          1745.999366
+CGSolver          1583.309843
+cells_51          1486.106729
+post_6            1059.527935
+SeqGS             1017.994115
+cells_55           891.542413
+cells_52           855.016712
+post_5             623.835642
+pre_6              521.806851
+pre_5              520.368961
+BiCGSTABSolver     463.855782
+GradientSolver     395.648725
+cells_54           379.480420
+pre_4              303.676914
+post_4             232.815567
+pre_2               90.932050
+post_2              50.327078
+cells_53             0.573173
+LoopSolver           0.380903
+dtype: float64","count    108.000000
+mean      11.380011
+std       10.211937
+min        0.109985
+25%        3.436686
+50%        8.461164
+75%       16.714941
+max       57.260886
+Name: % error, dtype: float64"
+87,Ridge,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.9,"post_0            4645.333164
+post_6            1964.592750
+post_1            1762.846181
+post_5            1550.905520
+pre_0             1512.294693
+pre_1             1412.874817
+cells_55          1357.286236
+cells_50          1263.397395
+post_4            1194.674942
+CGSolver          1165.869323
+cells_51          1022.009879
+post_3             905.592322
+pre_6              875.676468
+pre_5              867.082499
+cells_54           863.829272
+GradientSolver     820.830822
+post_2             792.413811
+pre_4              667.357787
+SeqSOR             513.934678
+SeqGS              513.934678
+cells_53           489.866728
+LoopSolver         442.330071
+cells_52           425.574962
+pre_3              328.300554
+pre_2              186.752201
+BiCGSTABSolver      97.291570
+dtype: float64","count    108.000000
+mean      11.098116
+std       10.241608
+min        0.144252
+25%        3.214483
+50%        8.028621
+75%       15.972451
+max       58.123676
+Name: % error, dtype: float64"
+88,ElasticNet,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.9,"post_0            4697.144257
+post_1            1972.464745
+post_6            1590.846394
+pre_0             1549.759351
+pre_1             1490.279215
+cells_50          1409.587238
+CGSolver          1326.543298
+post_5            1184.829202
+cells_51          1167.762821
+cells_55          1141.469208
+post_4             838.415779
+SeqGS              757.227683
+pre_6              687.248513
+pre_5              668.963505
+GradientSolver     639.970644
+cells_54           639.321051
+cells_52           606.829873
+post_3             554.532393
+pre_4              473.822707
+post_2             433.043809
+cells_53           282.696049
+SeqSOR             268.450698
+BiCGSTABSolver     262.061182
+LoopSolver         250.998932
+pre_3              160.948415
+pre_2               30.077079
+dtype: float64","count    108.000000
+mean      10.833290
+std       10.352246
+min        0.160333
+25%        3.538906
+50%        7.684260
+75%       15.635530
+max       58.894133
+Name: % error, dtype: float64"
+89,RandomForest,False,None,"Index(['root', 'Precon', 'Solver', 'SeqGS', 'SeqSOR', 'CGSolver',
+       'BiCGSTABSolver', 'LoopSolver', 'GradientSolver', 'PreSmoothing',
+       'pre_0', 'pre_1', 'pre_2', 'pre_3', 'pre_4', 'pre_5', 'pre_6',
+       'PostSmoothing', 'post_0', 'post_1', 'post_2', 'post_3', 'post_4',
+       'post_5', 'post_6', 'Cells', 'cells_50', 'cells_51', 'cells_52',
+       'cells_53', 'cells_54', 'cells_55', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"18            post_0
+5           CGSolver
+11             pre_1
+10             pre_0
+19            post_1
+31          cells_55
+26          cells_50
+27          cells_51
+7         LoopSolver
+8     GradientSolver
+3              SeqGS
+4             SeqSOR
+28          cells_52
+24            post_6
+29          cells_53
+30          cells_54
+20            post_2
+6     BiCGSTABSolver
+12             pre_2
+16             pre_6
+23            post_5
+21            post_3
+15             pre_5
+13             pre_3
+14             pre_4
+22            post_4
+0               root
+25             Cells
+17     PostSmoothing
+1             Precon
+9       PreSmoothing
+2             Solver
+32              #yes
+Name: feature, dtype: object","count    108.000000
+mean       5.710574
+std        7.069509
+min        0.023305
+25%        0.557786
+50%        2.384605
+75%        8.056525
+max       34.108331
+Name: % error, dtype: float64"

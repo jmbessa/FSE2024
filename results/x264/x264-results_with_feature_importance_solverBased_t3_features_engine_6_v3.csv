@@ -1,0 +1,2133 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.1,"no_mixed_refs    117.245877
+no_fast_pskip    115.147867
+no_mbtree         67.282320
+dtype: float64","count    191.000000
+mean       6.437507
+std       17.986635
+min        0.084998
+25%        1.138054
+50%        2.566920
+75%        3.744208
+max      139.034317
+Name: % error, dtype: float64",4
+1,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","Lasso(alpha=0.8, max_iter=5)",Performance,0.1,"no_mixed_refs    113.573836
+no_fast_pskip    112.089911
+no_mbtree         64.569745
+dtype: float64","count    191.000000
+mean       6.313091
+std       18.129461
+min        0.026216
+25%        0.983494
+50%        2.405052
+75%        3.628992
+max      139.717448
+Name: % error, dtype: float64",4
+2,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",Ridge(alpha=0.1),Performance,0.1,"no_mixed_refs    114.774994
+no_fast_pskip    112.867513
+no_mbtree         66.398205
+dtype: float64","count    191.000000
+mean       6.341646
+std       18.055975
+min        0.006098
+25%        1.033810
+50%        2.456671
+75%        3.527766
+max      139.354576
+Name: % error, dtype: float64",4
+3,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.1, max_iter=5)",Performance,0.1,"no_mixed_refs    112.656647
+no_fast_pskip    110.912650
+no_mbtree         65.622751
+dtype: float64","count    191.000000
+mean       6.294119
+std       18.107873
+min        0.044635
+25%        1.086799
+50%        2.225932
+75%        3.695218
+max      139.632702
+Name: % error, dtype: float64",4
+4,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.1,"no_fast_pskip    3.741430e+01
+no_mixed_refs    3.327487e+01
+no_mbtree        3.201513e+01
+ref_9            2.842171e-14
+dtype: float64","count    191.000000
+mean       5.827506
+std       17.590026
+min        0.023811
+25%        1.126338
+50%        1.890959
+75%        2.885287
+max      136.312322
+Name: % error, dtype: float64",4
+5,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",RandomForestRegressor(),Performance,0.1,"0    no_mixed_refs
+2            ref_9
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    191.000000
+mean       7.189763
+std       17.544991
+min        0.033553
+25%        1.431740
+50%        2.508388
+75%        5.994621
+max      137.690298
+Name: % error, dtype: float64",4
+6,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",GradientBoostingRegressor(),Performance,0.1,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+Name: feature, dtype: object","count    191.000000
+mean       5.965897
+std       17.657010
+min        0.000227
+25%        0.979198
+50%        2.281264
+75%        3.307957
+max      137.355611
+Name: % error, dtype: float64",4
+7,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",DecisionTreeRegressor(),Performance,0.1,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    191.000000
+mean       5.883937
+std       17.603222
+min        0.000593
+25%        0.978922
+50%        2.281718
+75%        3.308495
+max      137.354750
+Name: % error, dtype: float64",4
+8,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.2,"ref_9            183.822776
+no_fast_pskip    115.402723
+no_mixed_refs    111.870318
+no_mbtree         65.402336
+dtype: float64","count    170.000000
+mean       3.436774
+std        7.971911
+min        0.023396
+25%        0.931781
+50%        2.264119
+75%        3.420700
+max       66.863569
+Name: % error, dtype: float64",4
+9,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.2,"ref_9            183.615781
+no_fast_pskip    115.359933
+no_mixed_refs    111.824588
+no_mbtree         65.377712
+dtype: float64","count    170.000000
+mean       3.436844
+std        7.982363
+min        0.032795
+25%        0.935256
+50%        2.262347
+75%        3.422856
+max       66.945209
+Name: % error, dtype: float64",4
+10,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",Ridge(alpha=0.01),Performance,0.2,"ref_9            182.856396
+no_fast_pskip    115.276858
+no_mixed_refs    111.762678
+no_mbtree         65.420482
+dtype: float64","count    170.000000
+mean       3.439237
+std        8.017572
+min        0.036408
+25%        0.935430
+50%        2.259760
+75%        3.419833
+max       67.226063
+Name: % error, dtype: float64",4
+11,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.2,"ref_9            183.615781
+no_fast_pskip    115.359933
+no_mixed_refs    111.824588
+no_mbtree         65.377712
+dtype: float64","count    170.000000
+mean       3.436844
+std        7.982363
+min        0.032795
+25%        0.935256
+50%        2.262347
+75%        3.422856
+max       66.945209
+Name: % error, dtype: float64",4
+12,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.2,"no_fast_pskip    2.242507e+15
+no_mbtree        6.911891e+14
+no_mixed_refs    5.574061e+14
+ref_9            4.920785e+13
+dtype: float64","count    1.700000e+02
+mean     2.639813e+12
+std      2.427165e+13
+min      6.215473e-03
+25%      1.055937e+00
+50%      1.898270e+00
+75%      2.706985e+00
+max      2.292993e+14
+Name: % error, dtype: float64",4
+13,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",RandomForestRegressor(),Performance,0.2,"0    no_mixed_refs
+2            ref_9
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    170.000000
+mean       3.852356
+std       11.226491
+min        0.017865
+25%        1.077577
+50%        1.968522
+75%        2.635398
+max       92.124418
+Name: % error, dtype: float64",4
+14,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",GradientBoostingRegressor(),Performance,0.2,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+Name: feature, dtype: object","count    170.000000
+mean       3.100305
+std        7.886931
+min        0.064867
+25%        1.043764
+50%        1.854345
+75%        2.619717
+max       65.978368
+Name: % error, dtype: float64",4
+15,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",DecisionTreeRegressor(),Performance,0.2,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    170.000000
+mean       3.132332
+std        7.927271
+min        0.101636
+25%        1.050783
+50%        1.851368
+75%        2.614100
+max       65.917299
+Name: % error, dtype: float64",4
+16,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.3,"ref_9            222.669578
+no_fast_pskip    115.893463
+no_mixed_refs    106.308610
+no_mbtree         67.050234
+dtype: float64","count    149.000000
+mean       3.252552
+std        5.637974
+min        0.091035
+25%        1.256996
+50%        1.983945
+75%        3.022715
+max       50.665103
+Name: % error, dtype: float64",4
+17,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","Lasso(alpha=0.3, max_iter=10)",Performance,0.3,"ref_9            217.906964
+no_fast_pskip    114.493812
+no_mixed_refs    104.821360
+no_mbtree         66.224798
+dtype: float64","count    149.000000
+mean       3.241434
+std        5.783634
+min        0.090125
+25%        1.176880
+50%        2.108405
+75%        3.008787
+max       52.502563
+Name: % error, dtype: float64",4
+18,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",Ridge(alpha=0.2),Performance,0.3,"ref_9            211.137798
+no_fast_pskip    114.069411
+no_mixed_refs    104.792198
+no_mbtree         67.352033
+dtype: float64","count    149.000000
+mean       3.220856
+std        5.977914
+min        0.022227
+25%        1.183594
+50%        2.059515
+75%        3.150375
+max       54.869779
+Name: % error, dtype: float64",4
+19,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","ElasticNet(alpha=0.01, max_iter=5)",Performance,0.3,"ref_9            204.977167
+no_fast_pskip    113.031965
+no_mixed_refs    103.909404
+no_mbtree         67.448595
+dtype: float64","count    149.000000
+mean       3.205988
+std        6.185497
+min        0.008333
+25%        1.175300
+50%        2.035976
+75%        3.346480
+max       57.123422
+Name: % error, dtype: float64",4
+20,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.3,"ref_9            126.561069
+no_fast_pskip     59.037429
+no_mbtree         33.655911
+no_mixed_refs     13.636997
+dtype: float64","count    149.000000
+mean       2.746238
+std        4.483437
+min        0.297614
+25%        1.289518
+50%        1.842444
+75%        2.563769
+max       35.671945
+Name: % error, dtype: float64",4
+21,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",RandomForestRegressor(),Performance,0.3,"0    no_mixed_refs
+2            ref_9
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    149.000000
+mean       2.833939
+std        5.102324
+min        0.269926
+25%        1.267521
+50%        1.900261
+75%        2.590160
+max       44.219651
+Name: % error, dtype: float64",4
+22,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",GradientBoostingRegressor(),Performance,0.3,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+Name: feature, dtype: object","count    149.000000
+mean       2.937857
+std        4.966340
+min        0.368218
+25%        1.269180
+50%        1.944552
+75%        2.593271
+max       35.740748
+Name: % error, dtype: float64",4
+23,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",DecisionTreeRegressor(),Performance,0.3,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    149.000000
+mean       2.835971
+std        4.638821
+min        0.341355
+25%        1.287398
+50%        1.931172
+75%        2.594621
+max       35.671945
+Name: % error, dtype: float64",4
+24,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.4,"ref_9            207.597447
+no_fast_pskip    115.049144
+no_mixed_refs    106.143510
+no_mbtree         66.420694
+dtype: float64","count    128.000000
+mean       3.318093
+std        6.550995
+min        0.023097
+25%        1.172985
+50%        2.052495
+75%        3.552145
+max       56.728453
+Name: % error, dtype: float64",4
+25,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","Lasso(alpha=0.2, max_iter=5)",Performance,0.4,"ref_9            205.093362
+no_fast_pskip    114.168397
+no_mixed_refs    105.181264
+no_mbtree         65.847227
+dtype: float64","count    128.000000
+mean       3.324483
+std        6.660179
+min        0.076932
+25%        1.170952
+50%        2.112440
+75%        3.684241
+max       57.705925
+Name: % error, dtype: float64",4
+26,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",Ridge(alpha=0.2),Performance,0.4,"ref_9            201.045134
+no_fast_pskip    113.751977
+no_mixed_refs    104.980460
+no_mbtree         66.586285
+dtype: float64","count    128.000000
+mean       3.327366
+std        6.807764
+min        0.002190
+25%        1.143219
+50%        2.070827
+75%        3.620604
+max       59.078728
+Name: % error, dtype: float64",4
+27,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","ElasticNet(alpha=0.01, max_iter=5)",Performance,0.4,"ref_9            194.258524
+no_fast_pskip    112.347091
+no_mixed_refs    103.705425
+no_mbtree         66.684794
+dtype: float64","count    128.000000
+mean       3.339901
+std        7.087161
+min        0.072493
+25%        1.202360
+50%        2.048540
+75%        3.403163
+max       61.523262
+Name: % error, dtype: float64",4
+28,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.4,"no_mbtree        1.936306e+15
+no_mixed_refs    4.576415e+14
+no_fast_pskip    1.552703e+14
+ref_9            1.150865e+14
+dtype: float64","count    128.000000
+mean       2.764111
+std        5.566096
+min        0.291622
+25%        1.279143
+50%        1.831388
+75%        2.612986
+max       48.620702
+Name: % error, dtype: float64",4
+29,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",RandomForestRegressor(),Performance,0.4,"0    no_mixed_refs
+2            ref_9
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    128.000000
+mean       2.803309
+std        5.714093
+min        0.401717
+25%        1.283437
+50%        1.777413
+75%        2.553901
+max       49.794795
+Name: % error, dtype: float64",4
+30,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",GradientBoostingRegressor(),Performance,0.4,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+Name: feature, dtype: object","count    128.000000
+mean       2.759444
+std        5.538549
+min        0.445162
+25%        1.292591
+50%        1.739675
+75%        2.625064
+max       48.419289
+Name: % error, dtype: float64",4
+31,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",DecisionTreeRegressor(),Performance,0.4,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    128.000000
+mean       2.759779
+std        5.532159
+min        0.411094
+25%        1.291337
+50%        1.752503
+75%        2.621700
+max       48.357760
+Name: % error, dtype: float64",4
+32,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.5,"ref_9            224.240616
+no_fast_pskip    113.711142
+no_mixed_refs    108.997495
+no_mbtree         70.306629
+dtype: float64","count    106.000000
+mean       3.037987
+std        5.206067
+min        0.036111
+25%        1.276516
+50%        1.894430
+75%        3.068993
+max       51.006506
+Name: % error, dtype: float64",4
+33,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","Lasso(alpha=0.2, max_iter=5)",Performance,0.5,"ref_9            221.480292
+no_fast_pskip    112.910354
+no_mixed_refs    108.070554
+no_mbtree         69.804542
+dtype: float64","count    106.000000
+mean       3.029457
+std        5.272670
+min        0.047228
+25%        1.224135
+50%        1.879508
+75%        3.194220
+max       52.067365
+Name: % error, dtype: float64",4
+34,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",Ridge(alpha=0.1),Performance,0.5,"ref_9            221.115052
+no_fast_pskip    113.263872
+no_mixed_refs    108.499100
+no_mbtree         70.429144
+dtype: float64","count    106.000000
+mean       3.029263
+std        5.272956
+min        0.008520
+25%        1.242452
+50%        1.894932
+75%        3.107243
+max       52.105960
+Name: % error, dtype: float64",4
+35,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=5)",Performance,0.5,"ref_9            221.480292
+no_fast_pskip    112.910354
+no_mixed_refs    108.070554
+no_mbtree         69.804542
+dtype: float64","count    106.000000
+mean       3.029457
+std        5.272670
+min        0.047228
+25%        1.224135
+50%        1.879508
+75%        3.194220
+max       52.067365
+Name: % error, dtype: float64",4
+36,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.5,"ref_9            124.239515
+no_fast_pskip     70.754583
+no_mbtree         34.444664
+no_mixed_refs     25.214579
+dtype: float64","count    106.000000
+mean       2.551545
+std        4.221548
+min        0.553342
+25%        1.322040
+50%        1.890673
+75%        2.515390
+max       37.640997
+Name: % error, dtype: float64",4
+37,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",RandomForestRegressor(),Performance,0.5,"0    no_mixed_refs
+2            ref_9
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    106.000000
+mean       2.607929
+std        4.271912
+min        0.613291
+25%        1.327272
+50%        1.862029
+75%        2.424357
+max       37.128447
+Name: % error, dtype: float64",4
+38,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",GradientBoostingRegressor(),Performance,0.5,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+Name: feature, dtype: object","count    106.000000
+mean       2.552852
+std        4.224081
+min        0.561847
+25%        1.312863
+50%        1.890784
+75%        2.503748
+max       37.706345
+Name: % error, dtype: float64",4
+39,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",DecisionTreeRegressor(),Performance,0.5,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    106.000000
+mean       2.556080
+std        4.221799
+min        0.634240
+25%        1.324118
+50%        1.900046
+75%        2.510166
+max       37.640997
+Name: % error, dtype: float64",4
+40,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.6,"ref_9            220.111978
+no_fast_pskip    111.879460
+no_mixed_refs    111.868160
+no_mbtree         69.865173
+dtype: float64","count    85.000000
+mean      3.090481
+std       5.933925
+min       0.001374
+25%       1.219295
+50%       2.052253
+75%       3.108892
+max      53.377242
+Name: % error, dtype: float64",4
+41,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","Lasso(alpha=0.3, max_iter=10)",Performance,0.6,"ref_9            215.720809
+no_fast_pskip    110.761804
+no_mixed_refs    110.367200
+no_mbtree         69.047233
+dtype: float64","count    85.000000
+mean      3.084322
+std       6.071624
+min       0.027778
+25%       1.173572
+50%       1.939867
+75%       3.341998
+max      55.037758
+Name: % error, dtype: float64",4
+42,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",Ridge(alpha=0.2),Performance,0.6,"ref_9            214.771208
+no_fast_pskip    111.249045
+no_mixed_refs    110.931372
+no_mbtree         69.995245
+dtype: float64","count    85.000000
+mean      3.086525
+std       6.084478
+min       0.059746
+25%       1.236864
+50%       1.954442
+75%       3.243429
+max      55.238253
+Name: % error, dtype: float64",4
+43,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","ElasticNet(alpha=0.3, l1_ratio=1.0, max_iter=10)",Performance,0.6,"ref_9            215.720809
+no_fast_pskip    110.761804
+no_mixed_refs    110.367200
+no_mbtree         69.047233
+dtype: float64","count    85.000000
+mean      3.084322
+std       6.071624
+min       0.027778
+25%       1.173572
+50%       1.939867
+75%       3.341998
+max      55.037758
+Name: % error, dtype: float64",4
+44,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.6,"ref_9            117.131003
+no_fast_pskip     63.508667
+no_mbtree         34.966984
+no_mixed_refs     25.803924
+dtype: float64","count    85.000000
+mean      2.615235
+std       4.829110
+min       0.773506
+25%       1.314013
+50%       1.999956
+75%       2.396330
+max      43.330018
+Name: % error, dtype: float64",4
+45,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",RandomForestRegressor(),Performance,0.6,"0    no_mixed_refs
+2            ref_9
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    85.000000
+mean      2.687287
+std       5.008878
+min       0.768955
+25%       1.287662
+50%       2.004665
+75%       2.430499
+max      44.560195
+Name: % error, dtype: float64",4
+46,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",GradientBoostingRegressor(),Performance,0.6,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+Name: feature, dtype: object","count    85.000000
+mean      2.617755
+std       4.834176
+min       0.807774
+25%       1.305403
+50%       2.034235
+75%       2.394380
+max      43.399039
+Name: % error, dtype: float64",4
+47,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",DecisionTreeRegressor(),Performance,0.6,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    85.000000
+mean      2.621286
+std       4.828566
+min       0.819175
+25%       1.277121
+50%       2.027897
+75%       2.393902
+max      43.330018
+Name: % error, dtype: float64",4
+48,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.7,"ref_9            226.322212
+no_fast_pskip    112.496401
+no_mixed_refs    111.004345
+no_mbtree         69.699789
+dtype: float64","count    64.000000
+mean      2.410992
+std       2.148158
+min       0.055787
+25%       1.062456
+50%       1.950486
+75%       3.076843
+max      13.662483
+Name: % error, dtype: float64",4
+49,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","Lasso(alpha=0.1, max_iter=10)",Performance,0.7,"ref_9            224.984590
+no_fast_pskip    112.128756
+no_mixed_refs    110.453777
+no_mbtree         69.410274
+dtype: float64","count    64.000000
+mean      2.412417
+std       2.122593
+min       0.070169
+25%       1.117347
+50%       1.952293
+75%       3.162395
+max      13.341740
+Name: % error, dtype: float64",4
+50,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",Ridge(alpha=0.1),Performance,0.7,"ref_9            224.150739
+no_fast_pskip    112.235671
+no_mixed_refs    110.531841
+no_mbtree         69.752903
+dtype: float64","count    64.000000
+mean      2.410987
+std       2.107041
+min       0.102000
+25%       1.100265
+50%       1.951109
+75%       3.140505
+max      13.199018
+Name: % error, dtype: float64",4
+51,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=10)",Performance,0.7,"ref_9            224.984590
+no_fast_pskip    112.128756
+no_mixed_refs    110.453777
+no_mbtree         69.410274
+dtype: float64","count    64.000000
+mean      2.412417
+std       2.122593
+min       0.070169
+25%       1.117347
+50%       1.952293
+75%       3.162395
+max      13.341740
+Name: % error, dtype: float64",4
+52,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.7,"ref_9            119.310915
+no_fast_pskip     71.393452
+no_mbtree         35.373398
+no_mixed_refs     30.729291
+dtype: float64","count    64.000000
+mean      1.952262
+std       0.703437
+min       0.832147
+25%       1.343500
+50%       2.064075
+75%       2.445271
+max       3.597735
+Name: % error, dtype: float64",4
+53,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",RandomForestRegressor(),Performance,0.7,"0    no_mixed_refs
+2            ref_9
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    64.000000
+mean      1.938323
+std       0.700659
+min       0.824527
+25%       1.349406
+50%       2.021352
+75%       2.427546
+max       3.536211
+Name: % error, dtype: float64",4
+54,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",GradientBoostingRegressor(),Performance,0.7,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+Name: feature, dtype: object","count    64.000000
+mean      1.949214
+std       0.707390
+min       0.878295
+25%       1.322533
+50%       2.038889
+75%       2.481390
+max       3.683519
+Name: % error, dtype: float64",4
+55,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",DecisionTreeRegressor(),Performance,0.7,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    64.000000
+mean      1.951412
+std       0.703748
+min       0.847416
+25%       1.335855
+50%       2.050669
+75%       2.460945
+max       3.616492
+Name: % error, dtype: float64",4
+56,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.8,"ref_9            227.083381
+no_fast_pskip    113.476416
+no_mixed_refs    110.572980
+no_mbtree         68.719326
+dtype: float64","count    43.000000
+mean      2.660736
+std       2.425811
+min       0.038203
+25%       1.233323
+50%       1.746353
+75%       3.240583
+max      13.462072
+Name: % error, dtype: float64",4
+57,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","Lasso(alpha=0.02, max_iter=5)",Performance,0.8,"ref_9            226.778482
+no_fast_pskip    113.402656
+no_mixed_refs    110.466773
+no_mbtree         68.670284
+dtype: float64","count    43.000000
+mean      2.660673
+std       2.418750
+min       0.040400
+25%       1.240121
+50%       1.763920
+75%       3.247643
+max      13.390794
+Name: % error, dtype: float64",4
+58,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",Ridge(alpha=0.05),Performance,0.8,"ref_9            226.004695
+no_fast_pskip    113.357574
+no_mixed_refs    110.365289
+no_mbtree         68.757990
+dtype: float64","count    43.000000
+mean      2.657361
+std       2.400827
+min       0.029961
+25%       1.252355
+50%       1.773562
+75%       3.242202
+max      13.231900
+Name: % error, dtype: float64",4
+59,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0, max_iter=5)",Performance,0.8,"ref_9            226.778482
+no_fast_pskip    113.402656
+no_mixed_refs    110.466773
+no_mbtree         68.670284
+dtype: float64","count    43.000000
+mean      2.660673
+std       2.418750
+min       0.040400
+25%       1.240121
+50%       1.763920
+75%       3.247643
+max      13.390794
+Name: % error, dtype: float64",4
+60,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.8,"ref_9            119.514880
+no_fast_pskip     71.393452
+no_mbtree         34.522524
+no_mixed_refs     30.207788
+dtype: float64","count    43.000000
+mean      2.025515
+std       0.657118
+min       0.737894
+25%       1.476115
+50%       2.038254
+75%       2.522361
+max       3.490217
+Name: % error, dtype: float64",4
+61,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",RandomForestRegressor(),Performance,0.8,"0    no_mixed_refs
+2            ref_9
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    43.000000
+mean      2.024711
+std       0.659640
+min       0.842897
+25%       1.533344
+50%       2.102074
+75%       2.491392
+max       3.500115
+Name: % error, dtype: float64",4
+62,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",GradientBoostingRegressor(),Performance,0.8,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+Name: feature, dtype: object","count    43.000000
+mean      2.030851
+std       0.655593
+min       0.757350
+25%       1.495011
+50%       2.078696
+75%       2.515775
+max       3.479724
+Name: % error, dtype: float64",4
+63,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",DecisionTreeRegressor(),Performance,0.8,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    43.000000
+mean      2.042106
+std       0.653430
+min       0.789738
+25%       1.542415
+50%       2.100818
+75%       2.506878
+max       3.547039
+Name: % error, dtype: float64",4
+64,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.9,"ref_9            227.344338
+no_mixed_refs    112.230601
+no_fast_pskip    111.626441
+no_mbtree         69.899405
+dtype: float64","count    22.000000
+mean      2.827228
+std       2.986065
+min       0.218889
+25%       1.272067
+50%       1.790455
+75%       3.717605
+max      13.981989
+Name: % error, dtype: float64",4
+65,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.9,"ref_9            225.657561
+no_mixed_refs    111.709032
+no_fast_pskip    111.248195
+no_mbtree         69.663502
+dtype: float64","count    22.000000
+mean      2.826160
+std       2.910558
+min       0.231338
+25%       1.299698
+50%       1.811145
+75%       3.728995
+max      13.589377
+Name: % error, dtype: float64",4
+66,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",Ridge(alpha=0.1),Performance,0.9,"ref_9            225.226084
+no_mixed_refs    111.862871
+no_fast_pskip    111.422495
+no_mbtree         69.973658
+dtype: float64","count    22.000000
+mean      2.815497
+std       2.896614
+min       0.259364
+25%       1.290589
+50%       1.823722
+75%       3.697529
+max      13.526694
+Name: % error, dtype: float64",4
+67,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=5)",Performance,0.9,"ref_9            225.657561
+no_mixed_refs    111.709032
+no_fast_pskip    111.248195
+no_mbtree         69.663502
+dtype: float64","count    22.000000
+mean      2.826160
+std       2.910558
+min       0.231338
+25%       1.299698
+50%       1.811145
+75%       3.728995
+max      13.589377
+Name: % error, dtype: float64",4
+68,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",LinearRegression(),Performance,0.9,"ref_9            2.190545e+15
+no_mbtree        2.556402e+14
+no_mixed_refs    1.510565e+14
+no_fast_pskip    5.131046e+13
+dtype: float64","count    22.000000
+mean      1.885274
+std       0.687038
+min       0.759749
+25%       1.325675
+50%       1.888807
+75%       2.250884
+max       3.502746
+Name: % error, dtype: float64",4
+69,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",RandomForestRegressor(),Performance,0.9,"0    no_mixed_refs
+2            ref_9
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    22.000000
+mean      1.891205
+std       0.672241
+min       0.767988
+25%       1.305744
+50%       1.968754
+75%       2.413048
+max       3.469057
+Name: % error, dtype: float64",4
+70,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",GradientBoostingRegressor(),Performance,0.9,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+Name: feature, dtype: object","count    22.000000
+mean      1.944150
+std       0.631772
+min       0.825207
+25%       1.324284
+50%       1.958160
+75%       2.432214
+max       3.393814
+Name: % error, dtype: float64",4
+71,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree'], dtype='object')",DecisionTreeRegressor(),Performance,0.9,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+Name: feature, dtype: object","count    22.000000
+mean      1.952375
+std       0.628507
+min       0.862863
+25%       1.381869
+50%       1.980263
+75%       2.372791
+max       3.481067
+Name: % error, dtype: float64",4
+72,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.1,"no_mixed_refs    117.245877
+no_fast_pskip    115.147867
+no_mbtree         67.282320
+dtype: float64","count    191.000000
+mean       6.437507
+std       17.986635
+min        0.084998
+25%        1.138054
+50%        2.566920
+75%        3.744208
+max      139.034317
+Name: % error, dtype: float64",6
+73,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","Lasso(alpha=0.8, max_iter=5)",Performance,0.1,"no_mixed_refs    113.573836
+no_fast_pskip    112.089911
+no_mbtree         64.569745
+dtype: float64","count    191.000000
+mean       6.313091
+std       18.129461
+min        0.026216
+25%        0.983494
+50%        2.405052
+75%        3.628992
+max      139.717448
+Name: % error, dtype: float64",6
+74,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.1,"no_mixed_refs    114.774994
+no_fast_pskip    112.867513
+no_mbtree         66.398205
+dtype: float64","count    191.000000
+mean       6.341646
+std       18.055975
+min        0.006098
+25%        1.033810
+50%        2.456671
+75%        3.527766
+max      139.354576
+Name: % error, dtype: float64",6
+75,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.1, max_iter=5)",Performance,0.1,"no_mixed_refs    112.656647
+no_fast_pskip    110.912650
+no_mbtree         65.622751
+dtype: float64","count    191.000000
+mean       6.294119
+std       18.107873
+min        0.044635
+25%        1.086799
+50%        2.225932
+75%        3.695218
+max      139.632702
+Name: % error, dtype: float64",6
+76,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.1,"no_fast_pskip    3.741430e+01
+no_mixed_refs    3.327487e+01
+no_mbtree        3.201513e+01
+ref_1            2.131628e-14
+ref_9            7.105427e-15
+dtype: float64","count    191.000000
+mean       5.827506
+std       17.590026
+min        0.023811
+25%        1.126338
+50%        1.890959
+75%        2.885287
+max      136.312322
+Name: % error, dtype: float64",6
+77,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+4            ref_5
+5            ref_1
+Name: feature, dtype: object","count    191.000000
+mean       6.920289
+std       17.543514
+min        0.010548
+25%        1.498566
+50%        2.816012
+75%        4.933322
+max      137.726509
+Name: % error, dtype: float64",6
+78,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    191.000000
+mean       6.015260
+std       17.757464
+min        0.000227
+25%        0.979198
+50%        2.281264
+75%        3.307957
+max      137.355611
+Name: % error, dtype: float64",6
+79,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    191.000000
+mean       6.101056
+std       17.906404
+min        0.000593
+25%        0.978922
+50%        2.281718
+75%        3.308495
+max      137.354750
+Name: % error, dtype: float64",6
+80,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.2,"no_fast_pskip    115.402723
+no_mixed_refs    111.870318
+ref_5             91.911388
+ref_9             91.911388
+no_mbtree         65.402336
+dtype: float64","count    170.000000
+mean       4.051533
+std       12.497170
+min        0.023396
+25%        0.931781
+50%        2.264119
+75%        3.420700
+max      102.944982
+Name: % error, dtype: float64",6
+81,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.2,"ref_9            183.615306
+no_fast_pskip    115.359799
+no_mixed_refs    111.824626
+no_mbtree         65.377771
+dtype: float64","count    170.000000
+mean       3.436845
+std        7.982388
+min        0.032794
+25%        0.935242
+50%        2.262355
+75%        3.422862
+max       66.945409
+Name: % error, dtype: float64",6
+82,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.2,"no_fast_pskip    115.162209
+no_mixed_refs    111.634839
+ref_9             91.447151
+ref_5             91.447151
+no_mbtree         65.347685
+dtype: float64","count    170.000000
+mean       4.048347
+std       12.520580
+min        0.020057
+25%        0.941498
+50%        2.228429
+75%        3.428616
+max      103.122718
+Name: % error, dtype: float64",6
+83,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.2,"ref_9            183.615306
+no_fast_pskip    115.359799
+no_mixed_refs    111.824626
+no_mbtree         65.377771
+dtype: float64","count    170.000000
+mean       3.436845
+std        7.982388
+min        0.032794
+25%        0.935242
+50%        2.262355
+75%        3.422862
+max       66.945409
+Name: % error, dtype: float64",6
+84,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.2,"ref_9            44.213764
+ref_5            44.213764
+no_fast_pskip    42.452952
+no_mixed_refs    31.153775
+no_mbtree        30.025483
+dtype: float64","count    170.000000
+mean       3.531407
+std       12.192750
+min        0.034089
+25%        0.953968
+50%        1.867009
+75%        2.761297
+max      100.631063
+Name: % error, dtype: float64",6
+85,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+4            ref_5
+5            ref_1
+Name: feature, dtype: object","count    170.000000
+mean       4.386993
+std       15.018234
+min        0.070370
+25%        1.111314
+50%        1.960447
+75%        2.706379
+max      122.240160
+Name: % error, dtype: float64",6
+86,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    170.000000
+mean       3.865197
+std       13.583160
+min        0.064867
+25%        1.043764
+50%        1.854345
+75%        2.619717
+max      111.323616
+Name: % error, dtype: float64",6
+87,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    170.000000
+mean       4.322767
+std       16.707715
+min        0.101636
+25%        1.050783
+50%        1.851368
+75%        2.614100
+max      135.786298
+Name: % error, dtype: float64",6
+88,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.3,"ref_9            174.609057
+ref_1            167.258546
+no_fast_pskip    111.211214
+no_mixed_refs    111.013267
+no_mbtree         68.132144
+ref_5              7.350511
+dtype: float64","count    149.000000
+mean       2.337124
+std        1.704076
+min        0.028242
+25%        1.028864
+50%        1.981949
+75%        3.375004
+max        9.661994
+Name: % error, dtype: float64",6
+89,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.3,"ref_9            253.387519
+no_fast_pskip    111.192877
+no_mixed_refs    110.938727
+ref_1             87.835523
+ref_5             71.197688
+no_mbtree         68.098504
+dtype: float64","count    149.000000
+mean       2.340176
+std        1.705924
+min        0.040255
+25%        1.028763
+50%        1.972893
+75%        3.383144
+max        9.608520
+Name: % error, dtype: float64",6
+90,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.3,"ref_9            174.017252
+ref_1            166.114240
+no_fast_pskip    111.173320
+no_mixed_refs    110.882362
+no_mbtree         68.122554
+ref_5              7.903011
+dtype: float64","count    149.000000
+mean       2.345522
+std        1.708964
+min        0.039445
+25%        1.032324
+50%        1.973687
+75%        3.389387
+max        9.647047
+Name: % error, dtype: float64",6
+91,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.3,"ref_9            253.387519
+no_fast_pskip    111.192877
+no_mixed_refs    110.938727
+ref_1             87.835523
+ref_5             71.197688
+no_mbtree         68.098504
+dtype: float64","count    149.000000
+mean       2.340176
+std        1.705924
+min        0.040255
+25%        1.028763
+50%        1.972893
+75%        3.383144
+max        9.608520
+Name: % error, dtype: float64",6
+92,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.3,"ref_9            84.374046
+ref_1            80.709523
+no_fast_pskip    40.740967
+no_mbtree        33.655911
+no_mixed_refs    31.933459
+ref_5             3.664523
+dtype: float64","count    149.000000
+mean       1.920314
+std        0.879537
+min        0.060782
+25%        1.248090
+50%        1.838171
+75%        2.492288
+max        5.426590
+Name: % error, dtype: float64",6
+93,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+4            ref_5
+5            ref_1
+Name: feature, dtype: object","count    149.000000
+mean       2.512657
+std        5.203294
+min        0.039661
+25%        1.266062
+50%        1.883648
+75%        2.475747
+max       49.808881
+Name: % error, dtype: float64",6
+94,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    149.000000
+mean       2.076911
+std        1.636657
+min        0.029133
+25%        1.252317
+50%        1.916547
+75%        2.586349
+max       15.532678
+Name: % error, dtype: float64",6
+95,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    149.000000
+mean       2.109215
+std        1.860774
+min        0.060782
+25%        1.255254
+50%        1.910354
+75%        2.593032
+max       17.800209
+Name: % error, dtype: float64",6
+96,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.4,"ref_9            175.465557
+ref_1            166.165567
+no_fast_pskip    110.829729
+no_mixed_refs    109.321903
+no_mbtree         67.033733
+ref_5              9.299990
+dtype: float64","count    128.000000
+mean       2.361866
+std        1.694840
+min        0.060782
+25%        0.970089
+50%        1.943829
+75%        3.641337
+max        6.833011
+Name: % error, dtype: float64",6
+97,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.4,"ref_9            238.986145
+no_fast_pskip    110.816615
+no_mixed_refs    109.255925
+ref_1            101.793045
+no_mbtree         67.000998
+ref_5             54.069858
+dtype: float64","count    128.000000
+mean       2.366372
+std        1.699518
+min        0.106001
+25%        0.971308
+50%        1.941773
+75%        3.646129
+max        6.839157
+Name: % error, dtype: float64",6
+98,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.4,"ref_9            174.882084
+ref_1            165.039109
+no_fast_pskip    110.812500
+no_mixed_refs    109.228019
+no_mbtree         67.028502
+ref_5              9.842975
+dtype: float64","count    128.000000
+mean       2.371646
+std        1.701394
+min        0.113794
+25%        0.971857
+50%        1.945157
+75%        3.644769
+max        6.841922
+Name: % error, dtype: float64",6
+99,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.4,"ref_9            238.986145
+no_fast_pskip    110.816615
+no_mixed_refs    109.255925
+ref_1            101.793045
+no_mbtree         67.000998
+ref_5             54.069858
+dtype: float64","count    128.000000
+mean       2.366372
+std        1.699518
+min        0.106001
+25%        0.971308
+50%        1.941773
+75%        3.646129
+max        6.839157
+Name: % error, dtype: float64",6
+100,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.4,"no_mixed_refs    3.959105e+14
+ref_5            3.168069e+14
+no_mbtree        1.770095e+14
+ref_9            1.335071e+14
+ref_1            1.079140e+14
+no_fast_pskip    9.954059e+12
+dtype: float64","count    128.000000
+mean       1.940400
+std        0.852132
+min        0.000465
+25%        1.304822
+50%        1.804260
+75%        2.474962
+max        5.490219
+Name: % error, dtype: float64",6
+101,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+4            ref_5
+5            ref_1
+Name: feature, dtype: object","count    128.000000
+mean       2.540246
+std        4.762185
+min        0.512548
+25%        1.258971
+50%        1.716211
+75%        2.606954
+max       42.950290
+Name: % error, dtype: float64",6
+102,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    128.000000
+mean       1.944529
+std        0.897500
+min        0.015286
+25%        1.252886
+50%        1.720411
+75%        2.532507
+max        5.506835
+Name: % error, dtype: float64",6
+103,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    128.000000
+mean       1.944980
+std        0.893865
+min        0.060782
+25%        1.273952
+50%        1.725653
+75%        2.539690
+max        5.426590
+Name: % error, dtype: float64",6
+104,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.5,"ref_9            176.464630
+ref_1            168.835420
+no_mixed_refs    113.737523
+no_fast_pskip    107.507994
+no_mbtree         70.812625
+ref_5              7.629210
+dtype: float64","count    106.000000
+mean       2.341525
+std        1.609904
+min        0.013526
+25%        1.140252
+50%        1.810174
+75%        3.471241
+max        6.001919
+Name: % error, dtype: float64",6
+105,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.5,"ref_9            189.709154
+ref_1            152.874804
+no_mixed_refs    113.423467
+no_fast_pskip    107.453413
+no_mbtree         70.677607
+ref_5              4.690749
+dtype: float64","count    106.000000
+mean       2.350788
+std        1.635921
+min        0.045352
+25%        1.125099
+50%        1.832318
+75%        3.440524
+max        6.498953
+Name: % error, dtype: float64",6
+106,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.5,"ref_9            175.848970
+ref_1            167.670999
+no_mixed_refs    113.586382
+no_fast_pskip    107.490236
+no_mbtree         70.813131
+ref_5              8.177971
+dtype: float64","count    106.000000
+mean       2.347127
+std        1.623606
+min        0.018465
+25%        1.131666
+50%        1.817326
+75%        3.466474
+max        6.116871
+Name: % error, dtype: float64",6
+107,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=100)",Performance,0.5,"ref_9            189.709154
+ref_1            152.874804
+no_mixed_refs    113.423467
+no_fast_pskip    107.453413
+no_mbtree         70.677607
+ref_5              4.690749
+dtype: float64","count    106.000000
+mean       2.350788
+std        1.635921
+min        0.045352
+25%        1.125099
+50%        1.832318
+75%        3.440524
+max        6.498953
+Name: % error, dtype: float64",6
+108,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.5,"no_mixed_refs    4.158605e+14
+no_fast_pskip    6.878966e+13
+no_mbtree        1.988735e+13
+ref_1            1.508439e+13
+ref_9            8.407936e+12
+ref_5            4.117419e+11
+dtype: float64","count    106.000000
+mean       1.931249
+std        0.803548
+min        0.424414
+25%        1.316976
+50%        1.832060
+75%        2.563273
+max        5.336872
+Name: % error, dtype: float64",6
+109,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+4            ref_5
+5            ref_1
+Name: feature, dtype: object","count    106.000000
+mean       2.163348
+std        2.470606
+min        0.574312
+25%        1.314033
+50%        1.886081
+75%        2.435592
+max       25.481347
+Name: % error, dtype: float64",6
+110,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    106.000000
+mean       1.934994
+std        0.796375
+min        0.558453
+25%        1.310749
+50%        1.894178
+75%        2.491022
+max        5.530817
+Name: % error, dtype: float64",6
+111,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    106.000000
+mean       1.937252
+std        0.795063
+min        0.634240
+25%        1.324118
+50%        1.900046
+75%        2.469529
+max        5.458650
+Name: % error, dtype: float64",6
+112,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.6,"ref_9            176.997510
+ref_1            169.020395
+no_mixed_refs    115.368268
+no_fast_pskip    107.324210
+no_mbtree         70.301559
+ref_5              7.977115
+dtype: float64","count    85.000000
+mean      2.380730
+std       1.666707
+min       0.125867
+25%       1.106052
+50%       1.858080
+75%       3.619031
+max       6.125864
+Name: % error, dtype: float64",6
+113,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Lasso(alpha=0.02),Performance,0.6,"ref_9            184.967759
+ref_1            159.738380
+no_mixed_refs    115.239990
+no_fast_pskip    107.286689
+no_mbtree         70.243510
+dtype: float64","count    85.000000
+mean      2.385596
+std       1.678762
+min       0.117801
+25%       1.110785
+50%       1.853176
+75%       3.611247
+max       6.118652
+Name: % error, dtype: float64",6
+114,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.6,"ref_9            176.386802
+ref_1            167.863821
+no_mixed_refs    115.238098
+no_fast_pskip    107.310850
+no_mbtree         70.297394
+ref_5              8.522981
+dtype: float64","count    85.000000
+mean      2.387422
+std       1.682374
+min       0.121229
+25%       1.113896
+50%       1.851643
+75%       3.614556
+max       6.117628
+Name: % error, dtype: float64",6
+115,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0)",Performance,0.6,"ref_9            184.967759
+ref_1            159.738380
+no_mixed_refs    115.239990
+no_fast_pskip    107.286689
+no_mbtree         70.243510
+dtype: float64","count    85.000000
+mean      2.385596
+std       1.678762
+min       0.117801
+25%       1.110785
+50%       1.853176
+75%       3.611247
+max       6.118652
+Name: % error, dtype: float64",6
+116,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.6,"no_fast_pskip    9.737352e+14
+no_mbtree        2.293462e+13
+ref_9            2.070853e+13
+ref_1            4.050934e+12
+ref_5            1.382500e+12
+no_mixed_refs    2.969590e+01
+dtype: float64","count    85.000000
+mean      2.003754
+std       0.845597
+min       0.660122
+25%       1.320624
+50%       2.064624
+75%       2.371932
+max       5.689569
+Name: % error, dtype: float64",6
+117,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+4            ref_5
+5            ref_1
+Name: feature, dtype: object","count    85.000000
+mean      2.248653
+std       2.622472
+min       0.436966
+25%       1.251532
+50%       2.009433
+75%       2.414621
+max      24.431725
+Name: % error, dtype: float64",6
+118,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    85.000000
+mean      2.001150
+std       0.828831
+min       0.804941
+25%       1.308095
+50%       2.031195
+75%       2.395177
+max       5.536563
+Name: % error, dtype: float64",6
+119,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    85.000000
+mean      2.004653
+std       0.826605
+min       0.819175
+25%       1.277121
+50%       2.027897
+75%       2.393902
+max       5.458650
+Name: % error, dtype: float64",6
+120,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.7,"ref_9            179.063070
+ref_1            171.772436
+no_mixed_refs    114.493215
+no_fast_pskip    106.899351
+no_mbtree         70.146649
+ref_5              7.290633
+dtype: float64","count    64.000000
+mean      2.282681
+std       1.651366
+min       0.021682
+25%       0.876650
+50%       1.852118
+75%       3.192858
+max       6.157391
+Name: % error, dtype: float64",6
+121,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.7,"ref_9            248.219190
+no_mixed_refs    114.435375
+no_fast_pskip    106.882449
+ref_1            102.114060
+no_mbtree         70.117132
+ref_5             61.702752
+dtype: float64","count    64.000000
+mean      2.283153
+std       1.652807
+min       0.016411
+25%       0.879394
+50%       1.855735
+75%       3.199624
+max       6.155851
+Name: % error, dtype: float64",6
+122,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.7,"ref_9            178.848685
+ref_1            171.375731
+no_mixed_refs    114.435483
+no_fast_pskip    106.893648
+no_mbtree         70.144252
+ref_5              7.472954
+dtype: float64","count    64.000000
+mean      2.282407
+std       1.651327
+min       0.019675
+25%       0.878646
+50%       1.855825
+75%       3.198719
+max       6.150513
+Name: % error, dtype: float64",6
+123,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.7,"ref_9            248.219190
+no_mixed_refs    114.435375
+no_fast_pskip    106.882449
+ref_1            102.114060
+no_mbtree         70.117132
+ref_5             61.702752
+dtype: float64","count    64.000000
+mean      2.283153
+std       1.652807
+min       0.016411
+25%       0.879394
+50%       1.855735
+75%       3.199624
+max       6.155851
+Name: % error, dtype: float64",6
+124,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.7,"ref_9            2.540786e+15
+ref_5            1.593369e+15
+ref_1            1.343451e+15
+no_mixed_refs    1.012620e+15
+no_mbtree        2.568682e+14
+no_fast_pskip    2.465693e+14
+dtype: float64","count    64.000000
+mean      1.927248
+std       0.709777
+min       0.704833
+25%       1.351932
+50%       2.023577
+75%       2.415074
+max       3.509073
+Name: % error, dtype: float64",6
+125,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+4            ref_5
+5            ref_1
+Name: feature, dtype: object","count    64.000000
+mean      1.940011
+std       0.709928
+min       0.843577
+25%       1.279919
+50%       2.037308
+75%       2.444337
+max       3.602671
+Name: % error, dtype: float64",6
+126,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    64.000000
+mean      1.949457
+std       0.706070
+min       0.887129
+25%       1.333112
+50%       2.036283
+75%       2.484259
+max       3.669226
+Name: % error, dtype: float64",6
+127,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    64.000000
+mean      1.951412
+std       0.703748
+min       0.847416
+25%       1.335855
+50%       2.050669
+75%       2.460945
+max       3.616492
+Name: % error, dtype: float64",6
+128,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.8,"ref_9            179.253056
+ref_1            171.208253
+no_mixed_refs    113.476215
+no_fast_pskip    108.662186
+no_mbtree         69.034179
+ref_5              8.044803
+dtype: float64","count    43.000000
+mean      2.357797
+std       1.789431
+min       0.154515
+25%       0.968968
+50%       1.768901
+75%       3.603586
+max       6.092783
+Name: % error, dtype: float64",6
+129,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.8,"ref_9            256.306347
+no_mixed_refs    113.197230
+no_fast_pskip    108.575859
+ref_1             91.290973
+no_mbtree         68.906757
+ref_5             68.085160
+dtype: float64","count    43.000000
+mean      2.366144
+std       1.800485
+min       0.146802
+25%       0.971633
+50%       1.723478
+75%       3.615537
+max       6.084612
+Name: % error, dtype: float64",6
+130,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.8,"ref_9            178.830534
+ref_1            170.425277
+no_mixed_refs    113.377177
+no_fast_pskip    108.649455
+no_mbtree         69.036567
+ref_5              8.405257
+dtype: float64","count    43.000000
+mean      2.358350
+std       1.788998
+min       0.143215
+25%       0.971849
+50%       1.763076
+75%       3.602586
+max       6.080812
+Name: % error, dtype: float64",6
+131,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=5)",Performance,0.8,"ref_9            256.306347
+no_mixed_refs    113.197230
+no_fast_pskip    108.575859
+ref_1             91.290973
+no_mbtree         68.906757
+ref_5             68.085160
+dtype: float64","count    43.000000
+mean      2.366144
+std       1.800485
+min       0.146802
+25%       0.971633
+50%       1.723478
+75%       3.615537
+max       6.084612
+Name: % error, dtype: float64",6
+132,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.8,"no_mixed_refs    7.040538e+14
+no_fast_pskip    3.790860e+14
+ref_9            3.071537e+14
+ref_1            2.425297e+14
+ref_5            1.570138e+14
+no_mbtree        1.121648e+14
+dtype: float64","count    43.000000
+mean      2.054372
+std       0.693394
+min       0.806153
+25%       1.567181
+50%       2.126154
+75%       2.480010
+max       3.848926
+Name: % error, dtype: float64",6
+133,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+4            ref_5
+5            ref_1
+Name: feature, dtype: object","count    43.000000
+mean      2.025846
+std       0.660833
+min       0.795203
+25%       1.517612
+50%       2.084095
+75%       2.496085
+max       3.594644
+Name: % error, dtype: float64",6
+134,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    43.000000
+mean      2.029226
+std       0.655242
+min       0.741000
+25%       1.497907
+50%       2.080708
+75%       2.519477
+max       3.448129
+Name: % error, dtype: float64",6
+135,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    43.000000
+mean      2.042106
+std       0.653430
+min       0.789738
+25%       1.542415
+50%       2.100818
+75%       2.506878
+max       3.547039
+Name: % error, dtype: float64",6
+136,LinearRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.9,"ref_9            179.613596
+ref_1            171.977674
+no_mixed_refs    114.798813
+no_fast_pskip    107.334801
+no_mbtree         69.929036
+ref_5              7.635922
+dtype: float64","count    22.000000
+mean      2.360043
+std       1.933471
+min       0.219741
+25%       0.903393
+50%       1.740314
+75%       4.179170
+max       6.287881
+Name: % error, dtype: float64",6
+137,Lasso,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Lasso(alpha=0.02),Performance,0.9,"ref_9            187.230394
+ref_1            163.052633
+no_mixed_refs    114.675085
+no_fast_pskip    107.292932
+no_mbtree         69.881638
+dtype: float64","count    22.000000
+mean      2.363137
+std       1.930426
+min       0.232691
+25%       0.905457
+50%       1.747887
+75%       4.177875
+max       6.280702
+Name: % error, dtype: float64",6
+138,Ridge,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.9,"ref_9            179.193647
+ref_1            171.194266
+no_mixed_refs    114.711160
+no_fast_pskip    107.324235
+no_mbtree         69.934056
+ref_5              7.999381
+dtype: float64","count    22.000000
+mean      2.361110
+std       1.929566
+min       0.228044
+25%       0.908117
+50%       1.746007
+75%       4.173331
+max       6.277165
+Name: % error, dtype: float64",6
+139,ElasticNet,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0)",Performance,0.9,"ref_9            187.230394
+ref_1            163.052633
+no_mixed_refs    114.675085
+no_fast_pskip    107.292932
+no_mbtree         69.881638
+dtype: float64","count    22.000000
+mean      2.363137
+std       1.930426
+min       0.232691
+25%       0.905457
+50%       1.747887
+75%       4.177875
+max       6.280702
+Name: % error, dtype: float64",6
+140,PolynomialRegression,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",LinearRegression(),Performance,0.9,"ref_9            1.217820e+15
+ref_5            1.018727e+15
+no_mbtree        4.215722e+14
+no_mixed_refs    4.163443e+14
+ref_1            2.089033e+14
+no_fast_pskip    1.216939e+14
+dtype: float64","count    22.000000
+mean      1.883302
+std       0.800320
+min       0.592986
+25%       1.369779
+50%       1.714701
+75%       2.387785
+max       3.287785
+Name: % error, dtype: float64",6
+141,RandomForest,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+4            ref_5
+5            ref_1
+Name: feature, dtype: object","count    22.000000
+mean      1.933949
+std       0.616426
+min       0.911628
+25%       1.401843
+50%       1.890459
+75%       2.434087
+max       3.381164
+Name: % error, dtype: float64",6
+142,GradientBoostingTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"0    no_mixed_refs
+1    no_fast_pskip
+2            ref_9
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    22.000000
+mean      1.943440
+std       0.632261
+min       0.822244
+25%       1.324114
+50%       1.957092
+75%       2.432625
+max       3.391480
+Name: % error, dtype: float64",6
+143,DecisionTree,False,RandomForest,"Index(['no_mixed_refs', 'no_fast_pskip', 'ref_9', 'no_mbtree', 'ref_5',
+       'ref_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"2            ref_9
+0    no_mixed_refs
+1    no_fast_pskip
+3        no_mbtree
+5            ref_1
+4            ref_5
+Name: feature, dtype: object","count    22.000000
+mean      1.952375
+std       0.628507
+min       0.862863
+25%       1.381869
+50%       1.980263
+75%       2.372791
+max       3.481067
+Name: % error, dtype: float64",6

@@ -1,0 +1,2949 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.1,"post_0        8255.001939
+pre_1         7465.741917
+post_1        3678.943458
+cells_50      3174.536031
+CGSolver      3117.923783
+pre_0         2890.253630
+cells_55      1842.504571
+LoopSolver     608.954167
+dtype: float64","count    964.000000
+mean      22.138370
+std       17.547447
+min        0.054895
+25%       10.000340
+50%       18.913261
+75%       28.826334
+max      102.827244
+Name: % error, dtype: float64",8
+1,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.1,"pre_1         8419.961765
+CGSolver      5255.856107
+post_0        5246.120209
+post_1        2742.742556
+cells_50      1836.968506
+cells_55       933.914114
+LoopSolver     454.739282
+pre_0           89.546536
+dtype: float64","count    964.000000
+mean      24.532933
+std       20.497724
+min        0.109499
+25%       12.442150
+50%       19.180626
+75%       29.969048
+max      144.980225
+Name: % error, dtype: float64",8
+2,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",Ridge(alpha=10),Performance,0.1,"post_0        4269.586591
+pre_1         3675.214611
+CGSolver      2735.356776
+post_1        1743.961572
+cells_50      1310.757437
+cells_55      1063.505983
+pre_0          930.700089
+LoopSolver     643.228496
+dtype: float64","count    964.000000
+mean      17.039335
+std       14.953141
+min        0.038752
+25%        5.585608
+50%       12.986758
+75%       24.600321
+max       94.699886
+Name: % error, dtype: float64",8
+3,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=0.1, max_iter=5)",Performance,0.1,"post_0        3020.409196
+pre_1         2519.146703
+CGSolver      2249.565397
+post_1        1157.730736
+cells_50       872.338811
+cells_55       810.638427
+LoopSolver     624.672796
+pre_0          475.939595
+dtype: float64","count    964.000000
+mean      16.520381
+std       15.200344
+min        0.006477
+25%        4.606632
+50%       11.808537
+75%       25.776510
+max      105.864498
+Name: % error, dtype: float64",8
+4,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.1,"post_0        1.559933e+17
+cells_55      2.910796e+16
+pre_1         6.237192e+15
+post_1        4.653769e+15
+pre_0         3.631008e+15
+LoopSolver    2.445503e+15
+cells_50      1.432212e+15
+CGSolver      7.853244e+11
+dtype: float64","count    9.640000e+02
+mean     6.609676e+10
+std      1.234728e+12
+min      5.159000e-03
+25%      4.680222e+00
+50%      9.959152e+00
+75%      1.807568e+01
+max      2.879153e+13
+Name: % error, dtype: float64",8
+5,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+7      cells_55
+5    LoopSolver
+6      cells_50
+Name: feature, dtype: object","count    964.000000
+mean      11.557611
+std       14.223074
+min        0.019648
+25%        3.160352
+50%        7.313845
+75%       13.266149
+max      105.642561
+Name: % error, dtype: float64",8
+6,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+5    LoopSolver
+7      cells_55
+6      cells_50
+Name: feature, dtype: object","count    964.000000
+mean      10.512012
+std       12.470658
+min        0.041668
+25%        2.995220
+50%        7.031187
+75%       12.602527
+max      106.006521
+Name: % error, dtype: float64",8
+7,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"0      CGSolver
+1         pre_0
+2         pre_1
+3        post_0
+4        post_1
+7      cells_55
+6      cells_50
+5    LoopSolver
+Name: feature, dtype: object","count    964.000000
+mean      11.120470
+std       15.442415
+min        0.004083
+25%        2.953326
+50%        7.725028
+75%       13.102441
+max      173.927368
+Name: % error, dtype: float64",8
+8,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.2,"post_0        6299.900493
+pre_1         5349.486519
+post_1        3387.088800
+cells_50      2661.072777
+pre_0         2650.456548
+CGSolver      2276.464427
+cells_55      1747.685460
+LoopSolver     507.898695
+dtype: float64","count    857.000000
+mean      18.704814
+std       14.931716
+min        0.004857
+25%        8.288279
+50%       15.718132
+75%       23.700685
+max       94.174664
+Name: % error, dtype: float64",8
+9,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.2,"post_0        5945.371423
+pre_1         4943.471729
+post_1        3148.425043
+pre_0         2363.586832
+CGSolver      2236.449437
+cells_50      2191.423754
+cells_55      1621.836372
+LoopSolver     417.249875
+dtype: float64","count    857.000000
+mean      17.972788
+std       14.580278
+min        0.046407
+25%        7.582440
+50%       15.020577
+75%       23.067984
+max       92.108312
+Name: % error, dtype: float64",8
+10,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",Ridge(alpha=10),Performance,0.2,"post_0        4179.471970
+pre_1         3087.998025
+post_1        2297.885190
+CGSolver      2097.968440
+pre_0         1513.269743
+cells_50      1306.373044
+cells_55      1278.699825
+LoopSolver     482.540697
+dtype: float64","count    857.000000
+mean      16.309801
+std       13.955072
+min        0.022391
+25%        6.415494
+50%       12.373286
+75%       21.569243
+max      102.141359
+Name: % error, dtype: float64",8
+11,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.0, max_iter=10)",Performance,0.2,"post_0        3046.277727
+pre_1         2101.243943
+CGSolver      1820.736723
+post_1        1693.870225
+pre_0          987.741770
+cells_55       980.292658
+cells_50       812.761541
+LoopSolver     471.535358
+dtype: float64","count    857.000000
+mean      15.899132
+std       14.578884
+min        0.014052
+25%        5.076287
+50%       11.077857
+75%       21.857150
+max      114.595972
+Name: % error, dtype: float64",8
+12,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.2,"LoopSolver    1.060940e+18
+post_0        5.834091e+17
+post_1        4.802339e+17
+cells_50      4.606396e+17
+cells_55      2.448124e+17
+pre_0         1.364948e+17
+pre_1         5.634075e+16
+CGSolver      2.374377e+16
+dtype: float64","count    8.570000e+02
+mean     5.318295e+11
+std      9.366254e+12
+min      1.357316e-02
+25%      5.141428e+00
+50%      1.038581e+01
+75%      1.813439e+01
+max      2.059495e+14
+Name: % error, dtype: float64",8
+13,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+7      cells_55
+5    LoopSolver
+6      cells_50
+Name: feature, dtype: object","count    857.000000
+mean      10.571592
+std       12.302097
+min        0.004213
+25%        3.024318
+50%        6.538796
+75%       11.838410
+max       81.447225
+Name: % error, dtype: float64",8
+14,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+5    LoopSolver
+7      cells_55
+6      cells_50
+Name: feature, dtype: object","count    857.000000
+mean       9.772446
+std       11.099025
+min        0.016976
+25%        2.994822
+50%        5.970080
+75%       10.910254
+max       67.647748
+Name: % error, dtype: float64",8
+15,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"0      CGSolver
+1         pre_0
+2         pre_1
+3        post_0
+4        post_1
+7      cells_55
+6      cells_50
+5    LoopSolver
+Name: feature, dtype: object","count    857.000000
+mean       9.760788
+std       10.435932
+min        0.025115
+25%        2.983192
+50%        6.539163
+75%       11.501550
+max       69.906642
+Name: % error, dtype: float64",8
+16,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.3,"post_0        6473.869773
+pre_1         5775.757744
+post_1        3462.072997
+pre_0         2815.342897
+cells_50      2372.649717
+CGSolver      2283.363866
+cells_55      1657.348602
+LoopSolver     732.015557
+dtype: float64","count    750.000000
+mean      19.346946
+std       15.318289
+min        0.054448
+25%        8.778146
+50%       15.591552
+75%       25.229820
+max       96.132359
+Name: % error, dtype: float64",8
+17,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.3,"post_0        6138.051268
+pre_1         5349.665590
+post_1        3232.115032
+pre_0         2528.077886
+CGSolver      2251.840992
+cells_50      1875.270916
+cells_55      1524.824217
+LoopSolver     641.042379
+dtype: float64","count    750.000000
+mean      18.602303
+std       14.818272
+min        0.078346
+25%        8.181515
+50%       14.943130
+75%       23.981724
+max       94.041998
+Name: % error, dtype: float64",8
+18,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",Ridge(alpha=10),Performance,0.3,"post_0        4884.749440
+pre_1         3859.624693
+post_1        2654.408488
+CGSolver      2191.679256
+pre_0         1923.799868
+cells_50      1340.741571
+cells_55      1276.277629
+LoopSolver     692.127162
+dtype: float64","count    750.000000
+mean      17.069508
+std       13.783220
+min        0.027342
+25%        8.047760
+50%       13.852284
+75%       22.365498
+max       92.714949
+Name: % error, dtype: float64",8
+19,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=10)",Performance,0.3,"post_0        5132.297484
+pre_1         4125.211498
+post_1        2781.955554
+CGSolver      2218.335302
+pre_0         2052.769473
+cells_50      1471.346850
+cells_55      1337.881881
+LoopSolver     697.387480
+dtype: float64","count    750.000000
+mean      17.339607
+std       13.888723
+min        0.034645
+25%        8.373652
+50%       14.209139
+75%       22.559097
+max       93.247062
+Name: % error, dtype: float64",8
+20,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.3,"cells_55      5.280962e+17
+pre_0         3.817518e+17
+LoopSolver    2.007087e+17
+cells_50      1.708498e+17
+post_0        1.149640e+17
+post_1        4.172207e+16
+CGSolver      3.975893e+16
+pre_1         5.520849e+15
+dtype: float64","count    750.000000
+mean      13.411720
+std       13.691250
+min        0.034776
+25%        4.081655
+50%        9.078649
+75%       17.516258
+max       85.370053
+Name: % error, dtype: float64",8
+21,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+7      cells_55
+5    LoopSolver
+6      cells_50
+Name: feature, dtype: object","count    750.000000
+mean      10.257261
+std       10.792861
+min        0.001443
+25%        3.212345
+50%        6.990512
+75%       12.588071
+max       62.978840
+Name: % error, dtype: float64",8
+22,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+5    LoopSolver
+7      cells_55
+6      cells_50
+Name: feature, dtype: object","count    750.000000
+mean       9.499147
+std        9.716670
+min        0.010685
+25%        2.911452
+50%        6.543624
+75%       11.807456
+max       59.701739
+Name: % error, dtype: float64",8
+23,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"0      CGSolver
+1         pre_0
+2         pre_1
+3        post_0
+4        post_1
+7      cells_55
+6      cells_50
+5    LoopSolver
+Name: feature, dtype: object","count    750.000000
+mean       9.706117
+std        9.850509
+min        0.000244
+25%        3.083785
+50%        6.681864
+75%       12.106208
+max       62.676280
+Name: % error, dtype: float64",8
+24,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.4,"post_0        6455.995598
+pre_1         4971.470164
+post_1        3306.819323
+pre_0         2649.783359
+cells_50      2416.367369
+CGSolver      2335.971903
+cells_55      1393.857655
+LoopSolver     718.071375
+dtype: float64","count    643.000000
+mean      18.641078
+std       14.507750
+min        0.010916
+25%        8.316104
+50%       14.868169
+75%       23.918711
+max       96.540063
+Name: % error, dtype: float64",8
+25,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.4,"post_0        6327.094595
+pre_1         4822.667270
+post_1        3211.997468
+pre_0         2533.215251
+CGSolver      2320.888012
+cells_50      2252.937395
+cells_55      1342.107492
+LoopSolver     675.727516
+dtype: float64","count    643.000000
+mean      18.337057
+std       14.339463
+min        0.039632
+25%        8.199845
+50%       14.811709
+75%       23.351445
+max       95.613414
+Name: % error, dtype: float64",8
+26,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",Ridge(alpha=2),Performance,0.4,"post_0        6155.701992
+pre_1         4666.682551
+post_1        3155.077207
+pre_0         2476.348437
+CGSolver      2325.689454
+cells_50      2222.976035
+cells_55      1341.316345
+LoopSolver     702.087388
+dtype: float64","count    643.000000
+mean      18.172875
+std       14.186269
+min        0.027874
+25%        7.812501
+50%       14.711208
+75%       23.172727
+max       95.745516
+Name: % error, dtype: float64",8
+27,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=10)",Performance,0.4,"post_0        6135.695996
+pre_1         4646.757821
+post_1        3144.940148
+pre_0         2464.941030
+CGSolver      2324.765568
+cells_50      2210.479880
+cells_55      1337.741833
+LoopSolver     701.064259
+dtype: float64","count    643.000000
+mean      18.143414
+std       14.166275
+min        0.000645
+25%        7.888276
+50%       14.763384
+75%       23.141543
+max       95.692232
+Name: % error, dtype: float64",8
+28,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.4,"LoopSolver    6.483423e+17
+pre_1         1.994616e+17
+cells_50      1.395131e+17
+pre_0         1.045277e+17
+CGSolver      4.664283e+16
+cells_55      2.345447e+16
+post_0        1.261652e+16
+post_1        2.017436e+15
+dtype: float64","count    643.000000
+mean      12.577136
+std       12.928708
+min        0.023102
+25%        3.806350
+50%        8.989001
+75%       16.065943
+max       75.219429
+Name: % error, dtype: float64",8
+29,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+7      cells_55
+5    LoopSolver
+6      cells_50
+Name: feature, dtype: object","count    643.000000
+mean       9.411634
+std        9.612439
+min        0.011079
+25%        3.247788
+50%        6.164274
+75%       11.976286
+max       58.386244
+Name: % error, dtype: float64",8
+30,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+5    LoopSolver
+7      cells_55
+6      cells_50
+Name: feature, dtype: object","count    643.000000
+mean       9.143238
+std        9.584388
+min        0.002490
+25%        3.246440
+50%        5.941130
+75%       11.476275
+max       55.963099
+Name: % error, dtype: float64",8
+31,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"0      CGSolver
+1         pre_0
+2         pre_1
+3        post_0
+4        post_1
+7      cells_55
+6      cells_50
+5    LoopSolver
+Name: feature, dtype: object","count    643.000000
+mean       9.386687
+std        9.565519
+min        0.016303
+25%        3.235213
+50%        6.133682
+75%       11.975016
+max       58.384854
+Name: % error, dtype: float64",8
+32,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.5,"post_0        6217.808628
+pre_1         4437.322072
+post_1        3773.099925
+pre_0         2474.945543
+CGSolver      2410.766874
+cells_50      1795.508734
+cells_55      1410.180132
+LoopSolver     643.589656
+dtype: float64","count    536.000000
+mean      18.561336
+std       14.187227
+min        0.042884
+25%        8.561508
+50%       15.895122
+75%       24.167054
+max       94.280493
+Name: % error, dtype: float64",8
+33,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.5,"post_0        6090.177821
+pre_1         4276.526356
+post_1        3680.958008
+CGSolver      2389.618930
+pre_0         2358.547718
+cells_50      1627.193400
+cells_55      1355.414668
+LoopSolver     599.412507
+dtype: float64","count    536.000000
+mean      18.285309
+std       14.029777
+min        0.004703
+25%        8.487921
+50%       15.741317
+75%       23.621837
+max       93.325773
+Name: % error, dtype: float64",8
+34,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",Ridge(alpha=4),Performance,0.5,"post_0        5752.943990
+pre_1         4003.871728
+post_1        3521.909202
+CGSolver      2370.985803
+pre_0         2226.814921
+cells_50      1563.204554
+cells_55      1322.888309
+LoopSolver     624.834816
+dtype: float64","count    536.000000
+mean      17.928644
+std       13.771991
+min        0.024145
+25%        8.247071
+50%       15.263239
+75%       22.506349
+max       93.204230
+Name: % error, dtype: float64",8
+35,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=100)",Performance,0.5,"post_0        5611.487576
+pre_1         3877.144701
+post_1        3444.815980
+CGSolver      2356.142165
+pre_0         2153.147994
+cells_50      1497.090808
+cells_55      1295.789922
+LoopSolver     619.771756
+dtype: float64","count    536.000000
+mean      17.750262
+std       13.672859
+min        0.007648
+25%        8.159825
+50%       15.126670
+75%       22.108212
+max       92.872836
+Name: % error, dtype: float64",8
+36,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.5,"pre_0         1.086243e+17
+cells_55      9.841192e+16
+pre_1         4.491887e+16
+CGSolver      3.489592e+16
+post_0        2.674121e+16
+post_1        2.521093e+16
+cells_50      1.047953e+16
+LoopSolver    4.962044e+15
+dtype: float64","count    536.000000
+mean      12.213182
+std       13.122085
+min        0.010617
+25%        3.673505
+50%        9.020844
+75%       15.351595
+max       96.126742
+Name: % error, dtype: float64",8
+37,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+7      cells_55
+5    LoopSolver
+6      cells_50
+Name: feature, dtype: object","count    536.000000
+mean       9.298980
+std        9.598421
+min        0.033769
+25%        3.106505
+50%        5.946330
+75%       11.654064
+max       60.412299
+Name: % error, dtype: float64",8
+38,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+5    LoopSolver
+7      cells_55
+6      cells_50
+Name: feature, dtype: object","count    536.000000
+mean       9.039308
+std        9.581112
+min        0.003263
+25%        3.006314
+50%        5.887234
+75%       11.095455
+max       57.314442
+Name: % error, dtype: float64",8
+39,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"0      CGSolver
+1         pre_0
+2         pre_1
+3        post_0
+4        post_1
+7      cells_55
+6      cells_50
+5    LoopSolver
+Name: feature, dtype: object","count    536.000000
+mean       9.231864
+std        9.609365
+min        0.002267
+25%        3.011097
+50%        6.058788
+75%       11.566150
+max       59.999191
+Name: % error, dtype: float64",8
+40,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.6,"post_0        6060.298034
+post_1        3798.750911
+pre_1         3771.726049
+pre_0         2298.628821
+CGSolver      2027.717433
+cells_50      1809.423961
+cells_55      1300.473091
+LoopSolver     490.650825
+dtype: float64","count    429.000000
+mean      17.592440
+std       13.701380
+min        0.035386
+25%        7.823289
+50%       14.966888
+75%       23.141952
+max       87.771236
+Name: % error, dtype: float64",8
+41,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.6,"post_0        5930.305308
+post_1        3707.077728
+pre_1         3601.750341
+pre_0         2180.681848
+CGSolver      2004.826480
+cells_50      1628.786872
+cells_55      1247.880026
+LoopSolver     450.795685
+dtype: float64","count    429.000000
+mean      17.337460
+std       13.590811
+min        0.017359
+25%        7.826086
+50%       14.724486
+75%       22.129336
+max       86.814144
+Name: % error, dtype: float64",8
+42,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",Ridge(alpha=4),Performance,0.6,"post_0        5668.959186
+post_1        3584.719236
+pre_1         3441.568281
+pre_0         2097.273168
+CGSolver      1998.868691
+cells_50      1601.886844
+cells_55      1235.982997
+LoopSolver     484.686635
+dtype: float64","count    429.000000
+mean      17.101810
+std       13.430704
+min        0.003134
+25%        7.714384
+50%       14.090314
+75%       21.787647
+max       86.995190
+Name: % error, dtype: float64",8
+43,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=100)",Performance,0.6,"post_0        5456.051533
+post_1        3467.063640
+pre_1         3269.783692
+pre_0         1990.536504
+CGSolver      1979.731446
+cells_50      1496.864507
+cells_55      1200.002836
+LoopSolver     482.105907
+dtype: float64","count    429.000000
+mean      16.869554
+std       13.314629
+min        0.092485
+25%        7.442461
+50%       13.942683
+75%       21.915085
+max       86.576222
+Name: % error, dtype: float64",8
+44,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.6,"cells_50      1.358388e+17
+pre_1         1.071989e+17
+LoopSolver    7.813786e+16
+cells_55      3.825755e+16
+CGSolver      3.000812e+16
+pre_0         2.462773e+16
+post_1        1.546768e+16
+post_0        9.631052e+15
+dtype: float64","count    429.000000
+mean      11.918521
+std       12.315791
+min        0.001752
+25%        3.788573
+50%        7.806216
+75%       15.237002
+max       69.722685
+Name: % error, dtype: float64",8
+45,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+7      cells_55
+5    LoopSolver
+6      cells_50
+Name: feature, dtype: object","count    429.000000
+mean       9.454915
+std       10.032679
+min        0.019337
+25%        3.466940
+50%        5.766394
+75%       11.631159
+max       58.210968
+Name: % error, dtype: float64",8
+46,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+5    LoopSolver
+7      cells_55
+6      cells_50
+Name: feature, dtype: object","count    429.000000
+mean       9.327701
+std        9.907614
+min        0.033357
+25%        3.333548
+50%        5.916589
+75%       11.107310
+max       55.846462
+Name: % error, dtype: float64",8
+47,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"0      CGSolver
+1         pre_0
+2         pre_1
+3        post_0
+4        post_1
+7      cells_55
+6      cells_50
+5    LoopSolver
+Name: feature, dtype: object","count    429.000000
+mean       9.543206
+std       10.021332
+min        0.002267
+25%        3.560825
+50%        6.114952
+75%       11.855733
+max       58.650752
+Name: % error, dtype: float64",8
+48,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.7,"post_0        5840.136220
+post_1        3963.993273
+pre_1         3250.732568
+pre_0         2196.936831
+CGSolver      1741.214852
+cells_50      1647.707644
+cells_55      1333.134201
+LoopSolver     628.593454
+dtype: float64","count    322.000000
+mean      16.644734
+std       12.220309
+min        0.008724
+25%        7.397559
+50%       14.470208
+75%       21.797405
+max       71.162744
+Name: % error, dtype: float64",8
+49,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.7,"post_0        5516.625640
+post_1        3728.334497
+pre_1         2822.411673
+pre_0         1897.644029
+CGSolver      1673.672063
+cells_50      1203.112453
+cells_55      1198.443299
+LoopSolver     520.748909
+dtype: float64","count    322.000000
+mean      16.090798
+std       12.091138
+min        0.156532
+25%        7.291858
+50%       13.946465
+75%       21.198332
+max       72.095775
+Name: % error, dtype: float64",8
+50,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",Ridge(alpha=10),Performance,0.7,"post_0        5093.054045
+post_1        3510.492089
+pre_1         2709.143166
+pre_0         1817.917487
+CGSolver      1679.012709
+cells_50      1283.876042
+cells_55      1203.618563
+LoopSolver     587.507709
+dtype: float64","count    322.000000
+mean      15.815496
+std       11.935364
+min        0.025961
+25%        7.473976
+50%       13.194264
+75%       21.063788
+max       70.129192
+Name: % error, dtype: float64",8
+51,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=10)",Performance,0.7,"post_0        4876.171375
+post_1        3376.836979
+pre_1         2562.461170
+pre_0         1712.335726
+CGSolver      1655.778746
+cells_50      1190.591479
+cells_55      1164.243046
+LoopSolver     576.539142
+dtype: float64","count    322.000000
+mean      15.590345
+std       11.960811
+min        0.158660
+25%        7.348459
+50%       12.815366
+75%       20.984088
+max       69.808170
+Name: % error, dtype: float64",8
+52,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.7,"cells_55      1.621389e+17
+pre_1         1.004386e+17
+LoopSolver    2.259602e+16
+cells_50      2.058405e+16
+post_1        1.979209e+16
+pre_0         1.667297e+16
+post_0        1.337746e+16
+CGSolver      1.692785e+15
+dtype: float64","count    322.000000
+mean      11.539759
+std       11.542834
+min        0.015376
+25%        3.616935
+50%        8.695378
+75%       15.650429
+max       61.884968
+Name: % error, dtype: float64",8
+53,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+7      cells_55
+5    LoopSolver
+6      cells_50
+Name: feature, dtype: object","count    322.000000
+mean       9.347675
+std        9.839080
+min        0.096904
+25%        3.247734
+50%        5.787560
+75%       11.303558
+max       55.581024
+Name: % error, dtype: float64",8
+54,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+5    LoopSolver
+7      cells_55
+6      cells_50
+Name: feature, dtype: object","count    322.000000
+mean       9.295480
+std        9.683625
+min        0.009555
+25%        3.672311
+50%        5.949884
+75%       10.852583
+max       51.961805
+Name: % error, dtype: float64",8
+55,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"0      CGSolver
+1         pre_0
+2         pre_1
+3        post_0
+4        post_1
+7      cells_55
+6      cells_50
+5    LoopSolver
+Name: feature, dtype: object","count    322.000000
+mean       9.401094
+std        9.851790
+min        0.153203
+25%        3.276828
+50%        5.855991
+75%       11.446771
+max       55.128970
+Name: % error, dtype: float64",8
+56,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.8,"post_0        5850.878000
+post_1        3906.514727
+pre_1         2875.657159
+pre_0         2293.000592
+CGSolver      1780.282781
+cells_50      1695.751905
+cells_55      1454.242202
+LoopSolver     660.556018
+dtype: float64","count    215.000000
+mean      16.499154
+std       11.000029
+min        0.176896
+25%        8.082855
+50%       14.767411
+75%       22.410343
+max       54.407229
+Name: % error, dtype: float64",8
+57,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.8,"post_0        5520.796610
+post_1        3669.275033
+pre_1         2453.141140
+pre_0         1993.397896
+CGSolver      1711.979153
+cells_55      1321.180195
+cells_50      1221.839919
+LoopSolver     552.324217
+dtype: float64","count    215.000000
+mean      15.866118
+std       10.868686
+min        0.099572
+25%        7.784036
+50%       14.659116
+75%       20.581603
+max       55.905776
+Name: % error, dtype: float64",8
+58,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",Ridge(alpha=10),Performance,0.8,"post_0        5169.225933
+post_1        3507.723831
+pre_1         2449.822384
+pre_0         1951.004324
+CGSolver      1723.495143
+cells_50      1345.345877
+cells_55      1338.127483
+LoopSolver     621.561285
+dtype: float64","count    215.000000
+mean      15.691583
+std       10.761213
+min        0.005391
+25%        8.273841
+50%       14.450306
+75%       20.379356
+max       56.469338
+Name: % error, dtype: float64",8
+59,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0)",Performance,0.8,"post_0        5257.347732
+post_1        3559.768472
+pre_1         2502.815656
+pre_0         1994.257308
+CGSolver      1732.076878
+cells_50      1387.117500
+cells_55      1353.716973
+LoopSolver     626.421867
+dtype: float64","count    215.000000
+mean      15.786545
+std       10.770636
+min        0.033100
+25%        8.246027
+50%       14.928454
+75%       20.614164
+max       56.205797
+Name: % error, dtype: float64",8
+60,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.8,"cells_55      1.529379e+17
+post_1        1.417786e+17
+pre_1         6.924948e+16
+cells_50      3.075521e+16
+post_0        2.969951e+16
+LoopSolver    2.794867e+16
+pre_0         6.956752e+15
+CGSolver      1.756480e+15
+dtype: float64","count    215.000000
+mean      11.130835
+std        9.982403
+min        0.011031
+25%        3.208138
+50%        9.010070
+75%       15.536323
+max       49.276138
+Name: % error, dtype: float64",8
+61,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+7      cells_55
+5    LoopSolver
+6      cells_50
+Name: feature, dtype: object","count    215.000000
+mean       8.836445
+std        9.006713
+min        0.113768
+25%        2.955443
+50%        5.469369
+75%       11.200377
+max       51.139225
+Name: % error, dtype: float64",8
+62,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+5    LoopSolver
+7      cells_55
+6      cells_50
+Name: feature, dtype: object","count    215.000000
+mean       8.992926
+std        8.841291
+min        0.023259
+25%        3.481010
+50%        6.080108
+75%       11.499756
+max       51.065696
+Name: % error, dtype: float64",8
+63,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"0      CGSolver
+1         pre_0
+2         pre_1
+3        post_0
+4        post_1
+7      cells_55
+6      cells_50
+5    LoopSolver
+Name: feature, dtype: object","count    215.000000
+mean       8.938190
+std        8.965000
+min        0.151918
+25%        2.676863
+50%        6.042873
+75%       11.020132
+max       50.882069
+Name: % error, dtype: float64",8
+64,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.9,"post_0        5936.652353
+post_1        3809.333841
+pre_1         3011.985010
+pre_0         2337.978367
+CGSolver      1837.041799
+cells_50      1717.037755
+cells_55      1339.580629
+LoopSolver     598.142619
+dtype: float64","count    108.000000
+mean      17.015454
+std       11.285441
+min        0.029841
+25%       10.879059
+50%       14.640243
+75%       21.533154
+max       53.686273
+Name: % error, dtype: float64",8
+65,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.9,"post_0        5803.975077
+post_1        3719.375172
+pre_1         2843.580579
+pre_0         2221.345686
+CGSolver      1810.120918
+cells_50      1542.353261
+cells_55      1283.681791
+LoopSolver     554.574895
+dtype: float64","count    108.000000
+mean      16.744652
+std       11.231105
+min        0.425838
+25%       10.282109
+50%       14.954513
+75%       20.608212
+max       54.397729
+Name: % error, dtype: float64",8
+66,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",Ridge(alpha=4),Performance,0.9,"post_0        5670.451453
+post_1        3664.480350
+pre_1         2835.913190
+pre_0         2205.541634
+CGSolver      1814.474011
+cells_50      1585.514595
+cells_55      1294.211491
+LoopSolver     586.531420
+dtype: float64","count    108.000000
+mean      16.668788
+std       11.169348
+min        0.204766
+25%       10.142613
+50%       14.869845
+75%       20.473616
+max       55.044162
+Name: % error, dtype: float64",8
+67,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.1, max_iter=10)",Performance,0.9,"post_0        5388.537482
+post_1        3509.450837
+pre_1         2655.955579
+pre_0         2067.759266
+CGSolver      1787.144586
+cells_50      1454.754768
+cells_55      1244.952451
+LoopSolver     574.780210
+dtype: float64","count    108.000000
+mean      16.336435
+std       11.089568
+min        0.237617
+25%        8.857133
+50%       15.060165
+75%       20.078478
+max       56.449570
+Name: % error, dtype: float64",8
+68,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",LinearRegression(),Performance,0.9,"pre_0         4.520092e+16
+CGSolver      4.063973e+16
+cells_50      3.205329e+16
+post_1        3.013642e+16
+cells_55      2.299942e+16
+post_0        2.050811e+16
+pre_1         1.222051e+16
+LoopSolver    3.960272e+15
+dtype: float64","count    108.000000
+mean      11.111691
+std       11.549912
+min        0.008566
+25%        2.248724
+50%        7.958624
+75%       15.814497
+max       52.374008
+Name: % error, dtype: float64",8
+69,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+7      cells_55
+5    LoopSolver
+6      cells_50
+Name: feature, dtype: object","count    108.000000
+mean       9.605790
+std       10.163549
+min        0.002722
+25%        2.966975
+50%        6.443691
+75%       11.052238
+max       51.438538
+Name: % error, dtype: float64",8
+70,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"1         pre_0
+0      CGSolver
+3        post_0
+2         pre_1
+4        post_1
+5    LoopSolver
+7      cells_55
+6      cells_50
+Name: feature, dtype: object","count    108.000000
+mean       9.511630
+std       10.088816
+min        0.043656
+25%        3.156750
+50%        6.048039
+75%       10.616245
+max       51.201473
+Name: % error, dtype: float64",8
+71,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"0      CGSolver
+1         pre_0
+2         pre_1
+3        post_0
+4        post_1
+7      cells_55
+6      cells_50
+5    LoopSolver
+Name: feature, dtype: object","count    108.000000
+mean       9.584783
+std       10.134704
+min        0.013612
+25%        3.047849
+50%        6.488059
+75%       11.015598
+max       51.256644
+Name: % error, dtype: float64",8
+72,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.1,"post_0        8714.429687
+pre_1         7845.551876
+post_1        3910.134652
+cells_50      3379.266896
+cells_51      3126.388818
+CGSolver      2967.362904
+pre_0         2143.226646
+cells_55      1085.113172
+LoopSolver     895.419055
+SeqGS          884.805741
+SeqSOR         884.805741
+dtype: float64","count    964.000000
+mean      22.166129
+std       16.615327
+min        0.014579
+25%       11.339474
+50%       18.415497
+75%       29.285892
+max      115.364238
+Name: % error, dtype: float64",11
+73,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.1,"pre_1         8.419962e+03
+CGSolver      5.255856e+03
+post_0        5.246120e+03
+cells_51      3.012528e+03
+post_1        2.742743e+03
+SeqGS         1.884844e+03
+cells_50      1.836969e+03
+cells_55      9.339141e+02
+LoopSolver    4.547393e+02
+pre_0         8.954654e+01
+SeqSOR        7.988621e-13
+dtype: float64","count    964.000000
+mean      23.852006
+std       19.417538
+min        0.001980
+25%       10.561770
+50%       18.214318
+75%       33.934958
+max      130.120817
+Name: % error, dtype: float64",11
+74,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",Ridge(alpha=10),Performance,0.1,"post_0        4436.623268
+pre_1         3797.186134
+CGSolver      2699.995116
+post_1        1826.002059
+cells_51      1606.183836
+cells_50      1339.141759
+cells_55       813.070012
+LoopSolver     716.834731
+pre_0          637.576182
+SeqSOR         507.387812
+SeqGS          507.387812
+dtype: float64","count    964.000000
+mean      15.740498
+std       13.795953
+min        0.000992
+25%        5.551684
+50%       11.592721
+75%       23.549051
+max       82.648132
+Name: % error, dtype: float64",11
+75,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","ElasticNet(alpha=0.3, max_iter=100)",Performance,0.1,"post_0        3466.690932
+pre_1         2902.606158
+CGSolver      2380.917592
+post_1        1364.546773
+cells_51      1253.141228
+cells_50       998.291979
+cells_55       718.607402
+LoopSolver     677.807287
+SeqGS          402.657865
+SeqSOR         402.574149
+pre_0          390.548399
+dtype: float64","count    964.000000
+mean      15.033004
+std       14.334170
+min        0.015909
+25%        3.607307
+50%        9.449697
+75%       24.574099
+max       95.309861
+Name: % error, dtype: float64",11
+76,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.1,"pre_1         2.126455e+14
+pre_0         1.859127e+14
+post_1        1.371505e+14
+SeqSOR        6.992125e+13
+cells_50      5.469114e+13
+cells_55      3.172811e+13
+cells_51      3.880064e+12
+post_0        3.815723e+12
+LoopSolver    2.387098e+12
+SeqGS         1.961514e+12
+CGSolver      8.070912e+11
+dtype: float64","count    9.640000e+02
+mean     2.875831e+09
+std      5.638617e+10
+min      1.048794e-02
+25%      3.619591e+00
+50%      9.413719e+00
+75%      2.530451e+01
+max      1.401084e+12
+Name: % error, dtype: float64",11
+77,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+8       cells_51
+9          SeqGS
+10        SeqSOR
+Name: feature, dtype: object","count    964.000000
+mean      10.289378
+std       15.275254
+min        0.001325
+25%        1.842162
+50%        5.625941
+75%       12.416447
+max      110.899518
+Name: % error, dtype: float64",11
+78,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+8       cells_51
+6       cells_50
+9          SeqGS
+7       cells_55
+10        SeqSOR
+Name: feature, dtype: object","count    964.000000
+mean       8.535215
+std        9.649009
+min        0.008432
+25%        1.742172
+50%        4.775404
+75%       11.978976
+max       67.344994
+Name: % error, dtype: float64",11
+79,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"0       CGSolver
+1          pre_0
+2          pre_1
+3         post_0
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+10        SeqSOR
+8       cells_51
+9          SeqGS
+Name: feature, dtype: object","count    964.000000
+mean      10.733772
+std       16.930685
+min        0.003741
+25%        1.107089
+50%        4.353309
+75%       15.910425
+max      173.927368
+Name: % error, dtype: float64",11
+80,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.2,"post_0        6640.907543
+pre_1         5932.490956
+post_1        3613.997553
+cells_50      2834.034882
+CGSolver      2267.121683
+pre_0         2206.180163
+cells_51      1508.896182
+cells_55      1180.276680
+SeqGS          931.096964
+SeqSOR         931.096964
+LoopSolver     727.738220
+dtype: float64","count    857.000000
+mean      17.962537
+std       14.177092
+min        0.146701
+25%        8.522668
+50%       14.826381
+75%       24.007944
+max       97.580997
+Name: % error, dtype: float64",11
+81,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.2,"post_0        6254.831475
+pre_1         5486.865500
+post_1        3353.764565
+cells_50      2323.898121
+CGSolver      2232.882591
+pre_0         1956.111382
+SeqGS         1734.141483
+cells_51      1280.376734
+cells_55      1123.512144
+LoopSolver     614.549497
+dtype: float64","count    857.000000
+mean      17.161821
+std       13.708634
+min        0.037803
+25%        8.010505
+50%       14.008586
+75%       22.732875
+max       92.259649
+Name: % error, dtype: float64",11
+82,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",Ridge(alpha=10),Performance,0.2,"post_0        4376.424098
+pre_1         3341.111411
+post_1        2422.611162
+CGSolver      2125.362532
+cells_50      1356.503093
+pre_0         1237.959269
+cells_51       994.753953
+cells_55       968.956226
+SeqGS          709.504435
+SeqSOR         709.504435
+LoopSolver     582.620922
+dtype: float64","count    857.000000
+mean      15.382045
+std       12.771126
+min        0.008413
+25%        6.605935
+50%       11.457697
+75%       18.771868
+max       87.611726
+Name: % error, dtype: float64",11
+83,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=5)",Performance,0.2,"post_0        3346.700672
+pre_1         2390.418792
+CGSolver      1899.520777
+post_1        1865.642308
+cells_50       898.145593
+pre_0          861.392221
+cells_55       814.494451
+cells_51       778.604569
+SeqGS          624.406313
+SeqSOR         575.595215
+LoopSolver     535.809312
+dtype: float64","count    857.000000
+mean      14.701117
+std       13.713198
+min        0.025933
+25%        4.111168
+50%       10.737579
+75%       19.758500
+max      101.553910
+Name: % error, dtype: float64",11
+84,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.2,"LoopSolver    4.670054e+17
+post_1        4.275921e+17
+post_0        3.350762e+17
+cells_55      2.321154e+17
+SeqSOR        1.871325e+17
+SeqGS         1.626110e+17
+pre_0         6.554362e+16
+pre_1         2.884918e+16
+CGSolver      2.884451e+16
+cells_50      2.658822e+16
+cells_51      1.564384e+16
+dtype: float64","count    8.570000e+02
+mean     1.464705e+12
+std      2.626842e+13
+min      7.482544e-03
+25%      3.693402e+00
+50%      9.941658e+00
+75%      2.023449e+01
+max      6.128081e+14
+Name: % error, dtype: float64",11
+85,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+8       cells_51
+9          SeqGS
+10        SeqSOR
+Name: feature, dtype: object","count    857.000000
+mean       8.386601
+std       11.447276
+min        0.000395
+25%        1.447498
+50%        3.208823
+75%        9.967805
+max       69.372218
+Name: % error, dtype: float64",11
+86,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+8       cells_51
+6       cells_50
+9          SeqGS
+7       cells_55
+10        SeqSOR
+Name: feature, dtype: object","count    857.000000
+mean       7.356639
+std       10.087575
+min        0.000677
+25%        1.389381
+50%        3.250894
+75%        7.881708
+max       65.204197
+Name: % error, dtype: float64",11
+87,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"0       CGSolver
+1          pre_0
+2          pre_1
+3         post_0
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+10        SeqSOR
+8       cells_51
+9          SeqGS
+Name: feature, dtype: object","count    857.000000
+mean       7.507202
+std       10.034951
+min        0.003741
+25%        0.936897
+50%        2.944034
+75%        8.404756
+max       69.906642
+Name: % error, dtype: float64",11
+88,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.3,"post_0        6698.063899
+pre_1         6409.801707
+post_1        3505.806050
+cells_50      2438.507604
+pre_0         2350.659725
+CGSolver      2330.405056
+cells_55      1279.100645
+cells_51       972.355407
+SeqSOR         962.037186
+SeqGS          962.037186
+LoopSolver     694.712749
+dtype: float64","count    750.000000
+mean      18.524128
+std       14.878317
+min        0.028231
+25%        8.883597
+50%       15.770244
+75%       25.026270
+max      102.207374
+Name: % error, dtype: float64",11
+89,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.3,"post_0        6.335245e+03
+pre_1         5.934660e+03
+post_1        3.269333e+03
+CGSolver      2.302612e+03
+pre_0         2.091891e+03
+cells_50      1.890422e+03
+SeqGS         1.827484e+03
+cells_55      1.211516e+03
+cells_51      7.216781e+02
+LoopSolver    6.054842e+02
+SeqSOR        2.856875e-13
+dtype: float64","count    750.000000
+mean      17.815979
+std       14.349530
+min        0.046255
+25%        7.836214
+50%       14.749729
+75%       23.257656
+max       96.582727
+Name: % error, dtype: float64",11
+90,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",Ridge(alpha=10),Performance,0.3,"post_0        5055.329100
+pre_1         4208.267466
+post_1        2689.512754
+CGSolver      2238.026470
+pre_0         1578.827182
+cells_50      1345.272498
+cells_55      1037.007039
+SeqSOR         831.282531
+SeqGS          831.282531
+LoopSolver     652.442388
+cells_51       610.479443
+dtype: float64","count    750.000000
+mean      16.322284
+std       12.946147
+min        0.019994
+25%        7.601139
+50%       12.874749
+75%       20.645794
+max       79.616729
+Name: % error, dtype: float64",11
+91,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.3,"post_0        5314.288251
+pre_1         4518.575422
+post_1        2819.128046
+CGSolver      2267.594629
+pre_0         1679.747630
+cells_50      1476.803762
+SeqGS         1183.150104
+cells_55      1078.643536
+LoopSolver     656.379276
+cells_51       649.438953
+SeqSOR         558.612263
+dtype: float64","count    750.000000
+mean      16.583080
+std       13.111682
+min        0.016385
+25%        7.698025
+50%       13.015197
+75%       21.880393
+max       83.027657
+Name: % error, dtype: float64",11
+92,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.3,"SeqGS         1.896612e+17
+pre_0         1.604167e+17
+post_0        1.446312e+17
+SeqSOR        1.247993e+17
+LoopSolver    1.153721e+17
+pre_1         8.323193e+16
+cells_51      7.418218e+16
+cells_55      7.326463e+16
+cells_50      5.140292e+16
+post_1        1.646654e+16
+CGSolver      1.403526e+16
+dtype: float64","count    7.500000e+02
+mean     1.600210e+12
+std      3.132252e+13
+min      1.258433e-04
+25%      2.300541e+00
+50%      6.087886e+00
+75%      1.563743e+01
+max      6.911161e+14
+Name: % error, dtype: float64",11
+93,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+8       cells_51
+9          SeqGS
+10        SeqSOR
+Name: feature, dtype: object","count    750.000000
+mean       8.043761
+std        9.525656
+min        0.008963
+25%        1.645517
+50%        4.473894
+75%       10.097352
+max       55.213386
+Name: % error, dtype: float64",11
+94,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+8       cells_51
+6       cells_50
+9          SeqGS
+7       cells_55
+10        SeqSOR
+Name: feature, dtype: object","count    750.000000
+mean       7.326485
+std        8.576868
+min        0.006220
+25%        1.503017
+50%        3.949742
+75%       10.020411
+max       41.103150
+Name: % error, dtype: float64",11
+95,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"0       CGSolver
+1          pre_0
+2          pre_1
+3         post_0
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+10        SeqSOR
+8       cells_51
+9          SeqGS
+Name: feature, dtype: object","count    750.000000
+mean       7.504169
+std        9.117110
+min        0.002358
+25%        1.329749
+50%        4.065393
+75%        9.105118
+max       42.299170
+Name: % error, dtype: float64",11
+96,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.4,"post_0        6621.260217
+pre_1         5516.301370
+post_1        3454.914220
+cells_50      2650.158035
+CGSolver      2362.496597
+pre_0         2208.844730
+cells_51      1135.521798
+cells_55       970.829593
+SeqSOR         909.436601
+SeqGS          909.436601
+LoopSolver     745.721047
+dtype: float64","count    643.000000
+mean      17.839987
+std       13.695854
+min        0.092085
+25%        8.647610
+50%       14.714113
+75%       23.715543
+max       89.790982
+Name: % error, dtype: float64",11
+97,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.4,"post_0        6281.888048
+pre_1         5111.960438
+post_1        3197.794521
+CGSolver      2332.008691
+cells_50      2192.211578
+pre_0         1952.073301
+SeqGS         1701.572399
+cells_51       913.706547
+cells_55       903.736144
+LoopSolver     634.023553
+dtype: float64","count    643.000000
+mean      17.127539
+std       13.238992
+min        0.003791
+25%        8.231686
+50%       14.085242
+75%       21.553236
+max       84.794491
+Name: % error, dtype: float64",11
+98,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",Ridge(alpha=2),Performance,0.4,"post_0        6314.370053
+pre_1         5162.261200
+post_1        3294.003376
+cells_50      2429.324717
+CGSolver      2355.491542
+pre_0         2056.353296
+cells_51      1071.749739
+cells_55       948.350934
+SeqSOR         883.650839
+SeqGS          883.650839
+LoopSolver     724.937745
+dtype: float64","count    643.000000
+mean      17.379742
+std       13.254966
+min        0.015101
+25%        8.757515
+50%       14.368941
+75%       22.434889
+max       86.319706
+Name: % error, dtype: float64",11
+99,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.1, max_iter=5)",Performance,0.4,"post_0        6056.470003
+pre_1         4882.902617
+post_1        3158.524979
+CGSolver      2345.742540
+cells_50      2252.536813
+pre_0         1926.149314
+SeqGS         1465.429957
+cells_51      1015.468157
+cells_55       926.394822
+LoopSolver     708.821738
+SeqSOR         283.231074
+dtype: float64","count    643.000000
+mean      17.009040
+std       12.988269
+min        0.063915
+25%        8.301704
+50%       14.035730
+75%       21.580480
+max       83.779928
+Name: % error, dtype: float64",11
+100,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.4,"LoopSolver    5.503098e+17
+pre_0         1.764777e+17
+pre_1         1.388471e+17
+SeqGS         5.349821e+16
+CGSolver      4.873310e+16
+SeqSOR        4.306421e+16
+post_1        3.053288e+16
+cells_55      2.096857e+16
+cells_51      1.760864e+16
+cells_50      1.347357e+16
+post_0        6.952838e+15
+dtype: float64","count    6.430000e+02
+mean     2.087978e+12
+std      3.783853e+13
+min      6.179321e-02
+25%      4.779354e+00
+50%      8.952100e+00
+75%      1.467286e+01
+max      7.731247e+14
+Name: % error, dtype: float64",11
+101,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+8       cells_51
+9          SeqGS
+10        SeqSOR
+Name: feature, dtype: object","count    643.000000
+mean       7.070538
+std        8.504647
+min        0.006117
+25%        1.318936
+50%        3.948107
+75%        8.390026
+max       52.867520
+Name: % error, dtype: float64",11
+102,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+8       cells_51
+6       cells_50
+9          SeqGS
+7       cells_55
+10        SeqSOR
+Name: feature, dtype: object","count    643.000000
+mean       6.954506
+std        8.210856
+min        0.012192
+25%        1.613836
+50%        3.712323
+75%        8.261343
+max       39.693798
+Name: % error, dtype: float64",11
+103,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"0       CGSolver
+1          pre_0
+2          pre_1
+3         post_0
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+10        SeqSOR
+8       cells_51
+9          SeqGS
+Name: feature, dtype: object","count    643.000000
+mean       7.130832
+std        8.679680
+min        0.004421
+25%        1.234099
+50%        3.562619
+75%        8.619960
+max       42.299170
+Name: % error, dtype: float64",11
+104,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.5,"post_0        6352.770342
+pre_1         4951.860982
+post_1        3872.549890
+CGSolver      2476.070734
+pre_0         2117.587359
+cells_50      2008.922771
+cells_51      1179.371055
+cells_55       996.600061
+SeqGS          846.672225
+SeqSOR         846.672225
+LoopSolver     632.666904
+dtype: float64","count    536.000000
+mean      17.798292
+std       13.263091
+min        0.003372
+25%        8.068136
+50%       15.087819
+75%       23.698056
+max       81.463275
+Name: % error, dtype: float64",11
+105,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.5,"post_0        6.023328e+03
+pre_1         4.517192e+03
+post_1        3.628252e+03
+CGSolver      2.424015e+03
+pre_0         1.856056e+03
+SeqGS         1.575471e+03
+cells_50      1.545187e+03
+cells_51      9.705265e+02
+cells_55      9.179617e+02
+LoopSolver    5.182048e+02
+SeqSOR        2.165913e-13
+dtype: float64","count    536.000000
+mean      17.101934
+std       12.883787
+min        0.108681
+25%        8.189494
+50%       14.247112
+75%       22.940176
+max       76.175265
+Name: % error, dtype: float64",11
+106,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",Ridge(alpha=4),Performance,0.5,"post_0        5882.099407
+pre_1         4443.846990
+post_1        3613.667190
+CGSolver      2433.759940
+pre_0         1894.889209
+cells_50      1742.522756
+cells_51      1104.683276
+cells_55       949.556573
+SeqSOR         807.782640
+SeqGS          807.782640
+LoopSolver     611.416494
+dtype: float64","count    536.000000
+mean      17.112436
+std       12.729668
+min        0.044136
+25%        8.037361
+50%       14.431260
+75%       22.568703
+max       76.701707
+Name: % error, dtype: float64",11
+107,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0)",Performance,0.5,"post_0        5738.589760
+pre_1         4296.164858
+post_1        3534.164880
+CGSolver      2418.005367
+pre_0         1829.162722
+cells_50      1666.887253
+cells_51      1082.293625
+cells_55       934.452488
+SeqGS          795.868330
+SeqSOR         795.868330
+LoopSolver     605.768634
+dtype: float64","count    536.000000
+mean      16.912629
+std       12.610828
+min        0.030559
+25%        8.035657
+50%       14.289999
+75%       22.129828
+max       75.330802
+Name: % error, dtype: float64",11
+108,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.5,"pre_0         1.303171e+17
+cells_55      7.814408e+16
+SeqSOR        5.905447e+16
+pre_1         5.005428e+16
+SeqGS         4.163585e+16
+post_1        3.061124e+16
+post_0        1.692774e+16
+LoopSolver    3.934444e+15
+CGSolver      2.898784e+15
+cells_50      1.059935e+15
+cells_51      4.164803e+14
+dtype: float64","count    5.360000e+02
+mean     6.232880e+11
+std      1.031120e+13
+min      5.356905e-02
+25%      4.402080e+00
+50%      6.834923e+00
+75%      1.415751e+01
+max      1.923828e+14
+Name: % error, dtype: float64",11
+109,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+8       cells_51
+9          SeqGS
+10        SeqSOR
+Name: feature, dtype: object","count    536.000000
+mean       7.069800
+std        8.531263
+min        0.001929
+25%        1.563482
+50%        4.205915
+75%        8.814671
+max       54.628521
+Name: % error, dtype: float64",11
+110,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+8       cells_51
+6       cells_50
+9          SeqGS
+7       cells_55
+10        SeqSOR
+Name: feature, dtype: object","count    536.000000
+mean       6.797175
+std        8.099258
+min        0.000591
+25%        1.601466
+50%        4.110250
+75%        7.397082
+max       42.248792
+Name: % error, dtype: float64",11
+111,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"0       CGSolver
+1          pre_0
+2          pre_1
+3         post_0
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+10        SeqSOR
+8       cells_51
+9          SeqGS
+Name: feature, dtype: object","count    536.000000
+mean       7.380798
+std        8.980171
+min        0.000830
+25%        1.326812
+50%        4.419567
+75%        9.782377
+max       64.722855
+Name: % error, dtype: float64",11
+112,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.6,"SeqGS         2.599746e+17
+SeqSOR        2.599746e+17
+post_0        6.136786e+03
+pre_1         4.317031e+03
+post_1        3.935491e+03
+CGSolver      2.037773e+03
+cells_50      1.998512e+03
+pre_0         1.998490e+03
+cells_51      1.149953e+03
+cells_55      8.878491e+02
+LoopSolver    5.361085e+02
+dtype: float64","count    429.000000
+mean      16.595124
+std       12.996060
+min        0.001428
+25%        6.611511
+50%       14.010891
+75%       23.354093
+max       75.489132
+Name: % error, dtype: float64",11
+113,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.6,"post_0        6.005458e+03
+pre_1         4.119536e+03
+post_1        3.812416e+03
+CGSolver      2.009047e+03
+pre_0         1.914655e+03
+cells_50      1.774938e+03
+SeqGS         1.518117e+03
+cells_51      1.132413e+03
+cells_55      8.762883e+02
+LoopSolver    4.871305e+02
+SeqSOR        2.701414e-13
+dtype: float64","count    429.000000
+mean      16.162786
+std       12.702702
+min        0.067860
+25%        6.926897
+50%       13.359322
+75%       22.518407
+max       71.149373
+Name: % error, dtype: float64",11
+114,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",Ridge(alpha=4),Performance,0.6,"post_0        5744.941376
+pre_1         3908.358861
+post_1        3687.426309
+CGSolver      2004.376141
+pre_0         1837.516117
+cells_50      1738.905336
+cells_51      1151.321247
+cells_55       873.553094
+SeqSOR         754.241424
+SeqGS          754.241424
+LoopSolver     518.094548
+dtype: float64","count    429.000000
+mean      15.918151
+std       12.448358
+min        0.014048
+25%        7.089954
+50%       12.777585
+75%       22.173546
+max       69.792421
+Name: % error, dtype: float64",11
+115,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0)",Performance,0.6,"post_0        5531.019568
+pre_1         3702.885875
+post_1        3565.793181
+CGSolver      1986.923771
+pre_0         1739.288791
+cells_50      1621.404078
+cells_51      1113.928069
+cells_55       854.955652
+SeqSOR         738.776138
+SeqGS          738.776138
+LoopSolver     512.206748
+dtype: float64","count    429.000000
+mean      15.690347
+std       12.266202
+min        0.113871
+25%        7.141963
+50%       12.106837
+75%       21.047551
+max       67.976937
+Name: % error, dtype: float64",11
+116,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.6,"cells_50      1.479977e+17
+pre_1         8.334965e+16
+CGSolver      4.154822e+16
+pre_0         3.900196e+16
+LoopSolver    2.812693e+16
+post_0        2.559558e+16
+SeqSOR        2.284192e+16
+cells_55      2.034912e+16
+cells_51      1.915419e+16
+SeqGS         1.595744e+16
+post_1        1.483029e+16
+dtype: float64","count    4.290000e+02
+mean     1.841039e+12
+std      2.724160e+13
+min      2.617921e-02
+25%      2.513089e+00
+50%      6.445833e+00
+75%      1.473941e+01
+max      4.548130e+14
+Name: % error, dtype: float64",11
+117,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+8       cells_51
+9          SeqGS
+10        SeqSOR
+Name: feature, dtype: object","count    429.000000
+mean       7.016891
+std        8.676908
+min        0.014677
+25%        1.359460
+50%        3.934776
+75%        8.633290
+max       47.645080
+Name: % error, dtype: float64",11
+118,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+8       cells_51
+6       cells_50
+9          SeqGS
+7       cells_55
+10        SeqSOR
+Name: feature, dtype: object","count    429.000000
+mean       6.906424
+std        8.379577
+min        0.003914
+25%        1.428546
+50%        3.962509
+75%        7.900346
+max       43.006500
+Name: % error, dtype: float64",11
+119,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"0       CGSolver
+1          pre_0
+2          pre_1
+3         post_0
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+10        SeqSOR
+8       cells_51
+9          SeqGS
+Name: feature, dtype: object","count    429.000000
+mean       7.116133
+std        8.783863
+min        0.002267
+25%        1.313721
+50%        4.114769
+75%        8.711206
+max       48.148414
+Name: % error, dtype: float64",11
+120,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.7,"post_0        5916.527989
+post_1        4059.880871
+pre_1         3734.333694
+pre_0         2000.486467
+cells_50      1882.276658
+CGSolver      1712.408286
+cells_51      1341.660151
+cells_55       884.212150
+SeqSOR         744.084284
+SeqGS          744.084284
+LoopSolver     674.723994
+dtype: float64","count    322.000000
+mean      15.646349
+std       11.401916
+min        0.121824
+25%        6.644558
+50%       13.715989
+75%       22.664262
+max       57.819788
+Name: % error, dtype: float64",11
+121,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.7,"post_0        5588.783881
+post_1        3814.080756
+pre_1         3266.941437
+pre_0         1714.422526
+CGSolver      1653.205596
+cells_50      1390.762771
+SeqGS         1371.182913
+cells_51      1112.536407
+cells_55       812.329867
+LoopSolver     557.059439
+dtype: float64","count    322.000000
+mean      14.953570
+std       11.295491
+min        0.087486
+25%        6.704889
+50%       12.460359
+75%       20.572027
+max       55.494051
+Name: % error, dtype: float64",11
+122,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",Ridge(alpha=10),Performance,0.7,"post_0        5165.097328
+post_1        3592.991974
+pre_1         3079.518980
+CGSolver      1662.935130
+pre_0         1638.636678
+cells_50      1448.706423
+cells_51      1186.369974
+cells_55       827.861922
+SeqSOR         693.636440
+SeqGS          693.636440
+LoopSolver     618.584739
+dtype: float64","count    322.000000
+mean      14.654155
+std       11.071619
+min        0.118162
+25%        6.538739
+50%       11.274835
+75%       20.610711
+max       55.418266
+Name: % error, dtype: float64",11
+123,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=100)",Performance,0.7,"post_0        4946.524134
+post_1        3455.410784
+pre_1         2903.911374
+CGSolver      1642.758591
+pre_0         1538.898434
+cells_50      1338.605707
+cells_51      1142.973390
+cells_55       808.865205
+SeqGS          678.692297
+SeqSOR         678.525244
+LoopSolver     603.875817
+dtype: float64","count    322.000000
+mean      14.462986
+std       11.004409
+min        0.228765
+25%        6.749066
+50%       10.878080
+75%       20.974849
+max       56.173287
+Name: % error, dtype: float64",11
+124,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.7,"SeqSOR        1.284920e+17
+LoopSolver    1.016474e+17
+SeqGS         6.112941e+16
+cells_51      5.312717e+16
+post_1        1.789072e+16
+cells_55      1.708731e+16
+cells_50      1.686640e+16
+pre_0         1.552637e+16
+CGSolver      3.493051e+15
+post_0        1.762273e+15
+pre_1         1.059584e+15
+dtype: float64","count    322.000000
+mean      10.130337
+std        9.591123
+min        0.013590
+25%        3.073154
+50%        6.924256
+75%       14.519677
+max       58.723658
+Name: % error, dtype: float64",11
+125,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+8       cells_51
+9          SeqGS
+10        SeqSOR
+Name: feature, dtype: object","count    322.000000
+mean       6.813859
+std        8.144547
+min        0.003322
+25%        1.338645
+50%        3.845829
+75%        8.417333
+max       35.401355
+Name: % error, dtype: float64",11
+126,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+8       cells_51
+6       cells_50
+9          SeqGS
+7       cells_55
+10        SeqSOR
+Name: feature, dtype: object","count    322.000000
+mean       7.021997
+std        7.968355
+min        0.016243
+25%        1.495325
+50%        4.209113
+75%        8.611565
+max       35.993507
+Name: % error, dtype: float64",11
+127,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"0       CGSolver
+1          pre_0
+2          pre_1
+3         post_0
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+10        SeqSOR
+8       cells_51
+9          SeqGS
+Name: feature, dtype: object","count    322.000000
+mean       7.006436
+std        8.233648
+min        0.001858
+25%        1.237763
+50%        4.184764
+75%        8.870460
+max       35.326864
+Name: % error, dtype: float64",11
+128,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.8,"post_0        5894.021141
+post_1        3997.487027
+pre_1         3329.520875
+pre_0         2133.754430
+cells_50      1976.523143
+CGSolver      1737.135157
+cells_51      1485.310933
+cells_55       974.945475
+LoopSolver     683.961728
+SeqGS          651.725822
+SeqSOR         651.725822
+dtype: float64","count    215.000000
+mean      15.215786
+std       10.427135
+min        0.289208
+25%        7.340772
+50%       13.337121
+75%       21.375706
+max       53.591057
+Name: % error, dtype: float64",11
+129,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.8,"post_0        5.561633e+03
+post_1        3.750269e+03
+pre_1         2.864367e+03
+pre_0         1.846894e+03
+CGSolver      1.678130e+03
+cells_50      1.456321e+03
+cells_51      1.264826e+03
+SeqGS         1.184922e+03
+cells_55      9.054445e+02
+LoopSolver    5.686663e+02
+SeqSOR        1.975696e-13
+dtype: float64","count    215.000000
+mean      14.463436
+std       10.252380
+min        0.130724
+25%        6.908082
+50%       12.779785
+75%       20.832349
+max       55.202935
+Name: % error, dtype: float64",11
+130,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",Ridge(alpha=10),Performance,0.8,"post_0        5212.032957
+post_1        3587.306264
+pre_1         2808.798185
+pre_0         1802.345931
+CGSolver      1693.264922
+cells_50      1550.138082
+cells_51      1338.597809
+cells_55       928.571875
+LoopSolver     634.234778
+SeqSOR         612.549997
+SeqGS          612.549997
+dtype: float64","count    215.000000
+mean      14.304597
+std       10.140055
+min        0.017418
+25%        7.467060
+50%       12.022563
+75%       20.301425
+max       55.892189
+Name: % error, dtype: float64",11
+131,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=100)",Performance,0.8,"post_0        4905.434025
+post_1        3400.250952
+pre_1         2591.331166
+CGSolver      1665.365985
+pre_0         1660.329405
+cells_50      1384.200700
+cells_51      1274.892794
+cells_55       903.189660
+LoopSolver     613.652425
+SeqGS          594.529851
+SeqSOR         594.350788
+dtype: float64","count    215.000000
+mean      14.001915
+std       10.102955
+min        0.251412
+25%        7.361241
+50%       10.891169
+75%       18.839147
+max       56.897499
+Name: % error, dtype: float64",11
+132,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.8,"cells_50      1.722525e+17
+cells_51      1.363391e+17
+SeqSOR        1.310494e+17
+LoopSolver    1.098239e+17
+pre_0         1.071948e+17
+post_1        1.050940e+17
+cells_55      8.339406e+16
+pre_1         7.827008e+16
+CGSolver      3.016615e+16
+post_0        1.903111e+16
+SeqGS         7.248932e+15
+dtype: float64","count    215.000000
+mean      10.203590
+std        8.845359
+min        0.050438
+25%        2.809166
+50%        8.732823
+75%       14.620906
+max       45.911803
+Name: % error, dtype: float64",11
+133,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+8       cells_51
+9          SeqGS
+10        SeqSOR
+Name: feature, dtype: object","count    215.000000
+mean       6.506385
+std        8.014450
+min        0.015053
+25%        1.328169
+50%        3.369662
+75%        7.809895
+max       34.448039
+Name: % error, dtype: float64",11
+134,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+8       cells_51
+6       cells_50
+9          SeqGS
+7       cells_55
+10        SeqSOR
+Name: feature, dtype: object","count    215.000000
+mean       6.508513
+std        7.838740
+min        0.009419
+25%        1.239603
+50%        3.831952
+75%        7.412271
+max       36.594495
+Name: % error, dtype: float64",11
+135,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"0       CGSolver
+1          pre_0
+2          pre_1
+3         post_0
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+10        SeqSOR
+8       cells_51
+9          SeqGS
+Name: feature, dtype: object","count    215.000000
+mean       6.574186
+std        8.155315
+min        0.006749
+25%        1.171324
+50%        3.319319
+75%        8.365206
+max       34.490511
+Name: % error, dtype: float64",11
+136,LinearRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.9,"post_0        6000.107938
+post_1        3912.726695
+pre_1         3483.834740
+pre_0         2199.767699
+cells_50      2007.122645
+CGSolver      1753.409722
+cells_51      1539.740175
+cells_55       851.724691
+LoopSolver     665.436747
+SeqSOR         607.799227
+SeqGS          607.799227
+dtype: float64","count    108.000000
+mean      15.147157
+std       10.850047
+min        0.066986
+25%        6.769728
+50%       12.935625
+75%       20.582670
+max       55.936101
+Name: % error, dtype: float64",11
+137,Lasso,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.9,"post_0        5865.738379
+post_1        3817.995540
+pre_1         3295.357279
+pre_0         2087.939857
+cells_50      1813.417697
+CGSolver      1732.194121
+cells_51      1448.361940
+SeqGS         1167.701532
+cells_55       822.250928
+LoopSolver     616.932834
+dtype: float64","count    108.000000
+mean      14.881329
+std       10.623240
+min        0.001790
+25%        6.145852
+50%       12.593735
+75%       20.586465
+max       54.983084
+Name: % error, dtype: float64",11
+138,Ridge,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",Ridge(alpha=4),Performance,0.9,"post_0        5732.572457
+post_1        3762.751489
+pre_1         3265.454880
+pre_0         2070.663612
+cells_50      1842.576933
+CGSolver      1739.008393
+cells_51      1476.727222
+cells_55       835.597085
+LoopSolver     646.720259
+SeqSOR         591.468327
+SeqGS          591.468327
+dtype: float64","count    108.000000
+mean      14.794011
+std       10.561823
+min        0.099245
+25%        6.544068
+50%       12.063373
+75%       20.391207
+max       54.670509
+Name: % error, dtype: float64",11
+139,ElasticNet,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.1)",Performance,0.9,"post_0        5448.997201
+post_1        3602.287238
+pre_1         3043.861291
+pre_0         1937.038542
+CGSolver      1719.719391
+cells_50      1680.231178
+cells_51      1411.680228
+cells_55       816.412000
+LoopSolver     627.981647
+SeqGS          574.200671
+SeqSOR         573.980372
+dtype: float64","count    108.000000
+mean      14.426775
+std       10.371662
+min        0.093999
+25%        7.059068
+50%       11.778384
+75%       20.351335
+max       53.474727
+Name: % error, dtype: float64",11
+140,PolynomialRegression,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",LinearRegression(),Performance,0.9,"post_1        1.004554e+17
+cells_55      7.157155e+16
+LoopSolver    4.298893e+16
+CGSolver      3.530629e+16
+pre_0         2.499330e+16
+post_0        2.454985e+16
+cells_50      2.092196e+16
+pre_1         1.267402e+16
+cells_51      6.468287e+15
+SeqGS         6.058914e+15
+SeqSOR        3.234544e+15
+dtype: float64","count    108.000000
+mean       9.175917
+std        9.088676
+min        0.097317
+25%        2.449198
+50%        6.498606
+75%       13.426220
+max       41.615138
+Name: % error, dtype: float64",11
+141,RandomForest,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+8       cells_51
+9          SeqGS
+10        SeqSOR
+Name: feature, dtype: object","count    108.000000
+mean       6.895991
+std        8.700416
+min        0.027042
+25%        1.475605
+50%        3.485594
+75%        7.625264
+max       34.696751
+Name: % error, dtype: float64",11
+142,GradientBoostingTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"1          pre_0
+0       CGSolver
+3         post_0
+2          pre_1
+4         post_1
+5     LoopSolver
+8       cells_51
+6       cells_50
+9          SeqGS
+7       cells_55
+10        SeqSOR
+Name: feature, dtype: object","count    108.000000
+mean       6.726327
+std        8.455922
+min        0.021195
+25%        1.521400
+50%        3.368963
+75%        7.178876
+max       35.928104
+Name: % error, dtype: float64",11
+143,DecisionTree,False,RandomForest,"Index(['CGSolver', 'pre_0', 'pre_1', 'post_0', 'post_1', 'LoopSolver',
+       'cells_50', 'cells_55', 'cells_51', 'SeqGS', 'SeqSOR'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"0       CGSolver
+1          pre_0
+2          pre_1
+3         post_0
+4         post_1
+5     LoopSolver
+6       cells_50
+7       cells_55
+10        SeqSOR
+8       cells_51
+9          SeqGS
+Name: feature, dtype: object","count    108.000000
+mean       6.924520
+std        8.722560
+min        0.118816
+25%        1.320011
+50%        3.152770
+75%        8.049477
+max       34.646454
+Name: % error, dtype: float64",11

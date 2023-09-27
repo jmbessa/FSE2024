@@ -1,0 +1,1627 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.1,"BZip2          1.144896e+17
+Deflate        1.144896e+17
+LZMA           1.144896e+17
+LZMA2          1.144896e+17
+PPMd           1.144896e+17
+x_10           2.783480e+04
+x_8            1.312800e+04
+x_6            7.176000e+03
+mtOff          1.512000e+03
+BlockSize_1    1.108000e+03
+Files_0        7.000000e+02
+#yes           5.600000e+02
+dtype: float64","count    3682.000000
+mean       91.812962
+std       101.791260
+min         0.000000
+25%        24.178036
+50%        48.738158
+75%       116.874274
+max       454.042553
+Name: % error, dtype: float64",12
+1,Lasso,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.1,"x_10           27524.233456
+x_8            12854.170700
+PPMd            7768.865628
+BZip2           7617.884819
+x_6             6897.235692
+Deflate         2173.065558
+mtOff           1317.733175
+BlockSize_1      592.767480
+#yes             460.646887
+Files_0          336.973628
+LZMA2            193.762752
+dtype: float64","count    3682.000000
+mean       83.863051
+std        94.502600
+min         0.092562
+25%        19.986396
+50%        43.120278
+75%       105.346074
+max       411.258760
+Name: % error, dtype: float64",12
+2,Ridge,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",Ridge(alpha=0.3),Performance,0.1,"x_10           27658.469858
+x_8            13048.231607
+PPMd            8272.953689
+BZip2           7379.762973
+x_6             7091.583007
+Deflate         1940.135366
+mtOff           1492.424657
+BlockSize_1     1115.067409
+LZMA2            676.833485
+Files_0          658.266416
+#yes             522.440698
+LZMA             370.111164
+dtype: float64","count    3682.000000
+mean       86.194638
+std        97.217382
+min         0.036205
+25%        21.969226
+50%        45.108673
+75%       107.952755
+max       435.395459
+Name: % error, dtype: float64",12
+3,ElasticNet,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","ElasticNet(alpha=25, l1_ratio=1.0, max_iter=10)",Performance,0.1,"x_10           27524.233456
+x_8            12854.170700
+PPMd            7768.865628
+BZip2           7617.884819
+x_6             6897.235692
+Deflate         2173.065558
+mtOff           1317.733175
+BlockSize_1      592.767480
+#yes             460.646887
+Files_0          336.973628
+LZMA2            193.762752
+dtype: float64","count    3682.000000
+mean       83.863051
+std        94.502600
+min         0.092562
+25%        19.986396
+50%        43.120278
+75%       105.346074
+max       411.258760
+Name: % error, dtype: float64",12
+4,PolynomialRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.1,"x_10           12552.414768
+x_8             6224.945437
+x_6             3058.818316
+Deflate         2190.458973
+PPMd            1299.481334
+BZip2           1189.094807
+LZMA2           1160.273857
+#yes            1143.360338
+LZMA            1140.571643
+mtOff            656.988050
+Files_0          501.155197
+BlockSize_1      119.580951
+dtype: float64","count    3682.000000
+mean       10.700703
+std        12.096786
+min         0.000103
+25%         2.932251
+50%         7.070038
+75%        13.501550
+max       107.621162
+Name: % error, dtype: float64",12
+5,RandomForest,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+6           LZMA2
+7            LZMA
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    3682.000000
+mean        7.614975
+std         7.267678
+min         0.002785
+25%         2.190599
+50%         5.390951
+75%        11.039325
+max        55.971211
+Name: % error, dtype: float64",12
+6,GradientBoostingTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+7            LZMA
+6           LZMA2
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    3682.000000
+mean       12.475935
+std        12.768935
+min         0.001626
+25%         2.604528
+50%         7.615431
+75%        18.970856
+max        59.283118
+Name: % error, dtype: float64",12
+7,DecisionTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+7            LZMA
+6           LZMA2
+Name: feature, dtype: object","count    3682.000000
+mean        7.876834
+std         7.848294
+min         0.000000
+25%         1.969769
+50%         5.190001
+75%        11.727144
+max        66.666667
+Name: % error, dtype: float64",12
+8,LinearRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.2,"x_10           28358.453393
+x_8            13002.385962
+x_6             7354.616676
+PPMd            7343.181329
+BZip2           7108.299786
+Deflate         1811.094200
+mtOff           1546.187934
+LZMA2            902.250859
+LZMA             673.961797
+#yes             556.849953
+BlockSize_1      380.950353
+Files_0          309.228020
+dtype: float64","count    3273.000000
+mean       83.391884
+std        88.751105
+min         0.023477
+25%        24.005864
+50%        46.706908
+75%        96.285237
+max       404.667893
+Name: % error, dtype: float64",12
+9,Lasso,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","Lasso(alpha=25, max_iter=10)",Performance,0.2,"x_10       28039.184328
+x_8        12680.902130
+BZip2       7681.077245
+x_6         7049.415540
+PPMd        6545.384096
+Deflate     2374.514160
+mtOff       1379.823992
+#yes         491.247464
+LZMA2         98.525564
+Files_0       47.601601
+dtype: float64","count    3273.000000
+mean       81.012235
+std        86.063697
+min         0.025750
+25%        22.290471
+50%        45.185200
+75%        96.278281
+max       370.510537
+Name: % error, dtype: float64",12
+10,Ridge,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",Ridge(alpha=0.3),Performance,0.2,"x_10           28259.918976
+x_8            12935.461052
+PPMd            7327.636186
+x_6             7302.394149
+BZip2           7093.221311
+Deflate         1806.513000
+mtOff           1543.346801
+LZMA2            901.116136
+LZMA             670.981990
+#yes             555.575302
+BlockSize_1      370.577294
+Files_0          313.608519
+dtype: float64","count    3273.000000
+mean       83.126544
+std        88.378104
+min         0.000652
+25%        23.714744
+50%        46.642256
+75%        96.972802
+max       401.629879
+Name: % error, dtype: float64",12
+11,ElasticNet,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","ElasticNet(alpha=25, l1_ratio=1.0, max_iter=10)",Performance,0.2,"x_10       28039.184328
+x_8        12680.902130
+BZip2       7681.077245
+x_6         7049.415540
+PPMd        6545.384096
+Deflate     2374.514160
+mtOff       1379.823992
+#yes         491.247464
+LZMA2         98.525564
+Files_0       47.601601
+dtype: float64","count    3273.000000
+mean       81.012235
+std        86.063697
+min         0.025750
+25%        22.290471
+50%        45.185200
+75%        96.278281
+max       370.510537
+Name: % error, dtype: float64",12
+12,PolynomialRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.2,"x_10           5.103269e+15
+BZip2          8.456024e+14
+#yes           4.201462e+14
+Deflate        3.753623e+14
+PPMd           2.564747e+14
+x_8            1.959445e+14
+LZMA           1.372323e+14
+x_6            1.330582e+14
+Files_0        1.086579e+14
+BlockSize_1    7.477476e+13
+LZMA2          5.360796e+13
+mtOff          7.738106e+12
+dtype: float64","count    3273.000000
+mean        9.280256
+std         9.567793
+min         0.003485
+25%         2.603735
+50%         6.165077
+75%        12.782422
+max        75.615572
+Name: % error, dtype: float64",12
+13,RandomForest,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+6           LZMA2
+7            LZMA
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    3273.000000
+mean        7.106725
+std         6.928159
+min         0.003364
+25%         1.984650
+50%         5.134101
+75%        10.156500
+max        59.243828
+Name: % error, dtype: float64",12
+14,GradientBoostingTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+7            LZMA
+6           LZMA2
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    3273.000000
+mean       10.277097
+std         9.829297
+min         0.000192
+25%         2.662607
+50%         7.112925
+75%        14.725570
+max        52.753777
+Name: % error, dtype: float64",12
+15,DecisionTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+7            LZMA
+6           LZMA2
+Name: feature, dtype: object","count    3273.000000
+mean        7.263266
+std         7.286197
+min         0.000000
+25%         1.924951
+50%         5.144033
+75%        10.393812
+max        66.049383
+Name: % error, dtype: float64",12
+16,LinearRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.3,"BZip2          2.877439e+16
+Deflate        2.877439e+16
+LZMA           2.877439e+16
+LZMA2          2.877439e+16
+PPMd           2.877439e+16
+x_10           2.731542e+04
+x_8            1.288800e+04
+x_6            7.180000e+03
+mtOff          1.015875e+03
+BlockSize_1    4.290000e+02
+Files_0        3.852500e+02
+#yes           3.047500e+02
+dtype: float64","count    2864.000000
+mean       83.890750
+std        86.550539
+min         0.066890
+25%        25.644893
+50%        47.332957
+75%       113.962264
+max       373.663366
+Name: % error, dtype: float64",12
+17,Lasso,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","Lasso(alpha=10, max_iter=100)",Performance,0.3,"x_10           27187.022231
+x_8            12771.568966
+BZip2           7574.447997
+x_6             7070.421367
+PPMd            6448.797605
+Deflate         2582.093927
+mtOff            951.115975
+#yes             286.410719
+Files_0          262.134270
+BlockSize_1      255.244970
+LZMA2            161.374097
+dtype: float64","count    2864.000000
+mean       81.140601
+std        85.234730
+min         0.213423
+25%        23.435996
+50%        44.868828
+75%       110.613740
+max       350.842743
+Name: % error, dtype: float64",12
+18,Ridge,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",Ridge(alpha=0.5),Performance,0.3,"x_10           27211.218437
+x_8            12828.718479
+PPMd            7187.876896
+x_6             7138.149836
+BZip2           6896.078681
+Deflate         1918.608174
+mtOff           1016.690716
+LZMA2            920.794503
+LZMA             706.015456
+BlockSize_1      416.647513
+Files_0          383.086085
+#yes             311.880813
+dtype: float64","count    2864.000000
+mean       81.883642
+std        85.911861
+min         0.053065
+25%        24.038259
+50%        45.356985
+75%       110.679965
+max       369.297198
+Name: % error, dtype: float64",12
+19,ElasticNet,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","ElasticNet(alpha=10, l1_ratio=1.0, max_iter=100)",Performance,0.3,"x_10           27187.022231
+x_8            12771.568966
+BZip2           7574.447997
+x_6             7070.421367
+PPMd            6448.797605
+Deflate         2582.093927
+mtOff            951.115975
+#yes             286.410719
+Files_0          262.134270
+BlockSize_1      255.244970
+LZMA2            161.374097
+dtype: float64","count    2864.000000
+mean       81.140601
+std        85.234730
+min         0.213423
+25%        23.435996
+50%        44.868828
+75%       110.613740
+max       350.842743
+Name: % error, dtype: float64",12
+20,PolynomialRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.3,"Deflate        2.351581e+14
+BZip2          9.200315e+13
+PPMd           6.886146e+13
+LZMA2          6.085020e+13
+LZMA           4.774298e+13
+BlockSize_1    4.073969e+13
+#yes           3.948023e+13
+x_8            3.374229e+13
+Files_0        2.633905e+13
+x_6            8.718608e+12
+mtOff          1.813231e+12
+x_10           1.767033e+11
+dtype: float64","count    2864.000000
+mean        9.269751
+std         9.456310
+min         0.003413
+25%         2.528060
+50%         5.993221
+75%        12.931540
+max        79.380947
+Name: % error, dtype: float64",12
+21,RandomForest,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+6           LZMA2
+7            LZMA
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    2864.000000
+mean        6.955114
+std         6.713406
+min         0.000484
+25%         1.952704
+50%         5.094883
+75%         9.834125
+max        44.878634
+Name: % error, dtype: float64",12
+22,GradientBoostingTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+7            LZMA
+6           LZMA2
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    2864.000000
+mean       10.527380
+std        10.596129
+min         0.000488
+25%         2.370706
+50%         6.891373
+75%        14.947817
+max        50.012546
+Name: % error, dtype: float64",12
+23,DecisionTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+7            LZMA
+6           LZMA2
+Name: feature, dtype: object","count    2864.000000
+mean        7.028413
+std         6.946438
+min         0.000000
+25%         1.878253
+50%         5.074354
+75%         9.920450
+max        46.511628
+Name: % error, dtype: float64",12
+24,LinearRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.4,"PPMd           8.293199e+16
+LZMA           8.293199e+16
+LZMA2          8.293199e+16
+Deflate        8.293199e+16
+BZip2          8.293199e+16
+x_10           2.780213e+04
+x_8            1.300000e+04
+x_6            7.160000e+03
+mtOff          1.256000e+03
+BlockSize_1    5.780000e+02
+#yes           3.490000e+02
+Files_0        2.920000e+02
+dtype: float64","count    2455.000000
+mean       81.462754
+std        89.838685
+min         0.170940
+25%        19.500000
+50%        43.279279
+75%       102.356490
+max       372.340426
+Name: % error, dtype: float64",12
+25,Lasso,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.4,"x_10           27538.643268
+x_8            12725.928545
+BZip2           8325.042485
+x_6             6853.597288
+PPMd            6465.079672
+Deflate         2533.390435
+mtOff           1100.349682
+BlockSize_1      269.915746
+#yes             256.708492
+dtype: float64","count    2455.000000
+mean       82.899669
+std        86.830045
+min         0.282564
+25%        22.416823
+50%        46.290051
+75%       107.790187
+max       352.704299
+Name: % error, dtype: float64",12
+26,Ridge,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",Ridge(alpha=0.8),Performance,0.4,"x_10           27692.345925
+x_8            12964.039357
+PPMd            7519.604897
+BZip2           7429.393338
+x_6             7092.439940
+Deflate         1695.081497
+mtOff           1266.440502
+LZMA             809.119217
+LZMA2            795.750722
+BlockSize_1      634.038837
+#yes             322.948774
+Files_0          250.190835
+dtype: float64","count    2455.000000
+mean       84.070992
+std        89.925747
+min         0.316310
+25%        23.201744
+50%        46.805054
+75%       103.703975
+max       375.700829
+Name: % error, dtype: float64",12
+27,ElasticNet,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","ElasticNet(alpha=25, l1_ratio=1.0, max_iter=5)",Performance,0.4,"x_10           27538.643268
+x_8            12725.928545
+BZip2           8325.042485
+x_6             6853.597288
+PPMd            6465.079672
+Deflate         2533.390435
+mtOff           1100.349682
+BlockSize_1      269.915746
+#yes             256.708492
+dtype: float64","count    2455.000000
+mean       82.899669
+std        86.830045
+min         0.282564
+25%        22.416823
+50%        46.290051
+75%       107.790187
+max       352.704299
+Name: % error, dtype: float64",12
+28,PolynomialRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.4,"Deflate        3.463906e+13
+x_8            1.723120e+13
+mtOff          1.467925e+13
+Files_0        1.029920e+13
+BlockSize_1    7.089709e+12
+LZMA2          5.429420e+12
+PPMd           5.272951e+12
+#yes           4.943839e+12
+x_6            3.948804e+12
+LZMA           2.461381e+12
+x_10           5.339667e+10
+BZip2          1.542204e+09
+dtype: float64","count    2455.000000
+mean        9.398901
+std         9.493357
+min         0.001239
+25%         2.624897
+50%         6.145737
+75%        13.084173
+max        51.288241
+Name: % error, dtype: float64",12
+29,RandomForest,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+6           LZMA2
+7            LZMA
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    2455.000000
+mean        6.872284
+std         6.597269
+min         0.000027
+25%         1.937582
+50%         5.045356
+75%         9.905479
+max        48.260193
+Name: % error, dtype: float64",12
+30,GradientBoostingTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+7            LZMA
+6           LZMA2
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    2455.000000
+mean       11.142118
+std        11.536039
+min         0.006779
+25%         2.228108
+50%         6.574370
+75%        16.350211
+max        53.464310
+Name: % error, dtype: float64",12
+31,DecisionTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+7            LZMA
+6           LZMA2
+Name: feature, dtype: object","count    2455.000000
+mean        6.940824
+std         6.810801
+min         0.000000
+25%         1.933207
+50%         4.963442
+75%         9.871922
+max        49.228395
+Name: % error, dtype: float64",12
+32,LinearRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.5,"BZip2          1.456482e+16
+Deflate        1.456482e+16
+LZMA2          1.456482e+16
+LZMA           1.456482e+16
+PPMd           1.456482e+16
+x_10           2.737985e+04
+x_8            1.297000e+04
+x_6            6.900000e+03
+mtOff          1.180125e+03
+BlockSize_1    4.682500e+02
+Files_0        2.725000e+02
+#yes           1.905000e+02
+dtype: float64","count    2046.000000
+mean       83.661661
+std        88.711034
+min         0.000000
+25%        24.848677
+50%        47.559024
+75%        99.829268
+max       363.297872
+Name: % error, dtype: float64",12
+33,Lasso,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","Lasso(alpha=10, max_iter=100)",Performance,0.5,"x_10           27291.819319
+x_8            12858.659311
+BZip2           8342.286264
+x_6             6782.667100
+PPMd            6569.201344
+Deflate         2471.249084
+mtOff           1105.824901
+BlockSize_1      320.156437
+Files_0          192.361706
+#yes             162.079605
+LZMA              71.901189
+dtype: float64","count    2046.000000
+mean       82.937092
+std        87.701716
+min         0.087566
+25%        23.810260
+50%        46.818707
+75%       100.900518
+max       351.731458
+Name: % error, dtype: float64",12
+34,Ridge,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",Ridge(alpha=0.3),Performance,0.5,"x_10           27369.216500
+x_8            12954.903297
+BZip2           7552.861396
+PPMd            7454.568219
+x_6             6884.706196
+Deflate         1689.667749
+mtOff           1171.102889
+LZMA             956.965083
+LZMA2            830.995843
+BlockSize_1      468.201404
+Files_0          293.659048
+#yes             187.755939
+dtype: float64","count    2046.000000
+mean       83.971555
+std        88.808951
+min         0.004896
+25%        24.586857
+50%        47.804531
+75%       101.366809
+max       360.107795
+Name: % error, dtype: float64",12
+35,ElasticNet,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","ElasticNet(alpha=10, l1_ratio=1.0, max_iter=100)",Performance,0.5,"x_10           27291.819319
+x_8            12858.659311
+BZip2           8342.286264
+x_6             6782.667100
+PPMd            6569.201344
+Deflate         2471.249084
+mtOff           1105.824901
+BlockSize_1      320.156437
+Files_0          192.361706
+#yes             162.079605
+LZMA              71.901189
+dtype: float64","count    2046.000000
+mean       82.937092
+std        87.701716
+min         0.087566
+25%        23.810260
+50%        46.818707
+75%       100.900518
+max       351.731458
+Name: % error, dtype: float64",12
+36,PolynomialRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.5,"BZip2          1.355231e+15
+x_10           5.789817e+14
+PPMd           5.430862e+14
+LZMA           4.836414e+14
+#yes           2.152149e+14
+mtOff          1.904683e+14
+x_8            1.881261e+14
+x_6            9.564613e+13
+LZMA2          9.514333e+13
+Files_0        9.290834e+13
+BlockSize_1    3.720431e+13
+Deflate        5.353412e+12
+dtype: float64","count    2046.000000
+mean        9.322716
+std         9.335356
+min         0.004647
+25%         2.656509
+50%         6.148962
+75%        13.062102
+max        52.737539
+Name: % error, dtype: float64",12
+37,RandomForest,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+6           LZMA2
+7            LZMA
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    2046.000000
+mean        6.760170
+std         6.463342
+min         0.006839
+25%         2.026958
+50%         4.943748
+75%         9.541565
+max        43.690446
+Name: % error, dtype: float64",12
+38,GradientBoostingTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+7            LZMA
+6           LZMA2
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    2046.000000
+mean       10.992006
+std        11.332008
+min         0.000605
+25%         2.394163
+50%         6.968854
+75%        15.383477
+max        54.799705
+Name: % error, dtype: float64",12
+39,DecisionTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+7            LZMA
+6           LZMA2
+Name: feature, dtype: object","count    2046.000000
+mean        6.816372
+std         6.647110
+min         0.000000
+25%         1.990173
+50%         4.973864
+75%         9.618047
+max        46.511628
+Name: % error, dtype: float64",12
+40,LinearRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.6,"PPMd           8.215732e+15
+LZMA           8.215732e+15
+LZMA2          8.215732e+15
+Deflate        8.215732e+15
+BZip2          8.215732e+15
+x_10           2.770303e+04
+x_8            1.294000e+04
+x_6            7.135000e+03
+mtOff          1.205312e+03
+BlockSize_1    3.790000e+02
+#yes           2.920000e+02
+Files_0        8.412500e+01
+dtype: float64","count    1637.000000
+mean       85.002417
+std        88.669022
+min         0.068259
+25%        24.474610
+50%        48.396533
+75%       113.122722
+max       366.063830
+Name: % error, dtype: float64",12
+41,Lasso,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","Lasso(alpha=10, max_iter=100)",Performance,0.6,"x_10           27586.265046
+x_8            12814.941848
+BZip2           8474.682274
+x_6             7018.148519
+PPMd            6453.065722
+Deflate         2548.059289
+mtOff           1139.400179
+#yes             262.511985
+BlockSize_1      238.778625
+dtype: float64","count    1637.000000
+mean       84.062467
+std        87.331568
+min         0.506974
+25%        23.416647
+50%        47.106972
+75%       115.821955
+max       354.761445
+Name: % error, dtype: float64",12
+42,Ridge,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.6,"x_10           27679.347282
+x_8            12921.808575
+BZip2           7607.355496
+PPMd            7418.296887
+x_6             7129.853053
+Deflate         1688.816417
+mtOff           1204.322097
+LZMA             953.519786
+LZMA2            924.355240
+BlockSize_1      384.570471
+#yes             288.470453
+Files_0           78.897218
+dtype: float64","count    1637.000000
+mean       85.109882
+std        88.467438
+min         0.233484
+25%        24.169101
+50%        48.488996
+75%       115.097264
+max       363.591145
+Name: % error, dtype: float64",12
+43,ElasticNet,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","ElasticNet(alpha=10, l1_ratio=1.0, max_iter=100)",Performance,0.6,"x_10           27586.265046
+x_8            12814.941848
+BZip2           8474.682274
+x_6             7018.148519
+PPMd            6453.065722
+Deflate         2548.059289
+mtOff           1139.400179
+#yes             262.511985
+BlockSize_1      238.778625
+dtype: float64","count    1637.000000
+mean       84.062467
+std        87.331568
+min         0.506974
+25%        23.416647
+50%        47.106972
+75%       115.821955
+max       354.761445
+Name: % error, dtype: float64",12
+44,PolynomialRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.6,"x_10           1.796606e+15
+x_8            1.394044e+14
+Deflate        1.078388e+14
+LZMA           5.495505e+13
+BZip2          5.481058e+13
+PPMd           4.728220e+13
+Files_0        4.241529e+13
+LZMA2          3.374990e+13
+mtOff          2.290291e+13
+#yes           2.089459e+13
+x_6            1.212652e+13
+BlockSize_1    8.676432e+12
+dtype: float64","count    1637.000000
+mean        9.501380
+std         9.591971
+min         0.004356
+25%         2.592120
+50%         6.109846
+75%        13.241282
+max        51.397245
+Name: % error, dtype: float64",12
+45,RandomForest,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+6           LZMA2
+7            LZMA
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    1637.000000
+mean        6.756336
+std         6.471351
+min         0.000998
+25%         1.998543
+50%         4.932803
+75%         9.611163
+max        42.855674
+Name: % error, dtype: float64",12
+46,GradientBoostingTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+7            LZMA
+6           LZMA2
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    1637.000000
+mean       10.710907
+std        10.688298
+min         0.001084
+25%         2.421607
+50%         7.119165
+75%        14.985746
+max        50.950085
+Name: % error, dtype: float64",12
+47,DecisionTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+7            LZMA
+6           LZMA2
+Name: feature, dtype: object","count    1637.000000
+mean        6.809631
+std         6.620697
+min         0.000000
+25%         1.966255
+50%         4.979095
+75%         9.513838
+max        44.032922
+Name: % error, dtype: float64",12
+48,LinearRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.7,"BZip2          6.573656e+15
+Deflate        6.573656e+15
+LZMA2          6.573656e+15
+LZMA           6.573656e+15
+PPMd           6.573656e+15
+x_10           2.777564e+04
+x_8            1.291000e+04
+x_6            7.070500e+03
+mtOff          1.114094e+03
+BlockSize_1    4.453750e+02
+#yes           2.113750e+02
+Files_0        1.251250e+02
+dtype: float64","count    1228.000000
+mean       85.262993
+std        86.972826
+min         0.606061
+25%        24.330225
+50%        49.441772
+75%       108.137821
+max       352.446809
+Name: % error, dtype: float64",12
+49,Lasso,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","Lasso(alpha=10, max_iter=10)",Performance,0.7,"x_10           27661.171435
+x_8            12782.736574
+BZip2           8838.455859
+x_6             6948.279665
+PPMd            5978.800287
+Deflate         2896.904463
+mtOff           1048.959750
+BlockSize_1      302.699596
+LZMA2            265.844627
+#yes             184.743523
+LZMA             116.101517
+Files_0           18.777358
+dtype: float64","count    1228.000000
+mean       83.856893
+std        84.743266
+min         0.134743
+25%        24.407164
+50%        48.745276
+75%       108.079103
+max       338.427939
+Name: % error, dtype: float64",12
+50,Ridge,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",Ridge(),Performance,0.7,"x_10           27679.361562
+x_8            12844.256985
+BZip2           7585.749780
+PPMd            7276.651114
+x_6             7020.249346
+Deflate         1675.679437
+mtOff           1110.688722
+LZMA            1060.731907
+LZMA2            924.046197
+BlockSize_1      444.021277
+#yes             209.552991
+Files_0          132.645046
+dtype: float64","count    1228.000000
+mean       84.027793
+std        85.945408
+min         0.032703
+25%        23.980658
+50%        48.530305
+75%       106.119416
+max       346.460769
+Name: % error, dtype: float64",12
+51,ElasticNet,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","ElasticNet(alpha=10, l1_ratio=1.0, max_iter=10)",Performance,0.7,"x_10           27661.171435
+x_8            12782.736574
+BZip2           8838.455859
+x_6             6948.279665
+PPMd            5978.800287
+Deflate         2896.904463
+mtOff           1048.959750
+BlockSize_1      302.699596
+LZMA2            265.844627
+#yes             184.743523
+LZMA             116.101517
+Files_0           18.777358
+dtype: float64","count    1228.000000
+mean       83.856893
+std        84.743266
+min         0.134743
+25%        24.407164
+50%        48.745276
+75%       108.079103
+max       338.427939
+Name: % error, dtype: float64",12
+52,PolynomialRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.7,"x_8            4.612761e+14
+PPMd           6.286909e+13
+x_6            4.544208e+13
+BZip2          2.657048e+13
+LZMA           1.720873e+13
+LZMA2          9.092334e+12
+mtOff          8.269211e+12
+#yes           6.534116e+12
+BlockSize_1    5.257249e+12
+Deflate        4.327011e+12
+Files_0        9.470179e+11
+x_10           1.399830e+11
+dtype: float64","count    1228.000000
+mean        9.393228
+std         9.358923
+min         0.000235
+25%         2.641334
+50%         6.161735
+75%        13.423094
+max        53.200204
+Name: % error, dtype: float64",12
+53,RandomForest,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+6           LZMA2
+7            LZMA
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    1228.000000
+mean        6.940289
+std         6.732086
+min         0.001246
+25%         2.055724
+50%         5.146741
+75%         9.654410
+max        47.987514
+Name: % error, dtype: float64",12
+54,GradientBoostingTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+7            LZMA
+6           LZMA2
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    1228.000000
+mean       11.056673
+std        10.749848
+min         0.007668
+25%         2.729089
+50%         7.257698
+75%        16.445687
+max        50.579528
+Name: % error, dtype: float64",12
+55,DecisionTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+7            LZMA
+6           LZMA2
+Name: feature, dtype: object","count    1228.000000
+mean        7.017504
+std         6.887099
+min         0.000000
+25%         1.986692
+50%         5.158029
+75%         9.710020
+max        48.236332
+Name: % error, dtype: float64",12
+56,LinearRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.8,"PPMd           1.212126e+16
+LZMA           1.212126e+16
+LZMA2          1.212126e+16
+Deflate        1.212126e+16
+BZip2          1.212126e+16
+x_10           2.704230e+04
+x_8            1.303300e+04
+x_6            7.072000e+03
+mtOff          8.187188e+02
+BlockSize_1    6.075000e+02
+#yes           1.488438e+02
+Files_0        9.100000e+01
+dtype: float64","count    819.000000
+mean      82.947550
+std       85.673336
+min        0.893471
+25%       25.107362
+50%       46.183525
+75%      109.173077
+max      339.890710
+Name: % error, dtype: float64",12
+57,Lasso,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","Lasso(alpha=10, max_iter=100)",Performance,0.8,"x_10           26918.932280
+x_8            12922.619835
+BZip2           8200.606004
+x_6             6946.379397
+PPMd            6443.869982
+Deflate         2695.346978
+mtOff            763.951532
+BlockSize_1      467.801427
+#yes             123.829373
+dtype: float64","count    819.000000
+mean      82.834081
+std       87.395637
+min        0.549969
+25%       22.340944
+50%       44.226834
+75%      115.973531
+max      337.603823
+Name: % error, dtype: float64",12
+58,Ridge,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",Ridge(),Performance,0.8,"x_10           26960.946366
+x_8            12991.432028
+PPMd            7380.115710
+BZip2           7353.232832
+x_6             7029.655578
+Deflate         1854.286032
+LZMA             934.051751
+LZMA2            893.351402
+mtOff            827.638148
+BlockSize_1      615.860959
+#yes             148.646380
+Files_0           91.243519
+dtype: float64","count    819.000000
+mean      83.836781
+std       88.240087
+min        1.087134
+25%       23.648181
+50%       45.616563
+75%      117.241518
+max      344.710622
+Name: % error, dtype: float64",12
+59,ElasticNet,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","ElasticNet(alpha=10, l1_ratio=1.0, max_iter=100)",Performance,0.8,"x_10           26918.932280
+x_8            12922.619835
+BZip2           8200.606004
+x_6             6946.379397
+PPMd            6443.869982
+Deflate         2695.346978
+mtOff            763.951532
+BlockSize_1      467.801427
+#yes             123.829373
+dtype: float64","count    819.000000
+mean      82.834081
+std       87.395637
+min        0.549969
+25%       22.340944
+50%       44.226834
+75%      115.973531
+max      337.603823
+Name: % error, dtype: float64",12
+60,PolynomialRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.8,"Deflate        2.134231e+15
+PPMd           4.488587e+14
+BZip2          3.799100e+14
+LZMA2          2.747827e+14
+x_10           2.665052e+14
+mtOff          2.352771e+14
+Files_0        2.202725e+14
+#yes           2.190864e+14
+LZMA           2.119401e+14
+x_6            1.082173e+14
+BlockSize_1    5.527631e+13
+x_8            2.874604e+13
+dtype: float64","count    819.000000
+mean       9.320213
+std        9.334324
+min        0.015214
+25%        2.574106
+50%        5.941092
+75%       13.481908
+max       52.083333
+Name: % error, dtype: float64",12
+61,RandomForest,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+6           LZMA2
+7            LZMA
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    819.000000
+mean       6.722888
+std        6.329582
+min        0.007278
+25%        2.071585
+50%        4.852073
+75%        9.586837
+max       43.754224
+Name: % error, dtype: float64",12
+62,GradientBoostingTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+7            LZMA
+6           LZMA2
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    819.000000
+mean      11.359084
+std       11.100576
+min        0.007716
+25%        2.460919
+50%        7.506499
+75%       16.893832
+max       48.840374
+Name: % error, dtype: float64",12
+63,DecisionTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+7            LZMA
+6           LZMA2
+Name: feature, dtype: object","count    819.000000
+mean       6.793409
+std        6.398849
+min        0.000000
+25%        2.068685
+50%        4.968944
+75%        9.615409
+max       44.307270
+Name: % error, dtype: float64",12
+64,LinearRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.9,"PPMd           7.998731e+15
+LZMA           7.998731e+15
+LZMA2          7.998731e+15
+Deflate        7.998731e+15
+BZip2          7.998731e+15
+x_10           2.728239e+04
+x_8            1.302900e+04
+x_6            7.114000e+03
+mtOff          6.937500e+02
+Files_0        3.241875e+02
+BlockSize_1    2.981250e+02
+#yes           1.745898e+02
+dtype: float64","count    410.000000
+mean      87.133281
+std       90.570532
+min        1.402439
+25%       25.304119
+50%       46.051095
+75%      130.361982
+max      347.431694
+Name: % error, dtype: float64",12
+65,Lasso,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","Lasso(alpha=10, max_iter=100)",Performance,0.9,"x_10           27156.852673
+x_8            12912.711119
+BZip2           8158.673882
+x_6             6991.467650
+PPMd            6586.757558
+Deflate         2686.747395
+mtOff            635.036799
+Files_0          194.879383
+#yes             152.992145
+BlockSize_1      145.880750
+LZMA              30.270555
+dtype: float64","count    410.000000
+mean      85.714868
+std       90.245494
+min        0.591101
+25%       22.958362
+50%       44.436294
+75%      133.365894
+max      337.855517
+Name: % error, dtype: float64",12
+66,Ridge,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",Ridge(),Performance,0.9,"x_10           27206.829052
+x_8            12988.283355
+PPMd            7479.789901
+BZip2           7357.177506
+x_6             7078.504153
+Deflate         1889.456837
+LZMA             927.621935
+LZMA2            839.222507
+mtOff            697.186331
+Files_0          321.177758
+BlockSize_1      292.688144
+#yes             177.584857
+dtype: float64","count    410.000000
+mean      86.734298
+std       91.029248
+min        0.483191
+25%       23.935641
+50%       45.148374
+75%      134.254888
+max      345.356698
+Name: % error, dtype: float64",12
+67,ElasticNet,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')","ElasticNet(alpha=10, l1_ratio=1.0, max_iter=100)",Performance,0.9,"x_10           27156.852673
+x_8            12912.711119
+BZip2           8158.673882
+x_6             6991.467650
+PPMd            6586.757558
+Deflate         2686.747395
+mtOff            635.036799
+Files_0          194.879383
+#yes             152.992145
+BlockSize_1      145.880750
+LZMA              30.270555
+dtype: float64","count    410.000000
+mean      85.714868
+std       90.245494
+min        0.591101
+25%       22.958362
+50%       44.436294
+75%      133.365894
+max      337.855517
+Name: % error, dtype: float64",12
+68,PolynomialRegression,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",LinearRegression(),Performance,0.9,"x_8            2.866050e+15
+x_6            1.381037e+15
+BZip2          1.303861e+15
+x_10           6.602554e+14
+PPMd           5.696726e+14
+mtOff          4.618890e+14
+#yes           2.635393e+14
+LZMA2          1.523640e+14
+Deflate        1.092715e+14
+LZMA           8.139081e+13
+Files_0        4.748044e+13
+BlockSize_1    1.546477e+13
+dtype: float64","count    410.000000
+mean       9.047734
+std        9.170781
+min        0.002353
+25%        2.457362
+50%        5.690732
+75%       12.616162
+max       47.392578
+Name: % error, dtype: float64",12
+69,RandomForest,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+6           LZMA2
+7            LZMA
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    410.000000
+mean       6.865706
+std        6.469228
+min        0.016999
+25%        2.199500
+50%        5.074626
+75%        9.731101
+max       45.310368
+Name: % error, dtype: float64",12
+70,GradientBoostingTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+7            LZMA
+6           LZMA2
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+Name: feature, dtype: object","count    410.000000
+mean      11.851549
+std       11.812404
+min        0.006349
+25%        2.387191
+50%        8.104635
+75%       17.377670
+max       49.722979
+Name: % error, dtype: float64",12
+71,DecisionTree,False,RandomForest,"Index(['x_10', 'BZip2', 'Deflate', 'x_8', 'PPMd', 'x_6', 'LZMA2', 'LZMA',
+       'mtOff', '#yes', 'Files_0', 'BlockSize_1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"0            x_10
+1           BZip2
+2         Deflate
+3             x_8
+4            PPMd
+5             x_6
+8           mtOff
+9            #yes
+10        Files_0
+11    BlockSize_1
+7            LZMA
+6           LZMA2
+Name: feature, dtype: object","count    410.000000
+mean       6.890429
+std        6.536287
+min        0.000000
+25%        2.154628
+50%        5.079198
+75%        9.696672
+max       44.307270
+Name: % error, dtype: float64",12

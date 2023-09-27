@@ -1,0 +1,932 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.1,"ref_1            2.449594e+15
+ref_5            2.449594e+15
+ref_9            2.449594e+15
+no_mixed_refs    7.131250e+01
+dtype: float64","count    191.000000
+mean      10.412481
+std        6.810125
+min        0.039271
+25%        5.034775
+50%        9.191251
+75%       15.390935
+max       31.961210
+Name: % error, dtype: float64",4
+1,Lasso,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","Lasso(alpha=2, max_iter=100)",Performance,0.1,"ref_9            173.975322
+ref_1            166.946731
+no_mixed_refs     59.271728
+dtype: float64","count    191.000000
+mean       9.994429
+std        6.842845
+min        0.073565
+25%        5.177381
+50%        8.835923
+75%       14.266151
+max       32.031598
+Name: % error, dtype: float64",4
+2,Ridge,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Ridge(alpha=0.8),Performance,0.1,"ref_9            158.232211
+ref_1            157.072083
+no_mixed_refs     53.740081
+ref_5              1.160128
+dtype: float64","count    191.000000
+mean      10.402073
+std        7.458367
+min        0.103753
+25%        5.310538
+50%        9.068200
+75%       14.398330
+max       35.952950
+Name: % error, dtype: float64",4
+3,ElasticNet,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.0, max_iter=100)",Performance,0.1,"ref_9            152.473123
+ref_1            152.025059
+no_mixed_refs     49.658517
+ref_5              0.448064
+dtype: float64","count    191.000000
+mean      10.786743
+std        7.659048
+min        0.007701
+25%        5.331349
+50%        9.046621
+75%       15.087350
+max       37.222815
+Name: % error, dtype: float64",4
+4,PolynomialRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.1,"ref_9            117.825611
+ref_1            108.243556
+no_mixed_refs     32.416841
+ref_5              9.582056
+dtype: float64","count    191.000000
+mean       8.590817
+std        6.717824
+min        0.250580
+25%        3.788585
+50%        6.481981
+75%       12.945804
+max       28.561809
+Name: % error, dtype: float64",4
+5,RandomForest,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",RandomForestRegressor(),Performance,0.1,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    191.000000
+mean       8.632215
+std        6.311474
+min        0.129243
+25%        3.715682
+50%        7.075541
+75%       12.981236
+max       23.256826
+Name: % error, dtype: float64",4
+6,GradientBoostingTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",GradientBoostingRegressor(),Performance,0.1,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    191.000000
+mean       8.590967
+std        6.717763
+min        0.250372
+25%        3.790241
+50%        6.483680
+75%       12.946098
+max       28.560521
+Name: % error, dtype: float64",4
+7,DecisionTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",DecisionTreeRegressor(),Performance,0.1,"0            ref_1
+1            ref_9
+3    no_mixed_refs
+2            ref_5
+Name: feature, dtype: object","count    191.000000
+mean       8.590817
+std        6.717824
+min        0.250580
+25%        3.788585
+50%        6.481981
+75%       12.945804
+max       28.561809
+Name: % error, dtype: float64",4
+8,LinearRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.2,"ref_9            175.155724
+ref_1            172.648643
+no_mixed_refs     64.501974
+ref_5              2.507081
+dtype: float64","count    170.000000
+mean      10.202084
+std        6.326638
+min        0.020664
+25%        5.681544
+50%        9.265775
+75%       14.600354
+max       29.600697
+Name: % error, dtype: float64",4
+9,Lasso,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","Lasso(alpha=0.2, max_iter=100)",Performance,0.2,"ref_1            173.551336
+ref_9            173.265309
+no_mixed_refs     63.660059
+ref_5              2.932930
+dtype: float64","count    170.000000
+mean      10.168634
+std        6.315905
+min        0.032230
+25%        5.649108
+50%        9.116727
+75%       14.523015
+max       29.510978
+Name: % error, dtype: float64",4
+10,Ridge,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Ridge(alpha=0.01),Performance,0.2,"ref_9            175.031787
+ref_1            172.530299
+no_mixed_refs     64.434809
+ref_5              2.501488
+dtype: float64","count    170.000000
+mean      10.200509
+std        6.327372
+min        0.026634
+25%        5.695076
+50%        9.247029
+75%       14.560353
+max       29.634936
+Name: % error, dtype: float64",4
+11,ElasticNet,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","ElasticNet(alpha=0.01, max_iter=5)",Performance,0.2,"ref_1            219.324376
+ref_9            124.216833
+no_mixed_refs     63.096657
+ref_5             50.017468
+dtype: float64","count    170.000000
+mean      10.160660
+std        6.346699
+min        0.015384
+25%        5.355294
+50%        9.010333
+75%       14.699431
+max       30.014053
+Name: % error, dtype: float64",4
+12,PolynomialRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.2,"ref_1            8.470071e+14
+ref_9            8.041191e+14
+ref_5            2.398147e+14
+no_mixed_refs    9.315458e+13
+dtype: float64","count    170.000000
+mean       8.075475
+std        5.232912
+min        0.210238
+25%        3.667724
+50%        6.797302
+75%       12.374327
+max       19.338097
+Name: % error, dtype: float64",4
+13,RandomForest,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",RandomForestRegressor(),Performance,0.2,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    170.000000
+mean       8.068893
+std        5.318166
+min        0.081469
+25%        3.531437
+50%        6.731934
+75%       12.312066
+max       20.210986
+Name: % error, dtype: float64",4
+14,GradientBoostingTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",GradientBoostingRegressor(),Performance,0.2,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    170.000000
+mean       8.054725
+std        5.247053
+min        0.197977
+25%        3.639430
+50%        6.779818
+75%       12.248493
+max       19.472804
+Name: % error, dtype: float64",4
+15,DecisionTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",DecisionTreeRegressor(),Performance,0.2,"0            ref_1
+1            ref_9
+3    no_mixed_refs
+2            ref_5
+Name: feature, dtype: object","count    170.000000
+mean       8.054549
+std        5.247032
+min        0.197092
+25%        3.640250
+50%        6.779710
+75%       12.249310
+max       19.473098
+Name: % error, dtype: float64",4
+16,LinearRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.3,"ref_1            174.450543
+ref_9            171.424770
+no_mixed_refs     48.921846
+ref_5              3.025772
+dtype: float64","count    149.000000
+mean       9.764809
+std        6.294832
+min        0.209656
+25%        5.035434
+50%        8.509398
+75%       14.600596
+max       25.636236
+Name: % error, dtype: float64",4
+17,Lasso,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.3,"ref_1            245.274010
+ref_9            100.554933
+ref_5             67.768682
+no_mixed_refs     48.876208
+dtype: float64","count    149.000000
+mean       9.764152
+std        6.295155
+min        0.206431
+25%        5.032365
+50%        8.506867
+75%       14.616722
+max       25.630770
+Name: % error, dtype: float64",4
+18,Ridge,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Ridge(alpha=0.01),Performance,0.3,"ref_1            174.372030
+ref_9            171.346983
+no_mixed_refs     48.875942
+ref_5              3.025048
+dtype: float64","count    149.000000
+mean       9.763909
+std        6.296422
+min        0.214471
+25%        5.040017
+50%        8.499600
+75%       14.606522
+max       25.659091
+Name: % error, dtype: float64",4
+19,ElasticNet,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.3,"ref_1            245.274010
+ref_9            100.554933
+ref_5             67.768682
+no_mixed_refs     48.876208
+dtype: float64","count    149.000000
+mean       9.764152
+std        6.295155
+min        0.206431
+25%        5.032365
+50%        8.506867
+75%       14.616722
+max       25.630770
+Name: % error, dtype: float64",4
+20,PolynomialRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.3,"ref_9            5.980246e+15
+ref_5            4.917157e+15
+no_mixed_refs    2.720853e+15
+ref_1            4.967521e+14
+dtype: float64","count    149.000000
+mean       8.719875
+std        5.849431
+min        0.240307
+25%        4.231562
+50%        7.843254
+75%       11.523159
+max       23.138195
+Name: % error, dtype: float64",4
+21,RandomForest,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",RandomForestRegressor(),Performance,0.3,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    149.000000
+mean       8.564137
+std        5.768022
+min        0.094861
+25%        4.145522
+50%        7.496848
+75%       11.436241
+max       23.050735
+Name: % error, dtype: float64",4
+22,GradientBoostingTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",GradientBoostingRegressor(),Performance,0.3,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    149.000000
+mean       8.568607
+std        5.787649
+min        0.025137
+25%        4.260437
+50%        7.402883
+75%       11.388164
+max       22.642643
+Name: % error, dtype: float64",4
+23,DecisionTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",DecisionTreeRegressor(),Performance,0.3,"0            ref_1
+1            ref_9
+3    no_mixed_refs
+2            ref_5
+Name: feature, dtype: object","count    149.000000
+mean       8.568421
+std        5.787679
+min        0.026712
+25%        4.261945
+50%        7.403575
+75%       11.388476
+max       22.643433
+Name: % error, dtype: float64",4
+24,LinearRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.4,"ref_1            179.797916
+ref_9            174.634268
+no_mixed_refs     54.376701
+ref_5              5.163648
+dtype: float64","count    128.000000
+mean       9.984917
+std        6.397623
+min        0.204475
+25%        5.103616
+50%        9.016586
+75%       15.056010
+max       23.085486
+Name: % error, dtype: float64",4
+25,Lasso,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","Lasso(alpha=0.5, max_iter=5)",Performance,0.4,"ref_1            239.805690
+ref_9            111.982969
+ref_5             53.636126
+no_mixed_refs     52.134503
+dtype: float64","count    128.000000
+mean       9.951061
+std        6.395108
+min        0.027616
+25%        4.973883
+50%        8.911551
+75%       15.531712
+max       22.881159
+Name: % error, dtype: float64",4
+26,Ridge,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Ridge(alpha=0.1),Performance,0.4,"ref_1            179.183633
+ref_9            174.001671
+no_mixed_refs     54.016870
+ref_5              5.181962
+dtype: float64","count    128.000000
+mean       9.974694
+std        6.380249
+min        0.098259
+25%        5.141031
+50%        8.869941
+75%       15.093965
+max       22.987031
+Name: % error, dtype: float64",4
+27,ElasticNet,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","ElasticNet(alpha=0.05, max_iter=1)",Performance,0.4,"ref_1            242.679323
+ref_9            118.019765
+no_mixed_refs     49.751919
+ref_5             48.324289
+dtype: float64","count    128.000000
+mean       9.968672
+std        6.605928
+min        0.038553
+25%        4.579121
+50%        8.661115
+75%       15.618467
+max       23.862580
+Name: % error, dtype: float64",4
+28,PolynomialRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.4,"ref_9            1.477707e+15
+ref_5            7.838487e+14
+ref_1            6.753307e+14
+no_mixed_refs    6.219563e+13
+dtype: float64","count    128.000000
+mean       8.376140
+std        5.717422
+min        0.284762
+25%        4.742099
+50%        7.277202
+75%       11.861368
+max       22.735835
+Name: % error, dtype: float64",4
+29,RandomForest,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",RandomForestRegressor(),Performance,0.4,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    128.000000
+mean       8.396938
+std        5.684340
+min        0.267272
+25%        4.656656
+50%        7.262818
+75%       12.462939
+max       22.757363
+Name: % error, dtype: float64",4
+30,GradientBoostingTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",GradientBoostingRegressor(),Performance,0.4,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    128.000000
+mean       8.381174
+std        5.718100
+min        0.166574
+25%        4.628887
+50%        7.187699
+75%       12.248471
+max       22.578048
+Name: % error, dtype: float64",4
+31,DecisionTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",DecisionTreeRegressor(),Performance,0.4,"0            ref_1
+1            ref_9
+3    no_mixed_refs
+2            ref_5
+Name: feature, dtype: object","count    128.000000
+mean       8.381019
+std        5.718303
+min        0.166916
+25%        4.628004
+50%        7.186455
+75%       12.247091
+max       22.578466
+Name: % error, dtype: float64",4
+32,LinearRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.5,"ref_1            179.468730
+ref_9            176.852455
+no_mixed_refs     58.515678
+ref_5              2.616276
+dtype: float64","count    106.000000
+mean       9.851394
+std        6.257135
+min        0.331007
+25%        5.360563
+50%        9.193990
+75%       14.651581
+max       23.051567
+Name: % error, dtype: float64",4
+33,Lasso,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.5,"ref_1            246.133844
+ref_9            109.682463
+ref_5             63.817711
+no_mixed_refs     58.063687
+dtype: float64","count    106.000000
+mean       9.831793
+std        6.261959
+min        0.198076
+25%        5.289744
+50%        9.247913
+75%       14.590317
+max       23.018909
+Name: % error, dtype: float64",4
+34,Ridge,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Ridge(alpha=0.01),Performance,0.5,"ref_1            179.418499
+ref_9            176.803874
+no_mixed_refs     58.485265
+ref_5              2.614626
+dtype: float64","count    106.000000
+mean       9.849877
+std        6.255720
+min        0.327575
+25%        5.358207
+50%        9.200666
+75%       14.644167
+max       23.045049
+Name: % error, dtype: float64",4
+35,ElasticNet,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","ElasticNet(alpha=0.05, max_iter=1)",Performance,0.5,"ref_1            246.633434
+ref_9            120.552054
+no_mixed_refs     53.808853
+ref_5             51.252129
+dtype: float64","count    106.000000
+mean       9.881210
+std        6.553204
+min        0.122609
+25%        4.632918
+50%        9.006417
+75%       14.853478
+max       24.135007
+Name: % error, dtype: float64",4
+36,PolynomialRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.5,"ref_1            1.155752e+16
+no_mixed_refs    2.483147e+15
+ref_5            6.010335e+14
+ref_9            5.896119e+14
+dtype: float64","count    106.000000
+mean       8.798418
+std        5.845883
+min        0.040068
+25%        4.365564
+50%        7.727495
+75%       13.644311
+max       22.050326
+Name: % error, dtype: float64",4
+37,RandomForest,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",RandomForestRegressor(),Performance,0.5,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    106.000000
+mean       8.436606
+std        5.855439
+min        0.091378
+25%        4.437844
+50%        6.817190
+75%       12.512697
+max       22.689220
+Name: % error, dtype: float64",4
+38,GradientBoostingTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",GradientBoostingRegressor(),Performance,0.5,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    106.000000
+mean       8.437209
+std        5.890550
+min        0.200523
+25%        4.353162
+50%        6.739934
+75%       12.289512
+max       22.839522
+Name: % error, dtype: float64",4
+39,DecisionTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",DecisionTreeRegressor(),Performance,0.5,"0            ref_1
+1            ref_9
+3    no_mixed_refs
+2            ref_5
+Name: feature, dtype: object","count    106.000000
+mean       8.437030
+std        5.890767
+min        0.200254
+25%        4.352130
+50%        6.741523
+75%       12.289849
+max       22.839853
+Name: % error, dtype: float64",4
+40,LinearRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.6,"ref_1            180.367679
+ref_9            176.599671
+no_mixed_refs     59.720280
+ref_5              3.768007
+dtype: float64","count    85.000000
+mean     10.111898
+std       6.438743
+min       0.341561
+25%       5.475201
+50%       9.459615
+75%      15.546137
+max      22.586610
+Name: % error, dtype: float64",4
+41,Lasso,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.6,"ref_1            241.999698
+ref_9            114.916394
+no_mixed_refs     59.674626
+ref_5             57.843901
+dtype: float64","count    85.000000
+mean     10.109435
+std       6.438884
+min       0.337777
+25%       5.473548
+50%       9.447075
+75%      15.534441
+max      22.583127
+Name: % error, dtype: float64",4
+42,Ridge,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Ridge(alpha=0.02),Performance,0.6,"ref_1            180.278789
+ref_9            176.513584
+no_mixed_refs     59.667613
+ref_5              3.765206
+dtype: float64","count    85.000000
+mean     10.107799
+std       6.434386
+min       0.362813
+25%       5.480383
+50%       9.416430
+75%      15.505856
+max      22.574928
+Name: % error, dtype: float64",4
+43,ElasticNet,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.6,"ref_1            241.999698
+ref_9            114.916394
+no_mixed_refs     59.674626
+ref_5             57.843901
+dtype: float64","count    85.000000
+mean     10.109435
+std       6.438884
+min       0.337777
+25%       5.473548
+50%       9.447075
+75%      15.534441
+max      22.583127
+Name: % error, dtype: float64",4
+44,PolynomialRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.6,"ref_9            1.095854e+15
+ref_1            9.979881e+14
+no_mixed_refs    1.766846e+14
+ref_5            1.000363e+14
+dtype: float64","count    85.000000
+mean      8.471909
+std       6.096935
+min       0.347177
+25%       3.860568
+50%       6.576850
+75%      13.324187
+max      21.916205
+Name: % error, dtype: float64",4
+45,RandomForest,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",RandomForestRegressor(),Performance,0.6,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    85.000000
+mean      8.545356
+std       6.132169
+min       0.178377
+25%       4.402299
+50%       6.960854
+75%      13.587505
+max      22.970323
+Name: % error, dtype: float64",4
+46,GradientBoostingTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",GradientBoostingRegressor(),Performance,0.6,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    85.000000
+mean      8.485139
+std       6.090930
+min       0.154133
+25%       4.090053
+50%       6.803156
+75%      13.489683
+max      22.185585
+Name: % error, dtype: float64",4
+47,DecisionTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",DecisionTreeRegressor(),Performance,0.6,"0            ref_1
+1            ref_9
+3    no_mixed_refs
+2            ref_5
+Name: feature, dtype: object","count    85.000000
+mean      8.485041
+std       6.091134
+min       0.153867
+25%       4.090330
+50%       6.802771
+75%      13.488964
+max      22.185911
+Name: % error, dtype: float64",4
+48,LinearRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.7,"ref_9            2.693718e+16
+ref_5            2.693718e+16
+ref_1            2.693718e+16
+no_mixed_refs    6.100000e+01
+dtype: float64","count    64.000000
+mean     10.120205
+std       6.679623
+min       0.044464
+25%       5.192279
+50%       9.621842
+75%      14.830557
+max      22.731799
+Name: % error, dtype: float64",4
+49,Lasso,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","Lasso(alpha=0.2, max_iter=100)",Performance,0.7,"ref_1            186.787619
+ref_9            169.582074
+no_mixed_refs     60.865806
+ref_5              0.603877
+dtype: float64","count    64.000000
+mean      9.927032
+std       6.477071
+min       0.161259
+25%       4.960557
+50%       9.504401
+75%      15.383898
+max      21.920777
+Name: % error, dtype: float64",4
+50,Ridge,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Ridge(alpha=0.2),Performance,0.7,"ref_1            180.334114
+ref_9            175.649709
+no_mixed_refs     61.308035
+ref_5              4.684405
+dtype: float64","count    64.000000
+mean      9.928092
+std       6.418084
+min       0.072474
+25%       5.030782
+50%       9.613132
+75%      15.314634
+max      21.897364
+Name: % error, dtype: float64",4
+51,ElasticNet,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=100)",Performance,0.7,"ref_1            186.787619
+ref_9            169.582074
+no_mixed_refs     60.865806
+ref_5              0.603877
+dtype: float64","count    64.000000
+mean      9.927032
+std       6.477071
+min       0.161259
+25%       4.960557
+50%       9.504401
+75%      15.383898
+max      21.920777
+Name: % error, dtype: float64",4
+52,PolynomialRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.7,"no_mixed_refs    1.521523e+16
+ref_1            5.346819e+15
+ref_9            3.002045e+15
+ref_5            2.838301e+14
+dtype: float64","count    64.000000
+mean      9.167682
+std       6.701796
+min       0.238787
+25%       3.211272
+50%       8.183359
+75%      14.011178
+max      23.519192
+Name: % error, dtype: float64",4
+53,RandomForest,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",RandomForestRegressor(),Performance,0.7,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    64.000000
+mean      8.875827
+std       6.123846
+min       0.506869
+25%       4.123299
+50%       6.829150
+75%      13.972589
+max      22.250515
+Name: % error, dtype: float64",4
+54,GradientBoostingTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",GradientBoostingRegressor(),Performance,0.7,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    64.000000
+mean      8.870475
+std       6.180474
+min       0.634775
+25%       4.059992
+50%       6.788178
+75%      14.091349
+max      22.254241
+Name: % error, dtype: float64",4
+55,DecisionTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",DecisionTreeRegressor(),Performance,0.7,"0            ref_1
+1            ref_9
+3    no_mixed_refs
+2            ref_5
+Name: feature, dtype: object","count    64.000000
+mean      8.870448
+std       6.180671
+min       0.633102
+25%       4.060287
+50%       6.787453
+75%      14.090006
+max      22.254588
+Name: % error, dtype: float64",4
+56,LinearRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.8,"ref_1            176.752471
+ref_9            174.140565
+no_mixed_refs     58.514111
+ref_5              2.611907
+dtype: float64","count    43.000000
+mean      9.471735
+std       6.055328
+min       0.024154
+25%       5.712758
+50%       7.710491
+75%      14.795418
+max      21.359426
+Name: % error, dtype: float64",4
+57,Lasso,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Lasso(alpha=0.2),Performance,0.8,"ref_1            178.790422
+ref_9            170.848046
+no_mixed_refs     57.615288
+dtype: float64","count    43.000000
+mean      9.443497
+std       6.023068
+min       0.109146
+25%       5.648663
+50%       7.863959
+75%      14.817314
+max      21.319882
+Name: % error, dtype: float64",4
+58,Ridge,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Ridge(alpha=0.1),Performance,0.8,"ref_1            176.444379
+ref_9            173.829195
+no_mixed_refs     58.328206
+ref_5              2.615184
+dtype: float64","count    43.000000
+mean      9.464840
+std       6.037792
+min       0.042822
+25%       5.645582
+50%       7.767364
+75%      14.810874
+max      21.314974
+Name: % error, dtype: float64",4
+59,ElasticNet,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0)",Performance,0.8,"ref_1            178.790422
+ref_9            170.848046
+no_mixed_refs     57.615288
+dtype: float64","count    43.000000
+mean      9.443497
+std       6.023068
+min       0.109146
+25%       5.648663
+50%       7.863959
+75%      14.817314
+max      21.319882
+Name: % error, dtype: float64",4
+60,PolynomialRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.8,"ref_1            5.536772e+15
+ref_9            5.264137e+15
+no_mixed_refs    9.559771e+14
+ref_5            7.850578e+14
+dtype: float64","count    43.000000
+mean      8.452866
+std       5.925650
+min       0.002307
+25%       3.814289
+50%       6.346440
+75%      13.126605
+max      20.560090
+Name: % error, dtype: float64",4
+61,RandomForest,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",RandomForestRegressor(),Performance,0.8,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    43.000000
+mean      8.524422
+std       5.962124
+min       0.023188
+25%       3.970847
+50%       6.203785
+75%      13.721523
+max      20.534916
+Name: % error, dtype: float64",4
+62,GradientBoostingTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",GradientBoostingRegressor(),Performance,0.8,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    43.000000
+mean      8.543043
+std       5.953662
+min       0.039497
+25%       3.996039
+50%       6.269602
+75%      13.744573
+max      20.515254
+Name: % error, dtype: float64",4
+63,DecisionTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",DecisionTreeRegressor(),Performance,0.8,"0            ref_1
+1            ref_9
+3    no_mixed_refs
+2            ref_5
+Name: feature, dtype: object","count    43.000000
+mean      8.542918
+std       5.953699
+min       0.039224
+25%       3.995889
+50%       6.269033
+75%      13.744355
+max      20.515582
+Name: % error, dtype: float64",4
+64,LinearRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.9,"ref_1            177.123023
+ref_9            176.126522
+no_mixed_refs     58.992016
+ref_5              0.996501
+dtype: float64","count    22.000000
+mean      9.780481
+std       6.736717
+min       0.167995
+25%       5.122157
+50%       9.381799
+75%      15.019011
+max      22.181031
+Name: % error, dtype: float64",4
+65,Lasso,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","Lasso(alpha=0.2, max_iter=100)",Performance,0.9,"ref_1            177.541852
+ref_9            174.448001
+no_mixed_refs     58.117048
+dtype: float64","count    22.000000
+mean      9.760090
+std       6.728079
+min       0.084986
+25%       4.784543
+50%       9.207626
+75%      14.882258
+max      22.138325
+Name: % error, dtype: float64",4
+66,Ridge,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",Ridge(alpha=0.2),Performance,0.9,"ref_1            176.556424
+ref_9            175.556995
+no_mixed_refs     58.679030
+ref_5              0.999430
+dtype: float64","count    22.000000
+mean      9.770443
+std       6.719528
+min       0.136712
+25%       4.907404
+50%       9.281437
+75%      14.952939
+max      22.097687
+Name: % error, dtype: float64",4
+67,ElasticNet,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=100)",Performance,0.9,"ref_1            177.541852
+ref_9            174.448001
+no_mixed_refs     58.117048
+dtype: float64","count    22.000000
+mean      9.760090
+std       6.728079
+min       0.084986
+25%       4.784543
+50%       9.207626
+75%      14.882258
+max      22.138325
+Name: % error, dtype: float64",4
+68,PolynomialRegression,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",LinearRegression(),Performance,0.9,"ref_1            2.598106e+15
+ref_9            1.170345e+15
+no_mixed_refs    1.139787e+15
+ref_5            1.375015e+14
+dtype: float64","count    22.000000
+mean      8.853114
+std       6.268049
+min       0.027029
+25%       3.760434
+50%       7.712824
+75%      13.515283
+max      18.835533
+Name: % error, dtype: float64",4
+69,RandomForest,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",RandomForestRegressor(),Performance,0.9,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    22.000000
+mean      8.943968
+std       6.322813
+min       0.053228
+25%       3.196041
+50%       8.204247
+75%      14.099726
+max      19.332561
+Name: % error, dtype: float64",4
+70,GradientBoostingTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",GradientBoostingRegressor(),Performance,0.9,"0            ref_1
+1            ref_9
+2            ref_5
+3    no_mixed_refs
+Name: feature, dtype: object","count    22.000000
+mean      8.907295
+std       6.310407
+min       0.019137
+25%       3.192418
+50%       8.185872
+75%      13.993380
+max      19.261986
+Name: % error, dtype: float64",4
+71,DecisionTree,False,RandomForest,"Index(['ref_1', 'ref_9', 'ref_5', 'no_mixed_refs'], dtype='object')",DecisionTreeRegressor(),Performance,0.9,"0            ref_1
+1            ref_9
+3    no_mixed_refs
+2            ref_5
+Name: feature, dtype: object","count    22.000000
+mean      8.906844
+std       6.310615
+min       0.017441
+25%       3.192389
+50%       8.184722
+75%      13.992045
+max      19.262693
+Name: % error, dtype: float64",4
