@@ -12,8 +12,7 @@ There are three main resources we will detail:
 
 ### 1) Feature Model (folder [Feature Model](systems/Feature%20Model))
 
-There are four feature models available in the .xml format.
-They are BerkeleyDB, Hipacc_red, VariabilityModel, and VariabilityModelSampling.
+There are eight feature models available in the .xml format, one file for each system used in the study.
 
 The XML Schema represents the metamodel of the feature modeling notation in a tree format structure.
 An XML-based representation contains (1) binary options (represented as *\<binaryOptions\>*) and (2) numeric options (represented as *\<numericOptions\>*).
@@ -41,4 +40,8 @@ These files contain the results that have been measured on a system from a confi
 
 The first row of the file contains the feature names, and the following rows contain the value 1 in case the feature is selected, and the value 0 otherwise.
 These sampling files are used to label the non-functional properties.
+
+### 2) Results (folder [results](results/))
+
+The results folder contains all the study's results files, including the ranking of most important features in the system (feature selection) for each sampling technique, the calculation of the training time and the generation of the prediction, as well as the results of the predictions of different machine learning algorithms with and without the use of feature selection.
 
